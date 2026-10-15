@@ -1,0 +1,6 @@
+name	start	end	length	read	write	execute	initialized
+mapped_data_0	10000000	10000fff	4096	true	true	false	true
+arch_code_1	10001000	10157f37	1404728	true	false	true	true
+mapped_data_2	10157f38	10158fff	4296	true	true	false	true
+arch_code_3	10159000	101590ab	172	true	false	true	true
+mapped_data_4	101590ac	10231fff	888660	true	true	false	true

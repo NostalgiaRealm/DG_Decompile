@@ -1,0 +1,18 @@
+{
+  "ghidra_version": "12.1.4",
+  "official_release_url": "https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build",
+  "archive_url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.1.4_build/ghidra_12.1.4_PUBLIC_20260921.zip",
+  "archive_sha256": "ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+  "official_digest": "sha256:ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db",
+  "digest_matches": true,
+  "java": "openjdk version \"25.0.4.1\" 2026-08-18\nOpenJDK Runtime Environment (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1)\nOpenJDK 64-Bit Server VM (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1, mixed mode, sharing)\n",
+  "ghidra_build_properties": "#Mon Sep 21 16:13:00 UTC 2026\napplication.build.date=2026-Sep-21 1613 UTC\napplication.build.date.short=20260921\napplication.gradle.max=\napplication.gradle.min=8.5\napplication.java.compiler=21\napplication.java.max=\napplication.java.min=21\napplication.layout.version=3\napplication.name=Ghidra\napplication.python.supported=3.14, 3.13, 3.12, 3.11, 3.10, 3.9\napplication.release.marking=\napplication.release.name=PUBLIC\napplication.revision.ghidra=8b6bbb857accdfa20dc5b2f5dea471178c2e9fbc\napplication.revision.ghidra.bin=788632a845aed8079296b685132a565069102348\napplication.revision.ghidra.ext-u=ff2fbadb140bf28b07ba2d337e4bc597204a97ac\napplication.version=12.1.4\n",
+  "max_concurrent_ghidra_jobs": 2,
+  "java_heap_per_job": "4G",
+  "max_cpu_per_job": 4,
+  "analysis_timeout_seconds": 1800,
+  "decompile_timeout_seconds": 45,
+  "decompile_retry_timeout_seconds": 180,
+  "target_execution": false,
+  "workflow": "Headless static PE or raw mapped-image import, Ghidra autoanalysis, architecture range clipping for hybrid views, explicit-entry/direct-call recovery, all discovered function decompilation plus listing and address evidence export."
+}

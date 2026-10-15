@@ -1,0 +1,5 @@
+instruction	target	target_name	analysis_override	note
+10125007	100b04d0	DebugSetMute_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+10125017	100afd10	Direct3DCreate8_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+10125027	100b0540	ValidatePixelShader_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+10125037	100b0650	ValidateVertexShader_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.

@@ -1,0 +1,11 @@
+2026-10-15 18:00:04 INFO  PrepareHybrid.java> HYBRID SEEDED 15 functions within 4288 architecture code bytes  
+2026-10-15 18:00:06 INFO  TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 18:00:06 INFO  TrimHybrid.java> HYBRID BOUNDARIES applied 12 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.x64.mapped.bin.boundary-overrides.tsv  
+2026-10-15 18:00:06 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:00:06 INFO  ExportAll.java> EXPORT COMPLETE: functions=15 decompiled=15 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/MS__arm64x__D3D9.dll.x64  
+2026-10-15 18:08:07 INFO  ReconcileHybridSeeds.java> HYBRID SEED RECONCILIATION repaired 0 entries; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.x64.mapped.bin.seed-repairs.tsv  
+2026-10-15 18:08:07 INFO  ReconcileHybridSeeds.java> HYBRID POINTER RECOVERY created 0 candidate functions from documented data pointers  
+2026-10-15 18:08:07 INFO  TrimHybrid.java> HYBRID TRIM removed 9 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 18:08:07 INFO  TrimHybrid.java> HYBRID BOUNDARIES applied 12 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.x64.mapped.bin.boundary-overrides.tsv  
+2026-10-15 18:08:07 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:08:07 INFO  ExportAll.java> EXPORT COMPLETE: functions=15 decompiled=15 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/MS__arm64x__D3D9.dll.x64  

@@ -1,0 +1,20 @@
+/*
+ * FUN_1002c9d0 at 1002c9d0
+ * undefined FUN_1002c9d0(void)
+ * Address ranges: 1002c9d0-1002ca4b
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_1002c9d0(int param_1,undefined4 param_2)
+
+{
+  code *extraout_w11;
+  
+  (*__hybrid_WowA64DispatchIndirectCallCfgFunctionPointer)();
+  (*extraout_w11)(param_1);
+  FUN_1002b880(*(undefined4 *)(param_1 + 0x315c),0,0);
+  *(undefined2 *)(param_1 + 0x2bc4) = 0x101;
+  *(undefined4 *)(param_1 + 0x2964) = param_2;
+  return;
+}
+

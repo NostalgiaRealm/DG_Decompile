@@ -1,0 +1,137 @@
+[
+  {
+    "va": "0x100ab000",
+    "name": "range_start_100ab000",
+    "sources": [
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x100ab320",
+    "name": "FUN_100ab320",
+    "sources": [
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae000",
+    "name": "AcquireDDThreadLock",
+    "sources": [
+      "export_ordinal_1",
+      "guard_cf_function_table",
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x100ae010",
+    "name": "CompleteCreateSysmemSurface",
+    "sources": [
+      "export_ordinal_2",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae020",
+    "name": "D3DParseUnknownCommand",
+    "sources": [
+      "export_ordinal_3",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae030",
+    "name": "DDInternalLock",
+    "sources": [
+      "export_ordinal_4",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae040",
+    "name": "DDInternalUnlock",
+    "sources": [
+      "export_ordinal_5",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae050",
+    "name": "DirectDrawCreate",
+    "sources": [
+      "export_ordinal_6",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae060",
+    "name": "DirectDrawCreateClipper",
+    "sources": [
+      "export_ordinal_7",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae070",
+    "name": "DirectDrawCreateEx",
+    "sources": [
+      "export_ordinal_8",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae080",
+    "name": "DirectDrawEnumerateA",
+    "sources": [
+      "export_ordinal_9",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae090",
+    "name": "DirectDrawEnumerateExA",
+    "sources": [
+      "export_ordinal_10",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae0a0",
+    "name": "DirectDrawEnumerateExW",
+    "sources": [
+      "export_ordinal_11",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae0b0",
+    "name": "DirectDrawEnumerateW",
+    "sources": [
+      "export_ordinal_12",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae0c0",
+    "name": "DllCanUnloadNow",
+    "sources": [
+      "export_ordinal_13",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae0d0",
+    "name": "DllGetClassObject",
+    "sources": [
+      "export_ordinal_14",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100ae0e0",
+    "name": "ReleaseDDThreadLock",
+    "sources": [
+      "export_ordinal_15",
+      "guard_cf_function_table"
+    ]
+  }
+]

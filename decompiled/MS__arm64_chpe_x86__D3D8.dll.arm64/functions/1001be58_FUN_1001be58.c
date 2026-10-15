@@ -1,0 +1,31 @@
+/*
+ * FUN_1001be58 at 1001be58
+ * undefined FUN_1001be58(void)
+ * Address ranges: 1001be58-1001bebb
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_1001be58(int param_1,int param_2)
+
+{
+  int iVar1;
+  uint uVar2;
+  uint uVar3;
+  
+  uVar3 = 0;
+  if (*(uint *)(param_1 + 100) != 0) {
+    do {
+      uVar2 = 0;
+      if (*(ushort *)(param_1 + 0x30) != 0) {
+        do {
+          iVar1 = uVar2 * 4;
+          uVar2 = uVar2 + 1;
+          *(undefined4 *)(*(int *)(*(int *)(param_2 + uVar3 * 0x40 + iVar1) + 4) + 0xb0) = 0;
+        } while (uVar2 < *(ushort *)(param_1 + 0x30));
+      }
+      uVar3 = uVar3 + 1;
+    } while (uVar3 < *(uint *)(param_1 + 100));
+  }
+  return;
+}
+

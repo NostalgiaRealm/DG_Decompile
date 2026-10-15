@@ -1,0 +1,89 @@
+openjdk version "25.0.4.1" 2026-08-18
+OpenJDK Runtime Environment (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1)
+OpenJDK 64-Bit Server VM (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1, mixed mode)
+INFO  Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (726 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (1503 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/dgVoodooCpl.exe/analysis (HeadlessAnalyzer)  
+INFO  Opening project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/dgVoodooCpl.exe/analysis (HeadlessProject)  
+INFO  REPORT: Processing project file: /dgVoodooCpl.exe (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DiagnoseDecompile.java '140002910'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/DiagnoseDecompile.java (HeadlessAnalyzer)  
+INFO  DiagnoseDecompile.java> FUNCTION bool __fastcall FUN_140002910(longlong param_1, int param_2, LPWSTR param_3, int param_4) custom=false source=ANALYSIS (GhidraScript)  
+INFO  DiagnoseDecompile.java> DETAIL 140002910 bool __fastcall FUN_140002910(longlong param_1, int param_2, LPWSTR param_3, int param_4) ANALYSIS (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_1 longlong RCX:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_2 int EDX:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_3 typedef LPWSTR WCHAR * R8:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_4 int R9D:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_res10 undefined8 Stack[0x10]:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_res8 undefined8 Stack[0x8]:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_8 undefined Stack[-0x8]:1 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_18 undefined8 Stack[-0x18]:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_c8 undefined Stack[-0xc8]:1 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_118 undefined Stack[-0x118]:1 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_158 undefined Stack[-0x158]:1 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_164 undefined4 Stack[-0x164]:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_174 undefined1[16] Stack[-0x174]:16 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_184 undefined1[16] Stack[-0x184]:16 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_188 undefined4 Stack[-0x188]:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_190 undefined4 Stack[-0x190]:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_198 undefined4 Stack[-0x198]:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_1a0 undefined4 Stack[-0x1a0]:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR local_1a8 undefined4 Stack[-0x1a8]:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> DETAIL EXTERNAL:00000026 BOOL __stdcall GetMonitorInfoW(HMONITOR hMonitor, LPMONITORINFO lpmi) IMPORTED (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR hMonitor typedef HMONITOR HMONITOR__ * RCX:8 USER_DEFINED (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR lpmi typedef LPMONITORINFO tagMONITORINFO * RDX:8 USER_DEFINED (GhidraScript)  
+INFO  DiagnoseDecompile.java> DETAIL 140023e70 bool __fastcall FUN_140023e70(HINSTANCE param_1, UINT param_2, LPWSTR param_3, int param_4) ANALYSIS (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_1 typedef HINSTANCE HINSTANCE__ * RCX:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_2 typedef UINT uint EDX:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_3 typedef LPWSTR WCHAR * R8:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_4 int R9D:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> DETAIL 140002714 undefined8 __fastcall FUN_140002714(undefined8 param_1, undefined4 param_2) ANALYSIS (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_1 undefined8 RCX:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_2 undefined4 EDX:4 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> DETAIL EXTERNAL:00000040 int __cdecl wsprintfW(LPWSTR param_1, LPCWSTR param_2, ...) IMPORTED (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_1 typedef LPWSTR WCHAR * RCX:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> VAR param_2 typedef LPCWSTR WCHAR * RDX:8 DEFAULT (GhidraScript)  
+INFO  DiagnoseDecompile.java> ATTEMPT decompile false 
+Low-level Error: Overlapping input varnodes (GhidraScript)  
+INFO  DiagnoseDecompile.java> ATTEMPT normalize true  (GhidraScript)  
+INFO  DiagnoseDecompile.java> ATTEMPT firstpass false 
+Low-level Error: Free varnode has multiple descendants (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /dgVoodooCpl.exe (HeadlessAnalyzer)  

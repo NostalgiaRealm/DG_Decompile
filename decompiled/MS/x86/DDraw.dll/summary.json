@@ -1,0 +1,20 @@
+{
+  "program": "DDraw.dll",
+  "language": "x86:LE:32:default",
+  "compiler": "windows",
+  "image_base": "10000000",
+  "mapped_memory_start": "10000000",
+  "architecture_origin_restriction": false,
+  "pcode_unique_function_origins": 76560,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 1936,
+  "decompiled": 1936,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 539,
+  "instructions": 131507,
+  "executable_bytes": 396288,
+  "executable_bytes_without_instructions": 1562,
+  "instruction_bytes_outside_functions": 3123
+}

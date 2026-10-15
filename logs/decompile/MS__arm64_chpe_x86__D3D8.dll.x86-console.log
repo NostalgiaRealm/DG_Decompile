@@ -1,0 +1,62 @@
+openjdk version "25.0.4.1" 2026-08-18
+OpenJDK Runtime Environment (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1)
+OpenJDK 64-Bit Server VM (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1, mixed mode)
+INFO  Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/logs/decompile/MS__arm64_chpe_x86__D3D8.dll.x86-ghidra.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (786 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (1553 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/MS__arm64_chpe_x86__D3D8.dll.x86/analysis (HeadlessAnalyzer)  
+INFO  Opening project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/MS__arm64_chpe_x86__D3D8.dll.x86/analysis (HeadlessProject)  
+INFO  REPORT: Processing project file: /MS__arm64_chpe_x86__D3D8.dll.x86.mapped.bin (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ReconcileHybridSeeds.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.x86.functions.tsv'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ReconcileHybridSeeds.java (HeadlessAnalyzer)  
+INFO  ReconcileHybridSeeds.java> HYBRID SEED RECONCILIATION repaired 0 entries; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.x86.mapped.bin.seed-repairs.tsv (GhidraScript)  
+INFO  ReconcileHybridSeeds.java> HYBRID POINTER RECOVERY created 0 candidate functions from documented data pointers (GhidraScript)  
+INFO  REPORT: Execute script: TrimHybrid.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.x86.ranges.tsv'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/TrimHybrid.java (HeadlessAnalyzer)  
+WARN  AutoAnalysisManager.setIgnoreChanges had no affect since it was not invoked within the analysis thread (AutoAnalysisManager)  
+INFO  TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges (GhidraScript)  
+INFO  TrimHybrid.java> HYBRID BOUNDARIES applied 4 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.x86.mapped.bin.boundary-overrides.tsv (GhidraScript)  
+INFO  REPORT: Execute script: RecoverFunctions.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/RecoverFunctions.java (HeadlessAnalyzer)  
+INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions (GhidraScript)  
+INFO  REPORT: Execute script: ExportAll.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/MS__arm64_chpe_x86__D3D8.dll.x86' 'restricted'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ExportAll.java (HeadlessAnalyzer)  
+INFO  ExportAll.java> EXPORT COMPLETE: functions=7 decompiled=7 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/MS__arm64_chpe_x86__D3D8.dll.x86 (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /MS__arm64_chpe_x86__D3D8.dll.x86.mapped.bin (HeadlessAnalyzer)  

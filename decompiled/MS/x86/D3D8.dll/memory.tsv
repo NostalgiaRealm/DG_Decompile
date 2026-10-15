@@ -1,0 +1,8 @@
+name	start	end	length	read	write	execute	initialized
+Headers	10000000	100003ff	1024	true	false	false	true
+.text	10001000	100ae3ff	709632	true	false	true	true
+.rdata	100af000	100b6fff	32768	true	false	false	true
+.data	100b7000	100bf1bf	33216	true	true	false	true
+.rsrc	100c0000	101703ff	721920	true	false	false	true
+.reloc	10171000	101749ff	14848	true	false	false	true
+tdb	ffdff000	ffdfffff	4096	true	true	false	true

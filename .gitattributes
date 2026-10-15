@@ -1,0 +1,2 @@
+# Preserve every exported byte and recorded checksum across platforms.
+* -text

@@ -1,0 +1,8 @@
+address	name	signature	status	body_ranges	body_bytes	file	error	pcode_origin_count	outside_pcode_origin_count
+10122000	range_start_10122000	undefined range_start_10122000(void)	decompiled	10122000-1012201b	28	functions/10122000_range_start_10122000.c		4	0
+1012201c	FUN_1012201c	undefined FUN_1012201c(void)	decompiled	1012201c-1012202a	15	functions/1012201c_FUN_1012201c.c		3	0
+10122370	FUN_10122370	undefined FUN_10122370(void)	decompiled	10122370-10122372	3	functions/10122370_FUN_10122370.c		1	0
+10125000	DebugSetMute	undefined DebugSetMute(void)	decompiled	10125000-1012500b	12	functions/10125000_DebugSetMute.c		1	0
+10125010	Direct3DCreate8	undefined Direct3DCreate8(void)	decompiled	10125010-1012501b	12	functions/10125010_Direct3DCreate8.c		1	0
+10125020	ValidatePixelShader	undefined ValidatePixelShader(void)	decompiled	10125020-1012502b	12	functions/10125020_ValidatePixelShader.c		1	0
+10125030	ValidateVertexShader	undefined ValidateVertexShader(void)	decompiled	10125030-1012503b	12	functions/10125030_ValidateVertexShader.c		1	0

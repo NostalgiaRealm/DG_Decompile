@@ -1,0 +1,6 @@
+address	name
+1007a63f	DebugSetMute
+1007a630	Direct3DCreate8
+1007a65e	ValidatePixelShader
+1007a678	ValidateVertexShader
+100ada1d	entry

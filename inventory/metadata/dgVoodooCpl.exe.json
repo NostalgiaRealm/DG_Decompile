@@ -1,0 +1,3827 @@
+{
+  "path": "dgVoodooCpl.exe",
+  "source_sha256": "87fb878166dcaef3e75ff170de030527c73f5c9b164c5943da13f8a97b0b75c6",
+  "prepared_sha256": "87fb878166dcaef3e75ff170de030527c73f5c9b164c5943da13f8a97b0b75c6",
+  "format": "PE32+",
+  "architecture": "x64",
+  "machine": 34404,
+  "machine_hex": "0x8664",
+  "is_dll": false,
+  "managed_cli": false,
+  "image_base": 5368709120,
+  "entry_point_rva": 147136,
+  "entry_point_va": 5368856256,
+  "size_of_image": 475136,
+  "pe_timestamp": 1789417066,
+  "checksum_header": 0,
+  "checksum_calculated": 458787,
+  "subsystem": 2,
+  "characteristics": 34,
+  "dll_characteristics": 33120,
+  "sections": [
+    {
+      "name": ".text",
+      "name_hex": "2e74657874000000",
+      "rva": 4096,
+      "va": 5368713216,
+      "virtual_size": 148741,
+      "raw_offset": 1024,
+      "raw_size": 148992,
+      "characteristics": 1610612768,
+      "readable": true,
+      "writable": false,
+      "executable": true,
+      "entropy": 6.195773,
+      "raw_sha256": "8ebdd47a7ed54f709fad751c6d52c91765416d08425788a0c619666f1da00f26"
+    },
+    {
+      "name": ".rdata",
+      "name_hex": "2e72646174610000",
+      "rva": 155648,
+      "va": 5368864768,
+      "virtual_size": 24012,
+      "raw_offset": 150016,
+      "raw_size": 24064,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 5.025659,
+      "raw_sha256": "05ce65ef55797c772aebcff78d38241c01650d12d0728bb81ba522d17f0d01c7"
+    },
+    {
+      "name": ".data",
+      "name_hex": "2e64617461000000",
+      "rva": 180224,
+      "va": 5368889344,
+      "virtual_size": 12196,
+      "raw_offset": 174080,
+      "raw_size": 1024,
+      "characteristics": 3221225536,
+      "readable": true,
+      "writable": true,
+      "executable": false,
+      "entropy": 0.877206,
+      "raw_sha256": "efd4cfb65f8e12136ea8e527b2681ea4fea3d5b97eef64201e2104bac3c33d4e"
+    },
+    {
+      "name": ".pdata",
+      "name_hex": "2e70646174610000",
+      "rva": 192512,
+      "va": 5368901632,
+      "virtual_size": 4416,
+      "raw_offset": 175104,
+      "raw_size": 4608,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 5.069631,
+      "raw_sha256": "cd3dd81a4848f338f286e7db46f606a74fe706ad886a5888820ecc3209b162a6"
+    },
+    {
+      "name": ".rsrc",
+      "name_hex": "2e72737263000000",
+      "rva": 200704,
+      "va": 5368909824,
+      "virtual_size": 269456,
+      "raw_offset": 179712,
+      "raw_size": 269824,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 6.992953,
+      "raw_sha256": "a354b52ec45d95b1eabd74647ec34010ab5a87ae7c85a3a343af9a437d1252f7"
+    },
+    {
+      "name": ".reloc",
+      "name_hex": "2e72656c6f630000",
+      "rva": 471040,
+      "va": 5369180160,
+      "virtual_size": 1532,
+      "raw_offset": 449536,
+      "raw_size": 1536,
+      "characteristics": 1107296320,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 5.454545,
+      "raw_sha256": "4d7ee1aba6136bbe328affa90fe81c73990c9a22634fa357aa603c07328fe456"
+    }
+  ],
+  "imports": [
+    {
+      "dll": "GDI32.dll",
+      "symbols": [
+        {
+          "name": "GetStockObject",
+          "ordinal": null,
+          "iat_va": 5368864768,
+          "hint": 726
+        },
+        {
+          "name": "DeleteDC",
+          "ordinal": null,
+          "iat_va": 5368864776,
+          "hint": 402
+        },
+        {
+          "name": "CreateCompatibleDC",
+          "ordinal": null,
+          "iat_va": 5368864784,
+          "hint": 49
+        },
+        {
+          "name": "SelectObject",
+          "ordinal": null,
+          "iat_va": 5368864792,
+          "hint": 892
+        },
+        {
+          "name": "CreateFontIndirectW",
+          "ordinal": null,
+          "iat_va": 5368864800,
+          "hint": 67
+        },
+        {
+          "name": "DeleteObject",
+          "ordinal": null,
+          "iat_va": 5368864808,
+          "hint": 405
+        },
+        {
+          "name": "GetObjectW",
+          "ordinal": null,
+          "iat_va": 5368864816,
+          "hint": 708
+        },
+        {
+          "name": "GetDeviceCaps",
+          "ordinal": null,
+          "iat_va": 5368864824,
+          "hint": 658
+        }
+      ]
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "symbols": [
+        {
+          "name": "GetModuleHandleW",
+          "ordinal": null,
+          "iat_va": 5368864840,
+          "hint": 677
+        },
+        {
+          "name": "CreateDirectoryW",
+          "ordinal": null,
+          "iat_va": 5368864848,
+          "hint": 212
+        },
+        {
+          "name": "SetLastError",
+          "ordinal": null,
+          "iat_va": 5368864856,
+          "hint": 1400
+        },
+        {
+          "name": "GetModuleFileNameW",
+          "ordinal": null,
+          "iat_va": 5368864864,
+          "hint": 673
+        },
+        {
+          "name": "GetLastError",
+          "ordinal": null,
+          "iat_va": 5368864872,
+          "hint": 653
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "ordinal": null,
+          "iat_va": 5368864880,
+          "hint": 578
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "ordinal": null,
+          "iat_va": 5368864888,
+          "hint": 1612
+        },
+        {
+          "name": "LoadResource",
+          "ordinal": null,
+          "iat_va": 5368864896,
+          "hint": 1018
+        },
+        {
+          "name": "LockResource",
+          "ordinal": null,
+          "iat_va": 5368864904,
+          "hint": 1038
+        },
+        {
+          "name": "SizeofResource",
+          "ordinal": null,
+          "iat_va": 5368864912,
+          "hint": 1479
+        },
+        {
+          "name": "FindResourceW",
+          "ordinal": null,
+          "iat_va": 5368864920,
+          "hint": 446
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "ordinal": null,
+          "iat_va": 5368864928,
+          "hint": 1153
+        },
+        {
+          "name": "ExitProcess",
+          "ordinal": null,
+          "iat_va": 5368864936,
+          "hint": 390
+        },
+        {
+          "name": "CreateFileA",
+          "ordinal": null,
+          "iat_va": 5368864944,
+          "hint": 222
+        },
+        {
+          "name": "CreateFileW",
+          "ordinal": null,
+          "iat_va": 5368864952,
+          "hint": 230
+        },
+        {
+          "name": "GetFileSizeEx",
+          "ordinal": null,
+          "iat_va": 5368864960,
+          "hint": 632
+        },
+        {
+          "name": "ReadFile",
+          "ordinal": null,
+          "iat_va": 5368864968,
+          "hint": 1193
+        },
+        {
+          "name": "SetFilePointer",
+          "ordinal": null,
+          "iat_va": 5368864976,
+          "hint": 1384
+        },
+        {
+          "name": "WriteFile",
+          "ordinal": null,
+          "iat_va": 5368864984,
+          "hint": 1632
+        },
+        {
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_va": 5368864992,
+          "hint": 157
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "ordinal": null,
+          "iat_va": 5368865000,
+          "hint": 1059
+        },
+        {
+          "name": "LoadLibraryW",
+          "ordinal": null,
+          "iat_va": 5368865008,
+          "hint": 1015
+        },
+        {
+          "name": "GetProcAddress",
+          "ordinal": null,
+          "iat_va": 5368865016,
+          "hint": 733
+        },
+        {
+          "name": "FreeLibrary",
+          "ordinal": null,
+          "iat_va": 5368865024,
+          "hint": 468
+        },
+        {
+          "name": "LoadLibraryA",
+          "ordinal": null,
+          "iat_va": 5368865032,
+          "hint": 1012
+        },
+        {
+          "name": "MulDiv",
+          "ordinal": null,
+          "iat_va": 5368865040,
+          "hint": 1058
+        },
+        {
+          "name": "HeapAlloc",
+          "ordinal": null,
+          "iat_va": 5368865048,
+          "hint": 892
+        },
+        {
+          "name": "HeapFree",
+          "ordinal": null,
+          "iat_va": 5368865056,
+          "hint": 896
+        },
+        {
+          "name": "GetProcessHeap",
+          "ordinal": null,
+          "iat_va": 5368865064,
+          "hint": 740
+        }
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "symbols": [
+        {
+          "name": "GetMonitorInfoW",
+          "ordinal": null,
+          "iat_va": 5368865128,
+          "hint": 405
+        },
+        {
+          "name": "GetDlgItem",
+          "ordinal": null,
+          "iat_va": 5368865136,
+          "hint": 342
+        },
+        {
+          "name": "GetWindowTextW",
+          "ordinal": null,
+          "iat_va": 5368865144,
+          "hint": 517
+        },
+        {
+          "name": "MessageBoxA",
+          "ordinal": null,
+          "iat_va": 5368865152,
+          "hint": 658
+        },
+        {
+          "name": "FindWindowExW",
+          "ordinal": null,
+          "iat_va": 5368865160,
+          "hint": 282
+        },
+        {
+          "name": "CharUpperW",
+          "ordinal": null,
+          "iat_va": 5368865168,
+          "hint": 64
+        },
+        {
+          "name": "LoadStringW",
+          "ordinal": null,
+          "iat_va": 5368865176,
+          "hint": 630
+        },
+        {
+          "name": "EnableWindow",
+          "ordinal": null,
+          "iat_va": 5368865184,
+          "hint": 244
+        },
+        {
+          "name": "DialogBoxParamW",
+          "ordinal": null,
+          "iat_va": 5368865192,
+          "hint": 190
+        },
+        {
+          "name": "GetParent",
+          "ordinal": null,
+          "iat_va": 5368865200,
+          "hint": 410
+        },
+        {
+          "name": "GetClassInfoExW",
+          "ordinal": null,
+          "iat_va": 5368865208,
+          "hint": 305
+        },
+        {
+          "name": "SendMessageW",
+          "ordinal": null,
+          "iat_va": 5368865216,
+          "hint": 813
+        },
+        {
+          "name": "DrawTextW",
+          "ordinal": null,
+          "iat_va": 5368865224,
+          "hint": 226
+        },
+        {
+          "name": "AppendMenuW",
+          "ordinal": null,
+          "iat_va": 5368865232,
+          "hint": 12
+        },
+        {
+          "name": "GetClientRect",
+          "ordinal": null,
+          "iat_va": 5368865240,
+          "hint": 314
+        },
+        {
+          "name": "TrackPopupMenuEx",
+          "ordinal": null,
+          "iat_va": 5368865248,
+          "hint": 973
+        },
+        {
+          "name": "SetRectEmpty",
+          "ordinal": null,
+          "iat_va": 5368865256,
+          "hint": 885
+        },
+        {
+          "name": "EndDeferWindowPos",
+          "ordinal": null,
+          "iat_va": 5368865264,
+          "hint": 246
+        },
+        {
+          "name": "SetParent",
+          "ordinal": null,
+          "iat_va": 5368865272,
+          "hint": 871
+        },
+        {
+          "name": "SendMessageA",
+          "ordinal": null,
+          "iat_va": 5368865280,
+          "hint": 808
+        },
+        {
+          "name": "DestroyMenu",
+          "ordinal": null,
+          "iat_va": 5368865288,
+          "hint": 182
+        },
+        {
+          "name": "DialogBoxIndirectParamW",
+          "ordinal": null,
+          "iat_va": 5368865296,
+          "hint": 188
+        },
+        {
+          "name": "SetWindowTextA",
+          "ordinal": null,
+          "iat_va": 5368865304,
+          "hint": 924
+        },
+        {
+          "name": "MapWindowPoints",
+          "ordinal": null,
+          "iat_va": 5368865312,
+          "hint": 653
+        },
+        {
+          "name": "SetMenuItemInfoW",
+          "ordinal": null,
+          "iat_va": 5368865320,
+          "hint": 867
+        },
+        {
+          "name": "GetDlgCtrlID",
+          "ordinal": null,
+          "iat_va": 5368865328,
+          "hint": 341
+        },
+        {
+          "name": "wsprintfW",
+          "ordinal": null,
+          "iat_va": 5368865336,
+          "hint": 1039
+        },
+        {
+          "name": "BeginDeferWindowPos",
+          "ordinal": null,
+          "iat_va": 5368865344,
+          "hint": 17
+        },
+        {
+          "name": "ShowWindow",
+          "ordinal": null,
+          "iat_va": 5368865352,
+          "hint": 945
+        },
+        {
+          "name": "GetScrollPos",
+          "ordinal": null,
+          "iat_va": 5368865360,
+          "hint": 459
+        },
+        {
+          "name": "RegisterClassExW",
+          "ordinal": null,
+          "iat_va": 5368865368,
+          "hint": 750
+        },
+        {
+          "name": "GetWindowLongPtrW",
+          "ordinal": null,
+          "iat_va": 5368865376,
+          "hint": 502
+        },
+        {
+          "name": "GetScrollInfo",
+          "ordinal": null,
+          "iat_va": 5368865384,
+          "hint": 458
+        },
+        {
+          "name": "GetClassNameA",
+          "ordinal": null,
+          "iat_va": 5368865392,
+          "hint": 311
+        },
+        {
+          "name": "CreatePopupMenu",
+          "ordinal": null,
+          "iat_va": 5368865400,
+          "hint": 117
+        },
+        {
+          "name": "GetSystemMetrics",
+          "ordinal": null,
+          "iat_va": 5368865408,
+          "hint": 469
+        },
+        {
+          "name": "EndDialog",
+          "ordinal": null,
+          "iat_va": 5368865416,
+          "hint": 248
+        },
+        {
+          "name": "CreateWindowExW",
+          "ordinal": null,
+          "iat_va": 5368865424,
+          "hint": 122
+        },
+        {
+          "name": "SetWindowLongPtrW",
+          "ordinal": null,
+          "iat_va": 5368865432,
+          "hint": 916
+        },
+        {
+          "name": "SetWindowPos",
+          "ordinal": null,
+          "iat_va": 5368865440,
+          "hint": 920
+        },
+        {
+          "name": "DestroyWindow",
+          "ordinal": null,
+          "iat_va": 5368865448,
+          "hint": 185
+        },
+        {
+          "name": "GetWindowRect",
+          "ordinal": null,
+          "iat_va": 5368865456,
+          "hint": 510
+        },
+        {
+          "name": "CallWindowProcW",
+          "ordinal": null,
+          "iat_va": 5368865464,
+          "hint": 34
+        },
+        {
+          "name": "DeferWindowPos",
+          "ordinal": null,
+          "iat_va": 5368865472,
+          "hint": 172
+        },
+        {
+          "name": "CreateDialogParamW",
+          "ordinal": null,
+          "iat_va": 5368865480,
+          "hint": 109
+        },
+        {
+          "name": "SetScrollInfo",
+          "ordinal": null,
+          "iat_va": 5368865488,
+          "hint": 886
+        },
+        {
+          "name": "GetWindowLongW",
+          "ordinal": null,
+          "iat_va": 5368865496,
+          "hint": 503
+        },
+        {
+          "name": "ReleaseDC",
+          "ordinal": null,
+          "iat_va": 5368865504,
+          "hint": 785
+        },
+        {
+          "name": "InvalidateRect",
+          "ordinal": null,
+          "iat_va": 5368865512,
+          "hint": 560
+        },
+        {
+          "name": "MonitorFromRect",
+          "ordinal": null,
+          "iat_va": 5368865520,
+          "hint": 669
+        },
+        {
+          "name": "GetDC",
+          "ordinal": null,
+          "iat_va": 5368865528,
+          "hint": 331
+        },
+        {
+          "name": "GetWindow",
+          "ordinal": null,
+          "iat_va": 5368865536,
+          "hint": 489
+        },
+        {
+          "name": "wvsprintfA",
+          "ordinal": null,
+          "iat_va": 5368865544,
+          "hint": 1040
+        },
+        {
+          "name": "LoadImageW",
+          "ordinal": null,
+          "iat_va": 5368865552,
+          "hint": 619
+        },
+        {
+          "name": "CharLowerA",
+          "ordinal": null,
+          "iat_va": 5368865560,
+          "hint": 47
+        },
+        {
+          "name": "OffsetRect",
+          "ordinal": null,
+          "iat_va": 5368865568,
+          "hint": 681
+        },
+        {
+          "name": "FillRect",
+          "ordinal": null,
+          "iat_va": 5368865576,
+          "hint": 279
+        },
+        {
+          "name": "GetSysColorBrush",
+          "ordinal": null,
+          "iat_va": 5368865584,
+          "hint": 466
+        },
+        {
+          "name": "CreateDialogIndirectParamW",
+          "ordinal": null,
+          "iat_va": 5368865592,
+          "hint": 107
+        }
+      ]
+    },
+    {
+      "dll": "SHLWAPI.dll",
+      "symbols": [
+        {
+          "name": "PathRemoveFileSpecW",
+          "ordinal": null,
+          "iat_va": 5368865104,
+          "hint": 143
+        },
+        {
+          "name": "PathAppendW",
+          "ordinal": null,
+          "iat_va": 5368865112,
+          "hint": 55
+        }
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "symbols": [
+        {
+          "name": "CoCreateInstance",
+          "ordinal": null,
+          "iat_va": 5368865608,
+          "hint": 43
+        },
+        {
+          "name": "CoTaskMemFree",
+          "ordinal": null,
+          "iat_va": 5368865616,
+          "hint": 140
+        }
+      ]
+    },
+    {
+      "dll": "SHELL32.dll",
+      "symbols": [
+        {
+          "name": "ShellExecuteW",
+          "ordinal": null,
+          "iat_va": 5368865080,
+          "hint": 432
+        },
+        {
+          "name": "SHGetFolderPathW",
+          "ordinal": null,
+          "iat_va": 5368865088,
+          "hint": 336
+        }
+      ]
+    }
+  ],
+  "delay_imports": [],
+  "exports": [],
+  "load_config": {},
+  "load_config_with_offsets": null,
+  "data_directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "rva": 176880,
+      "size": 140
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "rva": 200704,
+      "size": 269456
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+      "rva": 192512,
+      "size": 4416
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+      "rva": 471040,
+      "size": 1532
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+      "rva": 172712,
+      "size": 112
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "rva": 155648,
+      "size": 864
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+      "rva": 0,
+      "size": 0
+    }
+  ],
+  "runtime_functions": [
+    {
+      "table_rva": 192512,
+      "raw_hex": "101000005e100000e8b20200",
+      "begin_rva": 4112,
+      "begin_va": 5368713232,
+      "end_rva": 4190,
+      "unwind_rva": 176872
+    },
+    {
+      "table_rva": 192524,
+      "raw_hex": "641000008410000010a50200",
+      "begin_rva": 4196,
+      "begin_va": 5368713316,
+      "end_rva": 4228,
+      "unwind_rva": 173328
+    },
+    {
+      "table_rva": 192536,
+      "raw_hex": "841000003311000018a50200",
+      "begin_rva": 4228,
+      "begin_va": 5368713348,
+      "end_rva": 4403,
+      "unwind_rva": 173336
+    },
+    {
+      "table_rva": 192548,
+      "raw_hex": "441100007711000028a50200",
+      "begin_rva": 4420,
+      "begin_va": 5368713540,
+      "end_rva": 4471,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 192560,
+      "raw_hex": "781100008c11000030a50200",
+      "begin_rva": 4472,
+      "begin_va": 5368713592,
+      "end_rva": 4492,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 192572,
+      "raw_hex": "8c1100007712000038a50200",
+      "begin_rva": 4492,
+      "begin_va": 5368713612,
+      "end_rva": 4727,
+      "unwind_rva": 173368
+    },
+    {
+      "table_rva": 192584,
+      "raw_hex": "98120000d912000028a50200",
+      "begin_rva": 4760,
+      "begin_va": 5368713880,
+      "end_rva": 4825,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 192596,
+      "raw_hex": "dc1200004213000048a50200",
+      "begin_rva": 4828,
+      "begin_va": 5368713948,
+      "end_rva": 4930,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 192608,
+      "raw_hex": "441300003515000054a50200",
+      "begin_rva": 4932,
+      "begin_va": 5368714052,
+      "end_rva": 5429,
+      "unwind_rva": 173396
+    },
+    {
+      "table_rva": 192620,
+      "raw_hex": "38150000a117000064a50200",
+      "begin_rva": 5432,
+      "begin_va": 5368714552,
+      "end_rva": 6049,
+      "unwind_rva": 173412
+    },
+    {
+      "table_rva": 192632,
+      "raw_hex": "a4170000141b00007ca50200",
+      "begin_rva": 6052,
+      "begin_va": 5368715172,
+      "end_rva": 6932,
+      "unwind_rva": 173436
+    },
+    {
+      "table_rva": 192644,
+      "raw_hex": "441c0000bb1c000018a50200",
+      "begin_rva": 7236,
+      "begin_va": 5368716356,
+      "end_rva": 7355,
+      "unwind_rva": 173336
+    },
+    {
+      "table_rva": 192656,
+      "raw_hex": "bc1c00007c1d000094a50200",
+      "begin_rva": 7356,
+      "begin_va": 5368716476,
+      "end_rva": 7548,
+      "unwind_rva": 173460
+    },
+    {
+      "table_rva": 192668,
+      "raw_hex": "7c1d00006d1e0000a8a50200",
+      "begin_rva": 7548,
+      "begin_va": 5368716668,
+      "end_rva": 7789,
+      "unwind_rva": 173480
+    },
+    {
+      "table_rva": 192680,
+      "raw_hex": "701e0000c51e0000b8a50200",
+      "begin_rva": 7792,
+      "begin_va": 5368716912,
+      "end_rva": 7877,
+      "unwind_rva": 173496
+    },
+    {
+      "table_rva": 192692,
+      "raw_hex": "c81e0000461f000048a50200",
+      "begin_rva": 7880,
+      "begin_va": 5368717000,
+      "end_rva": 8006,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 192704,
+      "raw_hex": "a41f0000d11f000028a50200",
+      "begin_rva": 8100,
+      "begin_va": 5368717220,
+      "end_rva": 8145,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 192716,
+      "raw_hex": "d41f000061200000c8a50200",
+      "begin_rva": 8148,
+      "begin_va": 5368717268,
+      "end_rva": 8289,
+      "unwind_rva": 173512
+    },
+    {
+      "table_rva": 192728,
+      "raw_hex": "64200000f1200000c8a50200",
+      "begin_rva": 8292,
+      "begin_va": 5368717412,
+      "end_rva": 8433,
+      "unwind_rva": 173512
+    },
+    {
+      "table_rva": 192740,
+      "raw_hex": "002100001a21000010a50200",
+      "begin_rva": 8448,
+      "begin_va": 5368717568,
+      "end_rva": 8474,
+      "unwind_rva": 173328
+    },
+    {
+      "table_rva": 192752,
+      "raw_hex": "1c2100003c21000010a50200",
+      "begin_rva": 8476,
+      "begin_va": 5368717596,
+      "end_rva": 8508,
+      "unwind_rva": 173328
+    },
+    {
+      "table_rva": 192764,
+      "raw_hex": "4c21000015230000d4a50200",
+      "begin_rva": 8524,
+      "begin_va": 5368717644,
+      "end_rva": 8981,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 192776,
+      "raw_hex": "242300001424000048a50200",
+      "begin_rva": 8996,
+      "begin_va": 5368718116,
+      "end_rva": 9236,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 192788,
+      "raw_hex": "142400003f24000030a50200",
+      "begin_rva": 9236,
+      "begin_va": 5368718356,
+      "end_rva": 9279,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 192800,
+      "raw_hex": "4024000064260000e4a50200",
+      "begin_rva": 9280,
+      "begin_va": 5368718400,
+      "end_rva": 9828,
+      "unwind_rva": 173540
+    },
+    {
+      "table_rva": 192812,
+      "raw_hex": "642600001227000048a50200",
+      "begin_rva": 9828,
+      "begin_va": 5368718948,
+      "end_rva": 10002,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 192824,
+      "raw_hex": "102900000e2a0000f4a50200",
+      "begin_rva": 10512,
+      "begin_va": 5368719632,
+      "end_rva": 10766,
+      "unwind_rva": 173556
+    },
+    {
+      "table_rva": 192836,
+      "raw_hex": "102a0000082c000008a60200",
+      "begin_rva": 10768,
+      "begin_va": 5368719888,
+      "end_rva": 11272,
+      "unwind_rva": 173576
+    },
+    {
+      "table_rva": 192848,
+      "raw_hex": "082c0000e030000020a60200",
+      "begin_rva": 11272,
+      "begin_va": 5368720392,
+      "end_rva": 12512,
+      "unwind_rva": 173600
+    },
+    {
+      "table_rva": 192860,
+      "raw_hex": "ec3000006b330000d4a50200",
+      "begin_rva": 12524,
+      "begin_va": 5368721644,
+      "end_rva": 13163,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 192872,
+      "raw_hex": "6c3300008c33000030a50200",
+      "begin_rva": 13164,
+      "begin_va": 5368722284,
+      "end_rva": 13196,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 192884,
+      "raw_hex": "8c330000a834000030a50200",
+      "begin_rva": 13196,
+      "begin_va": 5368722316,
+      "end_rva": 13480,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 192896,
+      "raw_hex": "a8340000d734000030a50200",
+      "begin_rva": 13480,
+      "begin_va": 5368722600,
+      "end_rva": 13527,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 192908,
+      "raw_hex": "d83400003a41000030a60200",
+      "begin_rva": 13528,
+      "begin_va": 5368722648,
+      "end_rva": 16698,
+      "unwind_rva": 173616
+    },
+    {
+      "table_rva": 192920,
+      "raw_hex": "3c4100003b46000048a60200",
+      "begin_rva": 16700,
+      "begin_va": 5368725820,
+      "end_rva": 17979,
+      "unwind_rva": 173640
+    },
+    {
+      "table_rva": 192932,
+      "raw_hex": "3c4600005c4a00005ca60200",
+      "begin_rva": 17980,
+      "begin_va": 5368727100,
+      "end_rva": 19036,
+      "unwind_rva": 173660
+    },
+    {
+      "table_rva": 192944,
+      "raw_hex": "5c4a0000764a000010a50200",
+      "begin_rva": 19036,
+      "begin_va": 5368728156,
+      "end_rva": 19062,
+      "unwind_rva": 173328
+    },
+    {
+      "table_rva": 192956,
+      "raw_hex": "784a0000984a000010a50200",
+      "begin_rva": 19064,
+      "begin_va": 5368728184,
+      "end_rva": 19096,
+      "unwind_rva": 173328
+    },
+    {
+      "table_rva": 192968,
+      "raw_hex": "a84a0000484c0000d4a50200",
+      "begin_rva": 19112,
+      "begin_va": 5368728232,
+      "end_rva": 19528,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 192980,
+      "raw_hex": "484c00000452000094a50200",
+      "begin_rva": 19528,
+      "begin_va": 5368728648,
+      "end_rva": 20996,
+      "unwind_rva": 173460
+    },
+    {
+      "table_rva": 192992,
+      "raw_hex": "045200000253000028a50200",
+      "begin_rva": 20996,
+      "begin_va": 5368730116,
+      "end_rva": 21250,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193004,
+      "raw_hex": "045300008855000074a60200",
+      "begin_rva": 21252,
+      "begin_va": 5368730372,
+      "end_rva": 21896,
+      "unwind_rva": 173684
+    },
+    {
+      "table_rva": 193016,
+      "raw_hex": "88550000bb55000030a50200",
+      "begin_rva": 21896,
+      "begin_va": 5368731016,
+      "end_rva": 21947,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 193028,
+      "raw_hex": "bc550000b658000088a60200",
+      "begin_rva": 21948,
+      "begin_va": 5368731068,
+      "end_rva": 22710,
+      "unwind_rva": 173704
+    },
+    {
+      "table_rva": 193040,
+      "raw_hex": "b85800005e5900009ca60200",
+      "begin_rva": 22712,
+      "begin_va": 5368731832,
+      "end_rva": 22878,
+      "unwind_rva": 173724
+    },
+    {
+      "table_rva": 193052,
+      "raw_hex": "705900000d5b0000a8a60200",
+      "begin_rva": 22896,
+      "begin_va": 5368732016,
+      "end_rva": 23309,
+      "unwind_rva": 173736
+    },
+    {
+      "table_rva": 193064,
+      "raw_hex": "105b00005c5f0000c4a60200",
+      "begin_rva": 23312,
+      "begin_va": 5368732432,
+      "end_rva": 24412,
+      "unwind_rva": 173764
+    },
+    {
+      "table_rva": 193076,
+      "raw_hex": "5c5f0000ea62000018a50200",
+      "begin_rva": 24412,
+      "begin_va": 5368733532,
+      "end_rva": 25322,
+      "unwind_rva": 173336
+    },
+    {
+      "table_rva": 193088,
+      "raw_hex": "ec6200004b63000028a50200",
+      "begin_rva": 25324,
+      "begin_va": 5368734444,
+      "end_rva": 25419,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193100,
+      "raw_hex": "4c630000f263000028a50200",
+      "begin_rva": 25420,
+      "begin_va": 5368734540,
+      "end_rva": 25586,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193112,
+      "raw_hex": "f46300000b700000d4a60200",
+      "begin_rva": 25588,
+      "begin_va": 5368734708,
+      "end_rva": 28683,
+      "unwind_rva": 173780
+    },
+    {
+      "table_rva": 193124,
+      "raw_hex": "0c700000bd720000eca60200",
+      "begin_rva": 28684,
+      "begin_va": 5368737804,
+      "end_rva": 29373,
+      "unwind_rva": 173804
+    },
+    {
+      "table_rva": 193136,
+      "raw_hex": "c0720000be760000fca60200",
+      "begin_rva": 29376,
+      "begin_va": 5368738496,
+      "end_rva": 30398,
+      "unwind_rva": 173820
+    },
+    {
+      "table_rva": 193148,
+      "raw_hex": "e47600003877000048a50200",
+      "begin_rva": 30436,
+      "begin_va": 5368739556,
+      "end_rva": 30520,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193160,
+      "raw_hex": "38770000d9780000b8a50200",
+      "begin_rva": 30520,
+      "begin_va": 5368739640,
+      "end_rva": 30937,
+      "unwind_rva": 173496
+    },
+    {
+      "table_rva": 193172,
+      "raw_hex": "dc7800001679000030a50200",
+      "begin_rva": 30940,
+      "begin_va": 5368740060,
+      "end_rva": 30998,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 193184,
+      "raw_hex": "187900005d7a000048a50200",
+      "begin_rva": 31000,
+      "begin_va": 5368740120,
+      "end_rva": 31325,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193196,
+      "raw_hex": "607a00006f7b000014a70200",
+      "begin_rva": 31328,
+      "begin_va": 5368740448,
+      "end_rva": 31599,
+      "unwind_rva": 173844
+    },
+    {
+      "table_rva": 193208,
+      "raw_hex": "707b0000137c000028a50200",
+      "begin_rva": 31600,
+      "begin_va": 5368740720,
+      "end_rva": 31763,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193220,
+      "raw_hex": "147c00008b7c000014a70200",
+      "begin_rva": 31764,
+      "begin_va": 5368740884,
+      "end_rva": 31883,
+      "unwind_rva": 173844
+    },
+    {
+      "table_rva": 193232,
+      "raw_hex": "8c7c00008586000020a70200",
+      "begin_rva": 31884,
+      "begin_va": 5368741004,
+      "end_rva": 34437,
+      "unwind_rva": 173856
+    },
+    {
+      "table_rva": 193244,
+      "raw_hex": "98860000f7870000d4a50200",
+      "begin_rva": 34456,
+      "begin_va": 5368743576,
+      "end_rva": 34807,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 193256,
+      "raw_hex": "04880000fa88000048a50200",
+      "begin_rva": 34820,
+      "begin_va": 5368743940,
+      "end_rva": 35066,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193268,
+      "raw_hex": "fc880000ee8a000038a70200",
+      "begin_rva": 35068,
+      "begin_va": 5368744188,
+      "end_rva": 35566,
+      "unwind_rva": 173880
+    },
+    {
+      "table_rva": 193280,
+      "raw_hex": "f08a0000808b000014a70200",
+      "begin_rva": 35568,
+      "begin_va": 5368744688,
+      "end_rva": 35712,
+      "unwind_rva": 173844
+    },
+    {
+      "table_rva": 193292,
+      "raw_hex": "908b00003f8d000048a70200",
+      "begin_rva": 35728,
+      "begin_va": 5368744848,
+      "end_rva": 36159,
+      "unwind_rva": 173896
+    },
+    {
+      "table_rva": 193304,
+      "raw_hex": "408d0000528f000018a50200",
+      "begin_rva": 36160,
+      "begin_va": 5368745280,
+      "end_rva": 36690,
+      "unwind_rva": 173336
+    },
+    {
+      "table_rva": 193316,
+      "raw_hex": "548f0000878f000030a50200",
+      "begin_rva": 36692,
+      "begin_va": 5368745812,
+      "end_rva": 36743,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 193328,
+      "raw_hex": "888f00002a90000030a50200",
+      "begin_rva": 36744,
+      "begin_va": 5368745864,
+      "end_rva": 36906,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 193340,
+      "raw_hex": "2c900000fe97000054a70200",
+      "begin_rva": 36908,
+      "begin_va": 5368746028,
+      "end_rva": 38910,
+      "unwind_rva": 173908
+    },
+    {
+      "table_rva": 193352,
+      "raw_hex": "00980000a59800009ca60200",
+      "begin_rva": 38912,
+      "begin_va": 5368748032,
+      "end_rva": 39077,
+      "unwind_rva": 173724
+    },
+    {
+      "table_rva": 193364,
+      "raw_hex": "a8980000669a0000d4a50200",
+      "begin_rva": 39080,
+      "begin_va": 5368748200,
+      "end_rva": 39526,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 193376,
+      "raw_hex": "589b0000709c000068a70200",
+      "begin_rva": 39768,
+      "begin_va": 5368748888,
+      "end_rva": 40048,
+      "unwind_rva": 173928
+    },
+    {
+      "table_rva": 193388,
+      "raw_hex": "709c00003c9d00007ca70200",
+      "begin_rva": 40048,
+      "begin_va": 5368749168,
+      "end_rva": 40252,
+      "unwind_rva": 173948
+    },
+    {
+      "table_rva": 193400,
+      "raw_hex": "3c9d0000359f000048a50200",
+      "begin_rva": 40252,
+      "begin_va": 5368749372,
+      "end_rva": 40757,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193412,
+      "raw_hex": "389f0000ab9f000028a50200",
+      "begin_rva": 40760,
+      "begin_va": 5368749880,
+      "end_rva": 40875,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193424,
+      "raw_hex": "ac9f000057a10000eca60200",
+      "begin_rva": 40876,
+      "begin_va": 5368749996,
+      "end_rva": 41303,
+      "unwind_rva": 173804
+    },
+    {
+      "table_rva": 193436,
+      "raw_hex": "58a100001ba200008ca70200",
+      "begin_rva": 41304,
+      "begin_va": 5368750424,
+      "end_rva": 41499,
+      "unwind_rva": 173964
+    },
+    {
+      "table_rva": 193448,
+      "raw_hex": "28a20000dfa2000048a50200",
+      "begin_rva": 41512,
+      "begin_va": 5368750632,
+      "end_rva": 41695,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193460,
+      "raw_hex": "e0a2000007a7000094a70200",
+      "begin_rva": 41696,
+      "begin_va": 5368750816,
+      "end_rva": 42759,
+      "unwind_rva": 173972
+    },
+    {
+      "table_rva": 193472,
+      "raw_hex": "08a7000007a80000a8a70200",
+      "begin_rva": 42760,
+      "begin_va": 5368751880,
+      "end_rva": 43015,
+      "unwind_rva": 173992
+    },
+    {
+      "table_rva": 193484,
+      "raw_hex": "08a80000b5a90000c0a70200",
+      "begin_rva": 43016,
+      "begin_va": 5368752136,
+      "end_rva": 43445,
+      "unwind_rva": 174016
+    },
+    {
+      "table_rva": 193496,
+      "raw_hex": "b8a9000033ad0000d8a70200",
+      "begin_rva": 43448,
+      "begin_va": 5368752568,
+      "end_rva": 44339,
+      "unwind_rva": 174040
+    },
+    {
+      "table_rva": 193508,
+      "raw_hex": "34ad000089ae0000f4a70200",
+      "begin_rva": 44340,
+      "begin_va": 5368753460,
+      "end_rva": 44681,
+      "unwind_rva": 174068
+    },
+    {
+      "table_rva": 193520,
+      "raw_hex": "8cae000005b1000008a80200",
+      "begin_rva": 44684,
+      "begin_va": 5368753804,
+      "end_rva": 45317,
+      "unwind_rva": 174088
+    },
+    {
+      "table_rva": 193532,
+      "raw_hex": "08b10000b2b1000020a80200",
+      "begin_rva": 45320,
+      "begin_va": 5368754440,
+      "end_rva": 45490,
+      "unwind_rva": 174112
+    },
+    {
+      "table_rva": 193544,
+      "raw_hex": "b4b1000029b6000028a80200",
+      "begin_rva": 45492,
+      "begin_va": 5368754612,
+      "end_rva": 46633,
+      "unwind_rva": 174120
+    },
+    {
+      "table_rva": 193556,
+      "raw_hex": "2cb6000080b6000048a50200",
+      "begin_rva": 46636,
+      "begin_va": 5368755756,
+      "end_rva": 46720,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193568,
+      "raw_hex": "80b6000040be000040a80200",
+      "begin_rva": 46720,
+      "begin_va": 5368755840,
+      "end_rva": 48704,
+      "unwind_rva": 174144
+    },
+    {
+      "table_rva": 193580,
+      "raw_hex": "40be000006bf000028a50200",
+      "begin_rva": 48704,
+      "begin_va": 5368757824,
+      "end_rva": 48902,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193592,
+      "raw_hex": "08bf00002bbf000028a50200",
+      "begin_rva": 48904,
+      "begin_va": 5368758024,
+      "end_rva": 48939,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193604,
+      "raw_hex": "2cbf00009ec2000058a80200",
+      "begin_rva": 48940,
+      "begin_va": 5368758060,
+      "end_rva": 49822,
+      "unwind_rva": 174168
+    },
+    {
+      "table_rva": 193616,
+      "raw_hex": "a0c2000052c300006ca80200",
+      "begin_rva": 49824,
+      "begin_va": 5368758944,
+      "end_rva": 50002,
+      "unwind_rva": 174188
+    },
+    {
+      "table_rva": 193628,
+      "raw_hex": "54c300008ec8000058a80200",
+      "begin_rva": 50004,
+      "begin_va": 5368759124,
+      "end_rva": 51342,
+      "unwind_rva": 174168
+    },
+    {
+      "table_rva": 193640,
+      "raw_hex": "90c80000b0c8000030a50200",
+      "begin_rva": 51344,
+      "begin_va": 5368760464,
+      "end_rva": 51376,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 193652,
+      "raw_hex": "b0c800004ec9000078a80200",
+      "begin_rva": 51376,
+      "begin_va": 5368760496,
+      "end_rva": 51534,
+      "unwind_rva": 174200
+    },
+    {
+      "table_rva": 193664,
+      "raw_hex": "58c90000eecf000084a80200",
+      "begin_rva": 51544,
+      "begin_va": 5368760664,
+      "end_rva": 53230,
+      "unwind_rva": 174212
+    },
+    {
+      "table_rva": 193676,
+      "raw_hex": "f0cf0000a3d1000048a50200",
+      "begin_rva": 53232,
+      "begin_va": 5368762352,
+      "end_rva": 53667,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193688,
+      "raw_hex": "a4d1000029d3000098a80200",
+      "begin_rva": 53668,
+      "begin_va": 5368762788,
+      "end_rva": 54057,
+      "unwind_rva": 174232
+    },
+    {
+      "table_rva": 193700,
+      "raw_hex": "2cd3000043d40000a4a80200",
+      "begin_rva": 54060,
+      "begin_va": 5368763180,
+      "end_rva": 54339,
+      "unwind_rva": 174244
+    },
+    {
+      "table_rva": 193712,
+      "raw_hex": "44d40000d4d70000b0a80200",
+      "begin_rva": 54340,
+      "begin_va": 5368763460,
+      "end_rva": 55252,
+      "unwind_rva": 174256
+    },
+    {
+      "table_rva": 193724,
+      "raw_hex": "d4d700006ed90000c8a80200",
+      "begin_rva": 55252,
+      "begin_va": 5368764372,
+      "end_rva": 55662,
+      "unwind_rva": 174280
+    },
+    {
+      "table_rva": 193736,
+      "raw_hex": "70d90000dad90000dca80200",
+      "begin_rva": 55664,
+      "begin_va": 5368764784,
+      "end_rva": 55770,
+      "unwind_rva": 174300
+    },
+    {
+      "table_rva": 193748,
+      "raw_hex": "e0d90000f9de0000eca80200",
+      "begin_rva": 55776,
+      "begin_va": 5368764896,
+      "end_rva": 57081,
+      "unwind_rva": 174316
+    },
+    {
+      "table_rva": 193760,
+      "raw_hex": "f9de0000e4df000004a90200",
+      "begin_rva": 57081,
+      "begin_va": 5368766201,
+      "end_rva": 57316,
+      "unwind_rva": 174340
+    },
+    {
+      "table_rva": 193772,
+      "raw_hex": "e4df00006ee0000018a90200",
+      "begin_rva": 57316,
+      "begin_va": 5368766436,
+      "end_rva": 57454,
+      "unwind_rva": 174360
+    },
+    {
+      "table_rva": 193784,
+      "raw_hex": "70e0000010e1000048a50200",
+      "begin_rva": 57456,
+      "begin_va": 5368766576,
+      "end_rva": 57616,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193796,
+      "raw_hex": "80e10000b9e1000048a50200",
+      "begin_rva": 57728,
+      "begin_va": 5368766848,
+      "end_rva": 57785,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193808,
+      "raw_hex": "c0e10000f9e1000048a50200",
+      "begin_rva": 57792,
+      "begin_va": 5368766912,
+      "end_rva": 57849,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 193820,
+      "raw_hex": "00e200002ee2000028a50200",
+      "begin_rva": 57856,
+      "begin_va": 5368766976,
+      "end_rva": 57902,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193832,
+      "raw_hex": "30e2000064e2000030a50200",
+      "begin_rva": 57904,
+      "begin_va": 5368767024,
+      "end_rva": 57956,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 193844,
+      "raw_hex": "70e200009de2000028a50200",
+      "begin_rva": 57968,
+      "begin_va": 5368767088,
+      "end_rva": 58013,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193856,
+      "raw_hex": "a0e2000040e30000d4a50200",
+      "begin_rva": 58016,
+      "begin_va": 5368767136,
+      "end_rva": 58176,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 193868,
+      "raw_hex": "40e30000cde30000eca60200",
+      "begin_rva": 58176,
+      "begin_va": 5368767296,
+      "end_rva": 58317,
+      "unwind_rva": 173804
+    },
+    {
+      "table_rva": 193880,
+      "raw_hex": "d0e300005de40000eca60200",
+      "begin_rva": 58320,
+      "begin_va": 5368767440,
+      "end_rva": 58461,
+      "unwind_rva": 173804
+    },
+    {
+      "table_rva": 193892,
+      "raw_hex": "60e4000091e4000030a50200",
+      "begin_rva": 58464,
+      "begin_va": 5368767584,
+      "end_rva": 58513,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 193904,
+      "raw_hex": "a0e40000cde4000028a50200",
+      "begin_rva": 58528,
+      "begin_va": 5368767648,
+      "end_rva": 58573,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 193916,
+      "raw_hex": "d0e4000009e5000028a90200",
+      "begin_rva": 58576,
+      "begin_va": 5368767696,
+      "end_rva": 58633,
+      "unwind_rva": 174376
+    },
+    {
+      "table_rva": 193928,
+      "raw_hex": "09e500000fe6000040a90200",
+      "begin_rva": 58633,
+      "begin_va": 5368767753,
+      "end_rva": 58895,
+      "unwind_rva": 174400
+    },
+    {
+      "table_rva": 193940,
+      "raw_hex": "0fe6000059e6000058a90200",
+      "begin_rva": 58895,
+      "begin_va": 5368768015,
+      "end_rva": 58969,
+      "unwind_rva": 174424
+    },
+    {
+      "table_rva": 193952,
+      "raw_hex": "60e6000077e6000068a90200",
+      "begin_rva": 58976,
+      "begin_va": 5368768096,
+      "end_rva": 58999,
+      "unwind_rva": 174440
+    },
+    {
+      "table_rva": 193964,
+      "raw_hex": "77e6000026e8000074a90200",
+      "begin_rva": 58999,
+      "begin_va": 5368768119,
+      "end_rva": 59430,
+      "unwind_rva": 174452
+    },
+    {
+      "table_rva": 193976,
+      "raw_hex": "26e800000aec000094a90200",
+      "begin_rva": 59430,
+      "begin_va": 5368768550,
+      "end_rva": 60426,
+      "unwind_rva": 174484
+    },
+    {
+      "table_rva": 193988,
+      "raw_hex": "0aec00001cec0000aca90200",
+      "begin_rva": 60426,
+      "begin_va": 5368769546,
+      "end_rva": 60444,
+      "unwind_rva": 174508
+    },
+    {
+      "table_rva": 194000,
+      "raw_hex": "20ec000085ed0000bca90200",
+      "begin_rva": 60448,
+      "begin_va": 5368769568,
+      "end_rva": 60805,
+      "unwind_rva": 174524
+    },
+    {
+      "table_rva": 194012,
+      "raw_hex": "90ed0000e0ed0000c8a50200",
+      "begin_rva": 60816,
+      "begin_va": 5368769936,
+      "end_rva": 60896,
+      "unwind_rva": 173512
+    },
+    {
+      "table_rva": 194024,
+      "raw_hex": "e0ed00009bee0000cca90200",
+      "begin_rva": 60896,
+      "begin_va": 5368770016,
+      "end_rva": 61083,
+      "unwind_rva": 174540
+    },
+    {
+      "table_rva": 194036,
+      "raw_hex": "a0ee000024ef0000dca90200",
+      "begin_rva": 61088,
+      "begin_va": 5368770208,
+      "end_rva": 61220,
+      "unwind_rva": 174556
+    },
+    {
+      "table_rva": 194048,
+      "raw_hex": "30ef0000a8ef0000eca60200",
+      "begin_rva": 61232,
+      "begin_va": 5368770352,
+      "end_rva": 61352,
+      "unwind_rva": 173804
+    },
+    {
+      "table_rva": 194060,
+      "raw_hex": "b0ef00002bf00000e8a90200",
+      "begin_rva": 61360,
+      "begin_va": 5368770480,
+      "end_rva": 61483,
+      "unwind_rva": 174568
+    },
+    {
+      "table_rva": 194072,
+      "raw_hex": "30f00000d6f10000f0a90200",
+      "begin_rva": 61488,
+      "begin_va": 5368770608,
+      "end_rva": 61910,
+      "unwind_rva": 174576
+    },
+    {
+      "table_rva": 194084,
+      "raw_hex": "e0f100000cf20000fca90200",
+      "begin_rva": 61920,
+      "begin_va": 5368771040,
+      "end_rva": 61964,
+      "unwind_rva": 174588
+    },
+    {
+      "table_rva": 194096,
+      "raw_hex": "0cf200003af3000008aa0200",
+      "begin_rva": 61964,
+      "begin_va": 5368771084,
+      "end_rva": 62266,
+      "unwind_rva": 174600
+    },
+    {
+      "table_rva": 194108,
+      "raw_hex": "3af3000045f3000020aa0200",
+      "begin_rva": 62266,
+      "begin_va": 5368771386,
+      "end_rva": 62277,
+      "unwind_rva": 174624
+    },
+    {
+      "table_rva": 194120,
+      "raw_hex": "50f30000c0f30000eca60200",
+      "begin_rva": 62288,
+      "begin_va": 5368771408,
+      "end_rva": 62400,
+      "unwind_rva": 173804
+    },
+    {
+      "table_rva": 194132,
+      "raw_hex": "c0f3000008f4000028a50200",
+      "begin_rva": 62400,
+      "begin_va": 5368771520,
+      "end_rva": 62472,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194144,
+      "raw_hex": "10f4000063f4000010a50200",
+      "begin_rva": 62480,
+      "begin_va": 5368771600,
+      "end_rva": 62563,
+      "unwind_rva": 173328
+    },
+    {
+      "table_rva": 194156,
+      "raw_hex": "70f40000c8f40000b8a50200",
+      "begin_rva": 62576,
+      "begin_va": 5368771696,
+      "end_rva": 62664,
+      "unwind_rva": 173496
+    },
+    {
+      "table_rva": 194168,
+      "raw_hex": "d0f4000089f5000048a50200",
+      "begin_rva": 62672,
+      "begin_va": 5368771792,
+      "end_rva": 62857,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 194180,
+      "raw_hex": "90f5000064f60000d4a50200",
+      "begin_rva": 62864,
+      "begin_va": 5368771984,
+      "end_rva": 63076,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 194192,
+      "raw_hex": "70f60000a0f6000030aa0200",
+      "begin_rva": 63088,
+      "begin_va": 5368772208,
+      "end_rva": 63136,
+      "unwind_rva": 174640
+    },
+    {
+      "table_rva": 194204,
+      "raw_hex": "a0f600001ff8000040aa0200",
+      "begin_rva": 63136,
+      "begin_va": 5368772256,
+      "end_rva": 63519,
+      "unwind_rva": 174656
+    },
+    {
+      "table_rva": 194216,
+      "raw_hex": "1ff8000020f9000060aa0200",
+      "begin_rva": 63519,
+      "begin_va": 5368772639,
+      "end_rva": 63776,
+      "unwind_rva": 174688
+    },
+    {
+      "table_rva": 194228,
+      "raw_hex": "20f900004cf9000074aa0200",
+      "begin_rva": 63776,
+      "begin_va": 5368772896,
+      "end_rva": 63820,
+      "unwind_rva": 174708
+    },
+    {
+      "table_rva": 194240,
+      "raw_hex": "4cf9000051f9000084aa0200",
+      "begin_rva": 63820,
+      "begin_va": 5368772940,
+      "end_rva": 63825,
+      "unwind_rva": 174724
+    },
+    {
+      "table_rva": 194252,
+      "raw_hex": "51f9000060f90000a4aa0200",
+      "begin_rva": 63825,
+      "begin_va": 5368772945,
+      "end_rva": 63840,
+      "unwind_rva": 174756
+    },
+    {
+      "table_rva": 194264,
+      "raw_hex": "60f9000084f90000b4aa0200",
+      "begin_rva": 63840,
+      "begin_va": 5368772960,
+      "end_rva": 63876,
+      "unwind_rva": 174772
+    },
+    {
+      "table_rva": 194276,
+      "raw_hex": "84f9000088f90000c0aa0200",
+      "begin_rva": 63876,
+      "begin_va": 5368772996,
+      "end_rva": 63880,
+      "unwind_rva": 174784
+    },
+    {
+      "table_rva": 194288,
+      "raw_hex": "88f90000effa0000d4aa0200",
+      "begin_rva": 63880,
+      "begin_va": 5368773000,
+      "end_rva": 64239,
+      "unwind_rva": 174804
+    },
+    {
+      "table_rva": 194300,
+      "raw_hex": "effa000049fc0000e8aa0200",
+      "begin_rva": 64239,
+      "begin_va": 5368773359,
+      "end_rva": 64585,
+      "unwind_rva": 174824
+    },
+    {
+      "table_rva": 194312,
+      "raw_hex": "49fc00006cfc000004ab0200",
+      "begin_rva": 64585,
+      "begin_va": 5368773705,
+      "end_rva": 64620,
+      "unwind_rva": 174852
+    },
+    {
+      "table_rva": 194324,
+      "raw_hex": "6cfc000084fc000014ab0200",
+      "begin_rva": 64620,
+      "begin_va": 5368773740,
+      "end_rva": 64644,
+      "unwind_rva": 174868
+    },
+    {
+      "table_rva": 194336,
+      "raw_hex": "84fc00008dfc000024ab0200",
+      "begin_rva": 64644,
+      "begin_va": 5368773764,
+      "end_rva": 64653,
+      "unwind_rva": 174884
+    },
+    {
+      "table_rva": 194348,
+      "raw_hex": "90fc00000bff000034ab0200",
+      "begin_rva": 64656,
+      "begin_va": 5368773776,
+      "end_rva": 65291,
+      "unwind_rva": 174900
+    },
+    {
+      "table_rva": 194360,
+      "raw_hex": "10ff00007eff000050ab0200",
+      "begin_rva": 65296,
+      "begin_va": 5368774416,
+      "end_rva": 65406,
+      "unwind_rva": 174928
+    },
+    {
+      "table_rva": 194372,
+      "raw_hex": "7eff0000eaff000060ab0200",
+      "begin_rva": 65406,
+      "begin_va": 5368774526,
+      "end_rva": 65514,
+      "unwind_rva": 174944
+    },
+    {
+      "table_rva": 194384,
+      "raw_hex": "eaff0000fdff000074ab0200",
+      "begin_rva": 65514,
+      "begin_va": 5368774634,
+      "end_rva": 65533,
+      "unwind_rva": 174964
+    },
+    {
+      "table_rva": 194396,
+      "raw_hex": "00000100a0040100b8a50200",
+      "begin_rva": 65536,
+      "begin_va": 5368774656,
+      "end_rva": 66720,
+      "unwind_rva": 173496
+    },
+    {
+      "table_rva": 194408,
+      "raw_hex": "a0040100d004010028a50200",
+      "begin_rva": 66720,
+      "begin_va": 5368775840,
+      "end_rva": 66768,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194420,
+      "raw_hex": "d00401000005010028a50200",
+      "begin_rva": 66768,
+      "begin_va": 5368775888,
+      "end_rva": 66816,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194432,
+      "raw_hex": "000501003005010028a50200",
+      "begin_rva": 66816,
+      "begin_va": 5368775936,
+      "end_rva": 66864,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194444,
+      "raw_hex": "30050100a305010028a50200",
+      "begin_rva": 66864,
+      "begin_va": 5368775984,
+      "end_rva": 66979,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194456,
+      "raw_hex": "b0050100de05010028a50200",
+      "begin_rva": 66992,
+      "begin_va": 5368776112,
+      "end_rva": 67038,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194468,
+      "raw_hex": "e00501001e06010028a50200",
+      "begin_rva": 67040,
+      "begin_va": 5368776160,
+      "end_rva": 67102,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194480,
+      "raw_hex": "20060100b1060100d4a50200",
+      "begin_rva": 67104,
+      "begin_va": 5368776224,
+      "end_rva": 67249,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 194492,
+      "raw_hex": "c00601001007010048a50200",
+      "begin_rva": 67264,
+      "begin_va": 5368776384,
+      "end_rva": 67344,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 194504,
+      "raw_hex": "100701002c080100d4a50200",
+      "begin_rva": 67344,
+      "begin_va": 5368776464,
+      "end_rva": 67628,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 194516,
+      "raw_hex": "300801008008010048a50200",
+      "begin_rva": 67632,
+      "begin_va": 5368776752,
+      "end_rva": 67712,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 194528,
+      "raw_hex": "80080100be09010084ab0200",
+      "begin_rva": 67712,
+      "begin_va": 5368776832,
+      "end_rva": 68030,
+      "unwind_rva": 174980
+    },
+    {
+      "table_rva": 194540,
+      "raw_hex": "c00901001f0a010048a50200",
+      "begin_rva": 68032,
+      "begin_va": 5368777152,
+      "end_rva": 68127,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 194552,
+      "raw_hex": "200a0100940a0100d4a50200",
+      "begin_rva": 68128,
+      "begin_va": 5368777248,
+      "end_rva": 68244,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 194564,
+      "raw_hex": "a00a0100060b0100b8a50200",
+      "begin_rva": 68256,
+      "begin_va": 5368777376,
+      "end_rva": 68358,
+      "unwind_rva": 173496
+    },
+    {
+      "table_rva": 194576,
+      "raw_hex": "100b0100f10b010094ab0200",
+      "begin_rva": 68368,
+      "begin_va": 5368777488,
+      "end_rva": 68593,
+      "unwind_rva": 174996
+    },
+    {
+      "table_rva": 194588,
+      "raw_hex": "100c01007d0c010028a50200",
+      "begin_rva": 68624,
+      "begin_va": 5368777744,
+      "end_rva": 68733,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194600,
+      "raw_hex": "800c0100b80c010028a50200",
+      "begin_rva": 68736,
+      "begin_va": 5368777856,
+      "end_rva": 68792,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194612,
+      "raw_hex": "c00c01009a0d0100bca90200",
+      "begin_rva": 68800,
+      "begin_va": 5368777920,
+      "end_rva": 69018,
+      "unwind_rva": 174524
+    },
+    {
+      "table_rva": 194624,
+      "raw_hex": "a00d0100d70e0100a4ab0200",
+      "begin_rva": 69024,
+      "begin_va": 5368778144,
+      "end_rva": 69335,
+      "unwind_rva": 175012
+    },
+    {
+      "table_rva": 194636,
+      "raw_hex": "300f01009a0f010048a50200",
+      "begin_rva": 69424,
+      "begin_va": 5368778544,
+      "end_rva": 69530,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 194648,
+      "raw_hex": "701001009d100100b8ab0200",
+      "begin_rva": 69744,
+      "begin_va": 5368778864,
+      "end_rva": 69789,
+      "unwind_rva": 175032
+    },
+    {
+      "table_rva": 194660,
+      "raw_hex": "9d100100c1100100c4ab0200",
+      "begin_rva": 69789,
+      "begin_va": 5368778909,
+      "end_rva": 69825,
+      "unwind_rva": 175044
+    },
+    {
+      "table_rva": 194672,
+      "raw_hex": "c1100100cb100100d8ab0200",
+      "begin_rva": 69825,
+      "begin_va": 5368778945,
+      "end_rva": 69835,
+      "unwind_rva": 175064
+    },
+    {
+      "table_rva": 194684,
+      "raw_hex": "cb10010023110100ecab0200",
+      "begin_rva": 69835,
+      "begin_va": 5368778955,
+      "end_rva": 69923,
+      "unwind_rva": 175084
+    },
+    {
+      "table_rva": 194696,
+      "raw_hex": "231101002c11010000ac0200",
+      "begin_rva": 69923,
+      "begin_va": 5368779043,
+      "end_rva": 69932,
+      "unwind_rva": 175104
+    },
+    {
+      "table_rva": 194708,
+      "raw_hex": "2c110100ce11010014ac0200",
+      "begin_rva": 69932,
+      "begin_va": 5368779052,
+      "end_rva": 70094,
+      "unwind_rva": 175124
+    },
+    {
+      "table_rva": 194720,
+      "raw_hex": "ce1101002412010028ac0200",
+      "begin_rva": 70094,
+      "begin_va": 5368779214,
+      "end_rva": 70180,
+      "unwind_rva": 175144
+    },
+    {
+      "table_rva": 194732,
+      "raw_hex": "241201002b12010038ac0200",
+      "begin_rva": 70180,
+      "begin_va": 5368779300,
+      "end_rva": 70187,
+      "unwind_rva": 175160
+    },
+    {
+      "table_rva": 194744,
+      "raw_hex": "2b1201003012010048ac0200",
+      "begin_rva": 70187,
+      "begin_va": 5368779307,
+      "end_rva": 70192,
+      "unwind_rva": 175176
+    },
+    {
+      "table_rva": 194756,
+      "raw_hex": "301201003a12010058ac0200",
+      "begin_rva": 70192,
+      "begin_va": 5368779312,
+      "end_rva": 70202,
+      "unwind_rva": 175192
+    },
+    {
+      "table_rva": 194768,
+      "raw_hex": "401201003d16010068ac0200",
+      "begin_rva": 70208,
+      "begin_va": 5368779328,
+      "end_rva": 71229,
+      "unwind_rva": 175208
+    },
+    {
+      "table_rva": 194780,
+      "raw_hex": "401601006b16010028a50200",
+      "begin_rva": 71232,
+      "begin_va": 5368780352,
+      "end_rva": 71275,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194792,
+      "raw_hex": "701601003017010088a60200",
+      "begin_rva": 71280,
+      "begin_va": 5368780400,
+      "end_rva": 71472,
+      "unwind_rva": 173704
+    },
+    {
+      "table_rva": 194804,
+      "raw_hex": "301701005e17010078ac0200",
+      "begin_rva": 71472,
+      "begin_va": 5368780592,
+      "end_rva": 71518,
+      "unwind_rva": 175224
+    },
+    {
+      "table_rva": 194816,
+      "raw_hex": "5e170100c217010084ac0200",
+      "begin_rva": 71518,
+      "begin_va": 5368780638,
+      "end_rva": 71618,
+      "unwind_rva": 175236
+    },
+    {
+      "table_rva": 194828,
+      "raw_hex": "c2170100111c010098ac0200",
+      "begin_rva": 71618,
+      "begin_va": 5368780738,
+      "end_rva": 72721,
+      "unwind_rva": 175256
+    },
+    {
+      "table_rva": 194840,
+      "raw_hex": "111c0100241c0100c0ac0200",
+      "begin_rva": 72721,
+      "begin_va": 5368781841,
+      "end_rva": 72740,
+      "unwind_rva": 175296
+    },
+    {
+      "table_rva": 194852,
+      "raw_hex": "241c01002f1c0100d0ac0200",
+      "begin_rva": 72740,
+      "begin_va": 5368781860,
+      "end_rva": 72751,
+      "unwind_rva": 175312
+    },
+    {
+      "table_rva": 194864,
+      "raw_hex": "301c0100821c0100e0ac0200",
+      "begin_rva": 72752,
+      "begin_va": 5368781872,
+      "end_rva": 72834,
+      "unwind_rva": 175328
+    },
+    {
+      "table_rva": 194876,
+      "raw_hex": "821c01008a1c0100f0ac0200",
+      "begin_rva": 72834,
+      "begin_va": 5368781954,
+      "end_rva": 72842,
+      "unwind_rva": 175344
+    },
+    {
+      "table_rva": 194888,
+      "raw_hex": "8a1c0100971c010004ad0200",
+      "begin_rva": 72842,
+      "begin_va": 5368781962,
+      "end_rva": 72855,
+      "unwind_rva": 175364
+    },
+    {
+      "table_rva": 194900,
+      "raw_hex": "971c0100951e010018ad0200",
+      "begin_rva": 72855,
+      "begin_va": 5368781975,
+      "end_rva": 73365,
+      "unwind_rva": 175384
+    },
+    {
+      "table_rva": 194912,
+      "raw_hex": "a01e01001d1f01002cad0200",
+      "begin_rva": 73376,
+      "begin_va": 5368782496,
+      "end_rva": 73501,
+      "unwind_rva": 175404
+    },
+    {
+      "table_rva": 194924,
+      "raw_hex": "201f01005122010028a50200",
+      "begin_rva": 73504,
+      "begin_va": 5368782624,
+      "end_rva": 74321,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194936,
+      "raw_hex": "602201009422010048a50200",
+      "begin_rva": 74336,
+      "begin_va": 5368783456,
+      "end_rva": 74388,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 194948,
+      "raw_hex": "a022010037230100e4a50200",
+      "begin_rva": 74400,
+      "begin_va": 5368783520,
+      "end_rva": 74551,
+      "unwind_rva": 173540
+    },
+    {
+      "table_rva": 194960,
+      "raw_hex": "50240100c224010038ad0200",
+      "begin_rva": 74832,
+      "begin_va": 5368783952,
+      "end_rva": 74946,
+      "unwind_rva": 175416
+    },
+    {
+      "table_rva": 194972,
+      "raw_hex": "d02401002c25010028a50200",
+      "begin_rva": 74960,
+      "begin_va": 5368784080,
+      "end_rva": 75052,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 194984,
+      "raw_hex": "2c2501003425010040ad0200",
+      "begin_rva": 75052,
+      "begin_va": 5368784172,
+      "end_rva": 75060,
+      "unwind_rva": 175424
+    },
+    {
+      "table_rva": 194996,
+      "raw_hex": "342501007725010054ad0200",
+      "begin_rva": 75060,
+      "begin_va": 5368784180,
+      "end_rva": 75127,
+      "unwind_rva": 175444
+    },
+    {
+      "table_rva": 195008,
+      "raw_hex": "80250100cb25010068ad0200",
+      "begin_rva": 75136,
+      "begin_va": 5368784256,
+      "end_rva": 75211,
+      "unwind_rva": 175464
+    },
+    {
+      "table_rva": 195020,
+      "raw_hex": "cb250100ef25010074ad0200",
+      "begin_rva": 75211,
+      "begin_va": 5368784331,
+      "end_rva": 75247,
+      "unwind_rva": 175476
+    },
+    {
+      "table_rva": 195032,
+      "raw_hex": "ef2501000c26010088ad0200",
+      "begin_rva": 75247,
+      "begin_va": 5368784367,
+      "end_rva": 75276,
+      "unwind_rva": 175496
+    },
+    {
+      "table_rva": 195044,
+      "raw_hex": "0c26010042260100a0ad0200",
+      "begin_rva": 75276,
+      "begin_va": 5368784396,
+      "end_rva": 75330,
+      "unwind_rva": 175520
+    },
+    {
+      "table_rva": 195056,
+      "raw_hex": "42260100a0260100b4ad0200",
+      "begin_rva": 75330,
+      "begin_va": 5368784450,
+      "end_rva": 75424,
+      "unwind_rva": 175540
+    },
+    {
+      "table_rva": 195068,
+      "raw_hex": "a0260100ac260100c4ad0200",
+      "begin_rva": 75424,
+      "begin_va": 5368784544,
+      "end_rva": 75436,
+      "unwind_rva": 175556
+    },
+    {
+      "table_rva": 195080,
+      "raw_hex": "b02601003f270100e4a50200",
+      "begin_rva": 75440,
+      "begin_va": 5368784560,
+      "end_rva": 75583,
+      "unwind_rva": 173540
+    },
+    {
+      "table_rva": 195092,
+      "raw_hex": "402701000c28010048a50200",
+      "begin_rva": 75584,
+      "begin_va": 5368784704,
+      "end_rva": 75788,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 195104,
+      "raw_hex": "102801005928010028a50200",
+      "begin_rva": 75792,
+      "begin_va": 5368784912,
+      "end_rva": 75865,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195116,
+      "raw_hex": "6028010088280100d4ad0200",
+      "begin_rva": 75872,
+      "begin_va": 5368784992,
+      "end_rva": 75912,
+      "unwind_rva": 175572
+    },
+    {
+      "table_rva": 195128,
+      "raw_hex": "8828010033290100e4ad0200",
+      "begin_rva": 75912,
+      "begin_va": 5368785032,
+      "end_rva": 76083,
+      "unwind_rva": 175588
+    },
+    {
+      "table_rva": 195140,
+      "raw_hex": "3329010050290100f8ad0200",
+      "begin_rva": 76083,
+      "begin_va": 5368785203,
+      "end_rva": 76112,
+      "unwind_rva": 175608
+    },
+    {
+      "table_rva": 195152,
+      "raw_hex": "50290100672a0100a4ab0200",
+      "begin_rva": 76112,
+      "begin_va": 5368785232,
+      "end_rva": 76391,
+      "unwind_rva": 175012
+    },
+    {
+      "table_rva": 195164,
+      "raw_hex": "902a01000b2b010048a50200",
+      "begin_rva": 76432,
+      "begin_va": 5368785552,
+      "end_rva": 76555,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 195176,
+      "raw_hex": "d02b0100ff2b010008ae0200",
+      "begin_rva": 76752,
+      "begin_va": 5368785872,
+      "end_rva": 76799,
+      "unwind_rva": 175624
+    },
+    {
+      "table_rva": 195188,
+      "raw_hex": "ff2b0100232c010014ae0200",
+      "begin_rva": 76799,
+      "begin_va": 5368785919,
+      "end_rva": 76835,
+      "unwind_rva": 175636
+    },
+    {
+      "table_rva": 195200,
+      "raw_hex": "232c01002d2c010028ae0200",
+      "begin_rva": 76835,
+      "begin_va": 5368785955,
+      "end_rva": 76845,
+      "unwind_rva": 175656
+    },
+    {
+      "table_rva": 195212,
+      "raw_hex": "2d2c0100672c01003cae0200",
+      "begin_rva": 76845,
+      "begin_va": 5368785965,
+      "end_rva": 76903,
+      "unwind_rva": 175676
+    },
+    {
+      "table_rva": 195224,
+      "raw_hex": "672c01006f2c010050ae0200",
+      "begin_rva": 76903,
+      "begin_va": 5368786023,
+      "end_rva": 76911,
+      "unwind_rva": 175696
+    },
+    {
+      "table_rva": 195236,
+      "raw_hex": "6f2c0100342d010064ae0200",
+      "begin_rva": 76911,
+      "begin_va": 5368786031,
+      "end_rva": 77108,
+      "unwind_rva": 175716
+    },
+    {
+      "table_rva": 195248,
+      "raw_hex": "342d01006f2d01007cae0200",
+      "begin_rva": 77108,
+      "begin_va": 5368786228,
+      "end_rva": 77167,
+      "unwind_rva": 175740
+    },
+    {
+      "table_rva": 195260,
+      "raw_hex": "6f2d0100762d01008cae0200",
+      "begin_rva": 77167,
+      "begin_va": 5368786287,
+      "end_rva": 77174,
+      "unwind_rva": 175756
+    },
+    {
+      "table_rva": 195272,
+      "raw_hex": "762d01007b2d01009cae0200",
+      "begin_rva": 77174,
+      "begin_va": 5368786294,
+      "end_rva": 77179,
+      "unwind_rva": 175772
+    },
+    {
+      "table_rva": 195284,
+      "raw_hex": "7b2d0100852d0100acae0200",
+      "begin_rva": 77179,
+      "begin_va": 5368786299,
+      "end_rva": 77189,
+      "unwind_rva": 175788
+    },
+    {
+      "table_rva": 195296,
+      "raw_hex": "902d0100722e0100bcae0200",
+      "begin_rva": 77200,
+      "begin_va": 5368786320,
+      "end_rva": 77426,
+      "unwind_rva": 175804
+    },
+    {
+      "table_rva": 195308,
+      "raw_hex": "802e0100bc2e0100c8ae0200",
+      "begin_rva": 77440,
+      "begin_va": 5368786560,
+      "end_rva": 77500,
+      "unwind_rva": 175816
+    },
+    {
+      "table_rva": 195320,
+      "raw_hex": "bc2e010039300100d8ae0200",
+      "begin_rva": 77500,
+      "begin_va": 5368786620,
+      "end_rva": 77881,
+      "unwind_rva": 175832
+    },
+    {
+      "table_rva": 195332,
+      "raw_hex": "393001004e300100f8ae0200",
+      "begin_rva": 77881,
+      "begin_va": 5368787001,
+      "end_rva": 77902,
+      "unwind_rva": 175864
+    },
+    {
+      "table_rva": 195344,
+      "raw_hex": "50300100a930010028a50200",
+      "begin_rva": 77904,
+      "begin_va": 5368787024,
+      "end_rva": 77993,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195356,
+      "raw_hex": "b03001005a32010028a50200",
+      "begin_rva": 78000,
+      "begin_va": 5368787120,
+      "end_rva": 78426,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195368,
+      "raw_hex": "60320100bc32010048a50200",
+      "begin_rva": 78432,
+      "begin_va": 5368787552,
+      "end_rva": 78524,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 195380,
+      "raw_hex": "c0320100de32010028a50200",
+      "begin_rva": 78528,
+      "begin_va": 5368787648,
+      "end_rva": 78558,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195392,
+      "raw_hex": "e03201002a33010048a50200",
+      "begin_rva": 78560,
+      "begin_va": 5368787680,
+      "end_rva": 78634,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 195404,
+      "raw_hex": "303301004534010088a60200",
+      "begin_rva": 78640,
+      "begin_va": 5368787760,
+      "end_rva": 78917,
+      "unwind_rva": 173704
+    },
+    {
+      "table_rva": 195416,
+      "raw_hex": "503401007535010028a50200",
+      "begin_rva": 78928,
+      "begin_va": 5368788048,
+      "end_rva": 79221,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195428,
+      "raw_hex": "80350100f135010028a50200",
+      "begin_rva": 79232,
+      "begin_va": 5368788352,
+      "end_rva": 79345,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195440,
+      "raw_hex": "003601008c36010008af0200",
+      "begin_rva": 79360,
+      "begin_va": 5368788480,
+      "end_rva": 79500,
+      "unwind_rva": 175880
+    },
+    {
+      "table_rva": 195452,
+      "raw_hex": "8c3601009c36010014af0200",
+      "begin_rva": 79500,
+      "begin_va": 5368788620,
+      "end_rva": 79516,
+      "unwind_rva": 175892
+    },
+    {
+      "table_rva": 195464,
+      "raw_hex": "9c360100e23601002caf0200",
+      "begin_rva": 79516,
+      "begin_va": 5368788636,
+      "end_rva": 79586,
+      "unwind_rva": 175916
+    },
+    {
+      "table_rva": 195476,
+      "raw_hex": "e23601006a38010040af0200",
+      "begin_rva": 79586,
+      "begin_va": 5368788706,
+      "end_rva": 79978,
+      "unwind_rva": 175936
+    },
+    {
+      "table_rva": 195488,
+      "raw_hex": "6a3801008038010058af0200",
+      "begin_rva": 79978,
+      "begin_va": 5368789098,
+      "end_rva": 80000,
+      "unwind_rva": 175960
+    },
+    {
+      "table_rva": 195500,
+      "raw_hex": "80380100b138010068af0200",
+      "begin_rva": 80000,
+      "begin_va": 5368789120,
+      "end_rva": 80049,
+      "unwind_rva": 175976
+    },
+    {
+      "table_rva": 195512,
+      "raw_hex": "b1380100bf38010078af0200",
+      "begin_rva": 80049,
+      "begin_va": 5368789169,
+      "end_rva": 80063,
+      "unwind_rva": 175992
+    },
+    {
+      "table_rva": 195524,
+      "raw_hex": "bf380100eb38010068af0200",
+      "begin_rva": 80063,
+      "begin_va": 5368789183,
+      "end_rva": 80107,
+      "unwind_rva": 175976
+    },
+    {
+      "table_rva": 195536,
+      "raw_hex": "eb3801000339010094af0200",
+      "begin_rva": 80107,
+      "begin_va": 5368789227,
+      "end_rva": 80131,
+      "unwind_rva": 176020
+    },
+    {
+      "table_rva": 195548,
+      "raw_hex": "1039010045390100a4af0200",
+      "begin_rva": 80144,
+      "begin_va": 5368789264,
+      "end_rva": 80197,
+      "unwind_rva": 176036
+    },
+    {
+      "table_rva": 195560,
+      "raw_hex": "45390100b23b0100b8af0200",
+      "begin_rva": 80197,
+      "begin_va": 5368789317,
+      "end_rva": 80818,
+      "unwind_rva": 176056
+    },
+    {
+      "table_rva": 195572,
+      "raw_hex": "b23b0100ba3b0100ccaf0200",
+      "begin_rva": 80818,
+      "begin_va": 5368789938,
+      "end_rva": 80826,
+      "unwind_rva": 176076
+    },
+    {
+      "table_rva": 195584,
+      "raw_hex": "ba3b0100ca3b0100e0af0200",
+      "begin_rva": 80826,
+      "begin_va": 5368789946,
+      "end_rva": 80842,
+      "unwind_rva": 176096
+    },
+    {
+      "table_rva": 195596,
+      "raw_hex": "d03b0100373c010048a50200",
+      "begin_rva": 80848,
+      "begin_va": 5368789968,
+      "end_rva": 80951,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 195608,
+      "raw_hex": "403c0100e03c010028a50200",
+      "begin_rva": 80960,
+      "begin_va": 5368790080,
+      "end_rva": 81120,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195620,
+      "raw_hex": "8c3e0100fa3e0100f0af0200",
+      "begin_rva": 81548,
+      "begin_va": 5368790668,
+      "end_rva": 81658,
+      "unwind_rva": 176112
+    },
+    {
+      "table_rva": 195632,
+      "raw_hex": "fc3e0100b63f0100bca90200",
+      "begin_rva": 81660,
+      "begin_va": 5368790780,
+      "end_rva": 81846,
+      "unwind_rva": 174524
+    },
+    {
+      "table_rva": 195644,
+      "raw_hex": "b83f01008b41010004b00200",
+      "begin_rva": 81848,
+      "begin_va": 5368790968,
+      "end_rva": 82315,
+      "unwind_rva": 176132
+    },
+    {
+      "table_rva": 195656,
+      "raw_hex": "8c410100af43010004b00200",
+      "begin_rva": 82316,
+      "begin_va": 5368791436,
+      "end_rva": 82863,
+      "unwind_rva": 176132
+    },
+    {
+      "table_rva": 195668,
+      "raw_hex": "b043010031440100e8a90200",
+      "begin_rva": 82864,
+      "begin_va": 5368791984,
+      "end_rva": 82993,
+      "unwind_rva": 174568
+    },
+    {
+      "table_rva": 195680,
+      "raw_hex": "644401007f4601001cb00200",
+      "begin_rva": 83044,
+      "begin_va": 5368792164,
+      "end_rva": 83583,
+      "unwind_rva": 176156
+    },
+    {
+      "table_rva": 195692,
+      "raw_hex": "804601004648010030b00200",
+      "begin_rva": 83584,
+      "begin_va": 5368792704,
+      "end_rva": 84038,
+      "unwind_rva": 176176
+    },
+    {
+      "table_rva": 195704,
+      "raw_hex": "484801000249010044b00200",
+      "begin_rva": 84040,
+      "begin_va": 5368793160,
+      "end_rva": 84226,
+      "unwind_rva": 176196
+    },
+    {
+      "table_rva": 195716,
+      "raw_hex": "044901002f49010028a50200",
+      "begin_rva": 84228,
+      "begin_va": 5368793348,
+      "end_rva": 84271,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195728,
+      "raw_hex": "a0490100d449010048a50200",
+      "begin_rva": 84384,
+      "begin_va": 5368793504,
+      "end_rva": 84436,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 195740,
+      "raw_hex": "d4490100144a010028a50200",
+      "begin_rva": 84436,
+      "begin_va": 5368793556,
+      "end_rva": 84500,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195752,
+      "raw_hex": "144a0100c94b010084a80200",
+      "begin_rva": 84500,
+      "begin_va": 5368793620,
+      "end_rva": 84937,
+      "unwind_rva": 174212
+    },
+    {
+      "table_rva": 195764,
+      "raw_hex": "cc4b0100284c010028a50200",
+      "begin_rva": 84940,
+      "begin_va": 5368794060,
+      "end_rva": 85032,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195776,
+      "raw_hex": "284c0100784c010028a50200",
+      "begin_rva": 85032,
+      "begin_va": 5368794152,
+      "end_rva": 85112,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 195788,
+      "raw_hex": "784c01009452010058b00200",
+      "begin_rva": 85112,
+      "begin_va": 5368794232,
+      "end_rva": 86676,
+      "unwind_rva": 176216
+    },
+    {
+      "table_rva": 195800,
+      "raw_hex": "945201001b560100c0a70200",
+      "begin_rva": 86676,
+      "begin_va": 5368795796,
+      "end_rva": 87579,
+      "unwind_rva": 174016
+    },
+    {
+      "table_rva": 195812,
+      "raw_hex": "1c560100c3570100b8a50200",
+      "begin_rva": 87580,
+      "begin_va": 5368796700,
+      "end_rva": 88003,
+      "unwind_rva": 173496
+    },
+    {
+      "table_rva": 195824,
+      "raw_hex": "c4570100e558010084a80200",
+      "begin_rva": 88004,
+      "begin_va": 5368797124,
+      "end_rva": 88293,
+      "unwind_rva": 174212
+    },
+    {
+      "table_rva": 195836,
+      "raw_hex": "e85801004a5b01006cb00200",
+      "begin_rva": 88296,
+      "begin_va": 5368797416,
+      "end_rva": 88906,
+      "unwind_rva": 176236
+    },
+    {
+      "table_rva": 195848,
+      "raw_hex": "4c5b0100065c0100c0a70200",
+      "begin_rva": 88908,
+      "begin_va": 5368798028,
+      "end_rva": 89094,
+      "unwind_rva": 174016
+    },
+    {
+      "table_rva": 195860,
+      "raw_hex": "085c0100a45c010088a60200",
+      "begin_rva": 89096,
+      "begin_va": 5368798216,
+      "end_rva": 89252,
+      "unwind_rva": 173704
+    },
+    {
+      "table_rva": 195872,
+      "raw_hex": "a45c0100f45c0100c8a50200",
+      "begin_rva": 89252,
+      "begin_va": 5368798372,
+      "end_rva": 89332,
+      "unwind_rva": 173512
+    },
+    {
+      "table_rva": 195884,
+      "raw_hex": "f45c0100445d0100c8a50200",
+      "begin_rva": 89332,
+      "begin_va": 5368798452,
+      "end_rva": 89412,
+      "unwind_rva": 173512
+    },
+    {
+      "table_rva": 195896,
+      "raw_hex": "445d0100685d010010a50200",
+      "begin_rva": 89412,
+      "begin_va": 5368798532,
+      "end_rva": 89448,
+      "unwind_rva": 173328
+    },
+    {
+      "table_rva": 195908,
+      "raw_hex": "045f01003360010084b00200",
+      "begin_rva": 89860,
+      "begin_va": 5368798980,
+      "end_rva": 90163,
+      "unwind_rva": 176260
+    },
+    {
+      "table_rva": 195920,
+      "raw_hex": "346001009c600100d4a50200",
+      "begin_rva": 90164,
+      "begin_va": 5368799284,
+      "end_rva": 90268,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 195932,
+      "raw_hex": "9c60010000610100b8a50200",
+      "begin_rva": 90268,
+      "begin_va": 5368799388,
+      "end_rva": 90368,
+      "unwind_rva": 173496
+    },
+    {
+      "table_rva": 195944,
+      "raw_hex": "006101003a62010088a60200",
+      "begin_rva": 90368,
+      "begin_va": 5368799488,
+      "end_rva": 90682,
+      "unwind_rva": 173704
+    },
+    {
+      "table_rva": 195956,
+      "raw_hex": "3c6201002863010098b00200",
+      "begin_rva": 90684,
+      "begin_va": 5368799804,
+      "end_rva": 90920,
+      "unwind_rva": 176280
+    },
+    {
+      "table_rva": 195968,
+      "raw_hex": "28630100f4630100dca80200",
+      "begin_rva": 90920,
+      "begin_va": 5368800040,
+      "end_rva": 91124,
+      "unwind_rva": 174300
+    },
+    {
+      "table_rva": 195980,
+      "raw_hex": "f46301003e640100a8b00200",
+      "begin_rva": 91124,
+      "begin_va": 5368800244,
+      "end_rva": 91198,
+      "unwind_rva": 176296
+    },
+    {
+      "table_rva": 195992,
+      "raw_hex": "40640100c0640100b4b00200",
+      "begin_rva": 91200,
+      "begin_va": 5368800320,
+      "end_rva": 91328,
+      "unwind_rva": 176308
+    },
+    {
+      "table_rva": 196004,
+      "raw_hex": "c06401008666010008a80200",
+      "begin_rva": 91328,
+      "begin_va": 5368800448,
+      "end_rva": 91782,
+      "unwind_rva": 174088
+    },
+    {
+      "table_rva": 196016,
+      "raw_hex": "886601009567010048a50200",
+      "begin_rva": 91784,
+      "begin_va": 5368800904,
+      "end_rva": 92053,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196028,
+      "raw_hex": "9867010064690100c4b00200",
+      "begin_rva": 92056,
+      "begin_va": 5368801176,
+      "end_rva": 92516,
+      "unwind_rva": 176324
+    },
+    {
+      "table_rva": 196040,
+      "raw_hex": "64690100d96f0100c4b00200",
+      "begin_rva": 92516,
+      "begin_va": 5368801636,
+      "end_rva": 94169,
+      "unwind_rva": 176324
+    },
+    {
+      "table_rva": 196052,
+      "raw_hex": "dc6f01008a750100dcb00200",
+      "begin_rva": 94172,
+      "begin_va": 5368803292,
+      "end_rva": 95626,
+      "unwind_rva": 176348
+    },
+    {
+      "table_rva": 196064,
+      "raw_hex": "8c750100a0770100f4b00200",
+      "begin_rva": 95628,
+      "begin_va": 5368804748,
+      "end_rva": 96160,
+      "unwind_rva": 176372
+    },
+    {
+      "table_rva": 196076,
+      "raw_hex": "a0770100cb7f01000cb10200",
+      "begin_rva": 96160,
+      "begin_va": 5368805280,
+      "end_rva": 98251,
+      "unwind_rva": 176396
+    },
+    {
+      "table_rva": 196088,
+      "raw_hex": "cc7f0100848d010024b10200",
+      "begin_rva": 98252,
+      "begin_va": 5368807372,
+      "end_rva": 101764,
+      "unwind_rva": 176420
+    },
+    {
+      "table_rva": 196100,
+      "raw_hex": "848d01001f9a010040b10200",
+      "begin_rva": 101764,
+      "begin_va": 5368810884,
+      "end_rva": 104991,
+      "unwind_rva": 176448
+    },
+    {
+      "table_rva": 196112,
+      "raw_hex": "209a0100b19a010028a50200",
+      "begin_rva": 104992,
+      "begin_va": 5368814112,
+      "end_rva": 105137,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 196124,
+      "raw_hex": "b49a01008a9c0100dcb00200",
+      "begin_rva": 105140,
+      "begin_va": 5368814260,
+      "end_rva": 105610,
+      "unwind_rva": 176348
+    },
+    {
+      "table_rva": 196136,
+      "raw_hex": "8c9c0100499e01005cb10200",
+      "begin_rva": 105612,
+      "begin_va": 5368814732,
+      "end_rva": 106057,
+      "unwind_rva": 176476
+    },
+    {
+      "table_rva": 196148,
+      "raw_hex": "4c9e0100949e0100d4a50200",
+      "begin_rva": 106060,
+      "begin_va": 5368815180,
+      "end_rva": 106132,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196160,
+      "raw_hex": "949e0100c49e0100e8a90200",
+      "begin_rva": 106132,
+      "begin_va": 5368815252,
+      "end_rva": 106180,
+      "unwind_rva": 174568
+    },
+    {
+      "table_rva": 196172,
+      "raw_hex": "c49e010057a0010070b10200",
+      "begin_rva": 106180,
+      "begin_va": 5368815300,
+      "end_rva": 106583,
+      "unwind_rva": 176496
+    },
+    {
+      "table_rva": 196184,
+      "raw_hex": "b8a0010048a1010084b10200",
+      "begin_rva": 106680,
+      "begin_va": 5368815800,
+      "end_rva": 106824,
+      "unwind_rva": 176516
+    },
+    {
+      "table_rva": 196196,
+      "raw_hex": "48a1010037a4010098b10200",
+      "begin_rva": 106824,
+      "begin_va": 5368815944,
+      "end_rva": 107575,
+      "unwind_rva": 176536
+    },
+    {
+      "table_rva": 196208,
+      "raw_hex": "38a40100dea80100b0b10200",
+      "begin_rva": 107576,
+      "begin_va": 5368816696,
+      "end_rva": 108766,
+      "unwind_rva": 176560
+    },
+    {
+      "table_rva": 196220,
+      "raw_hex": "e0a801009aab0100c8b10200",
+      "begin_rva": 108768,
+      "begin_va": 5368817888,
+      "end_rva": 109466,
+      "unwind_rva": 176584
+    },
+    {
+      "table_rva": 196232,
+      "raw_hex": "9cab010060ac0100dcb10200",
+      "begin_rva": 109468,
+      "begin_va": 5368818588,
+      "end_rva": 109664,
+      "unwind_rva": 176604
+    },
+    {
+      "table_rva": 196244,
+      "raw_hex": "60ac0100e6af0100f0b10200",
+      "begin_rva": 109664,
+      "begin_va": 5368818784,
+      "end_rva": 110566,
+      "unwind_rva": 176624
+    },
+    {
+      "table_rva": 196256,
+      "raw_hex": "e8af0100b8b6010008b20200",
+      "begin_rva": 110568,
+      "begin_va": 5368819688,
+      "end_rva": 112312,
+      "unwind_rva": 176648
+    },
+    {
+      "table_rva": 196268,
+      "raw_hex": "b8b6010019b8010020b20200",
+      "begin_rva": 112312,
+      "begin_va": 5368821432,
+      "end_rva": 112665,
+      "unwind_rva": 176672
+    },
+    {
+      "table_rva": 196280,
+      "raw_hex": "1cb80100eab9010030b20200",
+      "begin_rva": 112668,
+      "begin_va": 5368821788,
+      "end_rva": 113130,
+      "unwind_rva": 176688
+    },
+    {
+      "table_rva": 196292,
+      "raw_hex": "ecb9010074ba0100e4a50200",
+      "begin_rva": 113132,
+      "begin_va": 5368822252,
+      "end_rva": 113268,
+      "unwind_rva": 173540
+    },
+    {
+      "table_rva": 196304,
+      "raw_hex": "74ba0100fcdb010048b20200",
+      "begin_rva": 113268,
+      "begin_va": 5368822388,
+      "end_rva": 121852,
+      "unwind_rva": 176712
+    },
+    {
+      "table_rva": 196316,
+      "raw_hex": "fcdb0100d4dc010064b20200",
+      "begin_rva": 121852,
+      "begin_va": 5368830972,
+      "end_rva": 122068,
+      "unwind_rva": 176740
+    },
+    {
+      "table_rva": 196328,
+      "raw_hex": "d4dc01004ce4010074b20200",
+      "begin_rva": 122068,
+      "begin_va": 5368831188,
+      "end_rva": 123980,
+      "unwind_rva": 176756
+    },
+    {
+      "table_rva": 196340,
+      "raw_hex": "4ce4010064e4010030a50200",
+      "begin_rva": 123980,
+      "begin_va": 5368833100,
+      "end_rva": 124004,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 196352,
+      "raw_hex": "64e40100cbe8010048a50200",
+      "begin_rva": 124004,
+      "begin_va": 5368833124,
+      "end_rva": 125131,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196364,
+      "raw_hex": "cce801002ced010048a50200",
+      "begin_rva": 125132,
+      "begin_va": 5368834252,
+      "end_rva": 126252,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196376,
+      "raw_hex": "2ced010089f1010048a50200",
+      "begin_rva": 126252,
+      "begin_va": 5368835372,
+      "end_rva": 127369,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196388,
+      "raw_hex": "8cf10100dff5010048a50200",
+      "begin_rva": 127372,
+      "begin_va": 5368836492,
+      "end_rva": 128479,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196400,
+      "raw_hex": "e0f501002ffa010048a50200",
+      "begin_rva": 128480,
+      "begin_va": 5368837600,
+      "end_rva": 129583,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196412,
+      "raw_hex": "30fa010078fe010048a50200",
+      "begin_rva": 129584,
+      "begin_va": 5368838704,
+      "end_rva": 130680,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196424,
+      "raw_hex": "78fe0100c502020048a50200",
+      "begin_rva": 130680,
+      "begin_va": 5368839800,
+      "end_rva": 131781,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196436,
+      "raw_hex": "c80202001107020048a50200",
+      "begin_rva": 131784,
+      "begin_va": 5368840904,
+      "end_rva": 132881,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196448,
+      "raw_hex": "14070200520b020048a50200",
+      "begin_rva": 132884,
+      "begin_va": 5368842004,
+      "end_rva": 133970,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196460,
+      "raw_hex": "540b0200900f020048a50200",
+      "begin_rva": 133972,
+      "begin_va": 5368843092,
+      "end_rva": 135056,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196472,
+      "raw_hex": "900f0200b7130200d4a50200",
+      "begin_rva": 135056,
+      "begin_va": 5368844176,
+      "end_rva": 136119,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196484,
+      "raw_hex": "b8130200d9170200d4a50200",
+      "begin_rva": 136120,
+      "begin_va": 5368845240,
+      "end_rva": 137177,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196496,
+      "raw_hex": "dc170200061c0200d4a50200",
+      "begin_rva": 137180,
+      "begin_va": 5368846300,
+      "end_rva": 138246,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196508,
+      "raw_hex": "081c02002b200200d4a50200",
+      "begin_rva": 138248,
+      "begin_va": 5368847368,
+      "end_rva": 139307,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196520,
+      "raw_hex": "2c2002002d240200d4a50200",
+      "begin_rva": 139308,
+      "begin_va": 5368848428,
+      "end_rva": 140333,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196532,
+      "raw_hex": "302402002a280200d4a50200",
+      "begin_rva": 140336,
+      "begin_va": 5368849456,
+      "end_rva": 141354,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196544,
+      "raw_hex": "2c280200f22b0200d4a50200",
+      "begin_rva": 141356,
+      "begin_va": 5368850476,
+      "end_rva": 142322,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196556,
+      "raw_hex": "f42b0200ba2f0200d4a50200",
+      "begin_rva": 142324,
+      "begin_va": 5368851444,
+      "end_rva": 143290,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196568,
+      "raw_hex": "bc2f020085330200d4a50200",
+      "begin_rva": 143292,
+      "begin_va": 5368852412,
+      "end_rva": 144261,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196580,
+      "raw_hex": "883302004d370200d4a50200",
+      "begin_rva": 144264,
+      "begin_va": 5368853384,
+      "end_rva": 145229,
+      "unwind_rva": 173524
+    },
+    {
+      "table_rva": 196592,
+      "raw_hex": "503702006d39020088b20200",
+      "begin_rva": 145232,
+      "begin_va": 5368854352,
+      "end_rva": 145773,
+      "unwind_rva": 176776
+    },
+    {
+      "table_rva": 196604,
+      "raw_hex": "703902009c3b020088b20200",
+      "begin_rva": 145776,
+      "begin_va": 5368854896,
+      "end_rva": 146332,
+      "unwind_rva": 176776
+    },
+    {
+      "table_rva": 196616,
+      "raw_hex": "9c3b0200bb3d020088b20200",
+      "begin_rva": 146332,
+      "begin_va": 5368855452,
+      "end_rva": 146875,
+      "unwind_rva": 176776
+    },
+    {
+      "table_rva": 196628,
+      "raw_hex": "c03d0200703e0200b8a50200",
+      "begin_rva": 146880,
+      "begin_va": 5368856000,
+      "end_rva": 147056,
+      "unwind_rva": 173496
+    },
+    {
+      "table_rva": 196640,
+      "raw_hex": "703e0200843e020030a50200",
+      "begin_rva": 147056,
+      "begin_va": 5368856176,
+      "end_rva": 147076,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 196652,
+      "raw_hex": "903e0200bc3e020028a50200",
+      "begin_rva": 147088,
+      "begin_va": 5368856208,
+      "end_rva": 147132,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 196664,
+      "raw_hex": "c03e0200f33e020028a50200",
+      "begin_rva": 147136,
+      "begin_va": 5368856256,
+      "end_rva": 147187,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 196676,
+      "raw_hex": "203f02009c3f02008ca70200",
+      "begin_rva": 147232,
+      "begin_va": 5368856352,
+      "end_rva": 147356,
+      "unwind_rva": 173964
+    },
+    {
+      "table_rva": 196688,
+      "raw_hex": "a03f02001c4002008ca70200",
+      "begin_rva": 147360,
+      "begin_va": 5368856480,
+      "end_rva": 147484,
+      "unwind_rva": 173964
+    },
+    {
+      "table_rva": 196700,
+      "raw_hex": "504002009f40020048a50200",
+      "begin_rva": 147536,
+      "begin_va": 5368856656,
+      "end_rva": 147615,
+      "unwind_rva": 173384
+    },
+    {
+      "table_rva": 196712,
+      "raw_hex": "a0400200ce40020030a50200",
+      "begin_rva": 147616,
+      "begin_va": 5368856736,
+      "end_rva": 147662,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 196724,
+      "raw_hex": "e04002005c41020098b20200",
+      "begin_rva": 147680,
+      "begin_va": 5368856800,
+      "end_rva": 147804,
+      "unwind_rva": 176792
+    },
+    {
+      "table_rva": 196736,
+      "raw_hex": "60410200b941020028a50200",
+      "begin_rva": 147808,
+      "begin_va": 5368856928,
+      "end_rva": 147897,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 196748,
+      "raw_hex": "c04102003c42020098b20200",
+      "begin_rva": 147904,
+      "begin_va": 5368857024,
+      "end_rva": 148028,
+      "unwind_rva": 176792
+    },
+    {
+      "table_rva": 196760,
+      "raw_hex": "3c4202005f42020028a50200",
+      "begin_rva": 148028,
+      "begin_va": 5368857148,
+      "end_rva": 148063,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 196772,
+      "raw_hex": "6042020087420200a4b20200",
+      "begin_rva": 148064,
+      "begin_va": 5368857184,
+      "end_rva": 148103,
+      "unwind_rva": 176804
+    },
+    {
+      "table_rva": 196784,
+      "raw_hex": "90420200b2420200acb20200",
+      "begin_rva": 148112,
+      "begin_va": 5368857232,
+      "end_rva": 148146,
+      "unwind_rva": 176812
+    },
+    {
+      "table_rva": 196796,
+      "raw_hex": "b442020002460200b4b20200",
+      "begin_rva": 148148,
+      "begin_va": 5368857268,
+      "end_rva": 148994,
+      "unwind_rva": 176820
+    },
+    {
+      "table_rva": 196808,
+      "raw_hex": "8c4c0200af4c020028a50200",
+      "begin_rva": 150668,
+      "begin_va": 5368859788,
+      "end_rva": 150703,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 196820,
+      "raw_hex": "484d0200df4e0200c8b20200",
+      "begin_rva": 150856,
+      "begin_va": 5368859976,
+      "end_rva": 151263,
+      "unwind_rva": 176840
+    },
+    {
+      "table_rva": 196832,
+      "raw_hex": "e04e02009f500200d4b20200",
+      "begin_rva": 151264,
+      "begin_va": 5368860384,
+      "end_rva": 151711,
+      "unwind_rva": 176852
+    },
+    {
+      "table_rva": 196844,
+      "raw_hex": "405102007e51020028a50200",
+      "begin_rva": 151872,
+      "begin_va": 5368860992,
+      "end_rva": 151934,
+      "unwind_rva": 173352
+    },
+    {
+      "table_rva": 196856,
+      "raw_hex": "b05202000453020030a50200",
+      "begin_rva": 152240,
+      "begin_va": 5368861360,
+      "end_rva": 152324,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 196868,
+      "raw_hex": "105302006453020030a50200",
+      "begin_rva": 152336,
+      "begin_va": 5368861456,
+      "end_rva": 152420,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 196880,
+      "raw_hex": "70530200c453020030a50200",
+      "begin_rva": 152432,
+      "begin_va": 5368861552,
+      "end_rva": 152516,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 196892,
+      "raw_hex": "d05302002454020030a50200",
+      "begin_rva": 152528,
+      "begin_va": 5368861648,
+      "end_rva": 152612,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 196904,
+      "raw_hex": "305402009554020030a50200",
+      "begin_rva": 152624,
+      "begin_va": 5368861744,
+      "end_rva": 152725,
+      "unwind_rva": 173360
+    },
+    {
+      "table_rva": 196916,
+      "raw_hex": "a05402000555020030a50200",
+      "begin_rva": 152736,
+      "begin_va": 5368861856,
+      "end_rva": 152837,
+      "unwind_rva": 173360
+    }
+  ],
+  "runtime_function_note": "Raw IMAGE_RUNTIME_FUNCTION_ENTRY records; ARM64 uses 8-byte entries. For hybrid images these are metadata records, not proof of the instruction set of every range.",
+  "debug": [
+    {
+      "type": 2,
+      "rva": 172848,
+      "file_offset": 167216,
+      "size": 70,
+      "raw_hex": "525344535c49d7cc099bae4996176d2f9cfd3d7401000000443a5c4465765c5374756666735c42696e5c7836345c52656c656173655c6467566f6f646f6f43706c2e70646200",
+      "codeview_kind": "RSDS",
+      "pdb_path": "D:\\Dev\\Stuffs\\Bin\\x64\\Release\\dgVoodooCpl.pdb",
+      "guid_raw_hex": "5c49d7cc099bae4996176d2f9cfd3d74",
+      "age": 1
+    },
+    {
+      "type": 12,
+      "rva": 172920,
+      "file_offset": 167288,
+      "size": 20,
+      "raw_hex": "00000000310000000c0000000000000002000000"
+    },
+    {
+      "type": 13,
+      "rva": 172940,
+      "file_offset": 167308,
+      "size": 372,
+      "raw_hex": "4743544c00100000600000002e746578742430300000000060100000504202002e74657874246d6e00000000b0520200550200002e746578742479640000000000600200600300002e696461746124350000000060630200b83f00002e7264617461000018a30200180000002e726461746124766f6c746d6400000030a30200e00100002e7264617461247a7a7a64626700000010a50200e00d00002e78646174610000f0b20200780000002e696461746124320000000068b30200180000002e696461746124330000000080b30200600300002e6964617461243400000000e0b60200ec0600002e696461746124360000000000c00200080000002e435254245843410000000008c00200080000002e4352542458435a0000000010c00200a00200002e64617461000000b0c20200f42c00002e6273730000000000f00200401100002e7064617461000000100300500a00002e7273726324303100000000501a0300401204002e7273726324303200000000"
+    },
+    {
+      "type": 14,
+      "rva": 0,
+      "file_offset": 0,
+      "size": 0,
+      "raw_hex": ""
+    }
+  ],
+  "parser_warnings": [
+    "Failed parsing FunctionEntry of UNWIND_INFO at 2b7c4: 'Chained function entry cannot be changed'"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "python": "3.14.8",
+  "pefile": "2024.8.26",
+  "capstone": "5.0.7",
+  "java": "openjdk version \"25.0.4.1\" 2026-08-18\nOpenJDK Runtime Environment (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1)\nOpenJDK 64-Bit Server VM (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1, mixed mode, sharing)\n",
+  "upx": "upx 5.2.1",
+  "ghidra": "Ghidra 12.1.4",
+  "ghidra_release_url": "https://github.com/NationalSecurityAgency/ghidra/releases/tag/Ghidra_12.1.4_build",
+  "ghidra_assets": [
+    {
+      "name": "ghidra_12.1.4_PUBLIC_20260921.zip",
+      "url": "https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_12.1.4_build/ghidra_12.1.4_PUBLIC_20260921.zip",
+      "digest": "sha256:ddac49f903da9d5bac833e5cc79395098b9c33cfd3279be5f31bd00387d2d4db"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+address	name	signature	status	body_ranges	body_bytes	file	error	pcode_origin_count	outside_pcode_origin_count
+140001000	FUN_140001000	undefined __cdecl FUN_140001000(undefined8 * param_1, undefined8 * param_2, ulonglong param_3)	decompiled	140001000-140001273	628	functions/140001000_FUN_140001000.c		154	0
+140001280	FUN_140001280	undefined __cdecl FUN_140001280(void)	decompiled	140001280-1400012af	48	functions/140001280_FUN_140001280.c		11	0
+1400012d0	FUN_1400012d0	undefined8 __cdecl FUN_1400012d0(longlong param_1)	decompiled	1400012d0-140001397	200	functions/1400012d0_FUN_1400012d0.c		19	0
+1400013a0	FUN_1400013a0	bool __cdecl FUN_1400013a0(longlong param_1, int param_2)	decompiled	1400013a0-1400013a3	4	functions/1400013a0_FUN_1400013a0.c		11	0
+1400013a4	FUN_1400013a4	bool __cdecl FUN_1400013a4(longlong param_1, int param_2)	decompiled	1400013a4-1400013f3	80	functions/1400013a4_FUN_1400013a4.c		11	0
+1400013f8	FUN_1400013f8	undefined8 __cdecl FUN_1400013f8(longlong param_1, uint param_2, int * param_3)	decompiled	1400013f8-140001413	28	functions/1400013f8_FUN_1400013f8.c		4	0
+140001418	FUN_140001418	bool __cdecl FUN_140001418(longlong param_1, int param_2, HDC param_3)	decompiled	140001418-140001553	316	functions/140001418_FUN_140001418.c		31	0
+140001580	FUN_140001580	undefined __cdecl FUN_140001580(undefined8 * param_1)	decompiled	140001580-1400015d7	88	functions/140001580_FUN_140001580.c		8	0
+1400015d8	FUN_1400015d8	undefined8 * __cdecl FUN_1400015d8(undefined8 * param_1, undefined8 param_2, undefined4 param_3, undefined8 param_4, undefined8 * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	1400015d8-140001637	96	functions/1400015d8_FUN_1400015d8.c		13	0
+140001638	FUN_140001638	ulonglong __cdecl FUN_140001638(longlong * param_1, undefined4 param_2, uint param_3, uint param_4, byte param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140001638-140001b4f	1304	functions/140001638_FUN_140001638.c		200	0
+140001b50	FUN_140001b50	undefined8 * __cdecl FUN_140001b50(longlong param_1, undefined8 * param_2, uint param_3)	decompiled	140001b50-140001c23	212	functions/140001b50_FUN_140001b50.c		43	0
+140001c30	FUN_140001c30	bool __cdecl FUN_140001c30(longlong param_1, uint * param_2, undefined8 param_3, undefined8 param_4, undefined1 * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140001c30-14000204b	1052	functions/140001c30_FUN_140001c30.c		176	0
+140002050	FUN_140002050	undefined8 * __cdecl FUN_140002050(longlong param_1, uint param_2, ulonglong param_3, ulonglong param_4, ulonglong param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140002050-1400022d3	644	functions/140002050_FUN_140002050.c		89	0
+1400022d8	FUN_1400022d8	ulonglong __cdecl FUN_1400022d8(longlong * param_1)	decompiled	1400022d8-1400023df	264	functions/1400022d8_FUN_1400022d8.c		44	0
+1400023e0	FUN_1400023e0	undefined __cdecl FUN_1400023e0(longlong param_1, int param_2)	decompiled	1400023e0-140002457	120	functions/1400023e0_FUN_1400023e0.c		17	0
+140002458	FUN_140002458	undefined8 __cdecl FUN_140002458(longlong param_1, int param_2)	decompiled	140002458-14000250b	180	functions/140002458_FUN_140002458.c		16	0
+140002588	FUN_140002588	undefined8 __cdecl FUN_140002588(longlong param_1, int param_2, int param_3)	decompiled	140002588-1400025ef	104	functions/140002588_FUN_140002588.c		10	0
+1400025f8	FUN_1400025f8	undefined8 __cdecl FUN_1400025f8(longlong param_1, int param_2)	decompiled	1400025f8-1400026c7	208	functions/1400025f8_FUN_1400025f8.c		20	0
+1400026d8	FUN_1400026d8	undefined8 __cdecl FUN_1400026d8(longlong param_1, int param_2)	decompiled	1400026d8-1400027a7	208	functions/1400026d8_FUN_1400026d8.c		20	0
+1400027e8	FUN_1400027e8	bool __cdecl FUN_1400027e8(undefined8 param_1, int param_2, LPWSTR param_3, int param_4)	decompiled	1400027e8-140002817	48	functions/1400027e8_FUN_1400027e8.c		4	0
+140002818	FUN_140002818	undefined8 __cdecl FUN_140002818(longlong param_1)	decompiled	140002818-140002823	12	functions/140002818_FUN_140002818.c		43	0
+140002824	FUN_140002824	undefined8 __cdecl FUN_140002824(longlong param_1)	decompiled	140002824-14000298f	364	functions/140002824_FUN_140002824.c		43	0
+140002998	FUN_140002998	undefined8 __cdecl FUN_140002998(longlong param_1, int param_2)	decompiled	140002998-14000299b	4	functions/140002998_FUN_140002998.c		46	0
+14000299c	FUN_14000299c	undefined8 __cdecl FUN_14000299c(longlong param_1, int param_2)	decompiled	14000299c-140002a87	236	functions/14000299c_FUN_14000299c.c		46	0
+140002a88	FUN_140002a88	undefined8 __cdecl FUN_140002a88(longlong param_1, int param_2)	decompiled	140002a88-140002ac7	64	functions/140002a88_FUN_140002a88.c		12	0
+140002af8	FUN_140002af8	bool __cdecl FUN_140002af8(longlong param_1, int param_2, LPWSTR param_3, int param_4)	decompiled	140002af8-140002cef	504	functions/140002af8_FUN_140002af8.c		92	0
+140002d10	FUN_140002d10	undefined8 __cdecl FUN_140002d10(undefined8 param_1, byte * param_2, undefined8 * param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140002d10-140002ef3	484	functions/140002d10_FUN_140002d10.c		76	0
+140002f08	FUN_140002f08	undefined8 __cdecl FUN_140002f08(longlong param_1)	decompiled	140002f08-140002f13	12	functions/140002f08_FUN_140002f08.c		122	0
+140002f14	FUN_140002f14	undefined8 __cdecl FUN_140002f14(longlong param_1)	decompiled	140002f14-14000332f	1052	functions/140002f14_FUN_140002f14.c		122	0
+140003338	FUN_140003338	undefined8 __cdecl FUN_140003338(longlong param_1, int param_2)	decompiled	140003338-14000333b	4	functions/140003338_FUN_140003338.c		116	0
+14000333c	FUN_14000333c	undefined8 __cdecl FUN_14000333c(longlong param_1, int param_2, undefined8 param_3, ulonglong param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	14000333c-140003577	572	functions/14000333c_FUN_14000333c.c		116	0
+140003578	FUN_140003578	undefined8 __cdecl FUN_140003578(longlong param_1, int param_2)	decompiled	140003578-1400035a7	48	functions/140003578_FUN_140003578.c		8	0
+1400035a8	FUN_1400035a8	undefined8 __cdecl FUN_1400035a8(longlong param_1, int param_2)	decompiled	1400035a8-140003843	668	functions/1400035a8_FUN_1400035a8.c		154	0
+1400038c8	FUN_1400038c8	undefined8 __cdecl FUN_1400038c8(longlong param_1, int param_2)	decompiled	1400038c8-1400038fb	52	functions/1400038c8_FUN_1400038c8.c		8	0
+140003900	FUN_140003900	undefined __cdecl FUN_140003900(longlong param_1, undefined8 param_2, undefined8 param_3, ulonglong param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140003900-14000454b	3148	functions/140003900_FUN_140003900.c		576	0
+140004550	FUN_140004550	undefined __cdecl FUN_140004550(longlong param_1)	decompiled	140004550-140004927	984	functions/140004550_FUN_140004550.c		182	0
+140004950	FUN_140004950	bool __cdecl FUN_140004950(undefined8 param_1, int param_2, LPWSTR param_3, int param_4)	decompiled	140004950-14000497b	44	functions/140004950_FUN_140004950.c		4	0
+140004980	FUN_140004980	undefined8 __cdecl FUN_140004980(longlong param_1)	decompiled	140004980-140004987	8	functions/140004980_FUN_140004980.c		46	0
+140004988	FUN_140004988	undefined8 __cdecl FUN_140004988(longlong param_1)	decompiled	140004988-140004b5f	472	functions/140004988_FUN_140004988.c		46	0
+140004b60	FUN_140004b60	undefined8 __cdecl FUN_140004b60(longlong param_1, int param_2)	decompiled	140004b60-140004b63	4	functions/140004b60_FUN_140004b60.c		81	0
+140004b64	FUN_140004b64	undefined8 __cdecl FUN_140004b64(longlong param_1, int param_2)	decompiled	140004b64-140004cbf	348	functions/140004b64_FUN_140004b64.c		81	0
+140004cc0	FUN_140004cc0	undefined8 __cdecl FUN_140004cc0(longlong param_1, int param_2)	decompiled	140004cc0-140004f1b	604	functions/140004cc0_FUN_140004cc0.c		125	0
+140004f20	FUN_140004f20	undefined8 __cdecl FUN_140004f20(longlong param_1, int param_2)	decompiled	140004f20-140004f5f	64	functions/140004f20_FUN_140004f20.c		13	0
+140004f60	FUN_140004f60	undefined __cdecl FUN_140004f60(longlong param_1)	decompiled	140004f60-14000532f	976	functions/140004f60_FUN_140004f60.c		135	0
+140005330	FUN_140005330	undefined __cdecl FUN_140005330(longlong param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4, undefined1 * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140005330-1400053af	128	functions/140005330_FUN_140005330.c		24	0
+1400053b0	FUN_1400053b0	bool __cdecl FUN_1400053b0(undefined8 param_1, int param_2, LPWSTR param_3, int param_4)	decompiled	1400053b0-1400053db	44	functions/1400053b0_FUN_1400053b0.c		4	0
+1400053e0	FUN_1400053e0	undefined8 __cdecl FUN_1400053e0(longlong param_1)	decompiled	1400053e0-14000579b	956	functions/1400053e0_FUN_1400053e0.c		111	0
+1400057a0	FUN_1400057a0	undefined8 __cdecl FUN_1400057a0(longlong param_1, int param_2)	decompiled	1400057a0-140005aa7	776	functions/1400057a0_FUN_1400057a0.c		157	0
+140005aa8	FUN_140005aa8	undefined8 __cdecl FUN_140005aa8(longlong param_1, int param_2)	decompiled	140005aa8-140005aab	4	functions/140005aa8_FUN_140005aa8.c		20	0
+140005aac	FUN_140005aac	undefined8 __cdecl FUN_140005aac(longlong param_1, int param_2, undefined8 param_3, undefined8 param_4, undefined1 * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140005aac-140005b1b	112	functions/140005aac_FUN_140005aac.c		20	0
+140005b28	FUN_140005b28	undefined8 __cdecl FUN_140005b28(longlong param_1, int param_2)	decompiled	140005b28-140005b2b	4	functions/140005b28_FUN_140005b28.c		55	0
+140005b2c	FUN_140005b2c	undefined8 __cdecl FUN_140005b2c(longlong param_1, int param_2)	decompiled	140005b2c-140005c1f	244	functions/140005b2c_FUN_140005b2c.c		55	0
+140005c20	FUN_140005c20	undefined __cdecl FUN_140005c20(longlong param_1)	decompiled	140005c20-140006787	2920	functions/140005c20_FUN_140005c20.c		504	0
+140006788	FUN_140006788	undefined __cdecl FUN_140006788(longlong param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4, undefined1 * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140006788-140006d1f	1432	functions/140006788_FUN_140006788.c		264	0
+140006d38	FUN_140006d38	bool __cdecl FUN_140006d38(undefined8 param_1, int param_2, LPWSTR param_3, int param_4)	decompiled	140006d38-140006d63	44	functions/140006d38_FUN_140006d38.c		4	0
+140006d68	FUN_140006d68	undefined __cdecl FUN_140006d68(longlong param_1)	decompiled	140006d68-140006dcb	100	functions/140006d68_FUN_140006d68.c		6	0
+140006dd0	FUN_140006dd0	undefined8 __cdecl FUN_140006dd0(longlong param_1)	decompiled	140006dd0-140006dd7	8	functions/140006dd0_FUN_140006dd0.c		59	0
+140006dd8	FUN_140006dd8	undefined8 __cdecl FUN_140006dd8(longlong param_1)	decompiled	140006dd8-140006fe7	528	functions/140006dd8_FUN_140006dd8.c		59	0
+140006fe8	FUN_140006fe8	undefined8 __cdecl FUN_140006fe8(longlong param_1, int param_2)	decompiled	140006fe8-140007037	80	functions/140006fe8_FUN_140006fe8.c		15	0
+140007038	FUN_140007038	undefined8 __cdecl FUN_140007038(longlong param_1, int param_2)	decompiled	140007038-14000703b	4	functions/140007038_FUN_140007038.c		62	0
+14000703c	FUN_14000703c	undefined8 __cdecl FUN_14000703c(longlong param_1, int param_2)	decompiled	14000703c-140007173	312	functions/14000703c_FUN_14000703c.c		62	0
+140007178	FUN_140007178	undefined8 __cdecl FUN_140007178(longlong param_1, int param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140007178-1400072ff	392	functions/140007178_FUN_140007178.c		62	0
+140007300	FUN_140007300	undefined8 __cdecl FUN_140007300(longlong param_1, int param_2)	decompiled	140007300-140007303	4	functions/140007300_FUN_140007300.c		58	0
+140007304	FUN_140007304	undefined8 __cdecl FUN_140007304(longlong param_1, int param_2)	decompiled	140007304-14000740b	264	functions/140007304_FUN_140007304.c		58	0
+140007410	FUN_140007410	BOOL __cdecl FUN_140007410(longlong param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140007410-14000748f	128	functions/140007410_FUN_140007410.c		19	0
+140007490	FUN_140007490	undefined __cdecl FUN_140007490(longlong param_1)	decompiled	140007490-140007e77	2536	functions/140007490_FUN_140007490.c		383	0
+140007e78	FUN_140007e78	bool __cdecl FUN_140007e78(undefined8 param_1, int param_2, LPWSTR param_3, int param_4)	decompiled	140007e78-140007ea7	48	functions/140007e78_FUN_140007e78.c		4	0
+140007ea8	FUN_140007ea8	undefined8 __cdecl FUN_140007ea8(longlong param_1)	decompiled	140007ea8-140007eb3	12	functions/140007ea8_FUN_140007ea8.c		32	0
+140007eb4	FUN_140007eb4	undefined8 __cdecl FUN_140007eb4(longlong param_1)	decompiled	140007eb4-140007fdb	296	functions/140007eb4_FUN_140007eb4.c		32	0
+140007fe8	FUN_140007fe8	undefined8 __cdecl FUN_140007fe8(longlong param_1, int param_2)	decompiled	140007fe8-140007feb	4	functions/140007fe8_FUN_140007fe8.c		43	0
+140007fec	FUN_140007fec	undefined8 __cdecl FUN_140007fec(longlong param_1, int param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140007fec-1400080cb	224	functions/140007fec_FUN_140007fec.c		43	0
+1400080d0	FUN_1400080d0	undefined __cdecl FUN_1400080d0(longlong param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	1400080d0-1400082ff	560	functions/1400080d0_FUN_1400080d0.c		93	0
+140008300	FUN_140008300	undefined __cdecl FUN_140008300(longlong param_1)	decompiled	140008300-140008383	132	functions/140008300_FUN_140008300.c		19	0
+140008388	FUN_140008388	bool __cdecl FUN_140008388(undefined8 param_1, int param_2, LPWSTR param_3, int param_4)	decompiled	140008388-1400083b3	44	functions/140008388_FUN_140008388.c		4	0
+1400083b8	FUN_1400083b8	undefined8 __cdecl FUN_1400083b8(longlong param_1)	decompiled	1400083b8-1400083bb	4	functions/1400083b8_FUN_1400083b8.c		30	0
+1400083bc	FUN_1400083bc	undefined8 __cdecl FUN_1400083bc(longlong param_1)	decompiled	1400083bc-14000858b	464	functions/1400083bc_FUN_1400083bc.c		30	0
+140008590	FUN_140008590	undefined8 __cdecl FUN_140008590(longlong param_1, int param_2, undefined8 param_3, ulonglong param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140008590-14000876f	480	functions/140008590_FUN_140008590.c		98	0
+140008770	FUN_140008770	undefined8 __cdecl FUN_140008770(longlong param_1, int param_2)	decompiled	140008770-1400087af	64	functions/140008770_FUN_140008770.c		13	0
+1400087b0	FUN_1400087b0	undefined8 __cdecl FUN_1400087b0(longlong param_1, int param_2)	decompiled	1400087b0-1400088cf	288	functions/1400087b0_FUN_1400087b0.c		68	0
+1400088d0	FUN_1400088d0	undefined __cdecl FUN_1400088d0(longlong param_1, undefined8 param_2, undefined8 param_3, ulonglong param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	1400088d0-14000902f	1888	functions/1400088d0_FUN_1400088d0.c		332	0
+140009030	FUN_140009030	undefined __cdecl FUN_140009030(longlong param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4, undefined1 * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140009030-1400090af	128	functions/140009030_FUN_140009030.c		24	0
+1400090b0	FUN_1400090b0	undefined __cdecl FUN_1400090b0(undefined8 * param_1)	decompiled	1400090b0-1400091d3	292	functions/1400090b0_FUN_1400090b0.c		55	0
+140009210	FUN_140009210	ulonglong __cdecl FUN_140009210(undefined8 param_1, byte * param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140009210-14000932f	288	functions/140009210_FUN_140009210.c		42	0
+140009330	FUN_140009330	undefined __cdecl FUN_140009330(longlong param_1, undefined8 param_2, undefined8 param_3, ulonglong param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140009330-140009a7f	1872	functions/140009330_FUN_140009330.c		393	0
+140009a80	FUN_140009a80	undefined __cdecl FUN_140009a80(longlong param_1)	decompiled	140009a80-140009a93	20	functions/140009a80_FUN_140009a80.c		381	0
+140009a94	FUN_140009a94	undefined __cdecl FUN_140009a94(longlong param_1)	decompiled	140009a94-14000a647	2996	functions/140009a94_FUN_140009a94.c		381	0
+14000a648	FUN_14000a648	undefined __cdecl FUN_14000a648(longlong param_1, ulonglong param_2)	decompiled	14000a648-14000a72b	228	functions/14000a648_FUN_14000a648.c		27	0
+14000a740	FUN_14000a740	ulonglong __cdecl FUN_14000a740(ulonglong param_1, undefined8 param_2, undefined8 param_3, LPARAM param_4, undefined8 param_5, int * param_6, longlong param_7, undefined4 * param_8)	decompiled	14000a740-14000ac77	1336	functions/14000a740_FUN_14000a740.c		196	0
+14000ac78	FUN_14000ac78	undefined8 __cdecl FUN_14000ac78(undefined8 param_1, undefined2 * param_2, undefined2 * param_3)	decompiled	14000ac78-14000ad2b	180	functions/14000ac78_FUN_14000ac78.c		25	0
+14000ad30	FUN_14000ad30	undefined __cdecl FUN_14000ad30(longlong param_1, undefined8 * param_2, longlong param_3, char param_4)	decompiled	14000ad30-14000af5b	556	functions/14000ad30_FUN_14000ad30.c		85	0
+14000af60	FUN_14000af60	undefined __cdecl FUN_14000af60(ulonglong param_1, undefined8 * param_2, ulonglong param_3, ulonglong param_4, undefined8 param_5, int * param_6, longlong param_7, undefined4 * param_8)	decompiled	14000af60-14000b0b3	340	functions/14000af60_FUN_14000af60.c		49	0
+14000b0b8	FUN_14000b0b8	undefined __cdecl FUN_14000b0b8(longlong param_1, uint param_2, int * param_3)	decompiled	14000b0b8-14000b20b	340	functions/14000b0b8_FUN_14000b0b8.c		41	0
+14000b210	FUN_14000b210	BOOL __cdecl FUN_14000b210(ulonglong param_1)	decompiled	14000b210-14000b897	1672	functions/14000b210_FUN_14000b210.c		226	0
+14000b8a0	FUN_14000b8a0	undefined8 __cdecl FUN_14000b8a0(longlong param_1, undefined8 param_2, int param_3, undefined8 param_4, undefined8 * param_5)	decompiled	14000b8a0-14000b8a7	8	functions/14000b8a0_FUN_14000b8a0.c		45	0
+14000b8a8	FUN_14000b8a8	undefined8 __cdecl FUN_14000b8a8(longlong param_1, undefined8 param_2, int param_3, undefined8 param_4, undefined8 * param_5)	decompiled	14000b8a8-14000b9c3	284	functions/14000b8a8_FUN_14000b8a8.c		45	0
+14000b9c8	FUN_14000b9c8	undefined8 __cdecl FUN_14000b9c8(ulonglong param_1)	decompiled	14000b9c8-14000cc2b	4708	functions/14000b9c8_FUN_14000b9c8.c		764	0
+14000cc30	FUN_14000cc30	undefined __cdecl FUN_14000cc30(longlong param_1)	decompiled	14000cc30-14000cc33	4	functions/14000cc30_FUN_14000cc30.c		42	0
+14000cc34	FUN_14000cc34	undefined __cdecl FUN_14000cc34(longlong param_1)	decompiled	14000cc34-14000cd17	228	functions/14000cc34_FUN_14000cc34.c		42	0
+14000cd18	FUN_14000cd18	undefined8 __cdecl FUN_14000cd18(longlong param_1, uint param_2, int * param_3)	decompiled	14000cd18-14000cfc7	688	functions/14000cd18_FUN_14000cd18.c		114	0
+14000cfc8	FUN_14000cfc8	ulonglong __cdecl FUN_14000cfc8(tagPOINT param_1, undefined8 param_2, int param_3, int param_4)	decompiled	14000cfc8-14000d823	2140	functions/14000cfc8_FUN_14000cfc8.c		347	0
+14000d838	FUN_14000d838	undefined __cdecl FUN_14000d838(longlong * param_1, undefined8 param_2)	decompiled	14000d838-14000d95b	292	functions/14000d838_FUN_14000d838.c		58	0
+14000d968	FUN_14000d968	undefined8 __cdecl FUN_14000d968(longlong param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4, undefined2 * param_5, int * param_6, longlong param_7, undefined4 * param_8)	decompiled	14000d968-14000e4b7	2896	functions/14000d968_FUN_14000d968.c		479	0
+14000e4c0	FUN_14000e4c0	bool __cdecl FUN_14000e4c0(longlong param_1, undefined8 param_2, undefined8 param_3, LPARAM param_4, undefined8 param_5, int * param_6, longlong param_7, undefined4 * param_8)	decompiled	14000e4c0-14000e4eb	44	functions/14000e4c0_FUN_14000e4c0.c		7	0
+14000e4f0	FUN_14000e4f0	undefined8 __cdecl FUN_14000e4f0(longlong param_1, int param_2, undefined8 param_3, LPARAM param_4, undefined1 * param_5, int * param_6, longlong param_7, undefined4 * param_8)	decompiled	14000e4f0-14000e6e7	504	functions/14000e4f0_FUN_14000e4f0.c		88	0
+14000e6e8	FUN_14000e6e8	bool __cdecl FUN_14000e6e8(undefined8 param_1, UINT param_2, LPWSTR param_3, int param_4)	decompiled	14000e6e8-14000e70f	40	functions/14000e6e8_FUN_14000e6e8.c		3	0
+14000e710	FUN_14000e710	undefined8 * __cdecl FUN_14000e710(undefined8 * param_1)	decompiled	14000e710-14000ecef	1504	functions/14000e710_FUN_14000e710.c		182	0
+14000ecf8	FUN_14000ecf8	BOOL __cdecl FUN_14000ecf8(undefined8 * param_1)	decompiled	14000ecf8-14000ee87	400	functions/14000ecf8_FUN_14000ecf8.c		60	0
+14000ee88	FUN_14000ee88	undefined8 __cdecl FUN_14000ee88(void)	decompiled	14000ee88-14000f02f	424	functions/14000ee88_FUN_14000ee88.c		45	0
+14000f038	FUN_14000f038	undefined __cdecl FUN_14000f038(void)	decompiled	14000f038-14000f1a7	368	functions/14000f038_FUN_14000f038.c		42	0
+14000f1b0	entry	undefined __cdecl entry(void)	decompiled	14000f1b0-14000f1e7	56	functions/14000f1b0_entry.c		4	0
+14000f1f0	FUN_14000f1f0	undefined8 * __cdecl FUN_14000f1f0(undefined8 * param_1, LPCWSTR param_2, ulonglong param_3)	decompiled	14000f1f0-14000f25f	112	functions/14000f1f0_FUN_14000f1f0.c		13	0
+14000f260	FUN_14000f260	undefined8 * __cdecl FUN_14000f260(undefined8 * param_1, ulonglong param_2)	decompiled	14000f260-14000f263	4	functions/14000f260_FUN_14000f260.c		10	0
+14000f264	FUN_14000f264	undefined8 * __cdecl FUN_14000f264(undefined8 * param_1, ulonglong param_2)	decompiled	14000f264-14000f2bb	88	functions/14000f264_FUN_14000f264.c		10	0
+14000f2c0	FUN_14000f2c0	undefined __cdecl FUN_14000f2c0(undefined8 * param_1)	decompiled	14000f2c0-14000f2f3	52	functions/14000f2c0_FUN_14000f2c0.c		7	0
+14000f300	FUN_14000f300	undefined8 __cdecl FUN_14000f300(longlong param_1, LONG param_2, int param_3, DWORD * param_4)	decompiled	14000f300-14000f373	116	functions/14000f300_FUN_14000f300.c		20	0
+14000f380	FUN_14000f380	undefined8 __cdecl FUN_14000f380(longlong param_1, DWORD param_2, LPVOID param_3, DWORD * param_4)	decompiled	14000f380-14000f41f	160	functions/14000f380_FUN_14000f380.c		18	0
+14000f420	FUN_14000f420	undefined8 __cdecl FUN_14000f420(longlong param_1, DWORD param_2, LPCVOID param_3, DWORD * param_4)	decompiled	14000f420-14000f4bf	160	functions/14000f420_FUN_14000f420.c		18	0
+14000f4c0	FUN_14000f4c0	DWORD __cdecl FUN_14000f4c0(longlong param_1)	decompiled	14000f4c0-14000f4ff	64	functions/14000f4c0_FUN_14000f4c0.c		7	0
+14000f500	FUN_14000f500	undefined __cdecl FUN_14000f500(HWND param_1, UINT param_2, WPARAM param_3, LPARAM param_4)	decompiled	14000f500-14000f507	8	functions/14000f500_FUN_14000f500.c		10	0
+14000f508	FUN_14000f508	undefined __cdecl FUN_14000f508(HWND param_1, UINT param_2, WPARAM param_3, LPARAM param_4)	decompiled	14000f508-14000f587	128	functions/14000f508_FUN_14000f508.c		10	0
+14000f588	FUN_14000f588	ulonglong __cdecl FUN_14000f588(HWND param_1)	decompiled	14000f588-14000f5f7	112	functions/14000f588_FUN_14000f588.c		15	0
+14000f5f8	FUN_14000f5f8	ulonglong __cdecl FUN_14000f5f8(HWND param_1, int param_2, ulonglong param_3, HWND param_4)	decompiled	14000f5f8-14000fb3f	1352	functions/14000f5f8_FUN_14000f5f8.c		211	0
+14000fb48	FUN_14000fb48	undefined8 __cdecl FUN_14000fb48(longlong * param_1, longlong param_2, int param_3, undefined8 param_4, uint param_5)	decompiled	14000fb48-14000fb4b	4	functions/14000fb48_FUN_14000fb48.c		25	0
+14000fb4c	FUN_14000fb4c	undefined8 __cdecl FUN_14000fb4c(longlong * param_1, longlong param_2, int param_3, undefined8 param_4, uint param_5)	decompiled	14000fb4c-14000fbef	164	functions/14000fb4c_FUN_14000fb4c.c		25	0
+14000fbf0	FUN_14000fbf0	undefined8 __cdecl FUN_14000fbf0(longlong * param_1, longlong param_2, undefined8 param_3, undefined8 param_4, uint param_5)	decompiled	14000fbf0-14000fc47	88	functions/14000fbf0_FUN_14000fbf0.c		21	0
+14000fc58	FUN_14000fc58	BOOL __cdecl FUN_14000fc58(longlong param_1, int param_2, LPCSTR param_3)	decompiled	14000fc58-14000fca3	76	functions/14000fc58_FUN_14000fc58.c		6	0
+14000fca8	FUN_14000fca8	undefined __cdecl FUN_14000fca8(longlong param_1, int param_2, LPARAM param_3, ulonglong param_4)	decompiled	14000fca8-14000fcef	72	functions/14000fca8_FUN_14000fca8.c		5	0
+14000fcf0	FUN_14000fcf0	undefined __cdecl FUN_14000fcf0(longlong param_1, int param_2, ulonglong param_3)	decompiled	14000fcf0-14000fd33	68	functions/14000fcf0_FUN_14000fcf0.c		5	0
+14000fd38	FUN_14000fd38	LRESULT __cdecl FUN_14000fd38(longlong param_1, int param_2)	decompiled	14000fd38-14000fd77	64	functions/14000fd38_FUN_14000fd38.c		6	0
+14000fd78	FUN_14000fd78	undefined __cdecl FUN_14000fd78(longlong param_1, int param_2, ulonglong param_3)	decompiled	14000fd78-14000fdbb	68	functions/14000fd78_FUN_14000fd78.c		5	0
+14000fdc0	FUN_14000fdc0	int __cdecl FUN_14000fdc0(longlong param_1, undefined8 param_2, undefined8 param_3, LPARAM param_4, LPARAM param_5)	decompiled	14000fdc0-14000fe63	164	functions/14000fdc0_FUN_14000fdc0.c		14	0
+14000fe68	FUN_14000fe68	int __cdecl FUN_14000fe68(longlong param_1, int param_2, LPARAM param_3, LPARAM param_4)	decompiled	14000fe68-14000ff0b	164	functions/14000fe68_FUN_14000fe68.c		14	0
+14000ff10	FUN_14000ff10	int __cdecl FUN_14000ff10(longlong param_1, int param_2, LPARAM param_3, LPARAM param_4)	decompiled	14000ff10-14000ffb3	164	functions/14000ff10_FUN_14000ff10.c		14	0
+14000ffb8	FUN_14000ffb8	undefined __cdecl FUN_14000ffb8(longlong param_1, int param_2)	decompiled	14000ffb8-14000ffef	56	functions/14000ffb8_FUN_14000ffb8.c		4	0
+14000fff0	FUN_14000fff0	undefined __cdecl FUN_14000fff0(longlong param_1, int param_2, int param_3)	decompiled	14000fff0-140010033	68	functions/14000fff0_FUN_14000fff0.c		5	0
+140010038	FUN_140010038	undefined __cdecl FUN_140010038(longlong param_1, int param_2)	decompiled	140010038-14001006f	56	functions/140010038_FUN_140010038.c		4	0
+140010070	FUN_140010070	undefined __cdecl FUN_140010070(longlong param_1, int param_2)	decompiled	140010070-14001021b	428	functions/140010070_FUN_140010070.c		40	0
+140010220	FUN_140010220	undefined __cdecl FUN_140010220(longlong param_1, undefined8 param_2, tagPOINT * param_3, uint param_4)	decompiled	140010220-1400106d7	1208	functions/140010220_FUN_140010220.c		163	0
+1400106d8	FUN_1400106d8	undefined8 * __cdecl FUN_1400106d8(undefined8 * param_1, undefined4 param_2)	decompiled	1400106d8-140010727	80	functions/1400106d8_FUN_1400106d8.c		9	0
+140010728	FUN_140010728	undefined __cdecl FUN_140010728(longlong param_1, int param_2, int param_3)	decompiled	140010728-1400107e7	192	functions/140010728_FUN_140010728.c		16	0
+1400107e8	FUN_1400107e8	undefined __cdecl FUN_1400107e8(longlong param_1, int param_2)	decompiled	1400107e8-140010863	124	functions/1400107e8_FUN_1400107e8.c		11	0
+140010870	FUN_140010870	undefined8 * __cdecl FUN_140010870(undefined8 * param_1, undefined8 param_2, undefined4 param_3, undefined8 param_4)	decompiled	140010870-1400108c7	88	functions/140010870_FUN_140010870.c		8	0
+1400108c8	FUN_1400108c8	undefined8 __cdecl FUN_1400108c8(longlong param_1)	decompiled	1400108c8-14001093f	120	functions/1400108c8_FUN_1400108c8.c		16	0
+140010940	FUN_140010940	undefined __cdecl FUN_140010940(longlong * param_1)	decompiled	140010940-140010a53	276	functions/140010940_FUN_140010940.c		36	0
+140010a60	FUN_140010a60	undefined __cdecl FUN_140010a60(longlong * param_1, int param_2)	decompiled	140010a60-140010b27	200	functions/140010a60_FUN_140010a60.c		21	0
+140010b28	FUN_140010b28	bool __cdecl FUN_140010b28(longlong * param_1, int param_2, short param_3, undefined8 param_4, undefined1 * param_5)	decompiled	140010b28-140010b2b	4	functions/140010b28_FUN_140010b28.c		12	0
+140010b2c	FUN_140010b2c	bool __cdecl FUN_140010b2c(longlong * param_1, int param_2, short param_3, undefined8 param_4, undefined1 * param_5)	decompiled	140010b2c-140010b8b	96	functions/140010b2c_FUN_140010b2c.c		12	0
+140010b90	FUN_140010b90	undefined __cdecl FUN_140010b90(longlong param_1)	decompiled	140010b90-140010be3	84	functions/140010b90_FUN_140010b90.c		11	0
+140010be8	FUN_140010be8	undefined4 __cdecl FUN_140010be8(longlong * param_1, LPCWSTR param_2, uint param_3)	decompiled	140010be8-140010c6f	136	functions/140010be8_FUN_140010be8.c		15	0
+140010c70	FUN_140010c70	undefined8 * __cdecl FUN_140010c70(undefined8 * param_1, undefined8 param_2)	decompiled	140010c70-140010d2b	188	functions/140010c70_FUN_140010c70.c		22	0
+140010d30	FUN_140010d30	undefined __cdecl FUN_140010d30(undefined8 * param_1)	decompiled	140010d30-140010e1b	236	functions/140010d30_FUN_140010d30.c		41	0
+140010e20	FUN_140010e20	undefined4 __cdecl FUN_140010e20(undefined8 * param_1)	decompiled	140010e20-140011117	760	functions/140010e20_FUN_140010e20.c		108	0
+140011118	FUN_140011118	ulonglong __cdecl FUN_140011118(ulonglong param_1, uint param_2, int * param_3)	decompiled	140011118-1400119d3	2236	functions/140011118_FUN_140011118.c		357	0
+1400119d8	FUN_1400119d8	undefined8 __cdecl FUN_1400119d8(longlong param_1, uint param_2, ulonglong param_3, uint param_4)	decompiled	1400119d8-140011b4f	376	functions/1400119d8_FUN_1400119d8.c		76	0
+140011b50	FUN_140011b50	undefined __cdecl FUN_140011b50(longlong * param_1, ulonglong param_2, undefined8 param_3, undefined8 * param_4)	decompiled	140011b50-140011c5f	272	functions/140011b50_FUN_140011b50.c		26	0
+140011c60	FUN_140011c60	undefined8 * __cdecl FUN_140011c60(undefined4 param_1, undefined8 param_2)	decompiled	140011c60-140011faf	848	functions/140011c60_FUN_140011c60.c		106	0
+140011fb8	FUN_140011fb8	undefined __cdecl FUN_140011fb8(longlong param_1)	decompiled	140011fb8-140011ff7	64	functions/140011fb8_FUN_140011fb8.c		9	0
+140011ff8	FUN_140011ff8	undefined1 __cdecl FUN_140011ff8(longlong param_1)	decompiled	140011ff8-14001205b	100	functions/140011ff8_FUN_140011ff8.c		17	0
+140012060	FUN_140012060	undefined * __cdecl FUN_140012060(longlong param_1)	decompiled	140012060-140012063	4	functions/140012060_FUN_140012060.c		11	0
+140012064	FUN_140012064	undefined * __cdecl FUN_140012064(longlong param_1)	decompiled	140012064-1400120a3	64	functions/140012064_FUN_140012064.c		11	0
+1400120a8	FUN_1400120a8	undefined8 __cdecl FUN_1400120a8(longlong param_1)	decompiled	1400120a8-1400120ab	4	functions/1400120a8_FUN_1400120a8.c		11	0
+1400120ac	FUN_1400120ac	undefined8 __cdecl FUN_1400120ac(longlong param_1)	decompiled	1400120ac-1400120e7	60	functions/1400120ac_FUN_1400120ac.c		11	0
+1400120e8	FUN_1400120e8	undefined8 __cdecl FUN_1400120e8(longlong param_1)	decompiled	1400120e8-1400120eb	4	functions/1400120e8_FUN_1400120e8.c		11	0
+1400120ec	FUN_1400120ec	undefined8 __cdecl FUN_1400120ec(longlong param_1)	decompiled	1400120ec-140012127	60	functions/1400120ec_FUN_1400120ec.c		11	0
+140012128	FUN_140012128	undefined1 __cdecl FUN_140012128(longlong param_1)	decompiled	140012128-14001212b	4	functions/140012128_FUN_140012128.c		18	0
+14001212c	FUN_14001212c	undefined1 __cdecl FUN_14001212c(longlong param_1)	decompiled	14001212c-14001219f	116	functions/14001212c_FUN_14001212c.c		18	0
+1400121a0	FUN_1400121a0	undefined __cdecl FUN_1400121a0(longlong param_1)	decompiled	1400121a0-1400121a3	4	functions/1400121a0_FUN_1400121a0.c		10	0
+1400121a4	FUN_1400121a4	undefined __cdecl FUN_1400121a4(longlong param_1)	decompiled	1400121a4-1400121df	60	functions/1400121a4_FUN_1400121a4.c		10	0
+1400121e0	FUN_1400121e0	undefined8 __cdecl FUN_1400121e0(longlong param_1)	decompiled	1400121e0-1400121e3	4	functions/1400121e0_FUN_1400121e0.c		11	0
+1400121e4	FUN_1400121e4	undefined8 __cdecl FUN_1400121e4(longlong param_1)	decompiled	1400121e4-14001221f	60	functions/1400121e4_FUN_1400121e4.c		11	0
+140012220	FUN_140012220	undefined8 __cdecl FUN_140012220(longlong param_1, uint param_2, undefined2 * param_3)	decompiled	140012220-140012227	8	functions/140012220_FUN_140012220.c		24	0
+140012228	FUN_140012228	undefined8 __cdecl FUN_140012228(longlong param_1, uint param_2, undefined2 * param_3)	decompiled	140012228-1400122bb	148	functions/140012228_FUN_140012228.c		24	0
+1400122c0	FUN_1400122c0	undefined8 __cdecl FUN_1400122c0(longlong param_1, undefined4 param_2)	decompiled	1400122c0-1400122c3	4	functions/1400122c0_FUN_1400122c0.c		11	0
+1400122c4	FUN_1400122c4	undefined8 __cdecl FUN_1400122c4(longlong param_1, undefined4 param_2)	decompiled	1400122c4-140012307	68	functions/1400122c4_FUN_1400122c4.c		11	0
+140012308	FUN_140012308	undefined8 __cdecl FUN_140012308(longlong param_1, undefined4 param_2)	decompiled	140012308-14001230f	8	functions/140012308_FUN_140012308.c		41	0
+140012310	FUN_140012310	undefined8 __cdecl FUN_140012310(longlong param_1, undefined4 param_2)	decompiled	140012310-1400123d7	200	functions/140012310_FUN_140012310.c		41	0
+1400123d8	FUN_1400123d8	undefined8 __cdecl FUN_1400123d8(longlong param_1, undefined4 param_2)	decompiled	1400123d8-1400123db	4	functions/1400123d8_FUN_1400123d8.c		11	0
+1400123dc	FUN_1400123dc	undefined8 __cdecl FUN_1400123dc(longlong param_1, undefined4 param_2)	decompiled	1400123dc-14001241f	68	functions/1400123dc_FUN_1400123dc.c		11	0
+140012420	FUN_140012420	undefined8 __cdecl FUN_140012420(longlong param_1, uint param_2, uint param_3, undefined8 * param_4)	decompiled	140012420-140012503	228	functions/140012420_FUN_140012420.c		36	0
+140012508	FUN_140012508	undefined8 __cdecl FUN_140012508(longlong param_1, undefined4 param_2)	decompiled	140012508-14001250b	4	functions/140012508_FUN_140012508.c		15	0
+14001250c	FUN_14001250c	undefined8 __cdecl FUN_14001250c(longlong param_1, undefined4 param_2)	decompiled	14001250c-140012563	88	functions/14001250c_FUN_14001250c.c		15	0
+140012568	FUN_140012568	undefined8 __cdecl FUN_140012568(longlong param_1, undefined4 param_2, undefined4 param_3)	decompiled	140012568-14001256f	8	functions/140012568_FUN_140012568.c		15	0
+140012570	FUN_140012570	undefined8 __cdecl FUN_140012570(longlong param_1, undefined4 param_2, undefined4 param_3)	decompiled	140012570-1400125d3	100	functions/140012570_FUN_140012570.c		15	0
+1400125d8	FUN_1400125d8	undefined8 __cdecl FUN_1400125d8(longlong param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4)	decompiled	1400125d8-1400125df	8	functions/1400125d8_FUN_1400125d8.c		15	0
+1400125e0	FUN_1400125e0	undefined8 __cdecl FUN_1400125e0(longlong param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4)	decompiled	1400125e0-14001264b	108	functions/1400125e0_FUN_1400125e0.c		15	0
+140012650	FUN_140012650	undefined8 __cdecl FUN_140012650(longlong param_1, uint param_2, uint param_3, undefined4 param_4, undefined4 param_5, undefined4 * param_6)	decompiled	140012650-14001274f	256	functions/140012650_FUN_140012650.c		37	0
+140012768	FUN_140012768	undefined8 __cdecl FUN_140012768(longlong param_1)	decompiled	140012768-14001276f	8	functions/140012768_FUN_140012768.c		85	0
+140012770	FUN_140012770	undefined8 __cdecl FUN_140012770(longlong param_1)	decompiled	140012770-14001295b	492	functions/140012770_FUN_140012770.c		85	0
+140012960	FUN_140012960	undefined __cdecl FUN_140012960(longlong * param_1)	decompiled	140012960-14001299f	64	functions/140012960_FUN_140012960.c		10	0
+1400129a0	FUN_1400129a0	undefined4 __cdecl FUN_1400129a0(longlong param_1)	decompiled	1400129a0-140012bb7	536	functions/1400129a0_FUN_1400129a0.c		85	0
+140012bb8	FUN_140012bb8	undefined __cdecl FUN_140012bb8(longlong param_1)	decompiled	140012bb8-140012bbf	8	functions/140012bb8_FUN_140012bb8.c		61	0
+140012bc0	FUN_140012bc0	undefined __cdecl FUN_140012bc0(longlong param_1)	decompiled	140012bc0-140012ccf	272	functions/140012bc0_FUN_140012bc0.c		61	0
+140012d38	FUN_140012d38	undefined8 * __cdecl FUN_140012d38(undefined8 * param_1, undefined8 param_2, undefined8 * param_3)	decompiled	140012d38-140012e27	240	functions/140012d38_FUN_140012d38.c		42	0
+140012e28	FUN_140012e28	undefined8 * __cdecl FUN_140012e28(undefined8 * param_1, ulonglong param_2)	decompiled	140012e28-140012e2b	4	functions/140012e28_FUN_140012e28.c		7	0
+140012e2c	FUN_140012e2c	longlong * __cdecl FUN_140012e2c(longlong * param_1, ulonglong param_2)	decompiled	140012e2c-140012e73	72	functions/140012e2c_FUN_140012e2c.c		7	0
+140012f40	FUN_140012f40	ulonglong __cdecl FUN_140012f40(longlong param_1, int param_2)	decompiled	140012f40-1400131e7	680	functions/140012f40_FUN_140012f40.c		119	0
+1400131e8	FUN_1400131e8	undefined8 * __cdecl FUN_1400131e8(int param_1, ulonglong param_2)	decompiled	1400131e8-140013347	352	functions/1400131e8_FUN_1400131e8.c		46	0
+140013350	FUN_140013350	undefined8 * __cdecl FUN_140013350(undefined8 * param_1, ulonglong param_2)	decompiled	140013350-140013353	4	functions/140013350_FUN_140013350.c		5	0
+140013354	FUN_140013354	undefined8 * __cdecl FUN_140013354(undefined8 * param_1, ulonglong param_2)	decompiled	140013354-140013387	52	functions/140013354_FUN_140013354.c		5	0
+140013388	FUN_140013388	ulonglong __cdecl FUN_140013388(longlong param_1, int param_2)	decompiled	140013388-1400133bf	56	functions/140013388_FUN_140013388.c		11	0
+1400133c0	FUN_1400133c0	undefined __cdecl FUN_1400133c0(longlong param_1)	decompiled	1400133c0-140013473	180	functions/1400133c0_FUN_1400133c0.c		33	0
+140013478	FUN_140013478	undefined8 __cdecl FUN_140013478(longlong param_1)	decompiled	140013478-1400137b3	828	functions/140013478_FUN_140013478.c		167	0
+1400137c0	FUN_1400137c0	bool __cdecl FUN_1400137c0(longlong param_1, uint param_2, ulonglong param_3, undefined4 param_4)	decompiled	1400137c0-140013a43	644	functions/1400137c0_FUN_1400137c0.c		117	0
+140013a48	FUN_140013a48	undefined __cdecl FUN_140013a48(longlong param_1, ulonglong param_2, short * param_3)	decompiled	140013a48-140013aa7	96	functions/140013a48_FUN_140013a48.c		16	0
+140013aa8	FUN_140013aa8	undefined8 * __cdecl FUN_140013aa8(undefined8 * param_1)	decompiled	140013aa8-140013b4b	164	functions/140013aa8_FUN_140013aa8.c		30	0
+140013b50	FUN_140013b50	LPVOID __cdecl FUN_140013b50(LPVOID param_1, ulonglong param_2)	decompiled	140013b50-140013b53	4	functions/140013b50_FUN_140013b50.c		5	0
+140013b54	FUN_140013b54	undefined8 * __cdecl FUN_140013b54(undefined8 * param_1, ulonglong param_2)	decompiled	140013b54-140013b87	52	functions/140013b54_FUN_140013b54.c		5	0
+140013b88	FUN_140013b88	undefined __cdecl FUN_140013b88(longlong param_1, longlong param_2, longlong param_3, undefined * param_4)	decompiled	140013b88-140013bcf	72	functions/140013b88_FUN_140013b88.c		6	0
+140013bd0	FUN_140013bd0	undefined __cdecl FUN_140013bd0(undefined8 * param_1)	decompiled	140013bd0-140013c5b	140	functions/140013bd0_FUN_140013bd0.c		23	0
+140013cb0	FUN_140013cb0	undefined8 * __cdecl FUN_140013cb0(longlong param_1, undefined8 * param_2, ulonglong param_3, uint param_4)	decompiled	140013cb0-140013cb3	4	functions/140013cb0_FUN_140013cb0.c		8	0
+140013cb4	FUN_140013cb4	undefined8 * __cdecl FUN_140013cb4(longlong param_1, undefined8 * param_2, ulonglong param_3, uint param_4)	decompiled	140013cb4-140013cf3	64	functions/140013cb4_FUN_140013cb4.c		8	0
+140013cf8	FUN_140013cf8	ulonglong __cdecl FUN_140013cf8(longlong param_1, int param_2, uint param_3)	decompiled	140013cf8-140013d4b	84	functions/140013cf8_FUN_140013cf8.c		15	0
+140013d50	FUN_140013d50	undefined4 __cdecl FUN_140013d50(longlong param_1, undefined8 param_2, uint param_3, int param_4)	decompiled	140013d50-140013d57	8	functions/140013d50_FUN_140013d50.c		28	0
+140013d58	FUN_140013d58	undefined4 __cdecl FUN_140013d58(longlong param_1, int param_2, undefined8 param_3, int param_4)	decompiled	140013d58-140013ddf	136	functions/140013d58_FUN_140013d58.c		27	0
+140013de0	FUN_140013de0	undefined8 * __cdecl FUN_140013de0(longlong param_1, undefined8 * param_2, int param_3, ulonglong param_4, undefined8 param_5, uint param_6)	decompiled	140013de0-140013deb	12	functions/140013de0_FUN_140013de0.c		43	0
+140013dec	FUN_140013dec	undefined8 * __cdecl FUN_140013dec(longlong param_1, undefined8 * param_2, int param_3, ulonglong param_4, int param_5, uint param_6)	decompiled	140013dec-140013ecb	224	functions/140013dec_FUN_140013dec.c		43	0
+140013ed0	FUN_140013ed0	undefined8 __cdecl FUN_140013ed0(longlong * param_1, undefined4 * param_2)	decompiled	140013ed0-140013f7b	172	functions/140013ed0_FUN_140013ed0.c		29	0
+140013f80	FUN_140013f80	undefined8 __cdecl FUN_140013f80(longlong param_1)	decompiled	140013f80-140013f87	8	functions/140013f80_FUN_140013f80.c		97	0
+140013f88	FUN_140013f88	undefined8 __cdecl FUN_140013f88(longlong param_1)	decompiled	140013f88-1400141b3	556	functions/140013f88_FUN_140013f88.c		97	0
+1400141b8	FUN_1400141b8	undefined __cdecl FUN_1400141b8(longlong * param_1)	decompiled	1400141b8-1400141fb	68	functions/1400141b8_FUN_1400141b8.c		11	0
+140014200	FUN_140014200	int __cdecl FUN_140014200(longlong * param_1)	decompiled	140014200-140014207	8	functions/140014200_FUN_140014200.c		40	0
+140014208	FUN_140014208	int __cdecl FUN_140014208(longlong * param_1)	decompiled	140014208-1400142d7	208	functions/140014208_FUN_140014208.c		40	0
+1400142d8	FUN_1400142d8	undefined __cdecl FUN_1400142d8(longlong param_1)	decompiled	1400142d8-1400142df	8	functions/1400142d8_FUN_1400142d8.c		56	0
+1400142e0	FUN_1400142e0	undefined __cdecl FUN_1400142e0(longlong param_1)	decompiled	1400142e0-1400143db	252	functions/1400142e0_FUN_1400142e0.c		56	0
+140014400	FUN_140014400	undefined8 * __cdecl FUN_140014400(undefined8 * param_1, ulonglong param_2)	decompiled	140014400-140014403	4	functions/140014400_FUN_140014400.c		7	0
+140014404	FUN_140014404	longlong * __cdecl FUN_140014404(longlong * param_1, ulonglong param_2)	decompiled	140014404-14001444b	72	functions/140014404_FUN_140014404.c		7	0
+1400144f0	FUN_1400144f0	ulonglong __cdecl FUN_1400144f0(longlong param_1, uint param_2)	decompiled	1400144f0-140014657	360	functions/1400144f0_FUN_1400144f0.c		67	0
+140014658	FUN_140014658	undefined8 * __cdecl FUN_140014658(void)	decompiled	140014658-14001465f	8	functions/140014658_FUN_140014658.c		80	0
+140014660	FUN_140014660	undefined8 * __cdecl FUN_140014660(void)	decompiled	140014660-14001482f	464	functions/140014660_FUN_140014660.c		80	0
+140014830	FUN_140014830	undefined8 * __cdecl FUN_140014830(undefined8 * param_1, ulonglong param_2)	decompiled	140014830-140014867	56	functions/140014830_FUN_140014830.c		5	0
+140014868	FUN_140014868	undefined __cdecl FUN_140014868(undefined8 * param_1)	decompiled	140014868-1400148af	72	functions/140014868_FUN_140014868.c		7	0
+1400148b0	FUN_1400148b0	undefined __cdecl FUN_1400148b0(undefined8 * param_1)	decompiled	1400148b0-1400148b3	4	functions/1400148b0_FUN_1400148b0.c		6	0
+1400148b4	FUN_1400148b4	undefined __cdecl FUN_1400148b4(undefined8 * param_1)	decompiled	1400148b4-1400148e3	48	functions/1400148b4_FUN_1400148b4.c		6	0
+1400148e8	FUN_1400148e8	undefined8 * __cdecl FUN_1400148e8(undefined8 * param_1)	decompiled	1400148e8-14001492f	72	functions/1400148e8_FUN_1400148e8.c		10	0
+140014930	FUN_140014930	undefined8 * __cdecl FUN_140014930(undefined8 * param_1, ulonglong param_2)	decompiled	140014930-140014933	4	functions/140014930_FUN_140014930.c		8	0
+140014934	FUN_140014934	undefined8 * __cdecl FUN_140014934(undefined8 * param_1, ulonglong param_2)	decompiled	140014934-14001497b	72	functions/140014934_FUN_140014934.c		8	0
+140014980	FUN_140014980	ulonglong __cdecl FUN_140014980(ulonglong param_1)	decompiled	140014980-1400149eb	108	functions/140014980_FUN_140014980.c		18	0
+1400149f0	FUN_1400149f0	undefined8 __cdecl FUN_1400149f0(longlong param_1)	decompiled	1400149f0-140014c33	580	functions/1400149f0_FUN_1400149f0.c		117	0
+140014c38	FUN_140014c38	undefined8 __cdecl FUN_140014c38(longlong param_1, ulonglong param_2, int param_3)	decompiled	140014c38-140014f1f	744	functions/140014c38_FUN_140014c38.c		128	0
+140014f20	FUN_140014f20	undefined8 * __cdecl FUN_140014f20(undefined8 * param_1, ulonglong param_2)	decompiled	140014f20-140014f57	56	functions/140014f20_FUN_140014f20.c		5	0
+140014f58	FUN_140014f58	undefined __cdecl FUN_140014f58(undefined8 * param_1)	decompiled	140014f58-140014fa3	76	functions/140014f58_FUN_140014f58.c		8	0
+140014fa8	FUN_140014fa8	undefined8 * __cdecl FUN_140014fa8(void)	decompiled	140014fa8-140014faf	8	functions/140014fa8_FUN_140014fa8.c		91	0
+140014fb0	FUN_140014fb0	undefined8 * __cdecl FUN_140014fb0(void)	decompiled	140014fb0-1400151bf	528	functions/140014fb0_FUN_140014fb0.c		91	0
+1400151c0	FUN_1400151c0	undefined8 __cdecl FUN_1400151c0(byte * param_1, byte * param_2, byte * param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	1400151c0-14001523b	124	functions/1400151c0_FUN_1400151c0.c		14	0
+140015240	FUN_140015240	undefined8 __cdecl FUN_140015240(undefined8 * param_1, undefined4 param_2)	decompiled	140015240-14001533f	256	functions/140015240_FUN_140015240.c		39	0
+140015340	FUN_140015340	undefined8 __cdecl FUN_140015340(byte * param_1, int * param_2, int * param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140015340-14001552b	492	functions/140015340_FUN_140015340.c		60	0
+140015530	FUN_140015530	undefined8 __cdecl FUN_140015530(byte * param_1, uint * param_2, int * param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140015530-140015783	596	functions/140015530_FUN_140015530.c		97	0
+140015790	FUN_140015790	undefined __cdecl FUN_140015790(uint param_1, uint param_2, LPSTR param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140015790-14001582b	156	functions/140015790_FUN_140015790.c		25	0
+140015870	FUN_140015870	ulonglong __cdecl FUN_140015870(undefined8 param_1, undefined8 param_2, undefined4 * param_3)	decompiled	140015870-140015a37	456	functions/140015870_FUN_140015870.c		70	0
+140015a38	FUN_140015a38	uint __cdecl FUN_140015a38(undefined8 param_1, undefined8 param_2, char * param_3)	decompiled	140015a38-140015aef	184	functions/140015a38_FUN_140015a38.c		17	0
+140015af0	FUN_140015af0	undefined8 * __cdecl FUN_140015af0(undefined8 * param_1, ulonglong param_2)	decompiled	140015af0-140015af3	4	functions/140015af0_FUN_140015af0.c		5	0
+140015af4	FUN_140015af4	undefined8 * __cdecl FUN_140015af4(undefined8 * param_1, ulonglong param_2)	decompiled	140015af4-140015b27	52	functions/140015af4_FUN_140015af4.c		5	0
+140015b28	FUN_140015b28	LPVOID __cdecl FUN_140015b28(LPVOID param_1, ulonglong param_2)	decompiled	140015b28-140015b2b	4	functions/140015b28_FUN_140015b28.c		5	0
+140015b2c	FUN_140015b2c	undefined8 * __cdecl FUN_140015b2c(undefined8 * param_1, ulonglong param_2)	decompiled	140015b2c-140015b5f	52	functions/140015b2c_FUN_140015b2c.c		5	0
+140015b60	FUN_140015b60	undefined __cdecl FUN_140015b60(undefined8 * param_1)	decompiled	140015b60-140015ba7	72	functions/140015b60_FUN_140015b60.c		8	0
+140015ba8	FUN_140015ba8	longlong __cdecl FUN_140015ba8(longlong param_1)	decompiled	140015ba8-140015c2b	132	functions/140015ba8_FUN_140015ba8.c		23	0
+140015c30	FUN_140015c30	uint __cdecl FUN_140015c30(longlong param_1, undefined8 * param_2, undefined4 param_3)	decompiled	140015c30-1400161c3	1428	functions/140015c30_FUN_140015c30.c		261	0
+1400161c8	FUN_1400161c8	undefined1 __cdecl FUN_1400161c8(longlong param_1)	decompiled	1400161c8-140016217	80	functions/1400161c8_FUN_1400161c8.c		10	0
+140016218	FUN_140016218	int __cdecl FUN_140016218(longlong param_1)	decompiled	140016218-1400162f7	224	functions/140016218_FUN_140016218.c		39	0
+140016308	FUN_140016308	char __cdecl FUN_140016308(longlong param_1)	decompiled	140016308-140016677	880	functions/140016308_FUN_140016308.c		171	0
+140016690	FUN_140016690	byte __cdecl FUN_140016690(longlong param_1)	decompiled	140016690-14001690b	636	functions/140016690_FUN_140016690.c		111	0
+140016910	FUN_140016910	ulonglong __cdecl FUN_140016910(longlong param_1)	decompiled	140016910-140016a4b	316	functions/140016910_FUN_140016910.c		55	0
+140016a50	FUN_140016a50	bool __cdecl FUN_140016a50(longlong param_1)	decompiled	140016a50-140016ca7	600	functions/140016a50_FUN_140016a50.c		110	0
+140016ca8	FUN_140016ca8	undefined __cdecl FUN_140016ca8(longlong param_1)	decompiled	140016ca8-140016cab	4	functions/140016ca8_FUN_140016ca8.c		5	0
+140016cac	FUN_140016cac	undefined __cdecl FUN_140016cac(longlong param_1)	decompiled	140016cac-140016cd3	40	functions/140016cac_FUN_140016cac.c		5	0
+140016cd8	FUN_140016cd8	bool __cdecl FUN_140016cd8(longlong param_1, ulonglong param_2, uint param_3)	decompiled	140016cd8-140016e1f	328	functions/140016cd8_FUN_140016cd8.c		61	0
+140016e20	FUN_140016e20	bool __cdecl FUN_140016e20(longlong param_1, undefined8 param_2, uint param_3)	decompiled	140016e20-140016f7b	348	functions/140016e20_FUN_140016e20.c		65	0
+140016f80	FUN_140016f80	int __cdecl FUN_140016f80(longlong param_1, undefined8 * param_2, uint param_3)	decompiled	140016f80-14001703f	192	functions/140016f80_FUN_140016f80.c		32	0
+140017040	FUN_140017040	uint __cdecl FUN_140017040(longlong param_1, LPCSTR param_2, undefined4 param_3)	decompiled	140017040-1400170bf	128	functions/140017040_FUN_140017040.c		8	0
+1400170c0	FUN_1400170c0	uint __cdecl FUN_1400170c0(longlong param_1, LPCWSTR param_2, undefined4 param_3)	decompiled	1400170c0-14001713f	128	functions/1400170c0_FUN_1400170c0.c		8	0
+140017140	FUN_140017140	uint __cdecl FUN_140017140(longlong param_1, undefined8 param_2, undefined4 param_3)	decompiled	140017140-140017163	36	functions/140017140_FUN_140017140.c		4	0
+140017170	FUN_140017170	undefined4 __cdecl FUN_140017170(longlong param_1)	decompiled	140017170-140017177	8	functions/140017170_FUN_140017170.c		2	0
+140017178	FUN_140017178	longlong __cdecl FUN_140017178(longlong param_1, ulonglong param_2)	decompiled	140017178-1400171a7	48	functions/140017178_FUN_140017178.c		11	0
+1400171f0	FUN_1400171f0	undefined4 __cdecl FUN_1400171f0(longlong param_1, ulonglong param_2, ulonglong param_3)	decompiled	1400171f0-140017217	40	functions/1400171f0_FUN_1400171f0.c		8	0
+140017218	FUN_140017218	longlong __cdecl FUN_140017218(longlong param_1, ulonglong param_2, ulonglong param_3, uint param_4)	decompiled	140017218-14001724b	52	functions/140017218_FUN_140017218.c		11	0
+140017250	FUN_140017250	undefined8 __cdecl FUN_140017250(longlong param_1, ulonglong param_2, ulonglong param_3, uint param_4, uint * param_5)	decompiled	140017250-1400172d7	136	functions/140017250_FUN_140017250.c		25	0
+140017370	FUN_140017370	undefined8 __cdecl FUN_140017370(longlong param_1, ulonglong param_2, ulonglong param_3, uint param_4, uint * param_5)	decompiled	140017370-1400173fb	140	functions/140017370_FUN_140017370.c		26	0
+140017400	FUN_140017400	undefined8 __cdecl FUN_140017400(longlong * param_1, undefined4 * param_2)	decompiled	140017400-14001750f	272	functions/140017400_FUN_140017400.c		49	0
+140017510	FUN_140017510	undefined __cdecl FUN_140017510(longlong * param_1)	decompiled	140017510-1400175af	160	functions/140017510_FUN_140017510.c		16	0
+1400175b0	FUN_1400175b0	undefined4 * __cdecl FUN_1400175b0(undefined4 * param_1, undefined4 * param_2)	decompiled	1400175b0-1400176e3	308	functions/1400175b0_FUN_1400175b0.c		57	0
+1400176e8	FUN_1400176e8	longlong __cdecl FUN_1400176e8(longlong param_1)	decompiled	1400176e8-140017787	160	functions/1400176e8_FUN_1400176e8.c		15	0
+140017788	FUN_140017788	undefined4 * __cdecl FUN_140017788(undefined4 * param_1, undefined4 * param_2)	decompiled	140017788-140017863	220	functions/140017788_FUN_140017788.c		46	0
+140017868	FUN_140017868	undefined8 __cdecl FUN_140017868(undefined8 param_1, longlong * param_2, undefined4 param_3, undefined4 param_4, undefined1 * param_5, int param_6)	decompiled	140017868-14001794b	228	functions/140017868_FUN_140017868.c		23	0
+140017950	FUN_140017950	bool __cdecl FUN_140017950(byte * param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4, undefined4 * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140017950-1400179e7	152	functions/140017950_FUN_140017950.c		13	0
+1400179e8	FUN_1400179e8	char __cdecl FUN_1400179e8(undefined8 param_1, longlong * param_2, undefined4 param_3, undefined4 param_4, int * param_5, int * param_6, undefined8 param_7, undefined4 * param_8, uint param_9, undefined8 param_10, uint param_11)	decompiled	1400179e8-140017bf3	524	functions/1400179e8_FUN_1400179e8.c		58	0
+140017bf8	FUN_140017bf8	undefined8 __cdecl FUN_140017bf8(undefined8 param_1, longlong * param_2, undefined4 param_3, undefined4 param_4, undefined4 * param_5, int param_6)	decompiled	140017bf8-140017cff	264	functions/140017bf8_FUN_140017bf8.c		33	0
+140017d00	FUN_140017d00	uint __cdecl FUN_140017d00(undefined8 param_1, undefined4 * param_2, longlong * param_3, undefined4 param_4, uint param_5)	decompiled	140017d00-140018367	1640	functions/140017d00_FUN_140017d00.c		237	0
+140018368	FUN_140018368	uint __cdecl FUN_140018368(undefined8 param_1, longlong param_2, longlong * param_3, undefined4 param_4, uint param_5)	decompiled	140018368-140018927	1472	functions/140018368_FUN_140018368.c		212	0
+140018928	FUN_140018928	uint __cdecl FUN_140018928(undefined8 param_1, longlong param_2, longlong * param_3, undefined4 param_4, int * param_5, int * param_6, longlong param_7, undefined4 * param_8)	decompiled	140018928-1400190db	1972	functions/140018928_FUN_140018928.c		296	0
+1400190e0	FUN_1400190e0	uint __cdecl FUN_1400190e0(undefined8 param_1, longlong param_2, longlong * param_3, undefined4 param_4, uint * param_5, ulonglong param_6, undefined8 param_7, undefined8 param_8)	decompiled	1400190e0-140019e03	3364	functions/1400190e0_FUN_1400190e0.c		524	0
+140019e08	FUN_140019e08	uint __cdecl FUN_140019e08(undefined8 param_1, longlong param_2, longlong * param_3, undefined4 param_4, char * param_5, ulonglong param_6, undefined8 param_7, undefined8 param_8)	decompiled	140019e08-14001a8f7	2800	functions/140019e08_FUN_140019e08.c		431	0
+14001a8f8	FUN_14001a8f8	undefined8 __cdecl FUN_14001a8f8(undefined8 param_1, longlong * param_2, undefined4 param_3, undefined4 param_4, undefined4 * param_5, int param_6)	decompiled	14001a8f8-14001a997	160	functions/14001a8f8_FUN_14001a8f8.c		22	0
+14001a998	FUN_14001a998	uint __cdecl FUN_14001a998(undefined4 * param_1, longlong * param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5, int * param_6, longlong param_7, undefined4 * param_8)	decompiled	14001a998-14001b08f	1784	functions/14001a998_FUN_14001a998.c		251	0
+14001b090	FUN_14001b090	undefined1 * __cdecl FUN_14001b090(undefined8 * param_1, char * param_2)	decompiled	14001b090-14001b0df	80	functions/14001b090_FUN_14001b090.c		7	0
+14001b0e0	FUN_14001b0e0	undefined __cdecl FUN_14001b0e0(undefined8 * param_1, uint param_2, uint param_3, undefined8 param_4, undefined8 param_5, ulonglong param_6, undefined8 param_7, undefined8 param_8)	decompiled	14001b0e0-14001b2ab	460	functions/14001b0e0_FUN_14001b0e0.c		79	0
+14001b2b0	FUN_14001b2b0	undefined __cdecl FUN_14001b2b0(undefined8 * param_1, int param_2)	decompiled	14001b2b0-14001b32f	128	functions/14001b2b0_FUN_14001b2b0.c		25	0
+14001b330	FUN_14001b330	undefined __cdecl FUN_14001b330(undefined8 * param_1, int param_2)	decompiled	14001b330-14001b373	68	functions/14001b330_FUN_14001b330.c		13	0
+14001b378	FUN_14001b378	undefined __cdecl FUN_14001b378(undefined8 * param_1, longlong param_2, uint param_3, uint param_4)	decompiled	14001b378-14001b44f	216	functions/14001b378_FUN_14001b378.c		32	0
+14001b450	FUN_14001b450	uint __cdecl FUN_14001b450(uint * param_1, longlong * param_2, char * param_3, ulonglong param_4, ulonglong param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	14001b450-14001cbe3	6036	functions/14001b450_FUN_14001b450.c		1038	0
+14001cbe8	FUN_14001cbe8	undefined8 __cdecl FUN_14001cbe8(longlong * param_1, undefined8 * param_2)	decompiled	14001cbe8-14001cc93	172	functions/14001cbe8_FUN_14001cbe8.c		29	0
+14001cc98	FUN_14001cc98	undefined8 __cdecl FUN_14001cc98(int * param_1, longlong * param_2)	decompiled	14001cc98-14001ee57	8640	functions/14001cc98_FUN_14001cc98.c		1376	0
+14001eec8	FUN_14001eec8	bool __cdecl FUN_14001eec8(undefined8 param_1, longlong * param_2)	decompiled	14001eec8-14001ef47	128	functions/14001eec8_FUN_14001eec8.c		15	0
+14001ef50	FUN_14001ef50	undefined8 __cdecl FUN_14001ef50(uint param_1, uint param_2)	decompiled	14001ef50-14001ef9b	76	functions/14001ef50_FUN_14001ef50.c		10	0
+14001efa0	FUN_14001efa0	uint __cdecl FUN_14001efa0(longlong param_1, undefined8 param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	14001efa0-14001f66b	1740	functions/14001efa0_FUN_14001efa0.c		171	0
+14001f690	FUN_14001f690	undefined __cdecl FUN_14001f690(undefined4 * param_1, undefined4 * param_2)	decompiled	14001f690-14001fadf	1104	functions/14001f690_FUN_14001f690.c		259	0
+14001fae0	FUN_14001fae0	undefined __cdecl FUN_14001fae0(undefined4 * param_1, undefined4 * param_2)	decompiled	14001fae0-14001ff27	1096	functions/14001fae0_FUN_14001fae0.c		257	0
+14001ff28	FUN_14001ff28	undefined __cdecl FUN_14001ff28(undefined4 * param_1, undefined4 * param_2)	decompiled	14001ff28-14002035f	1080	functions/14001ff28_FUN_14001ff28.c		253	0
+140020360	FUN_140020360	undefined __cdecl FUN_140020360(undefined4 * param_1, undefined4 * param_2)	decompiled	140020360-1400207a3	1092	functions/140020360_FUN_140020360.c		256	0
+1400207a8	FUN_1400207a8	undefined __cdecl FUN_1400207a8(undefined4 * param_1, undefined4 * param_2)	decompiled	1400207a8-140020bdf	1080	functions/1400207a8_FUN_1400207a8.c		252	0
+140020be0	FUN_140020be0	undefined __cdecl FUN_140020be0(undefined4 * param_1, undefined4 * param_2)	decompiled	140020be0-14002101f	1088	functions/140020be0_FUN_140020be0.c		253	0
+140021020	FUN_140021020	undefined __cdecl FUN_140021020(undefined4 * param_1, undefined4 * param_2)	decompiled	140021020-140021453	1076	functions/140021020_FUN_140021020.c		249	0
+140021458	FUN_140021458	undefined __cdecl FUN_140021458(undefined4 * param_1, undefined4 * param_2)	decompiled	140021458-140021893	1084	functions/140021458_FUN_140021458.c		250	0
+140021898	FUN_140021898	undefined __cdecl FUN_140021898(undefined4 * param_1, undefined4 * param_2)	decompiled	140021898-140021cb3	1052	functions/140021898_FUN_140021898.c		242	0
+140021cb8	FUN_140021cb8	undefined __cdecl FUN_140021cb8(undefined4 * param_1, undefined4 * param_2)	decompiled	140021cb8-1400220d3	1052	functions/140021cb8_FUN_140021cb8.c		241	0
+1400220d8	FUN_1400220d8	undefined __cdecl FUN_1400220d8(undefined4 * param_1, undefined4 * param_2)	decompiled	1400220d8-1400224e3	1036	functions/1400220d8_FUN_1400220d8.c		238	0
+1400224e8	FUN_1400224e8	undefined __cdecl FUN_1400224e8(undefined4 * param_1, undefined4 * param_2)	decompiled	1400224e8-1400228eb	1028	functions/1400224e8_FUN_1400224e8.c		236	0
+1400228f0	FUN_1400228f0	undefined __cdecl FUN_1400228f0(int * param_1, int * param_2)	decompiled	1400228f0-140022cff	1040	functions/1400228f0_FUN_1400228f0.c		238	0
+140022d00	FUN_140022d00	undefined __cdecl FUN_140022d00(undefined4 * param_1, undefined4 * param_2)	decompiled	140022d00-1400230fb	1020	functions/140022d00_FUN_140022d00.c		231	0
+140023100	FUN_140023100	undefined __cdecl FUN_140023100(undefined4 * param_1, undefined4 * param_2)	decompiled	140023100-1400234e3	996	functions/140023100_FUN_140023100.c		225	0
+1400234e8	FUN_1400234e8	undefined __cdecl FUN_1400234e8(undefined4 * param_1, undefined4 * param_2)	decompiled	1400234e8-1400238bb	980	functions/1400234e8_FUN_1400234e8.c		220	0
+1400238c0	FUN_1400238c0	undefined __cdecl FUN_1400238c0(undefined4 * param_1, undefined4 * param_2)	decompiled	1400238c0-140023c97	984	functions/1400238c0_FUN_1400238c0.c		223	0
+140023c98	FUN_140023c98	undefined __cdecl FUN_140023c98(undefined4 * param_1, undefined4 * param_2)	decompiled	140023c98-14002406f	984	functions/140023c98_FUN_140023c98.c		223	0
+140024070	FUN_140024070	undefined __cdecl FUN_140024070(undefined4 * param_1, undefined4 * param_2)	decompiled	140024070-140024437	968	functions/140024070_FUN_140024070.c		218	0
+140024438	FUN_140024438	undefined __cdecl FUN_140024438(undefined4 * param_1, undefined4 * param_2)	decompiled	140024438-1400247ef	952	functions/140024438_FUN_140024438.c		212	0
+1400247f0	FUN_1400247f0	undefined __cdecl FUN_1400247f0(SIZE_T param_1)	decompiled	1400247f0-14002482b	60	functions/1400247f0_FUN_1400247f0.c		3	0
+140024830	FUN_140024830	undefined __cdecl FUN_140024830(LPVOID param_1)	decompiled	140024830-14002486f	64	functions/140024830_FUN_140024830.c		5	0
+140024870	thunk_FUN_1400247f0	undefined __cdecl thunk_FUN_1400247f0(SIZE_T param_1)	decompiled	140024870-140024873	4	functions/140024870_thunk_FUN_1400247f0.c		3	0
+140024878	thunk_FUN_140024830	undefined __cdecl thunk_FUN_140024830(LPVOID param_1)	decompiled	140024878-14002487b	4	functions/140024878_thunk_FUN_140024830.c		5	0
+140024880	FUN_140024880	undefined __cdecl FUN_140024880(LPSTR param_1, LPCSTR param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	140024880-1400248af	48	functions/140024880_FUN_140024880.c		3	0
+1400248b0	FUN_1400248b0	int __cdecl FUN_1400248b0(byte * param_1, byte * param_2, undefined8 param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)	decompiled	1400248b0-140024c57	936	functions/1400248b0_FUN_1400248b0.c		165	0
+140024c68	FUN_140024c68	int __cdecl FUN_140024c68(int param_1)	decompiled	140024c68-140024c7b	20	functions/140024c68_FUN_140024c68.c		4	0
+140024c80	FUN_140024c80	undefined8 __cdecl FUN_140024c80(int param_1)	decompiled	140024c80-140024ca3	36	functions/140024c80_FUN_140024c80.c		7	0
+140024ca8	FUN_140024ca8	undefined __cdecl FUN_140024ca8(byte * param_1, undefined8 * param_2, uint param_3)	decompiled	140024ca8-140024caf	8	functions/140024ca8_FUN_140024ca8.c		1	0
+140024cb0	FUN_140024cb0	undefined __cdecl FUN_140024cb0(byte * param_1, undefined8 * param_2, uint param_3)	decompiled	140024cb0-140024cb7	8	functions/140024cb0_FUN_140024cb0.c		1	0
+140024cb8	FUN_140024cb8	undefined __cdecl FUN_140024cb8(char * param_1, char * param_2)	decompiled	140024cb8-140024cdb	36	functions/140024cb8_FUN_140024cb8.c		7	0
+140024ce0	FUN_140024ce0	uint __cdecl FUN_140024ce0(byte * param_1, byte * param_2)	decompiled	140024ce0-140024d1b	60	functions/140024ce0_FUN_140024ce0.c		15	0
+140024d20	FUN_140024d20	longlong __cdecl FUN_140024d20(char * param_1)	decompiled	140024d20-140024d3b	28	functions/140024d20_FUN_140024d20.c		7	0
+140024d40	FUN_140024d40	uint __cdecl FUN_140024d40(byte * param_1, undefined8 * param_2, uint param_3)	decompiled	140024d40-140024d47	8	functions/140024d40_FUN_140024d40.c		1	0
+140024d48	FUN_140024d48	uint __cdecl FUN_140024d48(byte * param_1, undefined8 * param_2, uint param_3)	decompiled	140024d48-140024d4f	8	functions/140024d48_FUN_140024d48.c		1	0
+140024d50	FUN_140024d50	uint __cdecl FUN_140024d50(byte * param_1, undefined8 * param_2, uint param_3, uint param_4)	decompiled	140024d50-140024f6b	540	functions/140024d50_FUN_140024d50.c		98	0
+140024f70	FUN_140024f70	ulonglong __cdecl FUN_140024f70(byte * param_1, undefined8 * param_2, uint param_3, uint param_4)	decompiled	140024f70-1400251a3	564	functions/140024f70_FUN_140024f70.c		104	0
+1400251a8	FUN_1400251a8	uint __cdecl FUN_1400251a8(ushort * param_1, ushort * param_2)	decompiled	1400251a8-1400251e3	60	functions/1400251a8_FUN_1400251a8.c		15	0
+1400251e8	FUN_1400251e8	undefined __cdecl FUN_1400251e8(short * param_1, short * param_2)	decompiled	1400251e8-1400251fb	20	functions/1400251e8_FUN_1400251e8.c		5	0
+140025200	FUN_140025200	int __cdecl FUN_140025200(byte * param_1, byte * param_2, longlong param_3)	decompiled	140025200-140025243	68	functions/140025200_FUN_140025200.c		15	0
+140025248	thunk_FUN_140001000	undefined __cdecl thunk_FUN_140001000(undefined8 * param_1, undefined8 * param_2, ulonglong param_3)	decompiled	140025248-14002524b	4	functions/140025248_thunk_FUN_140001000.c		154	0
+140025250	FUN_140025250	undefined1 * __cdecl FUN_140025250(undefined1 * param_1, undefined1 param_2, longlong param_3)	decompiled	140025250-14002526b	28	functions/140025250_FUN_140025250.c		6	0
+140025270	FUN_140025270	undefined8 __cdecl FUN_140025270(undefined8 param_1)	decompiled	140025270-1400252ab	60	functions/140025270_FUN_140025270.c		8	0
+1400252b0	FUN_1400252b0	undefined __cdecl FUN_1400252b0(LPVOID param_1)	decompiled	1400252b0-1400252eb	60	functions/1400252b0_FUN_1400252b0.c		3	0
+1400252f0	FUN_1400252f0	int __cdecl FUN_1400252f0(int param_1)	decompiled	1400252f0-140025303	20	functions/1400252f0_FUN_1400252f0.c		4	0
+140025308	FUN_140025308	undefined __cdecl FUN_140025308(void)	decompiled	140025308-14002530b	4	functions/140025308_FUN_140025308.c		4	0
+14002530c	FUN_14002530c	undefined __cdecl FUN_14002530c(void)	decompiled	14002530c-14002533f	52	functions/14002530c_FUN_14002530c.c		4	0
+140025340	FUN_140025340	undefined __cdecl FUN_140025340(void)	decompiled	140025340-140025343	4	functions/140025340_FUN_140025340.c		4	0
+140025344	FUN_140025344	undefined __cdecl FUN_140025344(void)	decompiled	140025344-140025377	52	functions/140025344_FUN_140025344.c		4	0
+140025378	FUN_140025378	undefined __cdecl FUN_140025378(void)	decompiled	140025378-14002537b	4	functions/140025378_FUN_140025378.c		4	0
+14002537c	FUN_14002537c	undefined __cdecl FUN_14002537c(void)	decompiled	14002537c-1400253af	52	functions/14002537c_FUN_14002537c.c		4	0
+1400253b0	FUN_1400253b0	undefined __cdecl FUN_1400253b0(void)	decompiled	1400253b0-1400253b3	4	functions/1400253b0_FUN_1400253b0.c		4	0
+1400253b4	FUN_1400253b4	undefined __cdecl FUN_1400253b4(void)	decompiled	1400253b4-1400253e7	52	functions/1400253b4_FUN_1400253b4.c		4	0
+1400253e8	FUN_1400253e8	undefined __cdecl FUN_1400253e8(void)	decompiled	1400253e8-1400253eb	4	functions/1400253e8_FUN_1400253e8.c		4	0
+1400253ec	FUN_1400253ec	undefined __cdecl FUN_1400253ec(void)	decompiled	1400253ec-14002541f	52	functions/1400253ec_FUN_1400253ec.c		4	0
+140025420	FUN_140025420	undefined __cdecl FUN_140025420(void)	decompiled	140025420-140025423	4	functions/140025420_FUN_140025420.c		4	0
+140025424	FUN_140025424	undefined __cdecl FUN_140025424(void)	decompiled	140025424-140025457	52	functions/140025424_FUN_140025424.c		4	0

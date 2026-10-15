@@ -1,0 +1,20 @@
+{
+  "program": "D3D8.dll",
+  "language": "x86:LE:32:default",
+  "compiler": "windows",
+  "image_base": "10000000",
+  "mapped_memory_start": "10000000",
+  "architecture_origin_restriction": false,
+  "pcode_unique_function_origins": 127235,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 2680,
+  "decompiled": 2680,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 514,
+  "instructions": 227730,
+  "executable_bytes": 709632,
+  "executable_bytes_without_instructions": 4459,
+  "instruction_bytes_outside_functions": 4003
+}

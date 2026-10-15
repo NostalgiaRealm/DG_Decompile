@@ -1,0 +1,26 @@
+/*
+ * FUN_180018350 at 180018350
+ * undefined __fastcall FUN_180018350(longlong param_1, uint param_2, uint param_3, uint param_4, uint param_5, uint param_6, uint param_7, uint param_8, longlong param_9, int param_10, byte param_11)
+ * Address ranges: 180018350-180018410
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_180018350(longlong param_1,uint param_2,uint param_3,uint param_4,uint param_5,uint param_6
+                  ,uint param_7,uint param_8,longlong param_9,int param_10,byte param_11)
+
+{
+  char cVar1;
+  
+  cVar1 = '\0';
+  if ((*(char *)((ulonglong)*(uint *)(*(longlong *)(param_1 + 0x140) + 0x3338) * 0x20 + 0x6e8 +
+                *(longlong *)(*(longlong *)(param_1 + 0x140) + 0x3330)) != '\0') &&
+     (cVar1 = '\0', param_9 != 0)) {
+    cVar1 = '\x01';
+  }
+  FUN_180016bb4(param_1,param_1 + 0x148 + (ulonglong)param_2 * 0x170,param_3,param_4,param_5,param_6
+                ,cVar1);
+  FUN_180017700(param_1,param_1 + 0x148 + (ulonglong)param_2 * 0x170,param_7,param_8,param_9,
+                param_10,param_11);
+  return;
+}
+

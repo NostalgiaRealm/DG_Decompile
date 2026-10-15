@@ -1,0 +1,25 @@
+/*
+ * FUN_10006ab8 at 10006ab8
+ * undefined FUN_10006ab8(void)
+ * Address ranges: 10006ab8-10006b53
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+undefined8 FUN_10006ab8(int param_1,char param_2)
+
+{
+  if (*(int *)(param_1 + 0x330) != 0) {
+    *(int *)(param_1 + 0x330) = 0;
+    *(undefined4 *)(param_1 + 0x334) = 0;
+    (*(code *)PTR_FUN_100a000c)(*(undefined4 *)(param_1 + 0x338));
+    (*(code *)PTR_FUN_100a000c)(*(undefined4 *)(param_1 + 0x33c));
+    *(undefined8 *)(param_1 + 0x338) = 0;
+    if (param_2 != '\0') {
+      FUN_1007e4a0(param_1 + 0x54c,param_1 + 0x340,0x20c);
+      *(undefined1 *)(param_1 + 0x759) = 1;
+      return 1;
+    }
+  }
+  return 0;
+}
+

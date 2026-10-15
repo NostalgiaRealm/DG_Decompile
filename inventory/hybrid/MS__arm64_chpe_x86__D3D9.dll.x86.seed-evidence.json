@@ -1,0 +1,105 @@
+[
+  {
+    "va": "0x10158000",
+    "name": "range_start_10158000",
+    "sources": [
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x10158370",
+    "name": "FUN_10158370",
+    "sources": [
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a000",
+    "name": "D3DPERF_BeginEvent",
+    "sources": [
+      "export_ordinal_1",
+      "guard_cf_function_table",
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x1015a010",
+    "name": "D3DPERF_EndEvent",
+    "sources": [
+      "export_ordinal_2",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a020",
+    "name": "D3DPERF_GetStatus",
+    "sources": [
+      "export_ordinal_3",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a030",
+    "name": "D3DPERF_QueryRepeatFrame",
+    "sources": [
+      "export_ordinal_4",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a040",
+    "name": "D3DPERF_SetMarker",
+    "sources": [
+      "export_ordinal_5",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a050",
+    "name": "D3DPERF_SetOptions",
+    "sources": [
+      "export_ordinal_6",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a060",
+    "name": "D3DPERF_SetRegion",
+    "sources": [
+      "export_ordinal_7",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a070",
+    "name": "DebugSetMute",
+    "sources": [
+      "export_ordinal_8",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a080",
+    "name": "Direct3DCreate9",
+    "sources": [
+      "export_ordinal_9",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a090",
+    "name": "Direct3DCreate9Ex",
+    "sources": [
+      "export_ordinal_10",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x1015a0a0",
+    "name": "Direct3DShaderValidatorCreate9",
+    "sources": [
+      "export_ordinal_11",
+      "guard_cf_function_table"
+    ]
+  }
+]

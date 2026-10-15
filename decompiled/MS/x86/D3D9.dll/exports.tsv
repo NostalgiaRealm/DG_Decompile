@@ -1,0 +1,11 @@
+address	name
+100911a8	D3DPERF_BeginEvent
+100911b9	D3DPERF_EndEvent
+10075f50	D3DPERF_GetStatus
+100489c8	D3DPERF_SetMarker
+10012f2e	D3DPERF_SetOptions
+10091184	DebugSetMute
+10091163	Direct3DCreate9
+10091172	Direct3DCreate9Ex
+100911a3	Direct3DShaderValidatorCreate9
+100cfe5f	entry

@@ -1,0 +1,12 @@
+2026-10-15 17:56:20 INFO  PrepareHybrid.java> HYBRID SEEDED 102 functions within 1747 architecture code bytes  
+2026-10-15 17:56:21 INFO  TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 17:56:21 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 17:56:24 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 17:56:24 INFO  ExportAll.java> EXPORT COMPLETE: functions=103 decompiled=103 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide3x.dll.x86  
+2026-10-15 18:05:40 INFO  ReconcileHybridSeeds.java> HYBRID SEED RECONCILIATION repaired 0 entries; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.x86.mapped.bin.seed-repairs.tsv  
+2026-10-15 18:05:40 INFO  ReconcileHybridSeeds.java> HYBRID POINTER RECOVERY created 0 candidate functions from documented data pointers  
+2026-10-15 18:05:40 INFO  TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 18:05:40 INFO  TrimHybrid.java> HYBRID BOUNDARIES applied 100 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.x86.mapped.bin.boundary-overrides.tsv  
+2026-10-15 18:05:40 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:05:40 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 18:05:40 INFO  ExportAll.java> EXPORT COMPLETE: functions=103 decompiled=103 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide3x.dll.x86  

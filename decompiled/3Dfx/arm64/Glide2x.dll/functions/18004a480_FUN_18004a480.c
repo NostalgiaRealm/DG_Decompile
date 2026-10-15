@@ -1,0 +1,196 @@
+/*
+ * FUN_18004a480 at 18004a480
+ * undefined8 * __cdecl FUN_18004a480(undefined8 * param_1, longlong param_2, uint param_3, undefined8 param_4, undefined4 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8, char * param_9, undefined8 param_10)
+ * Address ranges: 18004a480-18004a603
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+undefined8 *
+FUN_18004a480(undefined8 *param_1,longlong param_2,uint param_3,undefined8 param_4,
+             undefined4 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,
+             char *param_9,undefined8 param_10)
+
+{
+  undefined4 uVar1;
+  longlong *plVar2;
+  
+  *param_1 = &PTR_FUN_180065338;
+  param_1[1] = &PTR_LAB_1800652e0;
+  param_1[2] = param_2;
+  *(uint *)(param_1 + 3) = param_3;
+  param_1[0xd0] = 0x800;
+  param_1[0xd1] = 0;
+  param_1[0x162] = param_4;
+  param_1[0x163] = param_6;
+  param_1[0x164] = 0;
+  param_1[0x165] = 0;
+  param_1[0x166] = 0;
+  param_1[0x167] = 0;
+  param_1[0x168] = param_10;
+  param_1[0x169] = 0;
+  param_1[0x16a] = 0xffffffff;
+  *(undefined4 *)(param_1 + 0x16b) = 0;
+  *(undefined4 *)((longlong)param_1 + 0xb5c) = param_5;
+  *(undefined8 *)((longlong)param_1 + 0xb64) = 0x18;
+  *(undefined8 *)((longlong)param_1 + 0xb6c) = 0;
+  param_1[0x16f] = 0;
+  param_1[0x170] = 0;
+  if (param_9 == (char *)0x0) {
+    param_9 = "[noname]";
+  }
+  param_1[0x171] = 0;
+  param_1[0x172] = param_9;
+  plVar2 = *(longlong **)(param_2 + (ulonglong)param_3 * 0x20);
+  uVar1 = (**(code **)(*plVar2 + 0x78))(plVar2,2);
+  param_1[0x174] = 0;
+  param_1[0x175] = 0;
+  *(undefined4 *)(param_1 + 0x176) = 0;
+  *(undefined4 *)(param_1 + 0x173) = uVar1;
+  param_1[0xd3] = 0;
+  param_1[0xd2] = 0;
+  param_1[0xd5] = 0;
+  param_1[0xd4] = 0;
+  param_1[0xd7] = 0;
+  param_1[0xd6] = 0;
+  param_1[0xd9] = 0;
+  param_1[0xd8] = 0;
+  param_1[0xdb] = 0;
+  param_1[0xda] = 0;
+  param_1[0xdd] = 0;
+  param_1[0xdc] = 0;
+  param_1[0xdf] = 0;
+  param_1[0xde] = 0;
+  param_1[0xe1] = 0;
+  param_1[0xe0] = 0;
+  param_1[0xe3] = 0;
+  param_1[0xe2] = 0;
+  param_1[0xe5] = 0;
+  param_1[0xe4] = 0;
+  param_1[0xe7] = 0;
+  param_1[0xe6] = 0;
+  param_1[0xe9] = 0;
+  param_1[0xe8] = 0;
+  param_1[0xeb] = 0;
+  param_1[0xea] = 0;
+  param_1[0xed] = 0;
+  param_1[0xec] = 0;
+  param_1[0xef] = 0;
+  param_1[0xee] = 0;
+  param_1[0xf1] = 0;
+  param_1[0xf0] = 0;
+  param_1[0xf3] = 0;
+  param_1[0xf2] = 0;
+  param_1[0xf5] = 0;
+  param_1[0xf4] = 0;
+  param_1[0xf7] = 0;
+  param_1[0xf6] = 0;
+  param_1[0xf9] = 0;
+  param_1[0xf8] = 0;
+  param_1[0xfb] = 0;
+  param_1[0xfa] = 0;
+  param_1[0xfd] = 0;
+  param_1[0xfc] = 0;
+  param_1[0xff] = 0;
+  param_1[0xfe] = 0;
+  param_1[0x101] = 0;
+  param_1[0x100] = 0;
+  param_1[0x103] = 0;
+  param_1[0x102] = 0;
+  param_1[0x105] = 0;
+  param_1[0x104] = 0;
+  param_1[0x107] = 0;
+  param_1[0x106] = 0;
+  param_1[0x109] = 0;
+  param_1[0x108] = 0;
+  param_1[0x10b] = 0;
+  param_1[0x10a] = 0;
+  param_1[0x10d] = 0;
+  param_1[0x10c] = 0;
+  param_1[0x10f] = 0;
+  param_1[0x10e] = 0;
+  param_1[0x111] = 0;
+  param_1[0x110] = 0;
+  param_1[0x113] = 0;
+  param_1[0x112] = 0;
+  param_1[0x115] = 0;
+  param_1[0x114] = 0;
+  param_1[0x117] = 0;
+  param_1[0x116] = 0;
+  param_1[0x119] = 0;
+  param_1[0x118] = 0;
+  param_1[0x11b] = 0;
+  param_1[0x11a] = 0;
+  param_1[0x11d] = 0;
+  param_1[0x11c] = 0;
+  param_1[0x11f] = 0;
+  param_1[0x11e] = 0;
+  param_1[0x121] = 0;
+  param_1[0x120] = 0;
+  param_1[0x123] = 0;
+  param_1[0x122] = 0;
+  param_1[0x125] = 0;
+  param_1[0x124] = 0;
+  param_1[0x127] = 0;
+  param_1[0x126] = 0;
+  param_1[0x129] = 0;
+  param_1[0x128] = 0;
+  param_1[299] = 0;
+  param_1[0x12a] = 0;
+  param_1[0x12d] = 0;
+  param_1[300] = 0;
+  param_1[0x12f] = 0;
+  param_1[0x12e] = 0;
+  param_1[0x131] = 0;
+  param_1[0x130] = 0;
+  param_1[0x133] = 0;
+  param_1[0x132] = 0;
+  param_1[0x135] = 0;
+  param_1[0x134] = 0;
+  param_1[0x137] = 0;
+  param_1[0x136] = 0;
+  param_1[0x139] = 0;
+  param_1[0x138] = 0;
+  param_1[0x13b] = 0;
+  param_1[0x13a] = 0;
+  param_1[0x13d] = 0;
+  param_1[0x13c] = 0;
+  param_1[0x13f] = 0;
+  param_1[0x13e] = 0;
+  param_1[0x141] = 0;
+  param_1[0x140] = 0;
+  param_1[0x143] = 0;
+  param_1[0x142] = 0;
+  param_1[0x145] = 0;
+  param_1[0x144] = 0;
+  param_1[0x147] = 0;
+  param_1[0x146] = 0;
+  param_1[0x149] = 0;
+  param_1[0x148] = 0;
+  param_1[0x14b] = 0;
+  param_1[0x14a] = 0;
+  param_1[0x14d] = 0;
+  param_1[0x14c] = 0;
+  param_1[0x14f] = 0;
+  param_1[0x14e] = 0;
+  param_1[0x151] = 0;
+  param_1[0x150] = 0;
+  param_1[0x153] = 0;
+  param_1[0x152] = 0;
+  param_1[0x155] = 0;
+  param_1[0x154] = 0;
+  param_1[0x157] = 0;
+  param_1[0x156] = 0;
+  param_1[0x159] = 0;
+  param_1[0x158] = 0;
+  param_1[0x15b] = 0;
+  param_1[0x15a] = 0;
+  param_1[0x15d] = 0;
+  param_1[0x15c] = 0;
+  param_1[0x15f] = 0;
+  param_1[0x15e] = 0;
+  param_1[0x161] = 0;
+  param_1[0x160] = 0;
+  FUN_180060360((undefined1 *)(param_1 + 4),0,0x660);
+  return param_1;
+}
+

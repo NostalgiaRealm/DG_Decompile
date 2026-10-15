@@ -1,0 +1,159 @@
+openjdk version "25.0.4.1" 2026-08-18
+OpenJDK Runtime Environment (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1)
+OpenJDK 64-Bit Server VM (Red_Hat-25.0.4.1.1-1) (build 25.0.4.1+1, mixed mode)
+INFO  Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: logs/decompile/pilot-ghidra.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (771 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Starting cache cleanup: /var/tmp/rick-ghidra/fscache2 (FileCacheMaintenanceDaemon)  
+INFO  Finished cache cleanup, estimated storage used: 0 (FileCacheMaintenanceDaemon)  
+INFO  Headless startup complete (1597 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldOffset has been called by org.apache.felix.framework.util.SecureAction (file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+INFO  HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/pilot (HeadlessAnalyzer)  
+INFO  Creating project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/pilot (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/pilot (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Glide.dll (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Glide.dll?MD5=b5e79a13da6307a2a24c1cb5fec75e85...
+------------------------------------------------
+
+Searching 7 paths for library GDI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library SHELL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library SHLWAPI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 7 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Linking the External Programs of 'Glide.dll' to imported libraries...
+  [KERNEL32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [SHLWAPI.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Glide.dll (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: /var/tmp/rick-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.304 secs
+    Apply Data Archives                        0.371 secs
+    Call Convention ID                         0.006 secs
+    Call-Fixup Installer                       0.014 secs
+    Create Address Tables                      0.117 secs
+    Create Address Tables - One Time           0.041 secs
+    Create Function                            0.317 secs
+    Data Reference                             0.060 secs
+    Decompiler Parameter ID                    3.200 secs
+    Decompiler Switch Analysis                 4.437 secs
+    Demangler Microsoft                        0.041 secs
+    Disassemble                                0.925 secs
+    Disassemble Entry Points                   0.615 secs
+    Disassemble Entry Points - One Time        0.006 secs
+    Embedded Media                             0.016 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.581 secs
+    Function Start Pre Search                  0.010 secs
+    Function Start Search                      0.036 secs
+    Function Start Search After Code           0.020 secs
+    Function Start Search After Data           0.028 secs
+    Non-Returning Functions - Discovered       0.134 secs
+    Non-Returning Functions - Known            0.002 secs
+    PDB Universal                              0.001 secs
+    Reference                                  0.093 secs
+    Scalar Operand References                  0.538 secs
+    Shared Return Calls                        0.114 secs
+    Stack                                      1.982 secs
+    Subroutine References                      0.069 secs
+    Subroutine References - One Time           0.007 secs
+    Windows x86 PE Exception Handling          0.004 secs
+    Windows x86 PE RTTI Analyzer               0.003 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.011 secs
+    WindowsResourceReference                   2.050 secs
+    X86 Function Callee Purge                  0.159 secs
+    x86 Constant Reference Analyzer            1.383 secs
+-----------------------------------------------------
+     Total Time   17 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Glide.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportAll.java 'decompiled/3Dfx/x86/Glide.dll'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ExportAll.java (HeadlessAnalyzer)  
+INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 400 functions; decompiled=400, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 500 functions; decompiled=500, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 600 functions; decompiled=600, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 700 functions; decompiled=700, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 800 functions; decompiled=800, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 900 functions; decompiled=900, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 1300 functions; decompiled=1300, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 1400 functions; decompiled=1400, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 1500 functions; decompiled=1500, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> Exported 1600 functions; decompiled=1600, fallback=0 (GhidraScript)  
+INFO  ExportAll.java> EXPORT COMPLETE: functions=1607 decompiled=1607 fallback=0 output=decompiled/3Dfx/x86/Glide.dll (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Glide.dll (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Glide.dll (HeadlessAnalyzer)  
+INFO  /Glide.dll: file created (rick) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /Glide.dll (pilot:/Glide.dll) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

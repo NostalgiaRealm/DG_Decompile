@@ -1,0 +1,30 @@
+/*
+ * FUN_10011830 at 10011830
+ * undefined FUN_10011830(void)
+ * Address ranges: 10011830-100118ef
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+bool FUN_10011830(int param_1)
+
+{
+  int *piVar1;
+  int *piVar2;
+  int iVar3;
+  int iVar4;
+  
+  piVar2 = (int *)(param_1 + 0x3688);
+  piVar1 = (int *)(*(int *)(*piVar2 + 0x1304) + 0x948);
+  iVar3 = *piVar1;
+  *piVar1 = param_1;
+  piVar1 = (int *)(*(int *)(*piVar2 + 0x1304) + 0x634);
+  *piVar1 = *piVar1 + 1;
+  if (param_1 != iVar3) {
+    iVar4 = *(int *)(*piVar2 + 0x1304);
+    FUN_100628e8(*(undefined4 *)(iVar4 + 0x8e4),*(undefined4 *)(param_1 + 0x36bc),
+                 *(undefined4 *)(iVar4 + 0x8e0),iVar4,*(undefined8 *)(iVar4 + 0x938));
+    FUN_10069d30(*(undefined4 *)(*piVar2 + 0x1304),*(undefined4 *)(param_1 + 0x36bc));
+  }
+  return param_1 != iVar3;
+}
+

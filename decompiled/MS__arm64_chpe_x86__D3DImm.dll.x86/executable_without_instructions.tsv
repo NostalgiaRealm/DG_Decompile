@@ -1,0 +1,5 @@
+start	end_inclusive	length	note
+10097017	10097083	109	May include padding, embedded data, or undiscovered code; not automatically a function.
+10097093	1009721f	397	May include padding, embedded data, or undiscovered code; not automatically a function.
+1009900c	1009900f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1009901c	1009901f	4	May include padding, embedded data, or undiscovered code; not automatically a function.

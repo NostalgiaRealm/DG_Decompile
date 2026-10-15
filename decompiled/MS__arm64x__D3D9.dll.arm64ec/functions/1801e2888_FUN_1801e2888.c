@@ -1,0 +1,68 @@
+/*
+ * FUN_1801e2888 at 1801e2888
+ * undefined FUN_1801e2888(void)
+ * Address ranges: 1801e2888-1801e29f3
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+undefined4 FUN_1801e2888(longlong param_1,uint param_2)
+
+{
+  longlong *plVar1;
+  uint *puVar2;
+  bool bVar3;
+  int iVar4;
+  longlong lVar5;
+  code *extraout_x11;
+  undefined4 uVar6;
+  uint local_50 [8];
+  
+  uVar6 = 0x8876086c;
+  if (((param_2 < 8) && ((0xcfU >> (ulonglong)(param_2 & 0x1f) & 1) != 0 && param_2 != 0)) &&
+     (uVar6 = 0, param_2 != *(uint *)(param_1 + 0xa8))) {
+    lVar5 = *(longlong *)(param_1 + -0x80);
+    local_50[0] = 0;
+    local_50[1] = 0x100;
+    local_50[2] = 0x200;
+    local_50[3] = 0x400;
+    local_50[4] = 0x800;
+    local_50[5] = 0x1000;
+    plVar1 = (longlong *)&DAT_00006898;
+    if (lVar5 != 0) {
+      plVar1 = (longlong *)(lVar5 + 0x60);
+    }
+    uVar6 = 0x8876086c;
+    if ((local_50[(int)param_2] & *(uint *)(*plVar1 + 0x40)) != 0) {
+      puVar2 = (uint *)&DAT_00000e78;
+      if (lVar5 != 0) {
+        puVar2 = (uint *)(lVar5 + -0x59c0);
+      }
+      if (((*puVar2 >> 2 & 1) == 0) && (*(int *)(DAT_180258900 + 0x30) == 0)) {
+        bVar3 = false;
+        *(undefined4 *)(DAT_180258900 + 0x2c) = 1;
+      }
+      else {
+        bVar3 = true;
+        iVar4 = thunk_FUN_1802236e4(DAT_180258900);
+        if (iVar4 == 0) {
+          FUN_1801085c8();
+        }
+      }
+      if (1 < *(int *)(DAT_18024d928 + 0x87c) - 2U) {
+        (*(code *)__hybrid_os_arm64x_dispatch_icall)
+                  (0x180224000,*(undefined8 *)(param_1 + -0x40),param_2 != 1);
+        (*extraout_x11)();
+      }
+      *(uint *)(param_1 + 0xa8) = param_2;
+      uVar6 = 0;
+      if (bVar3) {
+        thunk_FUN_18022370c(DAT_180258900);
+      }
+      else {
+        *(undefined4 *)(DAT_180258900 + 0x2c) = 0;
+      }
+    }
+  }
+  return uVar6;
+}
+

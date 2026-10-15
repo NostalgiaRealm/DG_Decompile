@@ -1,0 +1,20 @@
+{
+  "program": "MS__arm64_chpe_x86__D3D8.dll.arm64.mapped.bin",
+  "language": "AARCH64:LE:32:ilp32",
+  "compiler": "default",
+  "image_base": "00000000",
+  "mapped_memory_start": "10000000",
+  "architecture_origin_restriction": true,
+  "pcode_unique_function_origins": 176943,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 3991,
+  "decompiled": 3991,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 986,
+  "instructions": 280073,
+  "executable_bytes": 1184964,
+  "executable_bytes_without_instructions": 64672,
+  "instruction_bytes_outside_functions": 0
+}

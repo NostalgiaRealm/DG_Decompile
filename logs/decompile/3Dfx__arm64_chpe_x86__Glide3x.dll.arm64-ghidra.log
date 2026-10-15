@@ -1,0 +1,289 @@
+2026-10-15 17:55:58 INFO  (LoggingInitialization) Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-15 17:55:58 INFO  (LoggingInitialization) Using log file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/logs/decompile/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64-ghidra.log  
+2026-10-15 17:55:58 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-15 17:55:58 INFO  (Preferences) Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences  
+2026-10-15 17:55:58 INFO  (ClassSearcher) Searching for classes...  
+2026-10-15 17:55:58 INFO  (ClassSearcher) Class search complete (819 ms)  
+2026-10-15 17:55:59 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-15 17:55:59 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-15 17:55:59 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-15 17:55:59 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-10-15 17:56:00 INFO  (AnalyzeHeadless) Headless startup complete (2379 ms)  
+2026-10-15 17:56:00 INFO  (ClassSearcher) Class searcher loaded 211 extension points (114 false positives)  
+2026-10-15 17:56:00 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts  
+2026-10-15 17:56:00 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-15 17:56:00 INFO  (HeadlessAnalyzer) Creating project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64/analysis  
+2026-10-15 17:56:00 INFO  (DefaultProject) Creating project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64/analysis  
+2026-10-15 17:56:00 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-10-15 17:56:00 INFO  (HeadlessAnalyzer)      project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64/analysis  
+2026-10-15 17:56:00 INFO  (HeadlessAnalyzer) IMPORTING: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin  
+2026-10-15 17:56:00 INFO  (ProgramLoader) Successfully applied "-loader-baseAddr" to "Base Address" (old: "null", new: "0x10000000")  
+2026-10-15 17:56:00 INFO  (ProgramLoader) Using Loader: Raw Binary  
+2026-10-15 17:56:00 INFO  (ProgramLoader) Using Language/Compiler: AARCH64:LE:32:ilp32:default  
+2026-10-15 17:56:00 INFO  (ProgramLoader) Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64]  
+2026-10-15 17:56:00 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-10-15 17:56:00 INFO  (HeadlessAnalyzer) REPORT: Execute script: PrepareHybrid.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.ranges.tsv' '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.functions.tsv' '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.labels.tsv'   
+2026-10-15 17:56:00 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/PrepareHybrid.java  
+2026-10-15 17:56:03 INFO  (GhidraScript) PrepareHybrid.java> HYBRID SEEDED 2231 functions within 594740 architecture code bytes  
+2026-10-15 17:56:03 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin  
+2026-10-15 17:56:05 WARN  (DecompileCallback) Decompiling 100312c0, pcode error at 100313d8: Unable to resolve constructor at 100313d8  
+2026-10-15 17:56:05 WARN  (DecompileCallback) Decompiling 10027060, pcode error at 100271a4: Unable to resolve constructor at 100271a4  
+2026-10-15 17:56:05 WARN  (DecompileCallback) Decompiling 10027060, pcode error at 100271bc: Unable to resolve constructor at 100271bc  
+2026-10-15 17:56:08 DEBUG (FidAnalyzer) No FID Libraries apply for language AARCH64:LE:32:ilp32  
+2026-10-15 17:56:08 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/rick-ghidra/packed-db-cache  
+2026-10-15 17:56:08 DEBUG (PackedDatabaseCache) Using cached packed database: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-10-15 17:56:08 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib  
+2026-10-15 17:56:11 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    AARCH64 ELF PLT Thunks                     0.000 secs
+    ASCII Strings                              0.315 secs
+    Apply Data Archives                        0.282 secs
+    Basic Constant Reference Analyzer          2.388 secs
+    Call Convention ID                         0.010 secs
+    Call-Fixup Installer                       0.007 secs
+    Create Address Tables                      0.155 secs
+    Create Address Tables - One Time           0.097 secs
+    Create Function                            0.010 secs
+    Data Reference                             0.006 secs
+    Decompiler Switch Analysis                 2.250 secs
+    Demangler GNU                              0.015 secs
+    Disassemble Entry Points                   0.016 secs
+    Embedded Media                             0.032 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.010 secs
+    Non-Returning Functions - Discovered       0.065 secs
+    Reference                                  0.101 secs
+    Shared Return Calls                        0.081 secs
+    Stack                                      2.430 secs
+    Subroutine References                      0.048 secs
+    Subroutine References - One Time           0.000 secs
+-----------------------------------------------------
+     Total Time   8 secs
+-----------------------------------------------------
+  
+2026-10-15 17:56:11 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin  
+2026-10-15 17:56:11 INFO  (HeadlessAnalyzer) REPORT: Execute script: TrimHybrid.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.ranges.tsv'   
+2026-10-15 17:56:11 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/TrimHybrid.java  
+2026-10-15 17:56:11 INFO  (GhidraScript) TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 17:56:11 INFO  (HeadlessAnalyzer) REPORT: Execute script: RecoverFunctions.java   
+2026-10-15 17:56:11 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/RecoverFunctions.java  
+2026-10-15 17:56:11 INFO  (GhidraScript) RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 17:56:11 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportAll.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64'   
+2026-10-15 17:56:11 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ExportAll.java  
+2026-10-15 17:56:13 INFO  (GhidraScript) ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 17:56:14 INFO  (GhidraScript) ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 17:56:15 INFO  (GhidraScript) ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 17:56:16 INFO  (GhidraScript) ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 17:56:16 WARN  (DecompileCallback) Decompiling 10027060, pcode error at 100271a4: Unable to resolve constructor at 100271a4  
+2026-10-15 17:56:16 WARN  (DecompileCallback) Decompiling 10027060, pcode error at 100271bc: Unable to resolve constructor at 100271bc  
+2026-10-15 17:56:16 INFO  (GhidraScript) ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 17:56:17 INFO  (GhidraScript) ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 17:56:17 WARN  (DecompileCallback) Decompiling 100312c0, pcode error at 100313d8: Unable to resolve constructor at 100313d8  
+2026-10-15 17:56:19 INFO  (GhidraScript) ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 17:56:21 INFO  (GhidraScript) ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 17:56:22 INFO  (GhidraScript) ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 17:56:23 INFO  (GhidraScript) ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 17:56:23 INFO  (GhidraScript) ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 17:56:24 INFO  (GhidraScript) ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 17:56:24 INFO  (GhidraScript) ExportAll.java> Exported 1300 functions; decompiled=1300, fallback=0  
+2026-10-15 17:56:25 INFO  (GhidraScript) ExportAll.java> Exported 1400 functions; decompiled=1400, fallback=0  
+2026-10-15 17:56:25 INFO  (GhidraScript) ExportAll.java> Exported 1500 functions; decompiled=1500, fallback=0  
+2026-10-15 17:56:25 INFO  (GhidraScript) ExportAll.java> Exported 1600 functions; decompiled=1600, fallback=0  
+2026-10-15 17:56:25 INFO  (GhidraScript) ExportAll.java> Exported 1700 functions; decompiled=1700, fallback=0  
+2026-10-15 17:56:25 INFO  (GhidraScript) ExportAll.java> Exported 1800 functions; decompiled=1800, fallback=0  
+2026-10-15 17:56:25 INFO  (GhidraScript) ExportAll.java> Exported 1900 functions; decompiled=1900, fallback=0  
+2026-10-15 17:56:25 INFO  (GhidraScript) ExportAll.java> Exported 2000 functions; decompiled=2000, fallback=0  
+2026-10-15 17:56:26 INFO  (GhidraScript) ExportAll.java> Exported 2100 functions; decompiled=2100, fallback=0  
+2026-10-15 17:56:26 INFO  (GhidraScript) ExportAll.java> Exported 2200 functions; decompiled=2200, fallback=0  
+2026-10-15 17:56:26 INFO  (GhidraScript) ExportAll.java> Exported 2300 functions; decompiled=2300, fallback=0  
+2026-10-15 17:56:26 INFO  (GhidraScript) ExportAll.java> EXPORT COMPLETE: functions=2303 decompiled=2303 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64  
+2026-10-15 17:56:26 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin  
+2026-10-15 17:56:26 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin  
+2026-10-15 17:56:26 INFO  (LocalFileSystem) /3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin: file created (rick)  
+2026-10-15 17:56:26 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin (analysis:/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin)  
+2026-10-15 17:56:26 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  
+2026-10-15 18:05:20 INFO  (LoggingInitialization) Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-15 18:05:20 INFO  (LoggingInitialization) Using log file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/logs/decompile/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64-ghidra.log  
+2026-10-15 18:05:20 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-15 18:05:20 INFO  (Preferences) Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences  
+2026-10-15 18:05:20 INFO  (ClassSearcher) Searching for classes...  
+2026-10-15 18:05:21 INFO  (ClassSearcher) Class search complete (789 ms)  
+2026-10-15 18:05:21 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-15 18:05:21 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-15 18:05:21 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-15 18:05:21 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-10-15 18:05:21 INFO  (AnalyzeHeadless) Headless startup complete (1595 ms)  
+2026-10-15 18:05:22 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-10-15 18:05:22 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts  
+2026-10-15 18:05:22 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-15 18:05:22 INFO  (HeadlessAnalyzer) Opening existing project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64/analysis  
+2026-10-15 18:05:22 INFO  (HeadlessProject) Opening project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64/analysis  
+2026-10-15 18:05:23 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin  
+2026-10-15 18:05:23 INFO  (HeadlessAnalyzer) REPORT: Execute script: ReconcileHybridSeeds.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.functions.tsv'   
+2026-10-15 18:05:23 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ReconcileHybridSeeds.java  
+2026-10-15 18:05:23 INFO  (GhidraScript) ReconcileHybridSeeds.java> HYBRID SEED RECONCILIATION repaired 0 entries; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin.seed-repairs.tsv  
+2026-10-15 18:05:23 INFO  (GhidraScript) ReconcileHybridSeeds.java> HYBRID POINTER RECOVERY created 0 candidate functions from documented data pointers  
+2026-10-15 18:05:23 INFO  (HeadlessAnalyzer) REPORT: Execute script: TrimHybrid.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.ranges.tsv'   
+2026-10-15 18:05:23 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/TrimHybrid.java  
+2026-10-15 18:05:23 INFO  (GhidraScript) TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 18:05:23 INFO  (GhidraScript) TrimHybrid.java> HYBRID BOUNDARIES applied 0 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin.boundary-overrides.tsv  
+2026-10-15 18:05:23 INFO  (HeadlessAnalyzer) REPORT: Execute script: RecoverFunctions.java   
+2026-10-15 18:05:23 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/RecoverFunctions.java  
+2026-10-15 18:05:24 INFO  (GhidraScript) RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:05:24 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportAll.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64' 'restricted'   
+2026-10-15 18:05:24 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ExportAll.java  
+2026-10-15 18:05:26 INFO  (GhidraScript) ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 18:05:27 INFO  (GhidraScript) ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 18:05:28 INFO  (GhidraScript) ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 18:05:29 INFO  (GhidraScript) ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 18:05:30 WARN  (DecompileCallback) Decompiling 10027060, pcode error at 100271a4: Unable to resolve constructor at 100271a4  
+2026-10-15 18:05:30 WARN  (DecompileCallback) Decompiling 10027060, pcode error at 100271bc: Unable to resolve constructor at 100271bc  
+2026-10-15 18:05:30 INFO  (GhidraScript) ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 18:05:30 INFO  (GhidraScript) ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 18:05:30 WARN  (DecompileCallback) Decompiling 100312c0, pcode error at 100313d8: Unable to resolve constructor at 100313d8  
+2026-10-15 18:05:33 INFO  (GhidraScript) ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 18:05:35 INFO  (GhidraScript) ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 18:05:36 INFO  (GhidraScript) ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 18:05:37 INFO  (GhidraScript) ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 18:05:37 INFO  (GhidraScript) ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 18:05:38 INFO  (GhidraScript) ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 18:05:39 INFO  (GhidraScript) ExportAll.java> Exported 1300 functions; decompiled=1300, fallback=0  
+2026-10-15 18:05:39 INFO  (GhidraScript) ExportAll.java> Exported 1400 functions; decompiled=1400, fallback=0  
+2026-10-15 18:05:39 INFO  (GhidraScript) ExportAll.java> Exported 1500 functions; decompiled=1500, fallback=0  
+2026-10-15 18:05:39 INFO  (GhidraScript) ExportAll.java> Exported 1600 functions; decompiled=1600, fallback=0  
+2026-10-15 18:05:39 INFO  (GhidraScript) ExportAll.java> Exported 1700 functions; decompiled=1700, fallback=0  
+2026-10-15 18:05:40 INFO  (GhidraScript) ExportAll.java> Exported 1800 functions; decompiled=1800, fallback=0  
+2026-10-15 18:05:40 INFO  (GhidraScript) ExportAll.java> Exported 1900 functions; decompiled=1900, fallback=0  
+2026-10-15 18:05:40 INFO  (GhidraScript) ExportAll.java> Exported 2000 functions; decompiled=2000, fallback=0  
+2026-10-15 18:05:40 INFO  (GhidraScript) ExportAll.java> Exported 2100 functions; decompiled=2100, fallback=0  
+2026-10-15 18:05:40 INFO  (GhidraScript) ExportAll.java> Exported 2200 functions; decompiled=2200, fallback=0  
+2026-10-15 18:05:40 INFO  (GhidraScript) ExportAll.java> Exported 2300 functions; decompiled=2300, fallback=0  
+2026-10-15 18:05:40 INFO  (GhidraScript) ExportAll.java> EXPORT COMPLETE: functions=2303 decompiled=2303 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64  
+2026-10-15 18:05:40 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin  
+2026-10-15 18:09:17 INFO  (LoggingInitialization) Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-15 18:09:17 INFO  (LoggingInitialization) Using log file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/logs/decompile/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64-ghidra.log  
+2026-10-15 18:09:17 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-15 18:09:17 INFO  (Preferences) Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences  
+2026-10-15 18:09:17 INFO  (ClassSearcher) Searching for classes...  
+2026-10-15 18:09:18 INFO  (ClassSearcher) Class search complete (738 ms)  
+2026-10-15 18:09:18 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-15 18:09:18 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-15 18:09:18 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-15 18:09:18 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-10-15 18:09:18 INFO  (AnalyzeHeadless) Headless startup complete (1514 ms)  
+2026-10-15 18:09:18 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-10-15 18:09:19 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts  
+2026-10-15 18:09:19 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-15 18:09:19 INFO  (HeadlessAnalyzer) Opening existing project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64/analysis  
+2026-10-15 18:09:19 INFO  (HeadlessProject) Opening project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64/analysis  
+2026-10-15 18:09:20 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin  
+2026-10-15 18:09:20 INFO  (HeadlessAnalyzer) REPORT: Execute script: ReconcileHybridSeeds.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.functions.tsv'   
+2026-10-15 18:09:20 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ReconcileHybridSeeds.java  
+2026-10-15 18:09:20 INFO  (GhidraScript) ReconcileHybridSeeds.java> HYBRID SEED RECONCILIATION repaired 0 entries; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin.seed-repairs.tsv  
+2026-10-15 18:09:20 INFO  (GhidraScript) ReconcileHybridSeeds.java> HYBRID POINTER RECOVERY created 0 candidate functions from documented data pointers  
+2026-10-15 18:09:20 INFO  (HeadlessAnalyzer) REPORT: Execute script: TrimHybrid.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.ranges.tsv'   
+2026-10-15 18:09:20 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/TrimHybrid.java  
+2026-10-15 18:09:20 WARN  (AutoAnalysisManager) AutoAnalysisManager.setIgnoreChanges had no affect since it was not invoked within the analysis thread  
+2026-10-15 18:09:20 INFO  (GhidraScript) TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 18:09:20 INFO  (GhidraScript) TrimHybrid.java> HYBRID BOUNDARIES applied 0 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin.boundary-overrides.tsv  
+2026-10-15 18:09:20 INFO  (HeadlessAnalyzer) REPORT: Execute script: RecoverFunctions.java   
+2026-10-15 18:09:20 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/RecoverFunctions.java  
+2026-10-15 18:09:20 INFO  (GhidraScript) RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:09:20 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportAll.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64' 'restricted'   
+2026-10-15 18:09:20 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ExportAll.java  
+2026-10-15 18:09:23 INFO  (GhidraScript) ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 18:09:24 INFO  (GhidraScript) ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 18:09:25 INFO  (GhidraScript) ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 18:09:26 INFO  (GhidraScript) ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 18:09:26 WARN  (DecompileCallback) Decompiling 10027060, pcode error at 100271a4: Unable to resolve constructor at 100271a4  
+2026-10-15 18:09:26 WARN  (DecompileCallback) Decompiling 10027060, pcode error at 100271bc: Unable to resolve constructor at 100271bc  
+2026-10-15 18:09:27 INFO  (GhidraScript) ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 18:09:27 INFO  (GhidraScript) ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 18:09:27 WARN  (DecompileCallback) Decompiling 100312c0, pcode error at 100313d8: Unable to resolve constructor at 100313d8  
+2026-10-15 18:09:30 INFO  (GhidraScript) ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 18:09:32 INFO  (GhidraScript) ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 18:09:33 INFO  (GhidraScript) ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 18:09:34 INFO  (GhidraScript) ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 18:09:34 INFO  (GhidraScript) ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 18:09:35 INFO  (GhidraScript) ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 18:09:36 INFO  (GhidraScript) ExportAll.java> Exported 1300 functions; decompiled=1300, fallback=0  
+2026-10-15 18:09:36 INFO  (GhidraScript) ExportAll.java> Exported 1400 functions; decompiled=1400, fallback=0  
+2026-10-15 18:09:36 INFO  (GhidraScript) ExportAll.java> Exported 1500 functions; decompiled=1500, fallback=0  
+2026-10-15 18:09:36 INFO  (GhidraScript) ExportAll.java> Exported 1600 functions; decompiled=1600, fallback=0  
+2026-10-15 18:09:36 INFO  (GhidraScript) ExportAll.java> Exported 1700 functions; decompiled=1700, fallback=0  
+2026-10-15 18:09:36 INFO  (GhidraScript) ExportAll.java> Exported 1800 functions; decompiled=1800, fallback=0  
+2026-10-15 18:09:36 INFO  (GhidraScript) ExportAll.java> Exported 1900 functions; decompiled=1900, fallback=0  
+2026-10-15 18:09:37 INFO  (GhidraScript) ExportAll.java> Exported 2000 functions; decompiled=2000, fallback=0  
+2026-10-15 18:09:37 INFO  (GhidraScript) ExportAll.java> Exported 2100 functions; decompiled=2100, fallback=0  
+2026-10-15 18:09:37 INFO  (GhidraScript) ExportAll.java> Exported 2200 functions; decompiled=2200, fallback=0  
+2026-10-15 18:09:37 INFO  (GhidraScript) ExportAll.java> Exported 2300 functions; decompiled=2300, fallback=0  
+2026-10-15 18:09:37 INFO  (GhidraScript) ExportAll.java> EXPORT COMPLETE: functions=2303 decompiled=2303 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64  
+2026-10-15 18:09:37 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin  

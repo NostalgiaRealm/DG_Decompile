@@ -1,0 +1,45 @@
+/*
+ * FUN_100388e0 at 100388e0
+ * undefined4 __thiscall FUN_100388e0(void * this, undefined4 * param_1)
+ * Address ranges: 100388e0-10038962
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+undefined4 __thiscall FUN_100388e0(void *this,undefined4 *param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  int iVar3;
+  SIZE_T SVar4;
+  undefined4 *puVar5;
+  uint uVar6;
+  
+  iVar1 = *(int *)((int)this + 8);
+  if (*(int *)((int)this + 4) == iVar1) {
+    uVar6 = 0x10;
+    if (iVar1 != 0) {
+      uVar6 = iVar1 * 2;
+    }
+    SVar4 = (SIZE_T)((ulonglong)uVar6 * 8);
+    if ((int)((ulonglong)uVar6 * 8 >> 0x20) != 0) {
+      SVar4 = 0xffffffff;
+    }
+    puVar5 = (undefined4 *)FUN_100ad4a9(SVar4);
+    if (puVar5 == (undefined4 *)0x0) {
+      return 0;
+    }
+    FUN_100adac0(puVar5,*(undefined4 **)this,*(int *)((int)this + 8) << 3);
+    thunk_FUN_100ad48c(*(LPVOID *)this);
+    *(undefined4 **)this = puVar5;
+    *(uint *)((int)this + 8) = uVar6;
+  }
+  iVar1 = *(int *)this;
+  uVar2 = param_1[1];
+  iVar3 = *(int *)((int)this + 4);
+  *(undefined4 *)(iVar1 + iVar3 * 8) = *param_1;
+  *(undefined4 *)(iVar1 + 4 + iVar3 * 8) = uVar2;
+  *(int *)((int)this + 4) = *(int *)((int)this + 4) + 1;
+  return CONCAT31((int3)((uint)iVar3 >> 8),1);
+}
+

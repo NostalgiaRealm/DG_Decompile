@@ -1,0 +1,12 @@
+instruction	target	target_name	analysis_override	note
+1015a007	100d1a90	D3DPERF_BeginEvent_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a017	100d1ab0	D3DPERF_EndEvent_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a027	100225e0	D3DPERF_GetStatus_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a037	100225e0	D3DPERF_GetStatus_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a047	10068470	D3DPERF_SetMarker_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a057	1001ee00	D3DPERF_SetOptions_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a067	10068470	D3DPERF_SetMarker_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a077	100d1950	DebugSetMute_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a087	100d1660	Direct3DCreate9_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a097	100d17e0	Direct3DCreate9Ex_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+1015a0a7	100d19b0	Direct3DShaderValidatorCreate9_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.

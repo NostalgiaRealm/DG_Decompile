@@ -1,0 +1,41 @@
+2026-10-15 17:47:52 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 17:47:53 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 17:47:54 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 17:47:55 INFO  ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 17:47:56 INFO  ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 17:47:56 INFO  ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 17:47:57 INFO  ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 17:47:58 INFO  ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 17:47:58 INFO  ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 17:47:59 INFO  ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 17:47:59 INFO  ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 17:48:00 INFO  ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 17:48:00 INFO  ExportAll.java> EXPORT COMPLETE: functions=1230 decompiled=1230 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx/arm64/Glide2x.dll  
+2026-10-15 17:54:00 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 17:54:02 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 17:54:02 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 17:54:04 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 17:54:04 INFO  ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 17:54:05 INFO  ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 17:54:06 INFO  ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 17:54:07 INFO  ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 17:54:07 INFO  ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 17:54:08 INFO  ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 17:54:08 INFO  ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 17:54:09 INFO  ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 17:54:09 INFO  ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 17:54:10 INFO  ExportAll.java> EXPORT COMPLETE: functions=1230 decompiled=1230 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx/arm64/Glide2x.dll  
+2026-10-15 18:03:28 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:03:30 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 18:03:31 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 18:03:32 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 18:03:33 INFO  ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 18:03:34 INFO  ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 18:03:34 INFO  ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 18:03:36 INFO  ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 18:03:36 INFO  ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 18:03:37 INFO  ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 18:03:37 INFO  ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 18:03:38 INFO  ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 18:03:39 INFO  ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 18:03:39 INFO  ExportAll.java> EXPORT COMPLETE: functions=1230 decompiled=1230 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx/arm64/Glide2x.dll  

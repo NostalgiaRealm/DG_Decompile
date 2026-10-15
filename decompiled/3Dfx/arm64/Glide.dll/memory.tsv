@@ -1,0 +1,8 @@
+name	start	end	length	read	write	execute	initialized
+Headers	180000000	1800003ff	1024	true	false	false	true
+.text	180001000	1800617ff	395264	true	false	true	true
+.rdata	180062000	18006afff	36864	true	false	false	true
+.data	18006b000	18006cb0b	6924	true	true	false	true
+.pdata	18006d000	18006edff	7680	true	false	false	true
+.rsrc	18006f000	1800efdff	527872	true	false	false	true
+.reloc	1800f0000	1800f07ff	2048	true	false	false	true

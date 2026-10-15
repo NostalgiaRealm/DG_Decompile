@@ -1,0 +1,33 @@
+START dgVoodooCpl.exe
+START Cpl/arm64/dgVoodooCpl.exe
+COMPLETE dgVoodooCpl.exe 16.87s 331 functions
+START MS/x86/D3DImm.dll
+COMPLETE Cpl/arm64/dgVoodooCpl.exe 20.69s 361 functions
+START 3Dfx/x86/Glide2x.dll
+COMPLETE MS/x86/D3DImm.dll 30.71s 1394 functions
+SKIP completed 3Dfx/x86/Glide.dll
+START MS/x86/DDraw.dll
+COMPLETE 3Dfx/x86/Glide2x.dll 28.17s 1594 functions
+START 3Dfx/x86/Glide3x.dll
+COMPLETE 3Dfx/x86/Glide3x.dll 27.93s 1619 functions
+START 3Dfx/arm64/Glide2x.dll
+COMPLETE MS/x86/DDraw.dll 32.92s 1936 functions
+START 3Dfx/arm64/Glide.dll
+COMPLETE 3Dfx/arm64/Glide2x.dll 28.98s 1230 functions
+START 3Dfx/x86/Napalm/Glide3x.dll
+COMPLETE 3Dfx/arm64/Glide.dll 28.93s 1237 functions
+START 3Dfx/x64/Glide2x.dll
+COMPLETE 3Dfx/x86/Napalm/Glide3x.dll 28.78s 1689 functions
+START 3Dfx/x64/Glide.dll
+COMPLETE 3Dfx/x64/Glide2x.dll 27.13s 1245 functions
+START 3Dfx/arm64/Glide3x.dll
+COMPLETE 3Dfx/x64/Glide.dll 26.03s 1255 functions
+START 3Dfx/x64/Glide3x.dll
+COMPLETE 3Dfx/arm64/Glide3x.dll 29.24s 1266 functions
+START MS/x86/D3D8.dll
+COMPLETE 3Dfx/x64/Glide3x.dll 26.91s 1271 functions
+START MS/x86/D3D9.dll
+COMPLETE MS/x86/D3D8.dll 51.06s 2680 functions
+START MS/x64/D3D9.dll
+COMPLETE MS/x86/D3D9.dll 63.49s 3053 functions
+COMPLETE MS/x64/D3D9.dll 54.84s 2303 functions

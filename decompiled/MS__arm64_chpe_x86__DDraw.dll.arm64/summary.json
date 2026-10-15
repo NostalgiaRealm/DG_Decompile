@@ -1,0 +1,20 @@
+{
+  "program": "MS__arm64_chpe_x86__DDraw.dll.arm64.mapped.bin",
+  "language": "AARCH64:LE:32:ilp32",
+  "compiler": "default",
+  "image_base": "00000000",
+  "mapped_memory_start": "10000000",
+  "architecture_origin_restriction": true,
+  "pcode_unique_function_origins": 95783,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 2861,
+  "decompiled": 2861,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 866,
+  "instructions": 165756,
+  "executable_bytes": 696676,
+  "executable_bytes_without_instructions": 33652,
+  "instruction_bytes_outside_functions": 28
+}

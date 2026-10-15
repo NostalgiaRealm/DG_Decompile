@@ -1,0 +1,842 @@
+{
+  "schema": 1,
+  "generated_utc": "2026-10-15T15:45:52.099960+00:00",
+  "source_root": "/home/rick/Documents/dgVoodoo2_87_5_FIXED",
+  "output_root": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled",
+  "pefile_version": "2024.8.26",
+  "upx_executable": "/usr/bin/upx",
+  "upx_version": "upx 5.2.1",
+  "source_unchanged_verified": true,
+  "scanned_file_count": 53,
+  "pe_count": 26,
+  "non_pe_count": 27,
+  "unpacked_count": 1,
+  "files": [
+    {
+      "path": "3Dfx/arm64/Glide.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/arm64/Glide.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64/Glide.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/arm64/Glide.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/arm64/Glide.dll",
+      "source_sha256": "6447eb7c5c9c27287a43c6fc3b0d92c92831ebcb462e094befdc8e1ccb33e215",
+      "source_size": 977408,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64/Glide.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64/Glide.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/arm64/Glide.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "6447eb7c5c9c27287a43c6fc3b0d92c92831ebcb462e094befdc8e1ccb33e215",
+      "prepared_size": 977408,
+      "architecture": "ARM64",
+      "machine": 43620,
+      "metadata_path": "inventory/metadata/3Dfx/arm64/Glide.dll.json",
+      "export_count": 326,
+      "import_count": 130,
+      "runtime_function_count": 950
+    },
+    {
+      "path": "3Dfx/arm64/Glide2x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/arm64/Glide2x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64/Glide2x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/arm64/Glide2x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/arm64/Glide2x.dll",
+      "source_sha256": "9093aa930c8fc36eb26db58f6d4fdf59e5b1c4319cf3f6ea01b147b797c32100",
+      "source_size": 973312,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64/Glide2x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64/Glide2x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/arm64/Glide2x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "9093aa930c8fc36eb26db58f6d4fdf59e5b1c4319cf3f6ea01b147b797c32100",
+      "prepared_size": 973312,
+      "architecture": "ARM64",
+      "machine": 43620,
+      "metadata_path": "inventory/metadata/3Dfx/arm64/Glide2x.dll.json",
+      "export_count": 318,
+      "import_count": 130,
+      "runtime_function_count": 943
+    },
+    {
+      "path": "3Dfx/arm64/Glide3x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/arm64/Glide3x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64/Glide3x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/arm64/Glide3x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/arm64/Glide3x.dll",
+      "source_sha256": "c89145b15a275d7cefcc3493ec896289a3b5378ac41f416ad4d25e813271e424",
+      "source_size": 996864,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64/Glide3x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64/Glide3x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/arm64/Glide3x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "c89145b15a275d7cefcc3493ec896289a3b5378ac41f416ad4d25e813271e424",
+      "prepared_size": 996864,
+      "architecture": "ARM64",
+      "machine": 43620,
+      "metadata_path": "inventory/metadata/3Dfx/arm64/Glide3x.dll.json",
+      "export_count": 200,
+      "import_count": 131,
+      "runtime_function_count": 970
+    },
+    {
+      "path": "3Dfx/arm64_chpe_x86/Glide.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/arm64_chpe_x86/Glide.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Glide.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/arm64_chpe_x86/Glide.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/arm64_chpe_x86/Glide.dll",
+      "source_sha256": "8e085d45d91b32ca24678009d72327e7a751b7c433fa30b70cddba099f601135",
+      "source_size": 1184768,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Glide.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Glide.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/arm64_chpe_x86/Glide.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "8e085d45d91b32ca24678009d72327e7a751b7c433fa30b70cddba099f601135",
+      "prepared_size": 1184768,
+      "architecture": "CHPE x86/ARM64 hybrid",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/3Dfx/arm64_chpe_x86/Glide.dll.json",
+      "export_count": 163,
+      "import_count": 129,
+      "runtime_function_count": 1905
+    },
+    {
+      "path": "3Dfx/arm64_chpe_x86/Glide2x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/arm64_chpe_x86/Glide2x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Glide2x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/arm64_chpe_x86/Glide2x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/arm64_chpe_x86/Glide2x.dll",
+      "source_sha256": "37b50fb176f2926d424eca81e73ca7c1cac10b96e8a61235e5c321b14bd51c67",
+      "source_size": 1184256,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Glide2x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Glide2x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/arm64_chpe_x86/Glide2x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "37b50fb176f2926d424eca81e73ca7c1cac10b96e8a61235e5c321b14bd51c67",
+      "prepared_size": 1184256,
+      "architecture": "CHPE x86/ARM64 hybrid",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/3Dfx/arm64_chpe_x86/Glide2x.dll.json",
+      "export_count": 159,
+      "import_count": 129,
+      "runtime_function_count": 1894
+    },
+    {
+      "path": "3Dfx/arm64_chpe_x86/Glide3x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/arm64_chpe_x86/Glide3x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Glide3x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/arm64_chpe_x86/Glide3x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/arm64_chpe_x86/Glide3x.dll",
+      "source_sha256": "6e0541c8363d9f8307185175eb43ea517c803eeddb5cba2c626e88dac83380bf",
+      "source_size": 1206784,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Glide3x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Glide3x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/arm64_chpe_x86/Glide3x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "6e0541c8363d9f8307185175eb43ea517c803eeddb5cba2c626e88dac83380bf",
+      "prepared_size": 1206784,
+      "architecture": "CHPE x86/ARM64 hybrid",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/3Dfx/arm64_chpe_x86/Glide3x.dll.json",
+      "export_count": 100,
+      "import_count": 130,
+      "runtime_function_count": 1896
+    },
+    {
+      "path": "3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+      "source_sha256": "c1290149d935ab9d84295ee58904d6aa5f1e187c04d102b8b73158613c506fac",
+      "source_size": 1291776,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "c1290149d935ab9d84295ee58904d6aa5f1e187c04d102b8b73158613c506fac",
+      "prepared_size": 1291776,
+      "architecture": "CHPE x86/ARM64 hybrid",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll.json",
+      "export_count": 222,
+      "import_count": 130,
+      "runtime_function_count": 1984
+    },
+    {
+      "path": "3Dfx/x64/Glide.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/x64/Glide.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x64/Glide.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x64/Glide.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/x64/Glide.dll",
+      "source_sha256": "57f9451e435a9231f939599bd4f978878e870386d2188fb774957fdc25610357",
+      "source_size": 982016,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x64/Glide.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x64/Glide.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/x64/Glide.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "57f9451e435a9231f939599bd4f978878e870386d2188fb774957fdc25610357",
+      "prepared_size": 982016,
+      "architecture": "x64",
+      "machine": 34404,
+      "metadata_path": "inventory/metadata/3Dfx/x64/Glide.dll.json",
+      "export_count": 326,
+      "import_count": 130,
+      "runtime_function_count": 1142
+    },
+    {
+      "path": "3Dfx/x64/Glide2x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/x64/Glide2x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x64/Glide2x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x64/Glide2x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/x64/Glide2x.dll",
+      "source_sha256": "9b43fca9bfefc858cb05a25ed316d2c56e40f6c351c9e698efa05c3f0fa90ef1",
+      "source_size": 980480,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x64/Glide2x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x64/Glide2x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/x64/Glide2x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "9b43fca9bfefc858cb05a25ed316d2c56e40f6c351c9e698efa05c3f0fa90ef1",
+      "prepared_size": 980480,
+      "architecture": "x64",
+      "machine": 34404,
+      "metadata_path": "inventory/metadata/3Dfx/x64/Glide2x.dll.json",
+      "export_count": 318,
+      "import_count": 130,
+      "runtime_function_count": 1132
+    },
+    {
+      "path": "3Dfx/x64/Glide3x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/x64/Glide3x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x64/Glide3x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x64/Glide3x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/x64/Glide3x.dll",
+      "source_sha256": "0931cb2c35a76c57d16cc92c1acf49018dbf6f267237895f7ffafaad8b596612",
+      "source_size": 998912,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x64/Glide3x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x64/Glide3x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/x64/Glide3x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "0931cb2c35a76c57d16cc92c1acf49018dbf6f267237895f7ffafaad8b596612",
+      "prepared_size": 998912,
+      "architecture": "x64",
+      "machine": 34404,
+      "metadata_path": "inventory/metadata/3Dfx/x64/Glide3x.dll.json",
+      "export_count": 200,
+      "import_count": 131,
+      "runtime_function_count": 1162
+    },
+    {
+      "path": "3Dfx/x86/Glide.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/x86/Glide.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Glide.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Glide.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/x86/Glide.dll",
+      "source_sha256": "17551c77355e051cdbe4df26277825461985b9e84e8cfe59ca2a39adce9fda4d",
+      "source_size": 893952,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Glide.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Glide.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/x86/Glide.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "17551c77355e051cdbe4df26277825461985b9e84e8cfe59ca2a39adce9fda4d",
+      "prepared_size": 893952,
+      "architecture": "x86",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/3Dfx/x86/Glide.dll.json",
+      "export_count": 163,
+      "import_count": 129,
+      "runtime_function_count": 0
+    },
+    {
+      "path": "3Dfx/x86/Glide2x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/x86/Glide2x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Glide2x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Glide2x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/x86/Glide2x.dll",
+      "source_sha256": "934198d1ef7568f17fd2c5faf32053c36046fd21a735b7e6f42ac65e172a5982",
+      "source_size": 892416,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Glide2x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Glide2x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/x86/Glide2x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "934198d1ef7568f17fd2c5faf32053c36046fd21a735b7e6f42ac65e172a5982",
+      "prepared_size": 892416,
+      "architecture": "x86",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/3Dfx/x86/Glide2x.dll.json",
+      "export_count": 159,
+      "import_count": 129,
+      "runtime_function_count": 0
+    },
+    {
+      "path": "3Dfx/x86/Glide3x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/x86/Glide3x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Glide3x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Glide3x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/x86/Glide3x.dll",
+      "source_sha256": "219146fa0f1f9ab7a2c85d54e844c609530b33e5a11323cc7948a674e04df438",
+      "source_size": 913408,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Glide3x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Glide3x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/x86/Glide3x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "219146fa0f1f9ab7a2c85d54e844c609530b33e5a11323cc7948a674e04df438",
+      "prepared_size": 913408,
+      "architecture": "x86",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/3Dfx/x86/Glide3x.dll.json",
+      "export_count": 100,
+      "import_count": 130,
+      "runtime_function_count": 0
+    },
+    {
+      "path": "3Dfx/x86/Napalm/Glide3x.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/3Dfx/x86/Napalm/Glide3x.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Napalm/Glide3x.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/3Dfx/x86/Napalm/Glide3x.dll",
+      "prepared_path": "binaries/unpacked/3Dfx/x86/Napalm/Glide3x.dll",
+      "source_sha256": "d651809ad4bd748644de4e104f0ecfdbdd8610f0683b35efe88141650effe248",
+      "source_size": 978944,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Napalm/Glide3x.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/3Dfx/x86/Napalm/Glide3x.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/3Dfx/x86/Napalm/Glide3x.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "d651809ad4bd748644de4e104f0ecfdbdd8610f0683b35efe88141650effe248",
+      "prepared_size": 978944,
+      "architecture": "x86",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/3Dfx/x86/Napalm/Glide3x.dll.json",
+      "export_count": 122,
+      "import_count": 130,
+      "runtime_function_count": 0
+    },
+    {
+      "path": "Cpl/arm64/dgVoodooCpl.exe",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/Cpl/arm64/dgVoodooCpl.exe",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/Cpl/arm64/dgVoodooCpl.exe",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/Cpl/arm64/dgVoodooCpl.exe",
+      "prepared_path": "binaries/unpacked/Cpl/arm64/dgVoodooCpl.exe",
+      "source_sha256": "726e819dde0e4a0e9e3fef5302a528403d1d9c7a07f3ce0578c29e65cfb115e9",
+      "source_size": 446464,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/Cpl/arm64/dgVoodooCpl.exe"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/Cpl/arm64/dgVoodooCpl.exe: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/Cpl/arm64/dgVoodooCpl.exe/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "726e819dde0e4a0e9e3fef5302a528403d1d9c7a07f3ce0578c29e65cfb115e9",
+      "prepared_size": 446464,
+      "architecture": "ARM64",
+      "machine": 43620,
+      "metadata_path": "inventory/metadata/Cpl/arm64/dgVoodooCpl.exe.json",
+      "export_count": 0,
+      "import_count": 102,
+      "runtime_function_count": 281
+    },
+    {
+      "path": "MS/arm64_chpe_x86/D3D8.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/arm64_chpe_x86/D3D8.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/D3D8.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/arm64_chpe_x86/D3D8.dll",
+      "prepared_path": "binaries/unpacked/MS/arm64_chpe_x86/D3D8.dll",
+      "source_sha256": "e2a128a095a533622dcae3e6b1b450af7ff97b29a6723b4dbeca7f6ec2bdbc9c",
+      "source_size": 2012672,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/D3D8.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/D3D8.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/arm64_chpe_x86/D3D8.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "e2a128a095a533622dcae3e6b1b450af7ff97b29a6723b4dbeca7f6ec2bdbc9c",
+      "prepared_size": 2012672,
+      "architecture": "CHPE x86/ARM64 hybrid",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/MS/arm64_chpe_x86/D3D8.dll.json",
+      "export_count": 4,
+      "import_count": 168,
+      "runtime_function_count": 3298
+    },
+    {
+      "path": "MS/arm64_chpe_x86/D3D9.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/arm64_chpe_x86/D3D9.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/D3D9.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/arm64_chpe_x86/D3D9.dll",
+      "prepared_path": "binaries/unpacked/MS/arm64_chpe_x86/D3D9.dll",
+      "source_sha256": "24637a61fcaeb89214ec182c98b0619caf32cd3633fb75a07517d0005fba53da",
+      "source_size": 2251264,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/D3D9.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/D3D9.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/arm64_chpe_x86/D3D9.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "24637a61fcaeb89214ec182c98b0619caf32cd3633fb75a07517d0005fba53da",
+      "prepared_size": 2251264,
+      "architecture": "CHPE x86/ARM64 hybrid",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/MS/arm64_chpe_x86/D3D9.dll.json",
+      "export_count": 11,
+      "import_count": 168,
+      "runtime_function_count": 3721
+    },
+    {
+      "path": "MS/arm64_chpe_x86/D3DImm.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/arm64_chpe_x86/D3DImm.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/D3DImm.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/arm64_chpe_x86/D3DImm.dll",
+      "prepared_path": "binaries/unpacked/MS/arm64_chpe_x86/D3DImm.dll",
+      "source_sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+      "source_size": 1024512,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/D3DImm.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/D3DImm.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/arm64_chpe_x86/D3DImm.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+      "prepared_size": 1024512,
+      "architecture": "CHPE x86/ARM64 hybrid",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/MS/arm64_chpe_x86/D3DImm.dll.json",
+      "export_count": 2,
+      "import_count": 40,
+      "runtime_function_count": 2024
+    },
+    {
+      "path": "MS/arm64_chpe_x86/DDraw.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/arm64_chpe_x86/DDraw.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/DDraw.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/arm64_chpe_x86/DDraw.dll",
+      "prepared_path": "binaries/unpacked/MS/arm64_chpe_x86/DDraw.dll",
+      "source_sha256": "e48e007fe9b4fc141fa42574acdf5733cca87761f7eb6eefd168e55f70d456c5",
+      "source_size": 1240064,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/DDraw.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64_chpe_x86/DDraw.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/arm64_chpe_x86/DDraw.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "e48e007fe9b4fc141fa42574acdf5733cca87761f7eb6eefd168e55f70d456c5",
+      "prepared_size": 1240064,
+      "architecture": "CHPE x86/ARM64 hybrid",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/MS/arm64_chpe_x86/DDraw.dll.json",
+      "export_count": 15,
+      "import_count": 187,
+      "runtime_function_count": 2312
+    },
+    {
+      "path": "MS/arm64x/D3D9.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/arm64x/D3D9.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64x/D3D9.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/arm64x/D3D9.dll",
+      "prepared_path": "binaries/unpacked/MS/arm64x/D3D9.dll",
+      "source_sha256": "d213eea2478b312b9c5913759e301d9aeb3fb3ea9c05f8cc7ae8e592525dd21d",
+      "source_size": 3166208,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64x/D3D9.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/arm64x/D3D9.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/arm64x/D3D9.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "d213eea2478b312b9c5913759e301d9aeb3fb3ea9c05f8cc7ae8e592525dd21d",
+      "prepared_size": 3166208,
+      "architecture": "ARM64X hybrid",
+      "machine": 43620,
+      "metadata_path": "inventory/metadata/MS/arm64x/D3D9.dll.json",
+      "export_count": 11,
+      "import_count": 168,
+      "runtime_function_count": 3701
+    },
+    {
+      "path": "MS/x64/D3D9.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/x64/D3D9.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x64/D3D9.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/x64/D3D9.dll",
+      "prepared_path": "binaries/unpacked/MS/x64/D3D9.dll",
+      "source_sha256": "1953e6cad9e315b7e9bcde6803dcd3ec2bc507348afdaf7270a3b38b318685d6",
+      "source_size": 1871360,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x64/D3D9.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x64/D3D9.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/x64/D3D9.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "1953e6cad9e315b7e9bcde6803dcd3ec2bc507348afdaf7270a3b38b318685d6",
+      "prepared_size": 1871360,
+      "architecture": "x64",
+      "machine": 34404,
+      "metadata_path": "inventory/metadata/MS/x64/D3D9.dll.json",
+      "export_count": 11,
+      "import_count": 168,
+      "runtime_function_count": 2276
+    },
+    {
+      "path": "MS/x86/D3D8.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/x86/D3D8.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3D8.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/x86/D3D8.dll",
+      "prepared_path": "binaries/unpacked/MS/x86/D3D8.dll",
+      "source_sha256": "5378acb402918882dd341d4c0e4540d4275e30466c49e898798f64cd8460cd0d",
+      "source_size": 1492992,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3D8.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3D8.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/x86/D3D8.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "5378acb402918882dd341d4c0e4540d4275e30466c49e898798f64cd8460cd0d",
+      "prepared_size": 1492992,
+      "architecture": "x86",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/MS/x86/D3D8.dll.json",
+      "export_count": 4,
+      "import_count": 168,
+      "runtime_function_count": 0
+    },
+    {
+      "path": "MS/x86/D3D9.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/x86/D3D9.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3D9.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/x86/D3D9.dll",
+      "prepared_path": "binaries/unpacked/MS/x86/D3D9.dll",
+      "source_sha256": "8ded686854660d3610f53689f29e9dba1daffc1886cbd6676f719ce520f9adad",
+      "source_size": 1647104,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3D9.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3D9.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/x86/D3D9.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "8ded686854660d3610f53689f29e9dba1daffc1886cbd6676f719ce520f9adad",
+      "prepared_size": 1647104,
+      "architecture": "x86",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/MS/x86/D3D9.dll.json",
+      "export_count": 11,
+      "import_count": 168,
+      "runtime_function_count": 0
+    },
+    {
+      "path": "MS/x86/D3DImm.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/x86/D3DImm.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3DImm.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/x86/D3DImm.dll",
+      "prepared_path": "binaries/unpacked/MS/x86/D3DImm.dll",
+      "source_sha256": "93c534f2d17419ea78f15551f7e0aac78b3c503733a840914fa063708a5afe8e",
+      "source_size": 208384,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3DImm.dll"
+          ],
+          "exit_code": 1,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3DImm.dll: CantUnpackException: file is modified/hacked/protected; take care!!!\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/x86/D3DImm.dll/original-test.txt"
+        },
+        "header_restoration": [
+          {
+            "offset": 520,
+            "offset_hex": "0x208",
+            "before_hex": "0000000000000000",
+            "after_hex": "5550583000000000",
+            "reason": "Restore erased first section name"
+          },
+          {
+            "offset": 560,
+            "offset_hex": "0x230",
+            "before_hex": "0000000000000000",
+            "after_hex": "5550583100000000",
+            "reason": "Restore erased second section name"
+          },
+          {
+            "offset": 992,
+            "offset_hex": "0x3e0",
+            "before_hex": "00000000",
+            "after_hex": "55505821",
+            "reason": "Restore erased pack-header magic at section 1 raw offset minus 32"
+          }
+        ],
+        "header_restored_sha256": "4ff8ef062f28a7b99c4d00f8c89dc8c9eabe4c873cec74b9b51e5b0111bea64d",
+        "header_restored_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/header-restored/MS/x86/D3DImm.dll",
+        "restored_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/tmp/prepare-pe-zv68ytyb/D3DImm.dll"
+          ],
+          "exit_code": 0,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\ntesting /tmp/prepare-pe-zv68ytyb/D3DImm.dll [OK]\n\nTested 1 file.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/x86/D3DImm.dll/restored-test.txt"
+        },
+        "unpack": {
+          "argv": [
+            "/usr/bin/upx",
+            "-d",
+            "/tmp/prepare-pe-zv68ytyb/D3DImm.dll"
+          ],
+          "exit_code": 0,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\n        File size         Ratio      Format      Name\n   --------------------   ------   -----------   -----------\n    796160 <-    208384   26.17%    win32/pe     D3DImm.dll\n\nUnpacked 1 file.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/x86/D3DImm.dll/unpack.txt"
+        },
+        "status": "unpacked (erased header restored)"
+      },
+      "prepared_sha256": "2f52824f2b9893b6e211315e09c9bc74f1970c0204cfd00fdb45c32b22a94d48",
+      "prepared_size": 796160,
+      "architecture": "x86",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/MS/x86/D3DImm.dll.json",
+      "export_count": 2,
+      "import_count": 40,
+      "runtime_function_count": 0
+    },
+    {
+      "path": "MS/x86/DDraw.dll",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/MS/x86/DDraw.dll",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/DDraw.dll",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/MS/x86/DDraw.dll",
+      "prepared_path": "binaries/unpacked/MS/x86/DDraw.dll",
+      "source_sha256": "2ed78bef2eb5935f81a122d8cf5707516d5b6c65094c51b253b6569fadd96454",
+      "source_size": 905728,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/DDraw.dll"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/DDraw.dll: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/MS/x86/DDraw.dll/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "2ed78bef2eb5935f81a122d8cf5707516d5b6c65094c51b253b6569fadd96454",
+      "prepared_size": 905728,
+      "architecture": "x86",
+      "machine": 332,
+      "metadata_path": "inventory/metadata/MS/x86/DDraw.dll.json",
+      "export_count": 15,
+      "import_count": 187,
+      "runtime_function_count": 0
+    },
+    {
+      "path": "dgVoodooCpl.exe",
+      "source_path": "/home/rick/Documents/dgVoodoo2_87_5_FIXED/dgVoodooCpl.exe",
+      "original_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/dgVoodooCpl.exe",
+      "analysis_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/unpacked/dgVoodooCpl.exe",
+      "prepared_path": "binaries/unpacked/dgVoodooCpl.exe",
+      "source_sha256": "87fb878166dcaef3e75ff170de030527c73f5c9b164c5943da13f8a97b0b75c6",
+      "source_size": 451072,
+      "packing": {
+        "original_test": {
+          "argv": [
+            "/usr/bin/upx",
+            "-t",
+            "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/dgVoodooCpl.exe"
+          ],
+          "exit_code": 2,
+          "output": "                       Ultimate Packer for eXecutables\n                          Copyright (C) 1996 - 2026\nUPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026\n\nupx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/dgVoodooCpl.exe: NotPackedException: not packed by UPX\n\nTested 0 files.\n",
+          "log": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/upx-logs/dgVoodooCpl.exe/original-test.txt"
+        },
+        "status": "not packed with UPX (UPX test)"
+      },
+      "prepared_sha256": "87fb878166dcaef3e75ff170de030527c73f5c9b164c5943da13f8a97b0b75c6",
+      "prepared_size": 451072,
+      "architecture": "x64",
+      "machine": 34404,
+      "metadata_path": "inventory/metadata/dgVoodooCpl.exe.json",
+      "export_count": 0,
+      "import_count": 102,
+      "runtime_function_count": 368
+    }
+  ],
+  "errors": []
+}

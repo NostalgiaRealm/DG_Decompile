@@ -1,0 +1,20 @@
+{
+  "program": "Glide2x.dll",
+  "language": "x86:LE:32:default",
+  "compiler": "windows",
+  "image_base": "10000000",
+  "mapped_memory_start": "10000000",
+  "architecture_origin_restriction": false,
+  "pcode_unique_function_origins": 61506,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 1594,
+  "decompiled": 1594,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 620,
+  "instructions": 106289,
+  "executable_bytes": 325120,
+  "executable_bytes_without_instructions": 1506,
+  "instruction_bytes_outside_functions": 1713
+}

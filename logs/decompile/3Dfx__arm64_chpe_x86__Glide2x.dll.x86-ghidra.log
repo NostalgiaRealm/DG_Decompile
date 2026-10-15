@@ -1,0 +1,335 @@
+2026-10-15 17:55:50 INFO  (LoggingInitialization) Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-15 17:55:50 INFO  (LoggingInitialization) Using log file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/logs/decompile/3Dfx__arm64_chpe_x86__Glide2x.dll.x86-ghidra.log  
+2026-10-15 17:55:50 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-15 17:55:50 INFO  (Preferences) Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences  
+2026-10-15 17:55:50 INFO  (ClassSearcher) Searching for classes...  
+2026-10-15 17:55:51 INFO  (ClassSearcher) Class search complete (739 ms)  
+2026-10-15 17:55:51 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-15 17:55:51 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-15 17:55:51 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-15 17:55:51 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-10-15 17:55:52 INFO  (AnalyzeHeadless) Headless startup complete (2256 ms)  
+2026-10-15 17:55:52 INFO  (ClassSearcher) Class searcher loaded 93 extension points (46 false positives)  
+2026-10-15 17:55:52 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts  
+2026-10-15 17:55:52 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-15 17:55:52 INFO  (HeadlessAnalyzer) Creating project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide2x.dll.x86/analysis  
+2026-10-15 17:55:52 INFO  (DefaultProject) Creating project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide2x.dll.x86/analysis  
+2026-10-15 17:55:52 INFO  (HeadlessAnalyzer) REPORT: Processing input files:   
+2026-10-15 17:55:52 INFO  (HeadlessAnalyzer)      project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide2x.dll.x86/analysis  
+2026-10-15 17:55:52 INFO  (HeadlessAnalyzer) IMPORTING: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin  
+2026-10-15 17:55:52 INFO  (ProgramLoader) Successfully applied "-loader-baseAddr" to "Base Address" (old: "null", new: "0x10000000")  
+2026-10-15 17:55:52 INFO  (ProgramLoader) Using Loader: Raw Binary  
+2026-10-15 17:55:52 INFO  (ProgramLoader) Using Language/Compiler: x86:LE:32:default:windows  
+2026-10-15 17:55:52 INFO  (ProgramLoader) Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64]  
+2026-10-15 17:55:53 INFO  (HeadlessAnalyzer) IMPORTING: Loaded 0 additional files  
+2026-10-15 17:55:53 INFO  (HeadlessAnalyzer) REPORT: Execute script: PrepareHybrid.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.ranges.tsv' '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.functions.tsv' '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.labels.tsv'   
+2026-10-15 17:55:53 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/PrepareHybrid.java  
+2026-10-15 17:55:53 INFO  (GhidraScript) PrepareHybrid.java> HYBRID SEEDED 161 functions within 2771 architecture code bytes  
+2026-10-15 17:55:53 INFO  (HeadlessAnalyzer) ANALYZING all memory and code: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin  
+2026-10-15 17:55:54 INFO  (PackedDatabaseCache) Packed database cache: /var/tmp/rick-ghidra/packed-db-cache  
+2026-10-15 17:55:54 DEBUG (PackedDatabaseCache) Using cached packed database: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/typeinfo/generic/generic_clib.gdt  
+2026-10-15 17:55:54 INFO  (ApplyDataArchiveAnalyzer) Applied data type archive: generic_clib  
+2026-10-15 17:55:54 INFO  (AutoAnalysisManager) -----------------------------------------------------
+    ASCII Strings                              0.325 secs
+    Apply Data Archives                        0.141 secs
+    Call Convention ID                         0.003 secs
+    Call-Fixup Installer                       0.001 secs
+    Create Address Tables                      0.129 secs
+    Create Address Tables - One Time           0.066 secs
+    Create Function                            0.000 secs
+    Data Reference                             0.014 secs
+    Decompiler Switch Analysis                 0.270 secs
+    Disassemble Entry Points                   0.003 secs
+    Embedded Media                             0.037 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.123 secs
+    Function Start Pre Search                  0.004 secs
+    Function Start Search                      0.044 secs
+    Function Start Search After Code           0.010 secs
+    Function Start Search After Data           0.002 secs
+    Non-Returning Functions - Discovered       0.002 secs
+    Reference                                  0.018 secs
+    Scalar Operand References                  0.003 secs
+    Shared Return Calls                        0.010 secs
+    Stack                                      0.027 secs
+    Subroutine References                      0.002 secs
+    X86 Function Callee Purge                  0.012 secs
+    x86 Constant Reference Analyzer            0.038 secs
+-----------------------------------------------------
+     Total Time   1 secs
+-----------------------------------------------------
+  
+2026-10-15 17:55:54 INFO  (HeadlessAnalyzer) REPORT: Analysis succeeded for file: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin  
+2026-10-15 17:55:54 INFO  (HeadlessAnalyzer) REPORT: Execute script: TrimHybrid.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.ranges.tsv'   
+2026-10-15 17:55:54 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/TrimHybrid.java  
+2026-10-15 17:55:54 INFO  (GhidraScript) TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 17:55:54 INFO  (HeadlessAnalyzer) REPORT: Execute script: RecoverFunctions.java   
+2026-10-15 17:55:54 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/RecoverFunctions.java  
+2026-10-15 17:55:54 INFO  (GhidraScript) RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 17:55:54 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportAll.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide2x.dll.x86'   
+2026-10-15 17:55:54 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ExportAll.java  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091000, pcode error at 281a9f07: Could not follow disassembly flow into non-existing memory at 281a9f07  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091010, pcode error at 281a9f07: Could not follow disassembly flow into non-existing memory at 281a9f07  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091020, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091030, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091040, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091050, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091060, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091070, pcode error at 10002dbf: Unable to resolve constructor at 10002dbf  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091070, pcode error at a8aa1303: Could not follow disassembly flow into non-existing memory at a8aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091080, pcode error at 10002dbf: Unable to resolve constructor at 10002dbf  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091080, pcode error at a8aa1303: Could not follow disassembly flow into non-existing memory at a8aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091090, pcode error at 10002dbf: Unable to resolve constructor at 10002dbf  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091090, pcode error at a8aa1303: Could not follow disassembly flow into non-existing memory at a8aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100910a0, pcode error at 10002eaf: Unable to resolve constructor at 10002eaf  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100910b0, pcode error at 10002eaf: Unable to resolve constructor at 10002eaf  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100910c0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100910e0, pcode error at 10001caa: Unable to resolve constructor at 10001caa  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100910e0, pcode error at 10001cfa: Unable to resolve constructor at 10001cfa  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100910f0, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091100, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091110, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091110, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091120, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091120, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091130, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091130, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091140, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091140, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091170, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091170, pcode error at 08aa1403: Could not follow disassembly flow into non-existing memory at 08aa1403  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100911a0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100911c0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100911d0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100911e0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100911f0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091200, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091210, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091220, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091230, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091240, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091250, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091260, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091290, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100912a0, pcode error at 38aa5914: Could not follow disassembly flow into non-existing memory at 38aa5914  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100912b0, pcode error at 38aa5914: Could not follow disassembly flow into non-existing memory at 38aa5914  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100912c0, pcode error at 38aa5914: Could not follow disassembly flow into non-existing memory at 38aa5914  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100912d0, pcode error at 38aa5914: Could not follow disassembly flow into non-existing memory at 38aa5914  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100912e0, pcode error at 38aa5914: Could not follow disassembly flow into non-existing memory at 38aa5914  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 100912f0, pcode error at 38aa5914: Could not follow disassembly flow into non-existing memory at 38aa5914  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091300, pcode error at 38aa5914: Could not follow disassembly flow into non-existing memory at 38aa5914  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091310, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091320, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:55 WARN  (DecompileCallback) Decompiling 10091390, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100913a0, pcode error at 10002bc7: Unable to resolve constructor at 10002bc7  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100913a0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100913b0, pcode error at 1000397c: Unable to resolve constructor at 1000397c  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100913b0, pcode error at 100039fb: Unable to resolve constructor at 100039fb  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100913b0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091400, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091410, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091410, pcode error at 1000227f: Unable to resolve constructor at 1000227f  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091420, pcode error at 10002807: Unable to resolve constructor at 10002807  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091430, pcode error at 38aa3dfc: Could not follow disassembly flow into non-existing memory at 38aa3dfc  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091440, pcode error at 10002807: Unable to resolve constructor at 10002807  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091460, pcode error at 10002b27: Unable to resolve constructor at 10002b27  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091470, pcode error at 08aa1503: Could not follow disassembly flow into non-existing memory at 08aa1503  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091490, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100914b0, pcode error at 100021cf: Unable to resolve constructor at 100021cf  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100914d0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100914f0, pcode error at 1000232f: Unable to resolve constructor at 1000232f  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091500, pcode error at 1000397c: Unable to resolve constructor at 1000397c  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091500, pcode error at 100039fb: Unable to resolve constructor at 100039fb  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091510, pcode error at 10003bcf: Unable to resolve constructor at 10003bcf  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091520, pcode error at 10003bcf: Unable to resolve constructor at 10003bcf  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091540, pcode error at 10003bcf: Unable to resolve constructor at 10003bcf  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091550, pcode error at 10003cfc: Unable to resolve constructor at 10003cfc  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091560, pcode error at 281a9f07: Could not follow disassembly flow into non-existing memory at 281a9f07  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091560, pcode error at 10003cfc: Unable to resolve constructor at 10003cfc  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091570, pcode error at 281a9f07: Could not follow disassembly flow into non-existing memory at 281a9f07  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091580, pcode error at 281a9f07: Could not follow disassembly flow into non-existing memory at 281a9f07  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091590, pcode error at 281a9f07: Could not follow disassembly flow into non-existing memory at 281a9f07  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100915a0, pcode error at 10003cfc: Unable to resolve constructor at 10003cfc  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100915b0, pcode error at 10003cfc: Unable to resolve constructor at 10003cfc  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100915c0, pcode error at 1000397c: Unable to resolve constructor at 1000397c  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100915c0, pcode error at 100039fb: Unable to resolve constructor at 100039fb  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100915d0, pcode error at 1000397c: Unable to resolve constructor at 1000397c  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100915d0, pcode error at 100039fb: Unable to resolve constructor at 100039fb  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100915e0, pcode error at 281a9f07: Could not follow disassembly flow into non-existing memory at 281a9f07  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100915f0, pcode error at 281a9f07: Could not follow disassembly flow into non-existing memory at 281a9f07  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091600, pcode error at 10003f5c: Unable to resolve constructor at 10003f5c  
+2026-10-15 17:55:56 INFO  (GhidraScript) ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091610, pcode error at 100039fb: Unable to resolve constructor at 100039fb  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091620, pcode error at 10003bcf: Unable to resolve constructor at 10003bcf  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091630, pcode error at 1000397c: Unable to resolve constructor at 1000397c  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091630, pcode error at 100039fb: Unable to resolve constructor at 100039fb  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091640, pcode error at 10002c7b: Unable to resolve constructor at 10002c7b  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091640, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091650, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091660, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091670, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091680, pcode error at 381045dc: Could not follow disassembly flow into non-existing memory at 381045dc  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091680, pcode error at 1115568a: Could not follow disassembly flow into non-existing memory at 1115568a  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091690, pcode error at 100046f5: Unable to resolve constructor at 100046f5  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 10091690, pcode error at 10004652: Unable to resolve constructor at 10004652  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100916a0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100916b0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100916d0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:56 WARN  (DecompileCallback) Decompiling 100916e0, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091770, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091790, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 100917c0, pcode error at 2ab9001b: Could not follow disassembly flow into non-existing memory at 2ab9001b  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 100917c0, pcode error at 39b94b34: Could not follow disassembly flow into non-existing memory at 39b94b34  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091800, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091810, pcode error at 98295714: Could not follow disassembly flow into non-existing memory at 98295714  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091810, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091820, pcode error at 08aa0d03: Could not follow disassembly flow into non-existing memory at 08aa0d03  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091850, pcode error at 08aa1303: Could not follow disassembly flow into non-existing memory at 08aa1303  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091860, pcode error at 98295714: Could not follow disassembly flow into non-existing memory at 98295714  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091880, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 100918b0, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 10091990, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 100919a0, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:57 WARN  (DecompileCallback) Decompiling 100919b0, pcode error at 10002127: Unable to resolve constructor at 10002127  
+2026-10-15 17:55:57 INFO  (GhidraScript) ExportAll.java> EXPORT COMPLETE: functions=162 decompiled=162 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide2x.dll.x86  
+2026-10-15 17:55:57 INFO  (HeadlessAnalyzer) ANALYZING changes made by post scripts: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin  
+2026-10-15 17:55:57 INFO  (HeadlessAnalyzer) REPORT: Post-analysis succeeded for file: file:///home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin  
+2026-10-15 17:55:57 INFO  (LocalFileSystem) /3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin: file created (rick)  
+2026-10-15 17:55:57 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for: /3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin (analysis:/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin)  
+2026-10-15 17:55:57 INFO  (HeadlessAnalyzer) REPORT: Import succeeded  
+2026-10-15 18:05:16 INFO  (LoggingInitialization) Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-15 18:05:16 INFO  (LoggingInitialization) Using log file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/logs/decompile/3Dfx__arm64_chpe_x86__Glide2x.dll.x86-ghidra.log  
+2026-10-15 18:05:16 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-15 18:05:16 INFO  (Preferences) Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences  
+2026-10-15 18:05:16 INFO  (ClassSearcher) Searching for classes...  
+2026-10-15 18:05:17 INFO  (ClassSearcher) Class search complete (836 ms)  
+2026-10-15 18:05:17 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-15 18:05:17 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-15 18:05:17 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-15 18:05:17 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-10-15 18:05:18 INFO  (AnalyzeHeadless) Headless startup complete (1668 ms)  
+2026-10-15 18:05:18 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-10-15 18:05:18 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts  
+2026-10-15 18:05:18 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-15 18:05:18 INFO  (HeadlessAnalyzer) Opening existing project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide2x.dll.x86/analysis  
+2026-10-15 18:05:18 INFO  (HeadlessProject) Opening project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide2x.dll.x86/analysis  
+2026-10-15 18:05:19 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin  
+2026-10-15 18:05:19 INFO  (HeadlessAnalyzer) REPORT: Execute script: ReconcileHybridSeeds.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.functions.tsv'   
+2026-10-15 18:05:19 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ReconcileHybridSeeds.java  
+2026-10-15 18:05:19 INFO  (GhidraScript) ReconcileHybridSeeds.java> HYBRID SEED RECONCILIATION repaired 0 entries; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin.seed-repairs.tsv  
+2026-10-15 18:05:19 INFO  (GhidraScript) ReconcileHybridSeeds.java> HYBRID POINTER RECOVERY created 0 candidate functions from documented data pointers  
+2026-10-15 18:05:19 INFO  (HeadlessAnalyzer) REPORT: Execute script: TrimHybrid.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.ranges.tsv'   
+2026-10-15 18:05:19 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/TrimHybrid.java  
+2026-10-15 18:05:19 INFO  (GhidraScript) TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 18:05:19 INFO  (GhidraScript) TrimHybrid.java> HYBRID BOUNDARIES applied 159 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin.boundary-overrides.tsv  
+2026-10-15 18:05:19 INFO  (HeadlessAnalyzer) REPORT: Execute script: RecoverFunctions.java   
+2026-10-15 18:05:19 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/RecoverFunctions.java  
+2026-10-15 18:05:19 INFO  (GhidraScript) RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:05:19 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportAll.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide2x.dll.x86' 'restricted'   
+2026-10-15 18:05:19 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ExportAll.java  
+2026-10-15 18:05:20 INFO  (GhidraScript) ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 18:05:20 INFO  (GhidraScript) ExportAll.java> EXPORT COMPLETE: functions=162 decompiled=162 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide2x.dll.x86  
+2026-10-15 18:05:20 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin  
+2026-10-15 18:09:14 INFO  (LoggingInitialization) Using log config file: jar:file:/home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml  
+2026-10-15 18:09:14 INFO  (LoggingInitialization) Using log file: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/logs/decompile/3Dfx__arm64_chpe_x86__Glide2x.dll.x86-ghidra.log  
+2026-10-15 18:09:14 DEBUG (GhidraObjectInputFilter) Including serial input filter: FileSystem/data/client.rmi.serial.filter  
+2026-10-15 18:09:14 INFO  (Preferences) Loading user preferences: /home/rick/.config/ghidra/ghidra_12.1.4_PUBLIC/preferences  
+2026-10-15 18:09:14 INFO  (ClassSearcher) Searching for classes...  
+2026-10-15 18:09:14 INFO  (ClassSearcher) Class search complete (758 ms)  
+2026-10-15 18:09:14 INFO  (DefaultSSLContextInitializer) Initializing SSL Context  
+2026-10-15 18:09:14 INFO  (SecureRandomFactory) Initializing Random Number Generator...  
+2026-10-15 18:09:14 INFO  (SecureRandomFactory) Random Number Generator initialization complete: NativePRNGNonBlocking  
+2026-10-15 18:09:14 INFO  (DefaultTrustManagerFactory) Trust manager disabled, cacerts have not been set  
+2026-10-15 18:09:15 INFO  (AnalyzeHeadless) Headless startup complete (1565 ms)  
+2026-10-15 18:09:15 INFO  (ClassSearcher) Class searcher loaded 59 extension points (20 false positives)  
+2026-10-15 18:09:15 INFO  (HeadlessAnalyzer) HEADLESS Script Paths:
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts
+    /home/rick/Documents/dgVoodoo2_87_5_Decompiled/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts  
+2026-10-15 18:09:15 INFO  (HeadlessAnalyzer) HEADLESS: execution starts  
+2026-10-15 18:09:15 INFO  (HeadlessAnalyzer) Opening existing project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide2x.dll.x86/analysis  
+2026-10-15 18:09:15 INFO  (HeadlessProject) Opening project: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/analysis-projects/3Dfx__arm64_chpe_x86__Glide2x.dll.x86/analysis  
+2026-10-15 18:09:16 INFO  (HeadlessAnalyzer) REPORT: Processing project file: /3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin  
+2026-10-15 18:09:16 INFO  (HeadlessAnalyzer) REPORT: Execute script: ReconcileHybridSeeds.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.functions.tsv'   
+2026-10-15 18:09:16 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ReconcileHybridSeeds.java  
+2026-10-15 18:09:16 INFO  (GhidraScript) ReconcileHybridSeeds.java> HYBRID SEED RECONCILIATION repaired 0 entries; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin.seed-repairs.tsv  
+2026-10-15 18:09:16 INFO  (GhidraScript) ReconcileHybridSeeds.java> HYBRID POINTER RECOVERY created 0 candidate functions from documented data pointers  
+2026-10-15 18:09:16 INFO  (HeadlessAnalyzer) REPORT: Execute script: TrimHybrid.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.ranges.tsv'   
+2026-10-15 18:09:16 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/TrimHybrid.java  
+2026-10-15 18:09:16 WARN  (AutoAnalysisManager) AutoAnalysisManager.setIgnoreChanges had no affect since it was not invoked within the analysis thread  
+2026-10-15 18:09:16 INFO  (GhidraScript) TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 18:09:16 INFO  (GhidraScript) TrimHybrid.java> HYBRID BOUNDARIES applied 159 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin.boundary-overrides.tsv  
+2026-10-15 18:09:16 INFO  (HeadlessAnalyzer) REPORT: Execute script: RecoverFunctions.java   
+2026-10-15 18:09:16 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/RecoverFunctions.java  
+2026-10-15 18:09:16 INFO  (GhidraScript) RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:09:16 INFO  (HeadlessAnalyzer) REPORT: Execute script: ExportAll.java '/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide2x.dll.x86' 'restricted'   
+2026-10-15 18:09:16 INFO  (HeadlessAnalyzer) SCRIPT: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/scripts/ExportAll.java  
+2026-10-15 18:09:17 INFO  (GhidraScript) ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 18:09:17 INFO  (GhidraScript) ExportAll.java> EXPORT COMPLETE: functions=162 decompiled=162 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Glide2x.dll.x86  
+2026-10-15 18:09:17 INFO  (HeadlessAnalyzer) REPORT: Save succeeded for processed file: /3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin  

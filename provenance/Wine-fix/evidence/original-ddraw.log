@@ -1,0 +1,11 @@
+Loaded Z:\home\rick\Documents\Codex\2026-10-11\on-linux-using-wine-it-is\work\2875\unpacked\MS\x86\DDraw.dll at 73c60000
+wine_get_version => 1 (expected 1)
+wine_get_build_id => 1 (expected 1)
+__wine_get_unix_file_name => 1 (expected 1)
+NtCreateFile => 0 (expected 0)
+ordinary_export => 0 (expected 0)
+PASS: loaded DLL predicate
+DirectDrawCreateEx = 00000000
+GetDeviceIdentifier = 00000000
+Adapter: dgVoodoo / dgVoodoo DX API Layer
+SetCooperativeLevel = 00000000

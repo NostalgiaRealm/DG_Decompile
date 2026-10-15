@@ -1,0 +1,20 @@
+{
+  "program": "Glide.dll",
+  "language": "AARCH64:LE:64:v8A",
+  "compiler": "windows",
+  "image_base": "180000000",
+  "mapped_memory_start": "180000000",
+  "architecture_origin_restriction": false,
+  "pcode_unique_function_origins": 69073,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 1237,
+  "decompiled": 1237,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 782,
+  "instructions": 97366,
+  "executable_bytes": 395264,
+  "executable_bytes_without_instructions": 5800,
+  "instruction_bytes_outside_functions": 3176
+}

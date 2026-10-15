@@ -1,0 +1,1879 @@
+{
+  "path": "3Dfx/x86/Napalm/Glide3x.dll",
+  "source_sha256": "d651809ad4bd748644de4e104f0ecfdbdd8610f0683b35efe88141650effe248",
+  "prepared_sha256": "d651809ad4bd748644de4e104f0ecfdbdd8610f0683b35efe88141650effe248",
+  "format": "PE32",
+  "architecture": "x86",
+  "machine": 332,
+  "machine_hex": "0x14c",
+  "is_dll": true,
+  "managed_cli": false,
+  "image_base": 268435456,
+  "entry_point_rva": 349741,
+  "entry_point_va": 268785197,
+  "size_of_image": 991232,
+  "pe_timestamp": 1789416806,
+  "checksum_header": 0,
+  "checksum_calculated": 984626,
+  "subsystem": 2,
+  "characteristics": 8450,
+  "dll_characteristics": 320,
+  "sections": [
+    {
+      "name": ".text",
+      "name_hex": "2e74657874000000",
+      "rva": 4096,
+      "va": 268439552,
+      "virtual_size": 349568,
+      "raw_offset": 1024,
+      "raw_size": 349696,
+      "characteristics": 1610612768,
+      "readable": true,
+      "writable": false,
+      "executable": true,
+      "entropy": 6.481637,
+      "raw_sha256": "7f9aba418dc2206109303d8df2d76f3def957a546d65c4db7ff7f823fb66c90f"
+    },
+    {
+      "name": ".rdata",
+      "name_hex": "2e72646174610000",
+      "rva": 356352,
+      "va": 268791808,
+      "virtual_size": 26072,
+      "raw_offset": 350720,
+      "raw_size": 26112,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 5.16425,
+      "raw_sha256": "906cfa412f2d88bb97e675bdef4088d4ee8f03dd9513cc9c6b2dcb3589e2069e"
+    },
+    {
+      "name": ".data",
+      "name_hex": "2e64617461000000",
+      "rva": 385024,
+      "va": 268820480,
+      "virtual_size": 7132,
+      "raw_offset": 376832,
+      "raw_size": 6656,
+      "characteristics": 3221225536,
+      "readable": true,
+      "writable": true,
+      "executable": false,
+      "entropy": 2.41255,
+      "raw_sha256": "578abb498dc89639383b5f79727d2c3edfe12d51096f443116ee5f33662a1b85"
+    },
+    {
+      "name": ".rsrc",
+      "name_hex": "2e72737263000000",
+      "rva": 393216,
+      "va": 268828672,
+      "virtual_size": 587648,
+      "raw_offset": 383488,
+      "raw_size": 587776,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 3.210478,
+      "raw_sha256": "a23174a5bcb2ea9b90aa749d8084e61f13566f87b281243a1d3297a199b071c2"
+    },
+    {
+      "name": ".reloc",
+      "name_hex": "2e72656c6f630000",
+      "rva": 983040,
+      "va": 269418496,
+      "virtual_size": 7236,
+      "raw_offset": 971264,
+      "raw_size": 7680,
+      "characteristics": 1107296320,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 6.421377,
+      "raw_sha256": "40e2b26a3e37ebc175af75683155d1db7f199e9ac54511eba3f482d976b5d1ef"
+    }
+  ],
+  "imports": [
+    {
+      "dll": "KERNEL32.DLL",
+      "symbols": [
+        {
+          "name": "LoadLibraryA",
+          "ordinal": null,
+          "iat_va": 268791816,
+          "hint": 0
+        },
+        {
+          "name": "QueryPerformanceFrequency",
+          "ordinal": null,
+          "iat_va": 268791820,
+          "hint": 0
+        },
+        {
+          "name": "GetProcAddress",
+          "ordinal": null,
+          "iat_va": 268791824,
+          "hint": 0
+        },
+        {
+          "name": "SetThreadExecutionState",
+          "ordinal": null,
+          "iat_va": 268791828,
+          "hint": 0
+        },
+        {
+          "name": "GetModuleHandleW",
+          "ordinal": null,
+          "iat_va": 268791832,
+          "hint": 0
+        },
+        {
+          "name": "FreeLibrary",
+          "ordinal": null,
+          "iat_va": 268791836,
+          "hint": 0
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "ordinal": null,
+          "iat_va": 268791840,
+          "hint": 0
+        },
+        {
+          "name": "VirtualFree",
+          "ordinal": null,
+          "iat_va": 268791844,
+          "hint": 0
+        },
+        {
+          "name": "GetCurrentProcess",
+          "ordinal": null,
+          "iat_va": 268791848,
+          "hint": 0
+        },
+        {
+          "name": "EnterCriticalSection",
+          "ordinal": null,
+          "iat_va": 268791852,
+          "hint": 0
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "ordinal": null,
+          "iat_va": 268791856,
+          "hint": 0
+        },
+        {
+          "name": "CreatePipe",
+          "ordinal": null,
+          "iat_va": 268791860,
+          "hint": 0
+        },
+        {
+          "name": "InitializeCriticalSection",
+          "ordinal": null,
+          "iat_va": 268791864,
+          "hint": 0
+        },
+        {
+          "name": "WaitForSingleObject",
+          "ordinal": null,
+          "iat_va": 268791868,
+          "hint": 0
+        },
+        {
+          "name": "DuplicateHandle",
+          "ordinal": null,
+          "iat_va": 268791872,
+          "hint": 0
+        },
+        {
+          "name": "OpenProcess",
+          "ordinal": null,
+          "iat_va": 268791876,
+          "hint": 0
+        },
+        {
+          "name": "CreateEventW",
+          "ordinal": null,
+          "iat_va": 268791880,
+          "hint": 0
+        },
+        {
+          "name": "SetEvent",
+          "ordinal": null,
+          "iat_va": 268791884,
+          "hint": 0
+        },
+        {
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_va": 268791888,
+          "hint": 0
+        },
+        {
+          "name": "CreateThread",
+          "ordinal": null,
+          "iat_va": 268791892,
+          "hint": 0
+        },
+        {
+          "name": "DeleteCriticalSection",
+          "ordinal": null,
+          "iat_va": 268791896,
+          "hint": 0
+        },
+        {
+          "name": "VirtualProtect",
+          "ordinal": null,
+          "iat_va": 268791900,
+          "hint": 0
+        },
+        {
+          "name": "Sleep",
+          "ordinal": null,
+          "iat_va": 268791904,
+          "hint": 0
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "ordinal": null,
+          "iat_va": 268791908,
+          "hint": 0
+        },
+        {
+          "name": "CreateToolhelp32Snapshot",
+          "ordinal": null,
+          "iat_va": 268791912,
+          "hint": 0
+        },
+        {
+          "name": "Thread32First",
+          "ordinal": null,
+          "iat_va": 268791916,
+          "hint": 0
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "ordinal": null,
+          "iat_va": 268791920,
+          "hint": 0
+        },
+        {
+          "name": "Thread32Next",
+          "ordinal": null,
+          "iat_va": 268791924,
+          "hint": 0
+        },
+        {
+          "name": "GetConsoleWindow",
+          "ordinal": null,
+          "iat_va": 268791928,
+          "hint": 0
+        },
+        {
+          "name": "RemoveVectoredExceptionHandler",
+          "ordinal": null,
+          "iat_va": 268791932,
+          "hint": 0
+        },
+        {
+          "name": "VirtualAlloc",
+          "ordinal": null,
+          "iat_va": 268791936,
+          "hint": 0
+        },
+        {
+          "name": "DebugBreak",
+          "ordinal": null,
+          "iat_va": 268791940,
+          "hint": 0
+        },
+        {
+          "name": "UnmapViewOfFile",
+          "ordinal": null,
+          "iat_va": 268791944,
+          "hint": 0
+        },
+        {
+          "name": "CreateFileMappingA",
+          "ordinal": null,
+          "iat_va": 268791948,
+          "hint": 0
+        },
+        {
+          "name": "MapViewOfFile",
+          "ordinal": null,
+          "iat_va": 268791952,
+          "hint": 0
+        },
+        {
+          "name": "VirtualQuery",
+          "ordinal": null,
+          "iat_va": 268791956,
+          "hint": 0
+        },
+        {
+          "name": "CreateEventA",
+          "ordinal": null,
+          "iat_va": 268791960,
+          "hint": 0
+        },
+        {
+          "name": "GetProcessAffinityMask",
+          "ordinal": null,
+          "iat_va": 268791964,
+          "hint": 0
+        },
+        {
+          "name": "GetThreadGroupAffinity",
+          "ordinal": null,
+          "iat_va": 268791968,
+          "hint": 0
+        },
+        {
+          "name": "GetCurrentThread",
+          "ordinal": null,
+          "iat_va": 268791972,
+          "hint": 0
+        },
+        {
+          "name": "ResetEvent",
+          "ordinal": null,
+          "iat_va": 268791976,
+          "hint": 0
+        },
+        {
+          "name": "SwitchToThread",
+          "ordinal": null,
+          "iat_va": 268791980,
+          "hint": 0
+        },
+        {
+          "name": "SignalObjectAndWait",
+          "ordinal": null,
+          "iat_va": 268791984,
+          "hint": 0
+        },
+        {
+          "name": "GetHandleInformation",
+          "ordinal": null,
+          "iat_va": 268791988,
+          "hint": 0
+        },
+        {
+          "name": "CreateFileW",
+          "ordinal": null,
+          "iat_va": 268791992,
+          "hint": 0
+        },
+        {
+          "name": "CreateFileA",
+          "ordinal": null,
+          "iat_va": 268791996,
+          "hint": 0
+        },
+        {
+          "name": "SetFilePointer",
+          "ordinal": null,
+          "iat_va": 268792000,
+          "hint": 0
+        },
+        {
+          "name": "ReadFile",
+          "ordinal": null,
+          "iat_va": 268792004,
+          "hint": 0
+        },
+        {
+          "name": "WriteFile",
+          "ordinal": null,
+          "iat_va": 268792008,
+          "hint": 0
+        },
+        {
+          "name": "GetFileSizeEx",
+          "ordinal": null,
+          "iat_va": 268792012,
+          "hint": 0
+        },
+        {
+          "name": "HeapAlloc",
+          "ordinal": null,
+          "iat_va": 268792016,
+          "hint": 0
+        },
+        {
+          "name": "HeapFree",
+          "ordinal": null,
+          "iat_va": 268792020,
+          "hint": 0
+        },
+        {
+          "name": "GetProcessHeap",
+          "ordinal": null,
+          "iat_va": 268792024,
+          "hint": 0
+        },
+        {
+          "name": "lstrlenA",
+          "ordinal": null,
+          "iat_va": 268792028,
+          "hint": 0
+        },
+        {
+          "name": "LoadResource",
+          "ordinal": null,
+          "iat_va": 268792032,
+          "hint": 0
+        },
+        {
+          "name": "SizeofResource",
+          "ordinal": null,
+          "iat_va": 268792036,
+          "hint": 0
+        },
+        {
+          "name": "FindResourceW",
+          "ordinal": null,
+          "iat_va": 268792040,
+          "hint": 0
+        },
+        {
+          "name": "OutputDebugStringA",
+          "ordinal": null,
+          "iat_va": 268792044,
+          "hint": 0
+        },
+        {
+          "name": "GetThreadPriority",
+          "ordinal": null,
+          "iat_va": 268792048,
+          "hint": 0
+        },
+        {
+          "name": "SetThreadPriority",
+          "ordinal": null,
+          "iat_va": 268792052,
+          "hint": 0
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "ordinal": null,
+          "iat_va": 268792056,
+          "hint": 0
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "ordinal": null,
+          "iat_va": 268792060,
+          "hint": 0
+        },
+        {
+          "name": "GetModuleFileNameW",
+          "ordinal": null,
+          "iat_va": 268792064,
+          "hint": 0
+        },
+        {
+          "name": "LockResource",
+          "ordinal": null,
+          "iat_va": 268792068,
+          "hint": 0
+        },
+        {
+          "name": "AddVectoredExceptionHandler",
+          "ordinal": null,
+          "iat_va": 268792072,
+          "hint": 0
+        },
+        {
+          "name": "GetModuleFileNameA",
+          "ordinal": null,
+          "iat_va": 268792076,
+          "hint": 0
+        }
+      ]
+    },
+    {
+      "dll": "GDI32.dll",
+      "symbols": [
+        {
+          "name": "GetStockObject",
+          "ordinal": null,
+          "iat_va": 268791808,
+          "hint": 0
+        }
+      ]
+    },
+    {
+      "dll": "SHELL32.dll",
+      "symbols": [
+        {
+          "name": "SHGetFolderPathW",
+          "ordinal": null,
+          "iat_va": 268792084,
+          "hint": 0
+        }
+      ]
+    },
+    {
+      "dll": "SHLWAPI.dll",
+      "symbols": [
+        {
+          "name": "PathFindFileNameA",
+          "ordinal": null,
+          "iat_va": 268792092,
+          "hint": 0
+        },
+        {
+          "name": "PathRemoveFileSpecW",
+          "ordinal": null,
+          "iat_va": 268792096,
+          "hint": 0
+        },
+        {
+          "name": "PathAppendW",
+          "ordinal": null,
+          "iat_va": 268792100,
+          "hint": 0
+        },
+        {
+          "name": null,
+          "ordinal": 158,
+          "iat_va": 268792104,
+          "hint": null
+        }
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "symbols": [
+        {
+          "name": "ShowCursor",
+          "ordinal": null,
+          "iat_va": 268792112,
+          "hint": 0
+        },
+        {
+          "name": "ReleaseCapture",
+          "ordinal": null,
+          "iat_va": 268792116,
+          "hint": 0
+        },
+        {
+          "name": "IsWindowUnicode",
+          "ordinal": null,
+          "iat_va": 268792120,
+          "hint": 0
+        },
+        {
+          "name": "KillTimer",
+          "ordinal": null,
+          "iat_va": 268792124,
+          "hint": 0
+        },
+        {
+          "name": "PeekMessageA",
+          "ordinal": null,
+          "iat_va": 268792128,
+          "hint": 0
+        },
+        {
+          "name": "SetWindowLongW",
+          "ordinal": null,
+          "iat_va": 268792132,
+          "hint": 0
+        },
+        {
+          "name": "SetCapture",
+          "ordinal": null,
+          "iat_va": 268792136,
+          "hint": 0
+        },
+        {
+          "name": "ClipCursor",
+          "ordinal": null,
+          "iat_va": 268792140,
+          "hint": 0
+        },
+        {
+          "name": "SendNotifyMessageW",
+          "ordinal": null,
+          "iat_va": 268792144,
+          "hint": 0
+        },
+        {
+          "name": "GetWindowLongA",
+          "ordinal": null,
+          "iat_va": 268792148,
+          "hint": 0
+        },
+        {
+          "name": "MapWindowPoints",
+          "ordinal": null,
+          "iat_va": 268792152,
+          "hint": 0
+        },
+        {
+          "name": "SetWindowLongA",
+          "ordinal": null,
+          "iat_va": 268792156,
+          "hint": 0
+        },
+        {
+          "name": "GetMonitorInfoW",
+          "ordinal": null,
+          "iat_va": 268792160,
+          "hint": 0
+        },
+        {
+          "name": "SetTimer",
+          "ordinal": null,
+          "iat_va": 268792164,
+          "hint": 0
+        },
+        {
+          "name": "GetCapture",
+          "ordinal": null,
+          "iat_va": 268792168,
+          "hint": 0
+        },
+        {
+          "name": "OffsetRect",
+          "ordinal": null,
+          "iat_va": 268792172,
+          "hint": 0
+        },
+        {
+          "name": "GetActiveWindow",
+          "ordinal": null,
+          "iat_va": 268792176,
+          "hint": 0
+        },
+        {
+          "name": "GetSystemMetrics",
+          "ordinal": null,
+          "iat_va": 268792180,
+          "hint": 0
+        },
+        {
+          "name": "UnionRect",
+          "ordinal": null,
+          "iat_va": 268792184,
+          "hint": 0
+        },
+        {
+          "name": "MonitorFromWindow",
+          "ordinal": null,
+          "iat_va": 268792188,
+          "hint": 0
+        },
+        {
+          "name": "SetWindowPos",
+          "ordinal": null,
+          "iat_va": 268792192,
+          "hint": 0
+        },
+        {
+          "name": "GetWindowRect",
+          "ordinal": null,
+          "iat_va": 268792196,
+          "hint": 0
+        },
+        {
+          "name": "CallWindowProcW",
+          "ordinal": null,
+          "iat_va": 268792200,
+          "hint": 0
+        },
+        {
+          "name": "AdjustWindowRectEx",
+          "ordinal": null,
+          "iat_va": 268792204,
+          "hint": 0
+        },
+        {
+          "name": "GetWindowLongW",
+          "ordinal": null,
+          "iat_va": 268792208,
+          "hint": 0
+        },
+        {
+          "name": "CharLowerA",
+          "ordinal": null,
+          "iat_va": 268792212,
+          "hint": 0
+        },
+        {
+          "name": "SetRect",
+          "ordinal": null,
+          "iat_va": 268792216,
+          "hint": 0
+        },
+        {
+          "name": "IntersectRect",
+          "ordinal": null,
+          "iat_va": 268792220,
+          "hint": 0
+        },
+        {
+          "name": "SetRectEmpty",
+          "ordinal": null,
+          "iat_va": 268792224,
+          "hint": 0
+        },
+        {
+          "name": "GetClientRect",
+          "ordinal": null,
+          "iat_va": 268792228,
+          "hint": 0
+        },
+        {
+          "name": "LoadImageW",
+          "ordinal": null,
+          "iat_va": 268792232,
+          "hint": 0
+        },
+        {
+          "name": "SendMessageW",
+          "ordinal": null,
+          "iat_va": 268792236,
+          "hint": 0
+        },
+        {
+          "name": "EnumThreadWindows",
+          "ordinal": null,
+          "iat_va": 268792240,
+          "hint": 0
+        },
+        {
+          "name": "GetTopWindow",
+          "ordinal": null,
+          "iat_va": 268792244,
+          "hint": 0
+        },
+        {
+          "name": "GetWindowTextW",
+          "ordinal": null,
+          "iat_va": 268792248,
+          "hint": 0
+        },
+        {
+          "name": "IsRectEmpty",
+          "ordinal": null,
+          "iat_va": 268792252,
+          "hint": 0
+        },
+        {
+          "name": "CharLowerBuffA",
+          "ordinal": null,
+          "iat_va": 268792256,
+          "hint": 0
+        },
+        {
+          "name": "CreateWindowExW",
+          "ordinal": null,
+          "iat_va": 268792260,
+          "hint": 0
+        },
+        {
+          "name": "SetWindowTextW",
+          "ordinal": null,
+          "iat_va": 268792264,
+          "hint": 0
+        },
+        {
+          "name": "DispatchMessageW",
+          "ordinal": null,
+          "iat_va": 268792268,
+          "hint": 0
+        },
+        {
+          "name": "GetWindowThreadProcessId",
+          "ordinal": null,
+          "iat_va": 268792272,
+          "hint": 0
+        },
+        {
+          "name": "GetMessageW",
+          "ordinal": null,
+          "iat_va": 268792276,
+          "hint": 0
+        },
+        {
+          "name": "DefWindowProcW",
+          "ordinal": null,
+          "iat_va": 268792280,
+          "hint": 0
+        },
+        {
+          "name": "PostMessageW",
+          "ordinal": null,
+          "iat_va": 268792284,
+          "hint": 0
+        },
+        {
+          "name": "EqualRect",
+          "ordinal": null,
+          "iat_va": 268792288,
+          "hint": 0
+        },
+        {
+          "name": "PeekMessageW",
+          "ordinal": null,
+          "iat_va": 268792292,
+          "hint": 0
+        },
+        {
+          "name": "RegisterClassW",
+          "ordinal": null,
+          "iat_va": 268792296,
+          "hint": 0
+        },
+        {
+          "name": "TranslateMessage",
+          "ordinal": null,
+          "iat_va": 268792300,
+          "hint": 0
+        },
+        {
+          "name": "PostThreadMessageW",
+          "ordinal": null,
+          "iat_va": 268792304,
+          "hint": 0
+        },
+        {
+          "name": "UnregisterClassW",
+          "ordinal": null,
+          "iat_va": 268792308,
+          "hint": 0
+        },
+        {
+          "name": "GetClassInfoExA",
+          "ordinal": null,
+          "iat_va": 268792312,
+          "hint": 0
+        },
+        {
+          "name": "RegisterClassExA",
+          "ordinal": null,
+          "iat_va": 268792316,
+          "hint": 0
+        },
+        {
+          "name": "DestroyWindow",
+          "ordinal": null,
+          "iat_va": 268792320,
+          "hint": 0
+        },
+        {
+          "name": "IsWindow",
+          "ordinal": null,
+          "iat_va": 268792324,
+          "hint": 0
+        },
+        {
+          "name": "EnumDisplaySettingsW",
+          "ordinal": null,
+          "iat_va": 268792328,
+          "hint": 0
+        },
+        {
+          "name": "MonitorFromRect",
+          "ordinal": null,
+          "iat_va": 268792332,
+          "hint": 0
+        },
+        {
+          "name": "ChangeDisplaySettingsExW",
+          "ordinal": null,
+          "iat_va": 268792336,
+          "hint": 0
+        },
+        {
+          "name": "wvsprintfA",
+          "ordinal": null,
+          "iat_va": 268792340,
+          "hint": 0
+        }
+      ]
+    }
+  ],
+  "delay_imports": [],
+  "exports": [
+    {
+      "name": "_grAADrawTriangle@24",
+      "ordinal": 1,
+      "rva": 5061,
+      "va": 268440517,
+      "forwarder": null
+    },
+    {
+      "name": "_grAlphaBlendFunction@16",
+      "ordinal": 2,
+      "rva": 5552,
+      "va": 268441008,
+      "forwarder": null
+    },
+    {
+      "name": "_grAlphaBlendFunctionExt@24",
+      "ordinal": 3,
+      "rva": 9269,
+      "va": 268444725,
+      "forwarder": null
+    },
+    {
+      "name": "_grAlphaCombine@20",
+      "ordinal": 4,
+      "rva": 5583,
+      "va": 268441039,
+      "forwarder": null
+    },
+    {
+      "name": "_grAlphaCombineExt@40",
+      "ordinal": 5,
+      "rva": 9091,
+      "va": 268444547,
+      "forwarder": null
+    },
+    {
+      "name": "_grAlphaControlsITRGBLighting@4",
+      "ordinal": 6,
+      "rva": 5617,
+      "va": 268441073,
+      "forwarder": null
+    },
+    {
+      "name": "_grAlphaTestFunction@4",
+      "ordinal": 7,
+      "rva": 5684,
+      "va": 268441140,
+      "forwarder": null
+    },
+    {
+      "name": "_grAlphaTestReferenceValue@4",
+      "ordinal": 8,
+      "rva": 5706,
+      "va": 268441162,
+      "forwarder": null
+    },
+    {
+      "name": "_grAuxBufferExt@4",
+      "ordinal": 9,
+      "rva": 5221,
+      "va": 268440677,
+      "forwarder": null
+    },
+    {
+      "name": "_grBufferClear@12",
+      "ordinal": 10,
+      "rva": 5137,
+      "va": 268440593,
+      "forwarder": null
+    },
+    {
+      "name": "_grBufferClearExt@16",
+      "ordinal": 11,
+      "rva": 9507,
+      "va": 268444963,
+      "forwarder": null
+    },
+    {
+      "name": "_grBufferSwap@4",
+      "ordinal": 12,
+      "rva": 5165,
+      "va": 268440621,
+      "forwarder": null
+    },
+    {
+      "name": "_grChromaRangeExt@12",
+      "ordinal": 13,
+      "rva": 5897,
+      "va": 268441353,
+      "forwarder": null
+    },
+    {
+      "name": "_grChromaRangeModeExt@4",
+      "ordinal": 14,
+      "rva": 5817,
+      "va": 268441273,
+      "forwarder": null
+    },
+    {
+      "name": "_grChromakeyMode@4",
+      "ordinal": 15,
+      "rva": 5773,
+      "va": 268441229,
+      "forwarder": null
+    },
+    {
+      "name": "_grChromakeyValue@4",
+      "ordinal": 16,
+      "rva": 5795,
+      "va": 268441251,
+      "forwarder": null
+    },
+    {
+      "name": "_grClipWindow@16",
+      "ordinal": 17,
+      "rva": 6050,
+      "va": 268441506,
+      "forwarder": null
+    },
+    {
+      "name": "_grColorCombine@20",
+      "ordinal": 18,
+      "rva": 6081,
+      "va": 268441537,
+      "forwarder": null
+    },
+    {
+      "name": "_grColorCombineExt@40",
+      "ordinal": 19,
+      "rva": 9042,
+      "va": 268444498,
+      "forwarder": null
+    },
+    {
+      "name": "_grColorMask@8",
+      "ordinal": 20,
+      "rva": 6116,
+      "va": 268441572,
+      "forwarder": null
+    },
+    {
+      "name": "_grColorMaskExt@16",
+      "ordinal": 21,
+      "rva": 9476,
+      "va": 268444932,
+      "forwarder": null
+    },
+    {
+      "name": "_grConstantColorValue@4",
+      "ordinal": 22,
+      "rva": 6235,
+      "va": 268441691,
+      "forwarder": null
+    },
+    {
+      "name": "_grConstantColorValueExt@8",
+      "ordinal": 23,
+      "rva": 9244,
+      "va": 268444700,
+      "forwarder": null
+    },
+    {
+      "name": "_grCoordinateSpace@4",
+      "ordinal": 24,
+      "rva": 7018,
+      "va": 268442474,
+      "forwarder": null
+    },
+    {
+      "name": "_grCullMode@4",
+      "ordinal": 25,
+      "rva": 6141,
+      "va": 268441597,
+      "forwarder": null
+    },
+    {
+      "name": "_grDepthBiasLevel@4",
+      "ordinal": 26,
+      "rva": 6316,
+      "va": 268441772,
+      "forwarder": null
+    },
+    {
+      "name": "_grDepthBufferFunction@4",
+      "ordinal": 27,
+      "rva": 6383,
+      "va": 268441839,
+      "forwarder": null
+    },
+    {
+      "name": "_grDepthBufferMode@4",
+      "ordinal": 28,
+      "rva": 6453,
+      "va": 268441909,
+      "forwarder": null
+    },
+    {
+      "name": "_grDepthMask@4",
+      "ordinal": 29,
+      "rva": 6475,
+      "va": 268441931,
+      "forwarder": null
+    },
+    {
+      "name": "_grDepthRange@8",
+      "ordinal": 30,
+      "rva": 7069,
+      "va": 268442525,
+      "forwarder": null
+    },
+    {
+      "name": "_grDeviceQueryExt@8",
+      "ordinal": 31,
+      "rva": 9596,
+      "va": 268445052,
+      "forwarder": null
+    },
+    {
+      "name": "_grDisable@4",
+      "ordinal": 32,
+      "rva": 6996,
+      "va": 268442452,
+      "forwarder": null
+    },
+    {
+      "name": "_grDisableAllEffects@0",
+      "ordinal": 33,
+      "rva": 6497,
+      "va": 268441953,
+      "forwarder": null
+    },
+    {
+      "name": "_grDitherMode@4",
+      "ordinal": 34,
+      "rva": 6574,
+      "va": 268442030,
+      "forwarder": null
+    },
+    {
+      "name": "_grDrawLine@8",
+      "ordinal": 35,
+      "rva": 4765,
+      "va": 268440221,
+      "forwarder": null
+    },
+    {
+      "name": "_grDrawPoint@4",
+      "ordinal": 36,
+      "rva": 4704,
+      "va": 268440160,
+      "forwarder": null
+    },
+    {
+      "name": "_grDrawTriangle@12",
+      "ordinal": 37,
+      "rva": 4829,
+      "va": 268440285,
+      "forwarder": null
+    },
+    {
+      "name": "_grDrawVertexArray@12",
+      "ordinal": 38,
+      "rva": 4924,
+      "va": 268440380,
+      "forwarder": null
+    },
+    {
+      "name": "_grDrawVertexArrayContiguous@16",
+      "ordinal": 39,
+      "rva": 4991,
+      "va": 268440447,
+      "forwarder": null
+    },
+    {
+      "name": "_grEnable@4",
+      "ordinal": 40,
+      "rva": 6974,
+      "va": 268442430,
+      "forwarder": null
+    },
+    {
+      "name": "_grErrorSetCallback@4",
+      "ordinal": 41,
+      "rva": 5196,
+      "va": 268440652,
+      "forwarder": null
+    },
+    {
+      "name": "_grFinish@0",
+      "ordinal": 42,
+      "rva": 5370,
+      "va": 268440826,
+      "forwarder": null
+    },
+    {
+      "name": "_grFlush@0",
+      "ordinal": 43,
+      "rva": 5413,
+      "va": 268440869,
+      "forwarder": null
+    },
+    {
+      "name": "_grFogColorValue@4",
+      "ordinal": 44,
+      "rva": 6596,
+      "va": 268442052,
+      "forwarder": null
+    },
+    {
+      "name": "_grFogMode@4",
+      "ordinal": 45,
+      "rva": 6677,
+      "va": 268442133,
+      "forwarder": null
+    },
+    {
+      "name": "_grFogTable@4",
+      "ordinal": 46,
+      "rva": 6699,
+      "va": 268442155,
+      "forwarder": null
+    },
+    {
+      "name": "_grGet@12",
+      "ordinal": 47,
+      "rva": 6853,
+      "va": 268442309,
+      "forwarder": null
+    },
+    {
+      "name": "_grGetGammaTableExt@16",
+      "ordinal": 48,
+      "rva": 8888,
+      "va": 268444344,
+      "forwarder": null
+    },
+    {
+      "name": "_grGetProcAddress@4",
+      "ordinal": 49,
+      "rva": 8988,
+      "va": 268444444,
+      "forwarder": null
+    },
+    {
+      "name": "_grGetRegistryOrEnvironmentStringExt@4",
+      "ordinal": 50,
+      "rva": 9578,
+      "va": 268445034,
+      "forwarder": null
+    },
+    {
+      "name": "_grGetString@4",
+      "ordinal": 51,
+      "rva": 6881,
+      "va": 268442337,
+      "forwarder": null
+    },
+    {
+      "name": "_grGlideGetState@4",
+      "ordinal": 52,
+      "rva": 8484,
+      "va": 268443940,
+      "forwarder": null
+    },
+    {
+      "name": "_grGlideGetVertexLayout@4",
+      "ordinal": 53,
+      "rva": 8530,
+      "va": 268443986,
+      "forwarder": null
+    },
+    {
+      "name": "_grGlideInit@0",
+      "ordinal": 54,
+      "rva": 8460,
+      "va": 268443916,
+      "forwarder": null
+    },
+    {
+      "name": "_grGlideSetState@4",
+      "ordinal": 55,
+      "rva": 8506,
+      "va": 268443962,
+      "forwarder": null
+    },
+    {
+      "name": "_grGlideSetVertexLayout@4",
+      "ordinal": 56,
+      "rva": 8559,
+      "va": 268444015,
+      "forwarder": null
+    },
+    {
+      "name": "_grGlideShutdown@0",
+      "ordinal": 57,
+      "rva": 8472,
+      "va": 268443928,
+      "forwarder": null
+    },
+    {
+      "name": "_grLfbConstantAlpha@4",
+      "ordinal": 58,
+      "rva": 8250,
+      "va": 268443706,
+      "forwarder": null
+    },
+    {
+      "name": "_grLfbConstantDepth@4",
+      "ordinal": 59,
+      "rva": 8272,
+      "va": 268443728,
+      "forwarder": null
+    },
+    {
+      "name": "_grLfbConstantStencilExt@4",
+      "ordinal": 60,
+      "rva": 9442,
+      "va": 268444898,
+      "forwarder": null
+    },
+    {
+      "name": "_grLfbLock@24",
+      "ordinal": 61,
+      "rva": 8077,
+      "va": 268443533,
+      "forwarder": null
+    },
+    {
+      "name": "_grLfbReadRegion@28",
+      "ordinal": 62,
+      "rva": 8420,
+      "va": 268443876,
+      "forwarder": null
+    },
+    {
+      "name": "_grLfbUnlock@8",
+      "ordinal": 63,
+      "rva": 8155,
+      "va": 268443611,
+      "forwarder": null
+    },
+    {
+      "name": "_grLfbWriteColorFormat@4",
+      "ordinal": 64,
+      "rva": 8342,
+      "va": 268443798,
+      "forwarder": null
+    },
+    {
+      "name": "_grLfbWriteColorSwizzle@8",
+      "ordinal": 65,
+      "rva": 8339,
+      "va": 268443795,
+      "forwarder": null
+    },
+    {
+      "name": "_grLfbWriteRegion@36",
+      "ordinal": 66,
+      "rva": 8364,
+      "va": 268443820,
+      "forwarder": null
+    },
+    {
+      "name": "_grLoadGammaTable@16",
+      "ordinal": 67,
+      "rva": 6772,
+      "va": 268442228,
+      "forwarder": null
+    },
+    {
+      "name": "_grQueryResolutions@8",
+      "ordinal": 68,
+      "rva": 6896,
+      "va": 268442352,
+      "forwarder": null
+    },
+    {
+      "name": "_grRenderBuffer@4",
+      "ordinal": 69,
+      "rva": 5199,
+      "va": 268440655,
+      "forwarder": null
+    },
+    {
+      "name": "_grReset@4",
+      "ordinal": 70,
+      "rva": 6921,
+      "va": 268442377,
+      "forwarder": null
+    },
+    {
+      "name": "_grSelectContext@4",
+      "ordinal": 71,
+      "rva": 5505,
+      "va": 268440961,
+      "forwarder": null
+    },
+    {
+      "name": "_grSetNumPendingBuffers@4",
+      "ordinal": 72,
+      "rva": 5196,
+      "va": 268440652,
+      "forwarder": null
+    },
+    {
+      "name": "_grSplash@20",
+      "ordinal": 73,
+      "rva": 6801,
+      "va": 268442257,
+      "forwarder": null
+    },
+    {
+      "name": "_grSstOrigin@4",
+      "ordinal": 74,
+      "rva": 5530,
+      "va": 268440986,
+      "forwarder": null
+    },
+    {
+      "name": "_grSstSelect@4",
+      "ordinal": 75,
+      "rva": 5196,
+      "va": 268440652,
+      "forwarder": null
+    },
+    {
+      "name": "_grSstWinClose@4",
+      "ordinal": 76,
+      "rva": 5480,
+      "va": 268440936,
+      "forwarder": null
+    },
+    {
+      "name": "_grSstWinOpen@28",
+      "ordinal": 77,
+      "rva": 5444,
+      "va": 268440900,
+      "forwarder": null
+    },
+    {
+      "name": "_grSstWinOpenExt@32",
+      "ordinal": 78,
+      "rva": 9003,
+      "va": 268444459,
+      "forwarder": null
+    },
+    {
+      "name": "_grStencilFuncExt@12",
+      "ordinal": 79,
+      "rva": 9306,
+      "va": 268444762,
+      "forwarder": null
+    },
+    {
+      "name": "_grStencilMaskExt@4",
+      "ordinal": 80,
+      "rva": 9334,
+      "va": 268444790,
+      "forwarder": null
+    },
+    {
+      "name": "_grStencilOpExt@12",
+      "ordinal": 81,
+      "rva": 9414,
+      "va": 268444870,
+      "forwarder": null
+    },
+    {
+      "name": "_grSurfaceCalcTextureWHDExt@16",
+      "ordinal": 82,
+      "rva": 9591,
+      "va": 268445047,
+      "forwarder": null
+    },
+    {
+      "name": "_grSurfaceCreateContextExt@4",
+      "ordinal": 83,
+      "rva": 9586,
+      "va": 268445042,
+      "forwarder": null
+    },
+    {
+      "name": "_grSurfaceReleaseContextExt@4",
+      "ordinal": 84,
+      "rva": 5196,
+      "va": 268440652,
+      "forwarder": null
+    },
+    {
+      "name": "_grSurfaceSetAuxSurfaceExt@4",
+      "ordinal": 85,
+      "rva": 5196,
+      "va": 268440652,
+      "forwarder": null
+    },
+    {
+      "name": "_grSurfaceSetRenderingSurfaceExt@8",
+      "ordinal": 86,
+      "rva": 8339,
+      "va": 268443795,
+      "forwarder": null
+    },
+    {
+      "name": "_grSurfaceSetTextureSurfaceExt@8",
+      "ordinal": 87,
+      "rva": 8339,
+      "va": 268443795,
+      "forwarder": null
+    },
+    {
+      "name": "_grTBufferWriteMaskExt@4",
+      "ordinal": 88,
+      "rva": 9556,
+      "va": 268445012,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexAlphaCombineExt@44",
+      "ordinal": 89,
+      "rva": 9192,
+      "va": 268444648,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexCalcMemRequired@16",
+      "ordinal": 90,
+      "rva": 7176,
+      "va": 268442632,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexChromaModeExt@8",
+      "ordinal": 91,
+      "rva": 5923,
+      "va": 268441379,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexChromaRangeExt@16",
+      "ordinal": 92,
+      "rva": 6021,
+      "va": 268441477,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexClampMode@12",
+      "ordinal": 93,
+      "rva": 7497,
+      "va": 268442953,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexColorCombineExt@44",
+      "ordinal": 94,
+      "rva": 9140,
+      "va": 268444596,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexCombine@28",
+      "ordinal": 95,
+      "rva": 7525,
+      "va": 268442981,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexDetailControl@16",
+      "ordinal": 96,
+      "rva": 7565,
+      "va": 268443021,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexDownloadMipMap@16",
+      "ordinal": 97,
+      "rva": 7657,
+      "va": 268443113,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexDownloadMipMapLevel@32",
+      "ordinal": 98,
+      "rva": 7702,
+      "va": 268443158,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexDownloadMipMapLevelPartial@40",
+      "ordinal": 99,
+      "rva": 7765,
+      "va": 268443221,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexDownloadTable@8",
+      "ordinal": 100,
+      "rva": 7814,
+      "va": 268443270,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexDownloadTablePartial@16",
+      "ordinal": 101,
+      "rva": 7890,
+      "va": 268443346,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexFilterMode@12",
+      "ordinal": 102,
+      "rva": 7600,
+      "va": 268443056,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexLodBiasValue@8",
+      "ordinal": 103,
+      "rva": 7628,
+      "va": 268443084,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexMaxAddress@4",
+      "ordinal": 104,
+      "rva": 7270,
+      "va": 268442726,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexMinAddress@4",
+      "ordinal": 105,
+      "rva": 7260,
+      "va": 268442716,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexMipMapMode@12",
+      "ordinal": 106,
+      "rva": 7921,
+      "va": 268443377,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexMultibase@8",
+      "ordinal": 107,
+      "rva": 7943,
+      "va": 268443399,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexMultibaseAddress@20",
+      "ordinal": 108,
+      "rva": 8032,
+      "va": 268443488,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexNCCTable@4",
+      "ordinal": 109,
+      "rva": 7360,
+      "va": 268442816,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexSource@16",
+      "ordinal": 110,
+      "rva": 7453,
+      "va": 268442909,
+      "forwarder": null
+    },
+    {
+      "name": "_grTexTextureMemRequired@8",
+      "ordinal": 111,
+      "rva": 7217,
+      "va": 268442673,
+      "forwarder": null
+    },
+    {
+      "name": "_grTextureAuxBufferExt@28",
+      "ordinal": 112,
+      "rva": 5330,
+      "va": 268440786,
+      "forwarder": null
+    },
+    {
+      "name": "_grTextureBufferExt@28",
+      "ordinal": 113,
+      "rva": 5290,
+      "va": 268440746,
+      "forwarder": null
+    },
+    {
+      "name": "_grVertexLayout@12",
+      "ordinal": 114,
+      "rva": 4896,
+      "va": 268440352,
+      "forwarder": null
+    },
+    {
+      "name": "_grViewport@16",
+      "ordinal": 115,
+      "rva": 7124,
+      "va": 268442580,
+      "forwarder": null
+    },
+    {
+      "name": "_gu3dfGetInfo@8",
+      "ordinal": 116,
+      "rva": 8919,
+      "va": 268444375,
+      "forwarder": null
+    },
+    {
+      "name": "_gu3dfLoad@8",
+      "ordinal": 117,
+      "rva": 8970,
+      "va": 268444426,
+      "forwarder": null
+    },
+    {
+      "name": "_guFogGenerateExp2@8",
+      "ordinal": 118,
+      "rva": 8738,
+      "va": 268444194,
+      "forwarder": null
+    },
+    {
+      "name": "_guFogGenerateExp@8",
+      "ordinal": 119,
+      "rva": 8596,
+      "va": 268444052,
+      "forwarder": null
+    },
+    {
+      "name": "_guFogGenerateLinear@12",
+      "ordinal": 120,
+      "rva": 8761,
+      "va": 268444217,
+      "forwarder": null
+    },
+    {
+      "name": "_guFogTableIndexToW@4",
+      "ordinal": 121,
+      "rva": 8581,
+      "va": 268444037,
+      "forwarder": null
+    },
+    {
+      "name": "_guGammaCorrectionRGB@12",
+      "ordinal": 122,
+      "rva": 8846,
+      "va": 268444302,
+      "forwarder": null
+    }
+  ],
+  "load_config": {},
+  "load_config_with_offsets": null,
+  "data_directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+      "rva": 375072,
+      "size": 3844
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "rva": 379368,
+      "size": 120
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "rva": 393216,
+      "size": 587648
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+      "rva": 983040,
+      "size": 7236
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+      "rva": 374960,
+      "size": 112
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+      "rva": 0,
+      "size": 0
+    }
+  ],
+  "runtime_functions": [],
+  "runtime_function_note": "Raw IMAGE_RUNTIME_FUNCTION_ENTRY records; ARM64 uses 8-byte entries. For hybrid images these are metadata records, not proof of the instruction set of every range.",
+  "debug": [
+    {
+      "type": 0,
+      "rva": 0,
+      "file_offset": 0,
+      "size": 0,
+      "raw_hex": ""
+    },
+    {
+      "type": 0,
+      "rva": 0,
+      "file_offset": 0,
+      "size": 0,
+      "raw_hex": ""
+    },
+    {
+      "type": 0,
+      "rva": 0,
+      "file_offset": 0,
+      "size": 0,
+      "raw_hex": ""
+    },
+    {
+      "type": 0,
+      "rva": 0,
+      "file_offset": 0,
+      "size": 0,
+      "raw_hex": ""
+    }
+  ],
+  "parser_warnings": []
+}

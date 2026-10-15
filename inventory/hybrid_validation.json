@@ -1,0 +1,100 @@
+{
+  "method": "Verify projected image SHA256, all seed ranges, and first instruction decoding with Capstone 5.0.7",
+  "results": [
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide.dll.arm64",
+      "seeds": 2247,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide.dll.x86",
+      "seeds": 165,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide2x.dll.arm64",
+      "seeds": 2234,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide2x.dll.x86",
+      "seeds": 161,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide3x.dll.arm64",
+      "seeds": 2231,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide3x.dll.x86",
+      "seeds": 102,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64",
+      "seeds": 2328,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86",
+      "seeds": 224,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3D8.dll.arm64",
+      "seeds": 3849,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3D8.dll.x86",
+      "seeds": 6,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3D9.dll.arm64",
+      "seeds": 4310,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3D9.dll.x86",
+      "seeds": 13,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3DImm.dll.arm64",
+      "seeds": 2237,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3DImm.dll.x86",
+      "seeds": 4,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64_chpe_x86__DDraw.dll.arm64",
+      "seeds": 2779,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64_chpe_x86__DDraw.dll.x86",
+      "seeds": 17,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64x__D3D9.dll.arm64",
+      "seeds": 1752,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64x__D3D9.dll.arm64ec",
+      "seeds": 1957,
+      "first_instruction_decode_failures": []
+    },
+    {
+      "id": "MS__arm64x__D3D9.dll.x64",
+      "seeds": 15,
+      "first_instruction_decode_failures": []
+    }
+  ]
+}

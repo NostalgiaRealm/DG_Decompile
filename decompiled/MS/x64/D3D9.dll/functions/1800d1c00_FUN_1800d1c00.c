@@ -1,0 +1,39 @@
+/*
+ * FUN_1800d1c00 at 1800d1c00
+ * int __fastcall FUN_1800d1c00(longlong param_1, undefined8 * param_2, uint param_3)
+ * Address ranges: 1800d1c00-1800d1c9b
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+int FUN_1800d1c00(longlong param_1,undefined8 *param_2,uint param_3)
+
+{
+  uint uVar1;
+  undefined8 *puVar2;
+  int iVar3;
+  int iVar4;
+  
+  iVar4 = -1;
+  iVar3 = *(int *)(param_1 + 0x7c) + param_3;
+  if (*(uint *)(param_1 + 0x78) < iVar3 + 1U) {
+    uVar1 = iVar3 * 2 + 2;
+    puVar2 = (undefined8 *)thunk_FUN_1800fbccc((ulonglong)uVar1);
+    if (puVar2 != (undefined8 *)0x0) {
+      FUN_1800fbec0(puVar2,*(undefined8 **)(param_1 + 0x70),(ulonglong)*(uint *)(param_1 + 0x7c));
+      FUN_1800fbcf0(*(LPVOID *)(param_1 + 0x70));
+    }
+    *(undefined8 **)(param_1 + 0x70) = puVar2;
+    *(uint *)(param_1 + 0x78) = uVar1;
+  }
+  if (*(longlong *)(param_1 + 0x70) != 0) {
+    FUN_1800fbec0((undefined8 *)
+                  ((ulonglong)*(uint *)(param_1 + 0x7c) + *(longlong *)(param_1 + 0x70)),param_2,
+                  (ulonglong)param_3);
+    iVar4 = *(int *)(param_1 + 0x7c);
+    *(uint *)(param_1 + 0x7c) = iVar4 + param_3;
+    *(undefined1 *)((ulonglong)(iVar4 + param_3) + *(longlong *)(param_1 + 0x70)) = 0;
+    *(int *)(param_1 + 0x7c) = *(int *)(param_1 + 0x7c) + 1;
+  }
+  return iVar4;
+}
+

@@ -1,0 +1,15 @@
+address	name	signature	status	body_ranges	body_bytes	file	error	pcode_origin_count	outside_pcode_origin_count
+10158000	range_start_10158000	undefined range_start_10158000(void)	decompiled	10158000-1015801b	28	functions/10158000_range_start_10158000.c		4	0
+1015801c	FUN_1015801c	undefined FUN_1015801c(void)	decompiled	1015801c-1015802a	15	functions/1015801c_FUN_1015801c.c		3	0
+10158370	FUN_10158370	undefined FUN_10158370(void)	decompiled	10158370-10158372	3	functions/10158370_FUN_10158370.c		1	0
+1015a000	D3DPERF_BeginEvent	undefined D3DPERF_BeginEvent(void)	decompiled	1015a000-1015a00b	12	functions/1015a000_D3DPERF_BeginEvent.c		1	0
+1015a010	D3DPERF_EndEvent	undefined D3DPERF_EndEvent(void)	decompiled	1015a010-1015a01b	12	functions/1015a010_D3DPERF_EndEvent.c		1	0
+1015a020	D3DPERF_GetStatus	undefined D3DPERF_GetStatus(void)	decompiled	1015a020-1015a02b	12	functions/1015a020_D3DPERF_GetStatus.c		1	0
+1015a030	D3DPERF_QueryRepeatFrame	undefined D3DPERF_QueryRepeatFrame(void)	decompiled	1015a030-1015a03b	12	functions/1015a030_D3DPERF_QueryRepeatFrame.c		1	0
+1015a040	D3DPERF_SetMarker	undefined D3DPERF_SetMarker(void)	decompiled	1015a040-1015a04b	12	functions/1015a040_D3DPERF_SetMarker.c		1	0
+1015a050	D3DPERF_SetOptions	undefined D3DPERF_SetOptions(void)	decompiled	1015a050-1015a05b	12	functions/1015a050_D3DPERF_SetOptions.c		1	0
+1015a060	D3DPERF_SetRegion	undefined D3DPERF_SetRegion(void)	decompiled	1015a060-1015a06b	12	functions/1015a060_D3DPERF_SetRegion.c		1	0
+1015a070	DebugSetMute	undefined DebugSetMute(void)	decompiled	1015a070-1015a07b	12	functions/1015a070_DebugSetMute.c		1	0
+1015a080	Direct3DCreate9	undefined Direct3DCreate9(void)	decompiled	1015a080-1015a08b	12	functions/1015a080_Direct3DCreate9.c		1	0
+1015a090	Direct3DCreate9Ex	undefined Direct3DCreate9Ex(void)	decompiled	1015a090-1015a09b	12	functions/1015a090_Direct3DCreate9Ex.c		1	0
+1015a0a0	Direct3DShaderValidatorCreate9	undefined Direct3DShaderValidatorCreate9(void)	decompiled	1015a0a0-1015a0ab	12	functions/1015a0a0_Direct3DShaderValidatorCreate9.c		1	0

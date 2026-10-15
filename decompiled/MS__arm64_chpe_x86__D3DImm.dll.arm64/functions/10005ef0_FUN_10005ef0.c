@@ -1,0 +1,163 @@
+/*
+ * FUN_10005ef0 at 10005ef0
+ * undefined FUN_10005ef0(void)
+ * Address ranges: 10005ef0-10006107
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+undefined8 * FUN_10005ef0(undefined8 *param_1)
+
+{
+  undefined4 *puVar1;
+  undefined8 *puVar2;
+  int iVar3;
+  
+  iVar3 = 0xe;
+  puVar2 = param_1;
+  do {
+    puVar2[1] = 0;
+    *puVar2 = 0;
+    puVar2[3] = 0;
+    puVar2[2] = 0;
+    puVar2[5] = 0;
+    puVar2[4] = 0;
+    puVar2[7] = 0;
+    puVar2[6] = 0;
+    iVar3 = iVar3 + -1;
+    *(undefined4 *)((int)puVar2 + 0x3c) = 0x3f800000;
+    *(undefined4 *)(puVar2 + 5) = 0x3f800000;
+    puVar1 = (undefined4 *)((int)puVar2 + 0x14);
+    *(undefined4 *)puVar2 = 0x3f800000;
+    puVar2 = puVar2 + 8;
+    *puVar1 = 0x3f800000;
+  } while (iVar3 != 0);
+  puVar2 = param_1 + 0x70;
+  iVar3 = 0xe;
+  do {
+    puVar2[1] = 0;
+    *puVar2 = 0;
+    puVar2[3] = 0;
+    puVar2[2] = 0;
+    puVar2[5] = 0;
+    puVar2[4] = 0;
+    puVar2[7] = 0;
+    puVar2[6] = 0;
+    iVar3 = iVar3 + -1;
+    *(undefined4 *)((int)puVar2 + 0x3c) = 0x3f800000;
+    *(undefined4 *)(puVar2 + 5) = 0x3f800000;
+    puVar1 = (undefined4 *)((int)puVar2 + 0x14);
+    *(undefined4 *)puVar2 = 0x3f800000;
+    puVar2 = puVar2 + 8;
+    *puVar1 = 0x3f800000;
+  } while (iVar3 != 0);
+  param_1[0xe1] = 0;
+  param_1[0xe0] = 0;
+  param_1[0xe3] = 0;
+  param_1[0xe2] = 0;
+  param_1[0xe5] = 0;
+  param_1[0xe4] = 0;
+  param_1[0xe7] = 0;
+  param_1[0xe6] = 0;
+  *(undefined4 *)((int)param_1 + 0x73c) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0xe5) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0xe0) = 0x3f800000;
+  *(undefined4 *)((int)param_1 + 0x714) = 0x3f800000;
+  param_1[0xe9] = 0;
+  param_1[0xe8] = 0;
+  param_1[0xeb] = 0;
+  param_1[0xea] = 0;
+  param_1[0xed] = 0;
+  param_1[0xec] = 0;
+  param_1[0xef] = 0;
+  param_1[0xee] = 0;
+  *(undefined4 *)((int)param_1 + 0x77c) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0xed) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0xe8) = 0x3f800000;
+  *(undefined4 *)((int)param_1 + 0x754) = 0x3f800000;
+  param_1[0xf1] = 0;
+  param_1[0xf0] = 0;
+  param_1[0xf3] = 0;
+  param_1[0xf2] = 0;
+  param_1[0xf5] = 0;
+  param_1[0xf4] = 0;
+  param_1[0xf7] = 0;
+  param_1[0xf6] = 0;
+  *(undefined4 *)((int)param_1 + 0x7bc) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0xf5) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0xf0) = 0x3f800000;
+  *(undefined4 *)((int)param_1 + 0x794) = 0x3f800000;
+  param_1[0xf9] = 0;
+  param_1[0xf8] = 0;
+  param_1[0xfb] = 0;
+  param_1[0xfa] = 0;
+  param_1[0xfd] = 0;
+  param_1[0xfc] = 0;
+  param_1[0xff] = 0;
+  param_1[0xfe] = 0;
+  *(undefined4 *)((int)param_1 + 0x7fc) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0xfd) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0xf8) = 0x3f800000;
+  *(undefined4 *)((int)param_1 + 0x7d4) = 0x3f800000;
+  param_1[0x101] = 0;
+  param_1[0x100] = 0;
+  param_1[0x103] = 0;
+  param_1[0x102] = 0;
+  param_1[0x105] = 0;
+  param_1[0x104] = 0;
+  param_1[0x107] = 0;
+  param_1[0x106] = 0;
+  *(undefined4 *)((int)param_1 + 0x83c) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x105) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x100) = 0x3f800000;
+  *(undefined4 *)((int)param_1 + 0x814) = 0x3f800000;
+  param_1[0x109] = 0;
+  param_1[0x108] = 0;
+  param_1[0x10b] = 0;
+  param_1[0x10a] = 0;
+  param_1[0x10d] = 0;
+  param_1[0x10c] = 0;
+  param_1[0x10f] = 0;
+  param_1[0x10e] = 0;
+  *(undefined4 *)((int)param_1 + 0x87c) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x10d) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x108) = 0x3f800000;
+  *(undefined4 *)((int)param_1 + 0x854) = 0x3f800000;
+  param_1[0x111] = 0;
+  param_1[0x110] = 0;
+  param_1[0x113] = 0;
+  param_1[0x112] = 0;
+  param_1[0x115] = 0;
+  param_1[0x114] = 0;
+  param_1[0x117] = 0;
+  param_1[0x116] = 0;
+  *(undefined4 *)((int)param_1 + 0x8bc) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x115) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x110) = 0x3f800000;
+  *(undefined4 *)((int)param_1 + 0x894) = 0x3f800000;
+  param_1[0x119] = 0;
+  param_1[0x118] = 0;
+  param_1[0x11b] = 0;
+  param_1[0x11a] = 0;
+  param_1[0x11d] = 0;
+  param_1[0x11c] = 0;
+  param_1[0x11f] = 0;
+  param_1[0x11e] = 0;
+  *(undefined4 *)((int)param_1 + 0x8fc) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x11d) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x118) = 0x3f800000;
+  *(undefined4 *)((int)param_1 + 0x8d4) = 0x3f800000;
+  param_1[0x121] = 0;
+  param_1[0x120] = 0;
+  param_1[0x123] = 0;
+  param_1[0x122] = 0;
+  param_1[0x125] = 0;
+  param_1[0x124] = 0;
+  param_1[0x127] = 0;
+  param_1[0x126] = 0;
+  *(undefined4 *)((int)param_1 + 0x93c) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x125) = 0x3f800000;
+  *(undefined4 *)((int)param_1 + 0x914) = 0x3f800000;
+  *(undefined4 *)(param_1 + 0x120) = 0x3f800000;
+  return param_1;
+}
+

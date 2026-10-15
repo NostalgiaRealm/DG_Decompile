@@ -1,0 +1,41 @@
+/*
+ * FUN_1800e9320 at 1800e9320
+ * undefined FUN_1800e9320(void)
+ * Address ranges: 1800e9320-1800e93d3
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+longlong FUN_1800e9320(longlong param_1)
+
+{
+  uint uVar1;
+  ulonglong uVar2;
+  longlong lVar3;
+  undefined8 local_50;
+  longlong local_48;
+  undefined4 local_40;
+  longlong local_38;
+  undefined4 local_30;
+  
+  if (*(int *)(param_1 + 0xb50) == -1) {
+    lVar3 = 0;
+  }
+  else {
+    lVar3 = *(longlong *)(param_1 + 0xb48) + 1;
+    *(longlong *)(param_1 + 0xb48) = lVar3;
+    FUN_1800e8038();
+    FUN_1800e80d8(param_1);
+    uVar1 = *(uint *)(param_1 + 0xb50);
+    local_38 = (**(code **)(**(longlong **)(*(longlong *)(param_1 + 0xb40) + 0x10) + 0x58))();
+    uVar2 = (ulonglong)uVar1 * 8;
+    local_30 = (undefined4)lVar3;
+    local_48 = local_38 + (uVar2 | 4);
+    local_40 = (undefined4)((ulonglong)lVar3 >> 0x20);
+    local_38 = local_38 + uVar2;
+    local_50 = 0x200000002;
+    (**(code **)(**(longlong **)(param_1 + 0x688) + 0x210))
+              (*(longlong **)(param_1 + 0x688),2,&local_48,&local_50);
+  }
+  return lVar3;
+}
+

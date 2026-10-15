@@ -1,0 +1,373 @@
+[
+  {
+    "path": "3Dfx/arm64/Glide.dll",
+    "size": 977408,
+    "sha256": "6447eb7c5c9c27287a43c6fc3b0d92c92831ebcb462e094befdc8e1ccb33e215",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/arm64/Glide2x.dll",
+    "size": 973312,
+    "sha256": "9093aa930c8fc36eb26db58f6d4fdf59e5b1c4319cf3f6ea01b147b797c32100",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/arm64/Glide3x.dll",
+    "size": 996864,
+    "sha256": "c89145b15a275d7cefcc3493ec896289a3b5378ac41f416ad4d25e813271e424",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide.dll",
+    "size": 1184768,
+    "sha256": "8e085d45d91b32ca24678009d72327e7a751b7c433fa30b70cddba099f601135",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide2x.dll",
+    "size": 1184256,
+    "sha256": "37b50fb176f2926d424eca81e73ca7c1cac10b96e8a61235e5c321b14bd51c67",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide3x.dll",
+    "size": 1206784,
+    "sha256": "6e0541c8363d9f8307185175eb43ea517c803eeddb5cba2c626e88dac83380bf",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+    "size": 1291776,
+    "sha256": "c1290149d935ab9d84295ee58904d6aa5f1e187c04d102b8b73158613c506fac",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/x64/Glide.dll",
+    "size": 982016,
+    "sha256": "57f9451e435a9231f939599bd4f978878e870386d2188fb774957fdc25610357",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/x64/Glide2x.dll",
+    "size": 980480,
+    "sha256": "9b43fca9bfefc858cb05a25ed316d2c56e40f6c351c9e698efa05c3f0fa90ef1",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/x64/Glide3x.dll",
+    "size": 998912,
+    "sha256": "0931cb2c35a76c57d16cc92c1acf49018dbf6f267237895f7ffafaad8b596612",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/x86/Glide.dll",
+    "size": 893952,
+    "sha256": "17551c77355e051cdbe4df26277825461985b9e84e8cfe59ca2a39adce9fda4d",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/x86/Glide2x.dll",
+    "size": 892416,
+    "sha256": "934198d1ef7568f17fd2c5faf32053c36046fd21a735b7e6f42ac65e172a5982",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/x86/Glide3x.dll",
+    "size": 913408,
+    "sha256": "219146fa0f1f9ab7a2c85d54e844c609530b33e5a11323cc7948a674e04df438",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "3Dfx/x86/Napalm/Glide3x.dll",
+    "size": 978944,
+    "sha256": "d651809ad4bd748644de4e104f0ecfdbdd8610f0683b35efe88141650effe248",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "Cpl/arm64/dgVoodooCpl.exe",
+    "size": 446464,
+    "sha256": "726e819dde0e4a0e9e3fef5302a528403d1d9c7a07f3ce0578c29e65cfb115e9",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "Cpl/x64/ReadMe.txt",
+    "size": 52,
+    "sha256": "478b0cc90b9fc0298f5be46fd3b8a453ed6441d8a237004c939dbf99adf7c58b",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Doc/Readme.url",
+    "size": 68,
+    "sha256": "9c0331928bf6ac7fd618cb0269e284a3e849f48c0c9bbe9f2e65df77fc272a60",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Doc/ReadmeDirectX.url",
+    "size": 68,
+    "sha256": "51b1fb228a90191604af094c0adab10eb95da75d79cdf09a93d01462f944062c",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Doc/ReadmeGlide.url",
+    "size": 66,
+    "sha256": "c04479f57b9c3d2768fb1dfa55889457c0ffc6cc4b139a0942c0b0ab5d3245dc",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3D8.dll",
+    "size": 2012672,
+    "sha256": "e2a128a095a533622dcae3e6b1b450af7ff97b29a6723b4dbeca7f6ec2bdbc9c",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3D9.dll",
+    "size": 2251264,
+    "sha256": "24637a61fcaeb89214ec182c98b0619caf32cd3633fb75a07517d0005fba53da",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3DImm.dll",
+    "size": 1024512,
+    "sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "MS/arm64_chpe_x86/DDraw.dll",
+    "size": 1240064,
+    "sha256": "e48e007fe9b4fc141fa42574acdf5733cca87761f7eb6eefd168e55f70d456c5",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "MS/arm64x/D3D9.dll",
+    "size": 3166208,
+    "sha256": "d213eea2478b312b9c5913759e301d9aeb3fb3ea9c05f8cc7ae8e592525dd21d",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "MS/x64/D3D9.dll",
+    "size": 1871360,
+    "sha256": "1953e6cad9e315b7e9bcde6803dcd3ec2bc507348afdaf7270a3b38b318685d6",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "MS/x86/D3D8.dll",
+    "size": 1492992,
+    "sha256": "5378acb402918882dd341d4c0e4540d4275e30466c49e898798f64cd8460cd0d",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "MS/x86/D3D9.dll",
+    "size": 1647104,
+    "sha256": "8ded686854660d3610f53689f29e9dba1daffc1886cbd6676f719ce520f9adad",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "MS/x86/D3DImm.dll",
+    "size": 208384,
+    "sha256": "93c534f2d17419ea78f15551f7e0aac78b3c503733a840914fa063708a5afe8e",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "MS/x86/DDraw.dll",
+    "size": 905728,
+    "sha256": "2ed78bef2eb5935f81a122d8cf5707516d5b6c65094c51b253b6569fadd96454",
+    "has_mz_magic": true,
+    "classification": "PE"
+  },
+  {
+    "path": "QuickGuide.url",
+    "size": 65,
+    "sha256": "eb8b3e0ea127dd8d406782eb5b511553f1b3f144321de9bb7153d3ca51a1d4e4",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/README.md",
+    "size": 8415,
+    "sha256": "740cdbde50ec94aa5104a30adc9acb69e1557057b7ac1ef026a72049dd1d5768",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/SHA256SUMS",
+    "size": 4848,
+    "sha256": "2028696461b1de641b29cadec2b29c5b5d552add0e2ed400da01ab5b4cc13040",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/all-predicates.asm",
+    "size": 39888,
+    "sha256": "852cfbe8c29c0b9e531dd828ca083e7b15057fd0db3d03208354e14c7df69553",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/emulation-results.json",
+    "size": 6298,
+    "sha256": "e1fdcbbe16fe8fb107ad0c276706eb20dd012d7e8f279a7f964422a0dac3315e",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/final-verification.txt",
+    "size": 371,
+    "sha256": "6eef70ffd259e92bc30127a6b8f02f6c38864ec730592ff487530539c3359915",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/fixed-ddraw.log",
+    "size": 724,
+    "sha256": "b3abd132688bbe2184f4fde42df6defbee227c7aa009019b70bd1e7fd55ceca3",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/integrity-results.json",
+    "size": 4006,
+    "sha256": "cff3c9da54566d9772fbd9bb983883593d7b6050d355d5c65a16cf3ef13f5823",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/original-ddraw.log",
+    "size": 473,
+    "sha256": "4f69a0de1380f446e81d893ad3c07cd17a025773e68e9683db80113dfefc998d",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/original-snail.log",
+    "size": 11412,
+    "sha256": "202bf2b4e91cbdd26fc3430f14185467540ad0b555a7e2b0d43a87794f15c1f0",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/original-snail.png",
+    "size": 1041,
+    "sha256": "9a932eb84a8324df382403ee37f3e98be6218f7d002806486f0dc838096a26e2",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/patch-specs.json",
+    "size": 8031,
+    "sha256": "230981209f8563fb889cd0b1edf042d6811333bae26bee346fc8197c6d7274a9",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/patched-gameplay.png",
+    "size": 234318,
+    "sha256": "2752726399f8a59944f22771119d8e6000813195a951ee3603423919c897da29",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/patched-snail.log",
+    "size": 11795,
+    "sha256": "af4f760948714dd4b6b29e9070b86c93120a0f1d323fd69f1f66d3e122fb42fe",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/patched-snail.png",
+    "size": 351191,
+    "sha256": "73281862fc78249f618d3b9d808a7f6c2be86de5f6167bde5714fc3c6a5bb68e",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/probe.c",
+    "size": 4053,
+    "sha256": "67e27dc654a5e1d4698fc5c135bbf5bf6a193994a1afe0b73e302f255279e77c",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/runtime-predicates.json",
+    "size": 6891,
+    "sha256": "6cbc336c77d0ecc24803184de15b8978640fa51c29a6d3c9585ce2a3b89a0a30",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/runtime_predicates.py",
+    "size": 1170,
+    "sha256": "205b2f81f83a3eee7e338b814fa30887d0aaf4f753f273f3501f53182a5f5d7a",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/evidence/verify_predicates.py",
+    "size": 3397,
+    "sha256": "424015a9840c496b4dd3327f17407bb0faff33c940927c7b17151dfebee1d7c0",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/patch-manifest.json",
+    "size": 12419,
+    "sha256": "5c745ede587dceff3af7d02fcd91b9ae06f3e7d2aaf6d2d9b13cbea5882916f7",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/patch_dgvoodoo_2875.py",
+    "size": 15642,
+    "sha256": "d170dd2c13f16c28f545f0fe732ccca016cbc55703f51d481818fa932f37cea0",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "Wine-fix/source-sha256.json",
+    "size": 3049,
+    "sha256": "b963e5157368d661bda3f7d03133b133ee7e4931c2877baf555e711e06bcd804",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "dgVoodoo.conf",
+    "size": 21964,
+    "sha256": "45cc0eb8e6ed4f067aca1b2e4ac1268dfbd164bbbd06d264c53e8a60642c4dbf",
+    "has_mz_magic": false,
+    "classification": "non-PE companion"
+  },
+  {
+    "path": "dgVoodooCpl.exe",
+    "size": 451072,
+    "sha256": "87fb878166dcaef3e75ff170de030527c73f5c9b164c5943da13f8a97b0b75c6",
+    "has_mz_magic": true,
+    "classification": "PE"
+  }
+]

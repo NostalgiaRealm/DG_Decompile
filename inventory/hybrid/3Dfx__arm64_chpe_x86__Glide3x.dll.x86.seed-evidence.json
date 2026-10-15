@@ -1,0 +1,817 @@
+[
+  {
+    "va": "0x10093000",
+    "name": "range_start_10093000",
+    "sources": [
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x10093090",
+    "name": "FUN_10093090",
+    "sources": [
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095000",
+    "name": "_grAADrawTriangle@24",
+    "sources": [
+      "export_ordinal_1",
+      "guard_cf_function_table",
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x10095010",
+    "name": "_grAlphaBlendFunction@16",
+    "sources": [
+      "export_ordinal_2",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095020",
+    "name": "_grAlphaCombine@20",
+    "sources": [
+      "export_ordinal_3",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095030",
+    "name": "_grAlphaControlsITRGBLighting@4",
+    "sources": [
+      "export_ordinal_4",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095040",
+    "name": "_grAlphaTestFunction@4",
+    "sources": [
+      "export_ordinal_5",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095050",
+    "name": "_grAlphaTestReferenceValue@4",
+    "sources": [
+      "export_ordinal_6",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095060",
+    "name": "_grAuxBufferExt@4",
+    "sources": [
+      "export_ordinal_7",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095070",
+    "name": "_grBufferClear@12",
+    "sources": [
+      "export_ordinal_8",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095080",
+    "name": "_grBufferSwap@4",
+    "sources": [
+      "export_ordinal_9",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095090",
+    "name": "_grChromaRangeExt@12",
+    "sources": [
+      "export_ordinal_10",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100950a0",
+    "name": "_grChromaRangeModeExt@4",
+    "sources": [
+      "export_ordinal_11",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100950b0",
+    "name": "_grChromakeyMode@4",
+    "sources": [
+      "export_ordinal_12",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100950c0",
+    "name": "_grChromakeyValue@4",
+    "sources": [
+      "export_ordinal_13",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100950d0",
+    "name": "_grClipWindow@16",
+    "sources": [
+      "export_ordinal_14",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100950e0",
+    "name": "_grColorCombine@20",
+    "sources": [
+      "export_ordinal_15",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100950f0",
+    "name": "_grColorMask@8",
+    "sources": [
+      "export_ordinal_16",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095100",
+    "name": "_grConstantColorValue@4",
+    "sources": [
+      "export_ordinal_17",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095110",
+    "name": "_grCoordinateSpace@4",
+    "sources": [
+      "export_ordinal_18",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095120",
+    "name": "_grCullMode@4",
+    "sources": [
+      "export_ordinal_19",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095130",
+    "name": "_grDepthBiasLevel@4",
+    "sources": [
+      "export_ordinal_20",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095140",
+    "name": "_grDepthBufferFunction@4",
+    "sources": [
+      "export_ordinal_21",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095150",
+    "name": "_grDepthBufferMode@4",
+    "sources": [
+      "export_ordinal_22",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095160",
+    "name": "_grDepthMask@4",
+    "sources": [
+      "export_ordinal_23",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095170",
+    "name": "_grDepthRange@8",
+    "sources": [
+      "export_ordinal_24",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095180",
+    "name": "_grDisable@4",
+    "sources": [
+      "export_ordinal_25",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095190",
+    "name": "_grDisableAllEffects@0",
+    "sources": [
+      "export_ordinal_26",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100951a0",
+    "name": "_grDitherMode@4",
+    "sources": [
+      "export_ordinal_27",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100951b0",
+    "name": "_grDrawLine@8",
+    "sources": [
+      "export_ordinal_28",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100951c0",
+    "name": "_grDrawPoint@4",
+    "sources": [
+      "export_ordinal_29",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100951d0",
+    "name": "_grDrawTriangle@12",
+    "sources": [
+      "export_ordinal_30",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100951e0",
+    "name": "_grDrawVertexArray@12",
+    "sources": [
+      "export_ordinal_31",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100951f0",
+    "name": "_grDrawVertexArrayContiguous@16",
+    "sources": [
+      "export_ordinal_32",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095200",
+    "name": "_grEnable@4",
+    "sources": [
+      "export_ordinal_33",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095210",
+    "name": "_grErrorSetCallback@4",
+    "sources": [
+      "export_ordinal_34",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095220",
+    "name": "_grFinish@0",
+    "sources": [
+      "export_ordinal_35",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095230",
+    "name": "_grFlush@0",
+    "sources": [
+      "export_ordinal_36",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095240",
+    "name": "_grFogColorValue@4",
+    "sources": [
+      "export_ordinal_37",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095250",
+    "name": "_grFogMode@4",
+    "sources": [
+      "export_ordinal_38",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095260",
+    "name": "_grFogTable@4",
+    "sources": [
+      "export_ordinal_39",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095270",
+    "name": "_grGet@12",
+    "sources": [
+      "export_ordinal_40",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095280",
+    "name": "_grGetGammaTableExt@16",
+    "sources": [
+      "export_ordinal_41",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095290",
+    "name": "_grGetProcAddress@4",
+    "sources": [
+      "export_ordinal_42",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100952a0",
+    "name": "_grGetString@4",
+    "sources": [
+      "export_ordinal_43",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100952b0",
+    "name": "_grGlideGetState@4",
+    "sources": [
+      "export_ordinal_44",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100952c0",
+    "name": "_grGlideGetVertexLayout@4",
+    "sources": [
+      "export_ordinal_45",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100952d0",
+    "name": "_grGlideInit@0",
+    "sources": [
+      "export_ordinal_46",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100952e0",
+    "name": "_grGlideSetState@4",
+    "sources": [
+      "export_ordinal_47",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100952f0",
+    "name": "_grGlideSetVertexLayout@4",
+    "sources": [
+      "export_ordinal_48",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095300",
+    "name": "_grGlideShutdown@0",
+    "sources": [
+      "export_ordinal_49",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095310",
+    "name": "_grLfbConstantAlpha@4",
+    "sources": [
+      "export_ordinal_50",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095320",
+    "name": "_grLfbConstantDepth@4",
+    "sources": [
+      "export_ordinal_51",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095330",
+    "name": "_grLfbLock@24",
+    "sources": [
+      "export_ordinal_52",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095340",
+    "name": "_grLfbReadRegion@28",
+    "sources": [
+      "export_ordinal_53",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095350",
+    "name": "_grLfbUnlock@8",
+    "sources": [
+      "export_ordinal_54",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095360",
+    "name": "_grLfbWriteColorFormat@4",
+    "sources": [
+      "export_ordinal_55",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095370",
+    "name": "_grLfbWriteColorSwizzle@8",
+    "sources": [
+      "export_ordinal_56",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095380",
+    "name": "_grLfbWriteRegion@36",
+    "sources": [
+      "export_ordinal_57",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095390",
+    "name": "_grLoadGammaTable@16",
+    "sources": [
+      "export_ordinal_58",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100953a0",
+    "name": "_grQueryResolutions@8",
+    "sources": [
+      "export_ordinal_59",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100953b0",
+    "name": "_grRenderBuffer@4",
+    "sources": [
+      "export_ordinal_60",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100953c0",
+    "name": "_grReset@4",
+    "sources": [
+      "export_ordinal_61",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100953d0",
+    "name": "_grSelectContext@4",
+    "sources": [
+      "export_ordinal_62",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100953e0",
+    "name": "_grSetNumPendingBuffers@4",
+    "sources": [
+      "export_ordinal_63",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100953f0",
+    "name": "_grSplash@20",
+    "sources": [
+      "export_ordinal_64",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095400",
+    "name": "_grSstOrigin@4",
+    "sources": [
+      "export_ordinal_65",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095410",
+    "name": "_grSstSelect@4",
+    "sources": [
+      "export_ordinal_66",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095420",
+    "name": "_grSstWinClose@4",
+    "sources": [
+      "export_ordinal_67",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095430",
+    "name": "_grSstWinOpen@28",
+    "sources": [
+      "export_ordinal_68",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095440",
+    "name": "_grTexCalcMemRequired@16",
+    "sources": [
+      "export_ordinal_69",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095450",
+    "name": "_grTexChromaModeExt@8",
+    "sources": [
+      "export_ordinal_70",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095460",
+    "name": "_grTexChromaRangeExt@16",
+    "sources": [
+      "export_ordinal_71",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095470",
+    "name": "_grTexClampMode@12",
+    "sources": [
+      "export_ordinal_72",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095480",
+    "name": "_grTexCombine@28",
+    "sources": [
+      "export_ordinal_73",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095490",
+    "name": "_grTexDetailControl@16",
+    "sources": [
+      "export_ordinal_74",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100954a0",
+    "name": "_grTexDownloadMipMap@16",
+    "sources": [
+      "export_ordinal_75",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100954b0",
+    "name": "_grTexDownloadMipMapLevel@32",
+    "sources": [
+      "export_ordinal_76",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100954c0",
+    "name": "_grTexDownloadMipMapLevelPartial@40",
+    "sources": [
+      "export_ordinal_77",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100954d0",
+    "name": "_grTexDownloadTable@8",
+    "sources": [
+      "export_ordinal_78",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100954e0",
+    "name": "_grTexDownloadTablePartial@16",
+    "sources": [
+      "export_ordinal_79",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100954f0",
+    "name": "_grTexFilterMode@12",
+    "sources": [
+      "export_ordinal_80",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095500",
+    "name": "_grTexLodBiasValue@8",
+    "sources": [
+      "export_ordinal_81",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095510",
+    "name": "_grTexMaxAddress@4",
+    "sources": [
+      "export_ordinal_82",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095520",
+    "name": "_grTexMinAddress@4",
+    "sources": [
+      "export_ordinal_83",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095530",
+    "name": "_grTexMipMapMode@12",
+    "sources": [
+      "export_ordinal_84",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095540",
+    "name": "_grTexMultibase@8",
+    "sources": [
+      "export_ordinal_85",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095550",
+    "name": "_grTexMultibaseAddress@20",
+    "sources": [
+      "export_ordinal_86",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095560",
+    "name": "_grTexNCCTable@4",
+    "sources": [
+      "export_ordinal_87",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095570",
+    "name": "_grTexSource@16",
+    "sources": [
+      "export_ordinal_88",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095580",
+    "name": "_grTexTextureMemRequired@8",
+    "sources": [
+      "export_ordinal_89",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095590",
+    "name": "_grTextureAuxBufferExt@28",
+    "sources": [
+      "export_ordinal_90",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100955a0",
+    "name": "_grTextureBufferExt@28",
+    "sources": [
+      "export_ordinal_91",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100955b0",
+    "name": "_grVertexLayout@12",
+    "sources": [
+      "export_ordinal_92",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100955c0",
+    "name": "_grViewport@16",
+    "sources": [
+      "export_ordinal_93",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100955d0",
+    "name": "_gu3dfGetInfo@8",
+    "sources": [
+      "export_ordinal_94",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100955e0",
+    "name": "_gu3dfLoad@8",
+    "sources": [
+      "export_ordinal_95",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x100955f0",
+    "name": "_guFogGenerateExp2@8",
+    "sources": [
+      "export_ordinal_96",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095600",
+    "name": "_guFogGenerateExp@8",
+    "sources": [
+      "export_ordinal_97",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095610",
+    "name": "_guFogGenerateLinear@12",
+    "sources": [
+      "export_ordinal_98",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095620",
+    "name": "_guFogTableIndexToW@4",
+    "sources": [
+      "export_ordinal_99",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10095630",
+    "name": "_guGammaCorrectionRGB@12",
+    "sources": [
+      "export_ordinal_100",
+      "guard_cf_function_table"
+    ]
+  }
+]

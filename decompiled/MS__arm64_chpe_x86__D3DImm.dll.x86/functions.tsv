@@ -1,0 +1,6 @@
+address	name	signature	status	body_ranges	body_bytes	file	error	pcode_origin_count	outside_pcode_origin_count
+10097000	range_start_10097000	undefined range_start_10097000(void)	decompiled	10097000-10097016	23	functions/10097000_range_start_10097000.c		1	0
+10097084	FUN_10097084	undefined FUN_10097084(void)	decompiled	10097084-10097092	15	functions/10097084_FUN_10097084.c		3	0
+10097220	FUN_10097220	undefined FUN_10097220(void)	decompiled	10097220-10097222	3	functions/10097220_FUN_10097220.c		1	0
+10099000	GetD3DInterface	undefined GetD3DInterface(void)	decompiled	10099000-1009900b	12	functions/10099000_GetD3DInterface.c		1	0
+10099010	GetD3DVersion	undefined GetD3DVersion(void)	decompiled	10099010-1009901b	12	functions/10099010_GetD3DVersion.c		1	0

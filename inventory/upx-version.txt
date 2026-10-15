@@ -1,0 +1,15 @@
+$ /usr/bin/upx --version
+upx 5.2.1
+UCL data compression library 1.03
+zlib data compression library 1.3.1.1-motley
+LZMA SDK version 4.43
+doctest C++ testing framework version 2.4.11
+Copyright (C) 1996-2026 Markus Franz Xaver Johannes Oberhumer
+Copyright (C) 1996-2026 Laszlo Molnar
+Copyright (C) 2000-2026 John F. Reiser
+Copyright (C) 1995-2024 Jean-loup Gailly and Mark Adler
+Copyright (C) 1999-2006 Igor Pavlov
+Copyright (C) 2016-2023 Viktor Kirilov
+UPX comes with ABSOLUTELY NO WARRANTY; for details type 'upx -L'.
+
+Exit status: 0

@@ -1,0 +1,13 @@
+# Binary inputs and Ghidra databases are distributed in release downloads.
+/analysis-projects/
+/binaries/
+/tools/
+/release-assets/
+/dgVoodoo2_87_5_inspection.tar.gz*
+/DELIVERY_SHA256SUMS
+
+# Local runtime caches and open-project locks.
+__pycache__/
+*.pyc
+*.lock
+*.lock~

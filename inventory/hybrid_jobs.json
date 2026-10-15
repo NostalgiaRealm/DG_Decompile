@@ -1,0 +1,758 @@
+{
+  "schema": 1,
+  "source_root": "/home/rick/Documents/dgVoodoo2_87_5_FIXED",
+  "jobs": [
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide.dll.arm64",
+      "output_id": "3Dfx__arm64_chpe_x86__Glide.dll.arm64",
+      "source_relative_path": "3Dfx/arm64_chpe_x86/Glide.dll",
+      "kind": "chpe_x86",
+      "architecture": "arm64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.arm64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "08287551eba73e5eb03ca49e6fef060c05d94cc61eefc90cbeb8861faf8f7dc6",
+      "source_sha256": "8e085d45d91b32ca24678009d72327e7a751b7c433fa30b70cddba099f601135",
+      "image_base": "0x10000000",
+      "language_id": "AARCH64:LE:32:ilp32",
+      "compiler_spec": "default",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.arm64.functions.tsv",
+      "function_seed_count": 2247,
+      "code_ranges": [
+        {
+          "architecture": "arm64",
+          "rva_start": 4096,
+          "rva_end_exclusive": 584976,
+          "start": "0x10001000",
+          "end_exclusive": "0x1008ed10",
+          "length": 580880,
+          "encoded_start": 4097
+        },
+        {
+          "architecture": "arm64",
+          "rva_start": 589824,
+          "rva_end_exclusive": 589972,
+          "start": "0x10090000",
+          "end_exclusive": "0x10090094",
+          "length": 148,
+          "encoded_start": 589825
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.arm64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.arm64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide.dll.x86",
+      "output_id": "3Dfx__arm64_chpe_x86__Glide.dll.x86",
+      "source_relative_path": "3Dfx/arm64_chpe_x86/Glide.dll",
+      "kind": "chpe_x86",
+      "architecture": "x86",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.x86.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "08287551eba73e5eb03ca49e6fef060c05d94cc61eefc90cbeb8861faf8f7dc6",
+      "source_sha256": "8e085d45d91b32ca24678009d72327e7a751b7c433fa30b70cddba099f601135",
+      "image_base": "0x10000000",
+      "language_id": "x86:LE:32:default",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.x86.functions.tsv",
+      "function_seed_count": 165,
+      "code_ranges": [
+        {
+          "architecture": "x86",
+          "rva_start": 585728,
+          "rva_end_exclusive": 585955,
+          "start": "0x1008f000",
+          "end_exclusive": "0x1008f0e3",
+          "length": 227,
+          "encoded_start": 585728
+        },
+        {
+          "architecture": "x86",
+          "rva_start": 593920,
+          "rva_end_exclusive": 596528,
+          "start": "0x10091000",
+          "end_exclusive": "0x10091a30",
+          "length": 2608,
+          "encoded_start": 593920
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.x86.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.x86.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide2x.dll.arm64",
+      "output_id": "3Dfx__arm64_chpe_x86__Glide2x.dll.arm64",
+      "source_relative_path": "3Dfx/arm64_chpe_x86/Glide2x.dll",
+      "kind": "chpe_x86",
+      "architecture": "arm64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.arm64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "fef586613c3f69a2e1183991b6128068d8fa06c2d4314be0ecb421dee1ed4d4f",
+      "source_sha256": "37b50fb176f2926d424eca81e73ca7c1cac10b96e8a61235e5c321b14bd51c67",
+      "image_base": "0x10000000",
+      "language_id": "AARCH64:LE:32:ilp32",
+      "compiler_spec": "default",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.arm64.functions.tsv",
+      "function_seed_count": 2234,
+      "code_ranges": [
+        {
+          "architecture": "arm64",
+          "rva_start": 4096,
+          "rva_end_exclusive": 583408,
+          "start": "0x10001000",
+          "end_exclusive": "0x1008e6f0",
+          "length": 579312,
+          "encoded_start": 4097
+        },
+        {
+          "architecture": "arm64",
+          "rva_start": 589824,
+          "rva_end_exclusive": 589972,
+          "start": "0x10090000",
+          "end_exclusive": "0x10090094",
+          "length": 148,
+          "encoded_start": 589825
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.arm64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.arm64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide2x.dll.x86",
+      "output_id": "3Dfx__arm64_chpe_x86__Glide2x.dll.x86",
+      "source_relative_path": "3Dfx/arm64_chpe_x86/Glide2x.dll",
+      "kind": "chpe_x86",
+      "architecture": "x86",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "fef586613c3f69a2e1183991b6128068d8fa06c2d4314be0ecb421dee1ed4d4f",
+      "source_sha256": "37b50fb176f2926d424eca81e73ca7c1cac10b96e8a61235e5c321b14bd51c67",
+      "image_base": "0x10000000",
+      "language_id": "x86:LE:32:default",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.functions.tsv",
+      "function_seed_count": 161,
+      "code_ranges": [
+        {
+          "architecture": "x86",
+          "rva_start": 585728,
+          "rva_end_exclusive": 585955,
+          "start": "0x1008f000",
+          "end_exclusive": "0x1008f0e3",
+          "length": 227,
+          "encoded_start": 585728
+        },
+        {
+          "architecture": "x86",
+          "rva_start": 593920,
+          "rva_end_exclusive": 596464,
+          "start": "0x10091000",
+          "end_exclusive": "0x100919f0",
+          "length": 2544,
+          "encoded_start": 593920
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.x86.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide2x.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide3x.dll.arm64",
+      "output_id": "3Dfx__arm64_chpe_x86__Glide3x.dll.arm64",
+      "source_relative_path": "3Dfx/arm64_chpe_x86/Glide3x.dll",
+      "kind": "chpe_x86",
+      "architecture": "arm64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "ae1b88da127faaaa9d5c43777db9761c83a5869b3303b1ab93a5dd35dff02525",
+      "source_sha256": "6e0541c8363d9f8307185175eb43ea517c803eeddb5cba2c626e88dac83380bf",
+      "image_base": "0x10000000",
+      "language_id": "AARCH64:LE:32:ilp32",
+      "compiler_spec": "default",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.functions.tsv",
+      "function_seed_count": 2231,
+      "code_ranges": [
+        {
+          "architecture": "arm64",
+          "rva_start": 4096,
+          "rva_end_exclusive": 598688,
+          "start": "0x10001000",
+          "end_exclusive": "0x100922a0",
+          "length": 594592,
+          "encoded_start": 4097
+        },
+        {
+          "architecture": "arm64",
+          "rva_start": 606208,
+          "rva_end_exclusive": 606356,
+          "start": "0x10094000",
+          "end_exclusive": "0x10094094",
+          "length": 148,
+          "encoded_start": 606209
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.arm64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Glide3x.dll.x86",
+      "output_id": "3Dfx__arm64_chpe_x86__Glide3x.dll.x86",
+      "source_relative_path": "3Dfx/arm64_chpe_x86/Glide3x.dll",
+      "kind": "chpe_x86",
+      "architecture": "x86",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.x86.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "ae1b88da127faaaa9d5c43777db9761c83a5869b3303b1ab93a5dd35dff02525",
+      "source_sha256": "6e0541c8363d9f8307185175eb43ea517c803eeddb5cba2c626e88dac83380bf",
+      "image_base": "0x10000000",
+      "language_id": "x86:LE:32:default",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.x86.functions.tsv",
+      "function_seed_count": 102,
+      "code_ranges": [
+        {
+          "architecture": "x86",
+          "rva_start": 602112,
+          "rva_end_exclusive": 602259,
+          "start": "0x10093000",
+          "end_exclusive": "0x10093093",
+          "length": 147,
+          "encoded_start": 602112
+        },
+        {
+          "architecture": "x86",
+          "rva_start": 610304,
+          "rva_end_exclusive": 611904,
+          "start": "0x10095000",
+          "end_exclusive": "0x10095640",
+          "length": 1600,
+          "encoded_start": 610304
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.x86.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.x86.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Glide3x.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64",
+      "output_id": "3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64",
+      "source_relative_path": "3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+      "kind": "chpe_x86",
+      "architecture": "arm64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "4e101ffd8e4ec4a5fb662f357eb1ca0bb2a3a58ca10c59da366b5e9da1419526",
+      "source_sha256": "c1290149d935ab9d84295ee58904d6aa5f1e187c04d102b8b73158613c506fac",
+      "image_base": "0x10000000",
+      "language_id": "AARCH64:LE:32:ilp32",
+      "compiler_spec": "default",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64.functions.tsv",
+      "function_seed_count": 2328,
+      "code_ranges": [
+        {
+          "architecture": "arm64",
+          "rva_start": 4096,
+          "rva_end_exclusive": 624784,
+          "start": "0x10001000",
+          "end_exclusive": "0x10098890",
+          "length": 620688,
+          "encoded_start": 4097
+        },
+        {
+          "architecture": "arm64",
+          "rva_start": 630784,
+          "rva_end_exclusive": 630932,
+          "start": "0x1009a000",
+          "end_exclusive": "0x1009a094",
+          "length": 148,
+          "encoded_start": 630785
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86",
+      "output_id": "3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86",
+      "source_relative_path": "3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+      "kind": "chpe_x86",
+      "architecture": "x86",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "4e101ffd8e4ec4a5fb662f357eb1ca0bb2a3a58ca10c59da366b5e9da1419526",
+      "source_sha256": "c1290149d935ab9d84295ee58904d6aa5f1e187c04d102b8b73158613c506fac",
+      "image_base": "0x10000000",
+      "language_id": "x86:LE:32:default",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86.functions.tsv",
+      "function_seed_count": 224,
+      "code_ranges": [
+        {
+          "architecture": "x86",
+          "rva_start": 626688,
+          "rva_end_exclusive": 626835,
+          "start": "0x10099000",
+          "end_exclusive": "0x10099093",
+          "length": 147,
+          "encoded_start": 626688
+        },
+        {
+          "architecture": "x86",
+          "rva_start": 634880,
+          "rva_end_exclusive": 638432,
+          "start": "0x1009b000",
+          "end_exclusive": "0x1009bde0",
+          "length": 3552,
+          "encoded_start": 634880
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3D8.dll.arm64",
+      "output_id": "MS__arm64_chpe_x86__D3D8.dll.arm64",
+      "source_relative_path": "MS/arm64_chpe_x86/D3D8.dll",
+      "kind": "chpe_x86",
+      "architecture": "arm64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64_chpe_x86__D3D8.dll.arm64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "3e4e54e64dd1d46f19ef3060f5c3a613650099731353d353266c33e6df64953b",
+      "source_sha256": "e2a128a095a533622dcae3e6b1b450af7ff97b29a6723b4dbeca7f6ec2bdbc9c",
+      "image_base": "0x10000000",
+      "language_id": "AARCH64:LE:32:ilp32",
+      "compiler_spec": "default",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.arm64.functions.tsv",
+      "function_seed_count": 3849,
+      "code_ranges": [
+        {
+          "architecture": "arm64",
+          "rva_start": 4096,
+          "rva_end_exclusive": 1184792,
+          "start": "0x10001000",
+          "end_exclusive": "0x10121418",
+          "length": 1180696,
+          "encoded_start": 4097
+        },
+        {
+          "architecture": "arm64",
+          "rva_start": 1191936,
+          "rva_end_exclusive": 1196204,
+          "start": "0x10123000",
+          "end_exclusive": "0x101240ac",
+          "length": 4268,
+          "encoded_start": 1191937
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.arm64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.arm64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3D8.dll.x86",
+      "output_id": "MS__arm64_chpe_x86__D3D8.dll.x86",
+      "source_relative_path": "MS/arm64_chpe_x86/D3D8.dll",
+      "kind": "chpe_x86",
+      "architecture": "x86",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64_chpe_x86__D3D8.dll.x86.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "3e4e54e64dd1d46f19ef3060f5c3a613650099731353d353266c33e6df64953b",
+      "source_sha256": "e2a128a095a533622dcae3e6b1b450af7ff97b29a6723b4dbeca7f6ec2bdbc9c",
+      "image_base": "0x10000000",
+      "language_id": "x86:LE:32:default",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.x86.functions.tsv",
+      "function_seed_count": 6,
+      "code_ranges": [
+        {
+          "architecture": "x86",
+          "rva_start": 1187840,
+          "rva_end_exclusive": 1188723,
+          "start": "0x10122000",
+          "end_exclusive": "0x10122373",
+          "length": 883,
+          "encoded_start": 1187840
+        },
+        {
+          "architecture": "x86",
+          "rva_start": 1200128,
+          "rva_end_exclusive": 1200192,
+          "start": "0x10125000",
+          "end_exclusive": "0x10125040",
+          "length": 64,
+          "encoded_start": 1200128
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.x86.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.x86.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D8.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3D9.dll.arm64",
+      "output_id": "MS__arm64_chpe_x86__D3D9.dll.arm64",
+      "source_relative_path": "MS/arm64_chpe_x86/D3D9.dll",
+      "kind": "chpe_x86",
+      "architecture": "arm64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64_chpe_x86__D3D9.dll.arm64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "c978f69ea9f24a2c16151f18794dbf04732d241847b415474c7b9e38665e78bf",
+      "source_sha256": "24637a61fcaeb89214ec182c98b0619caf32cd3633fb75a07517d0005fba53da",
+      "image_base": "0x10000000",
+      "language_id": "AARCH64:LE:32:ilp32",
+      "compiler_spec": "default",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D9.dll.arm64.functions.tsv",
+      "function_seed_count": 4310,
+      "code_ranges": [
+        {
+          "architecture": "arm64",
+          "rva_start": 4096,
+          "rva_end_exclusive": 1408824,
+          "start": "0x10001000",
+          "end_exclusive": "0x10157f38",
+          "length": 1404728,
+          "encoded_start": 4097
+        },
+        {
+          "architecture": "arm64",
+          "rva_start": 1413120,
+          "rva_end_exclusive": 1413292,
+          "start": "0x10159000",
+          "end_exclusive": "0x101590ac",
+          "length": 172,
+          "encoded_start": 1413121
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D9.dll.arm64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D9.dll.arm64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D9.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3D9.dll.x86",
+      "output_id": "MS__arm64_chpe_x86__D3D9.dll.x86",
+      "source_relative_path": "MS/arm64_chpe_x86/D3D9.dll",
+      "kind": "chpe_x86",
+      "architecture": "x86",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64_chpe_x86__D3D9.dll.x86.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "c978f69ea9f24a2c16151f18794dbf04732d241847b415474c7b9e38665e78bf",
+      "source_sha256": "24637a61fcaeb89214ec182c98b0619caf32cd3633fb75a07517d0005fba53da",
+      "image_base": "0x10000000",
+      "language_id": "x86:LE:32:default",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D9.dll.x86.functions.tsv",
+      "function_seed_count": 13,
+      "code_ranges": [
+        {
+          "architecture": "x86",
+          "rva_start": 1409024,
+          "rva_end_exclusive": 1409907,
+          "start": "0x10158000",
+          "end_exclusive": "0x10158373",
+          "length": 883,
+          "encoded_start": 1409024
+        },
+        {
+          "architecture": "x86",
+          "rva_start": 1417216,
+          "rva_end_exclusive": 1417392,
+          "start": "0x1015a000",
+          "end_exclusive": "0x1015a0b0",
+          "length": 176,
+          "encoded_start": 1417216
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D9.dll.x86.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D9.dll.x86.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3D9.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3DImm.dll.arm64",
+      "output_id": "MS__arm64_chpe_x86__D3DImm.dll.arm64",
+      "source_relative_path": "MS/arm64_chpe_x86/D3DImm.dll",
+      "kind": "chpe_x86",
+      "architecture": "arm64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64_chpe_x86__D3DImm.dll.arm64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "a75bc8ed43337c6c29839b063c8adf76763c9b9cbcd7a31ea32c87ab0b67f34d",
+      "source_sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+      "image_base": "0x10000000",
+      "language_id": "AARCH64:LE:32:ilp32",
+      "compiler_spec": "default",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3DImm.dll.arm64.functions.tsv",
+      "function_seed_count": 2237,
+      "code_ranges": [
+        {
+          "architecture": "arm64",
+          "rva_start": 4096,
+          "rva_end_exclusive": 617936,
+          "start": "0x10001000",
+          "end_exclusive": "0x10096dd0",
+          "length": 613840,
+          "encoded_start": 4097
+        },
+        {
+          "architecture": "arm64",
+          "rva_start": 622592,
+          "rva_end_exclusive": 622884,
+          "start": "0x10098000",
+          "end_exclusive": "0x10098124",
+          "length": 292,
+          "encoded_start": 622593
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3DImm.dll.arm64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3DImm.dll.arm64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3DImm.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64_chpe_x86__D3DImm.dll.x86",
+      "output_id": "MS__arm64_chpe_x86__D3DImm.dll.x86",
+      "source_relative_path": "MS/arm64_chpe_x86/D3DImm.dll",
+      "kind": "chpe_x86",
+      "architecture": "x86",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64_chpe_x86__D3DImm.dll.x86.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "a75bc8ed43337c6c29839b063c8adf76763c9b9cbcd7a31ea32c87ab0b67f34d",
+      "source_sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+      "image_base": "0x10000000",
+      "language_id": "x86:LE:32:default",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3DImm.dll.x86.functions.tsv",
+      "function_seed_count": 4,
+      "code_ranges": [
+        {
+          "architecture": "x86",
+          "rva_start": 618496,
+          "rva_end_exclusive": 619043,
+          "start": "0x10097000",
+          "end_exclusive": "0x10097223",
+          "length": 547,
+          "encoded_start": 618496
+        },
+        {
+          "architecture": "x86",
+          "rva_start": 626688,
+          "rva_end_exclusive": 626720,
+          "start": "0x10099000",
+          "end_exclusive": "0x10099020",
+          "length": 32,
+          "encoded_start": 626688
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3DImm.dll.x86.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3DImm.dll.x86.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__D3DImm.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64_chpe_x86__DDraw.dll.arm64",
+      "output_id": "MS__arm64_chpe_x86__DDraw.dll.arm64",
+      "source_relative_path": "MS/arm64_chpe_x86/DDraw.dll",
+      "kind": "chpe_x86",
+      "architecture": "arm64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64_chpe_x86__DDraw.dll.arm64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "32ba7077daf43454ecdf9a8cf083959ebefc33c715f188957bffac81aced8450",
+      "source_sha256": "e48e007fe9b4fc141fa42574acdf5733cca87761f7eb6eefd168e55f70d456c5",
+      "image_base": "0x10000000",
+      "language_id": "AARCH64:LE:32:ilp32",
+      "compiler_spec": "default",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__DDraw.dll.arm64.functions.tsv",
+      "function_seed_count": 2779,
+      "code_ranges": [
+        {
+          "architecture": "arm64",
+          "rva_start": 4096,
+          "rva_end_exclusive": 696504,
+          "start": "0x10001000",
+          "end_exclusive": "0x100aa0b8",
+          "length": 692408,
+          "encoded_start": 4097
+        },
+        {
+          "architecture": "arm64",
+          "rva_start": 704512,
+          "rva_end_exclusive": 708780,
+          "start": "0x100ac000",
+          "end_exclusive": "0x100ad0ac",
+          "length": 4268,
+          "encoded_start": 704513
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__DDraw.dll.arm64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__DDraw.dll.arm64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__DDraw.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64_chpe_x86__DDraw.dll.x86",
+      "output_id": "MS__arm64_chpe_x86__DDraw.dll.x86",
+      "source_relative_path": "MS/arm64_chpe_x86/DDraw.dll",
+      "kind": "chpe_x86",
+      "architecture": "x86",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64_chpe_x86__DDraw.dll.x86.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "32ba7077daf43454ecdf9a8cf083959ebefc33c715f188957bffac81aced8450",
+      "source_sha256": "e48e007fe9b4fc141fa42574acdf5733cca87761f7eb6eefd168e55f70d456c5",
+      "image_base": "0x10000000",
+      "language_id": "x86:LE:32:default",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__DDraw.dll.x86.functions.tsv",
+      "function_seed_count": 17,
+      "code_ranges": [
+        {
+          "architecture": "x86",
+          "rva_start": 700416,
+          "rva_end_exclusive": 701219,
+          "start": "0x100ab000",
+          "end_exclusive": "0x100ab323",
+          "length": 803,
+          "encoded_start": 700416
+        },
+        {
+          "architecture": "x86",
+          "rva_start": 712704,
+          "rva_end_exclusive": 712944,
+          "start": "0x100ae000",
+          "end_exclusive": "0x100ae0f0",
+          "length": 240,
+          "encoded_start": 712704
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__DDraw.dll.x86.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__DDraw.dll.x86.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64_chpe_x86__DDraw.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64x__D3D9.dll.arm64",
+      "output_id": "MS__arm64x__D3D9.dll.arm64",
+      "source_relative_path": "MS/arm64x/D3D9.dll",
+      "kind": "arm64x",
+      "architecture": "arm64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64x__D3D9.dll.arm64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "fc13f0f62ff9be5efd2a631d68c2f7e6b64176e7eaec82826f20408dfcabc9b7",
+      "source_sha256": "d213eea2478b312b9c5913759e301d9aeb3fb3ea9c05f8cc7ae8e592525dd21d",
+      "image_base": "0x180000000",
+      "language_id": "AARCH64:LE:64:v8A",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.arm64.functions.tsv",
+      "function_seed_count": 1752,
+      "code_ranges": [
+        {
+          "architecture": "arm64",
+          "rva_start": 4096,
+          "rva_end_exclusive": 1063748,
+          "start": "0x180001000",
+          "end_exclusive": "0x180103b44",
+          "length": 1059652,
+          "encoded_start": 4096
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.arm64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.arm64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.json",
+      "conditional_fixups_applied": false,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64x__D3D9.dll.arm64ec",
+      "output_id": "MS__arm64x__D3D9.dll.arm64ec",
+      "source_relative_path": "MS/arm64x/D3D9.dll",
+      "kind": "arm64x",
+      "architecture": "arm64ec",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64x__D3D9.dll.arm64ec.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "122d6585f2fea35de540615fe623152544cb1f28f51b2f13ca8dc7607a14a2af",
+      "source_sha256": "d213eea2478b312b9c5913759e301d9aeb3fb3ea9c05f8cc7ae8e592525dd21d",
+      "image_base": "0x180000000",
+      "language_id": "AARCH64:LE:64:v8A",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.arm64ec.functions.tsv",
+      "function_seed_count": 1957,
+      "code_ranges": [
+        {
+          "architecture": "arm64ec",
+          "rva_start": 1064960,
+          "rva_end_exclusive": 2250456,
+          "start": "0x180104000",
+          "end_exclusive": "0x1802256d8",
+          "length": 1185496,
+          "encoded_start": 1064961
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.arm64ec.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.arm64ec.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.json",
+      "conditional_fixups_applied": true,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    },
+    {
+      "id": "MS__arm64x__D3D9.dll.x64",
+      "output_id": "MS__arm64x__D3D9.dll.x64",
+      "source_relative_path": "MS/arm64x/D3D9.dll",
+      "kind": "arm64x",
+      "architecture": "x64",
+      "input_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/hybrid/MS__arm64x__D3D9.dll.x64.mapped.bin",
+      "input_format": "raw_mapped_image",
+      "input_sha256": "122d6585f2fea35de540615fe623152544cb1f28f51b2f13ca8dc7607a14a2af",
+      "source_sha256": "d213eea2478b312b9c5913759e301d9aeb3fb3ea9c05f8cc7ae8e592525dd21d",
+      "image_base": "0x180000000",
+      "language_id": "x86:LE:64:default",
+      "compiler_spec": "windows",
+      "function_starts": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.x64.functions.tsv",
+      "function_seed_count": 15,
+      "code_ranges": [
+        {
+          "architecture": "x64",
+          "rva_start": 2252800,
+          "rva_end_exclusive": 2257088,
+          "start": "0x180226000",
+          "end_exclusive": "0x1802270c0",
+          "length": 4288,
+          "encoded_start": 2252802
+        }
+      ],
+      "code_ranges_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.x64.ranges.tsv",
+      "labels_tsv": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.x64.labels.tsv",
+      "metadata_path": "/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.json",
+      "conditional_fixups_applied": true,
+      "notes": "Flat memory image: file offset equals original RVA. Import at image_base; restrict code to code_ranges. CHPE/ARM64EC ABI types and calls remain approximate."
+    }
+  ]
+}

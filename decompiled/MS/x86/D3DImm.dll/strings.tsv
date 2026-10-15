@@ -1,0 +1,122 @@
+address	length	type	value
+1005e81c	9	string	POSITION
+1005e828	9	string	TEXCOORD
+1005ebe0	22	string	an upload heap buffer
+1005eedc	6	string	COLOR
+1005efb0	12	string	SV_POSITION
+1005efbc	9	string	TEXCOORD
+1005efc5	7	string	COLOR
+1005f084	7	string	D3DImm
+1005f08c	21	string	[dgVoodoo] WARNING: 
+1005f0a4	15	string	Ramp Emulation
+1005f0b4	21	string	Software Ramp Device
+1005f0cc	35	string	dgVoodoo Emulated Mono Ramp Device
+1005f0f0	14	string	RGB Emulation
+1005f100	20	string	Software RGB Device
+1005f114	29	string	dgVoodoo Emulated RGB Device
+1005f134	13	string	Direct3D HAL
+1005f144	13	string	dgVoodoo HAL
+1005f154	37	string	dgVoodoo Hardware Accelerated Device
+1005f17c	14	string	MMX Emulation
+1005f18c	20	string	Software MMX Device
+1005f1a0	29	string	dgVoodoo Emulated MMX Device
+1005f1c0	17	string	Direct3D T&L HAL
+1005f1d4	17	string	dgVoodoo TnL HAL
+1005f1e8	55	string	dgVoodoo Hardware Accelerated Transform & Light Device
+1005fa18	184	string	%s %s module type is native x86 so it is running through emulation. Consider using the ARM64 CHPE version instead for better performance and no additional JIT codegen cache overhead. 
+1005fad0	12	string	DGD3D11ROOT
+1005fadc	10	string	D3D11.DLL
+1005fae8	18	string	D3D11CreateDevice
+1005fafc	20	unicode	RT_CUSTOM
+1005fb68	9	string	DXGI.DLL
+1005fb74	19	string	CreateDXGIFactory1
+1005fb88	10	string	winmm.dll
+1005fb94	16	string	timeBeginPeriod
+1005fba4	14	string	timeEndPeriod
+1005fc20	187	string	[dgVoodoo] D3D12 Core: FATAL ERROR: Failed to allocate %s. Probably being run out of 2GB address space, try to make the executable Large Address Aware so that the full 4GB is available. 
+1005fcec	12	string	DGD3D12ROOT
+1005fcf8	10	string	D3D12.DLL
+1005fd04	18	string	D3D12CreateDevice
+1005fd18	28	string	D3D12SerializeRootSignature
+1005fe70	34	string	a resource descriptor ring buffer
+1005ffe0	13	string	Kernel32.dll
+1005fff0	16	string	IsWow64Process2
+1006036c	11	TerminatedCString	D3DImm.dll
+10060377	16	TerminatedCString	GetD3DInterface
+10060387	14	TerminatedCString	GetD3DVersion
+100603c8	44	string	D:\Dev\Stuffs\Bin\Win32\Release\D3DImm.pdb
+10060460	8	string	.rdata
+10060470	8	string	.edata
+10060480	16	string	.rdata$voltmd
+1006053c	8	string	.data
+10060662	11	TerminatedCString	DebugBreak
+10060670	6	TerminatedCString	Sleep
+10060678	9	TerminatedCString	SetEvent
+10060684	24	TerminatedCString	TryEnterCriticalSection
+1006069e	21	TerminatedCString	EnterCriticalSection
+100606b6	21	TerminatedCString	LeaveCriticalSection
+100606ce	19	TerminatedCString	OutputDebugStringA
+100606e4	18	TerminatedCString	SetThreadPriority
+100606f8	26	TerminatedCString	InitializeCriticalSection
+10060714	19	TerminatedCString	GetCurrentThreadId
+1006072a	13	TerminatedCString	LoadLibraryA
+1006073a	26	TerminatedCString	QueryPerformanceFrequency
+10060756	15	TerminatedCString	GetProcAddress
+10060768	22	TerminatedCString	DeleteCriticalSection
+10060780	17	TerminatedCString	GetModuleHandleW
+10060794	12	TerminatedCString	FreeLibrary
+100607a2	24	TerminatedCString	QueryPerformanceCounter
+100607bc	20	TerminatedCString	WaitForSingleObject
+100607d2	13	TerminatedCString	CreateEventW
+100607e2	12	TerminatedCString	CloseHandle
+100607f0	18	TerminatedCString	GetCurrentProcess
+10060804	23	TerminatedCString	GetProcessAffinityMask
+1006081e	20	TerminatedCString	SignalObjectAndWait
+10060834	13	TerminatedCString	CreateThread
+10060844	11	TerminatedCString	ResetEvent
+10060852	14	TerminatedCString	FindResourceW
+10060862	15	TerminatedCString	SizeofResource
+10060874	13	TerminatedCString	LoadResource
+10060884	13	TerminatedCString	LockResource
+10060894	10	TerminatedCString	HeapAlloc
+100608a0	9	TerminatedCString	HeapFree
+100608ac	15	TerminatedCString	GetProcessHeap
+100608bc	13	TerminatedCString	KERNEL32.DLL
+100608cc	14	TerminatedCString	IntersectRect
+100608dc	13	TerminatedCString	PeekMessageA
+100608ec	13	TerminatedCString	SetRectEmpty
+100608fc	17	TerminatedCString	RegisterClassExA
+10060910	8	TerminatedCString	SetRect
+1006091a	16	TerminatedCString	GetClassInfoExA
+1006092c	17	TerminatedCString	UnregisterClassW
+10060940	11	TerminatedCString	wvsprintfA
+1006094c	11	TerminatedCString	USER32.dll
+1006b764	10	string	SV_TARGET
+1006b76e	10	string	SV_DEPTH
+1006b778	12	string	SV_POSITION
+1006b784	9	string	TEXCOORD
+1006b78d	6	string	COLOR
+1006b793	16	string	SV_CLIPDISTANCE
+100c0cca	30	TerminatedUnicode	StringFileInfo
+100c0cee	18	TerminatedUnicode	000004b0
+100c0d06	24	TerminatedUnicode	CompanyName
+100c0d20	10	TerminatedUnicode	Dégé
+100c0d32	32	TerminatedUnicode	FileDescription
+100c0d54	54	TerminatedUnicode	dgVoodoo 2.87.5 - Direct3D
+100c0d92	24	TerminatedUnicode	FileVersion
+100c0dac	22	TerminatedUnicode	4.7.1.3000
+100c0dca	26	TerminatedUnicode	InternalName
+100c0de4	22	TerminatedUnicode	D3DImm.dll
+100c0e02	30	TerminatedUnicode	LegalCopyright
+100c0e20	48	TerminatedUnicode	Copyright (C) 2013-2026
+100c0e56	34	TerminatedUnicode	OriginalFilename
+100c0e78	22	TerminatedUnicode	D3DImm.dll
+100c0e96	24	TerminatedUnicode	ProductName
+100c0eb0	18	TerminatedUnicode	dgVoodoo
+100c0eca	30	TerminatedUnicode	ProductVersion
+100c0ee8	16	TerminatedUnicode	2.8.7.5
+100c0efe	24	TerminatedUnicode	VarFileInfo
+100c0f1e	24	TerminatedUnicode	Translation
+100c0f40	382	TerminatedCString	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>  <assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>    <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">      <security>        <requestedPrivileges>          <requestedExecutionLevel level='asInvoker' uiAccess='false' />        </requestedPrivileges>      </security>    </trustInfo>  </assembly>  
+ffdff1ac	36	uchar[36]	
+ffdffc00	522	wchar16[261]	

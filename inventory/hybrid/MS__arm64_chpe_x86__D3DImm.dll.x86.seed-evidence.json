@@ -1,0 +1,33 @@
+[
+  {
+    "va": "0x10097000",
+    "name": "range_start_10097000",
+    "sources": [
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x10097220",
+    "name": "FUN_10097220",
+    "sources": [
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10099000",
+    "name": "GetD3DInterface",
+    "sources": [
+      "export_ordinal_1",
+      "guard_cf_function_table",
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x10099010",
+    "name": "GetD3DVersion",
+    "sources": [
+      "export_ordinal_2",
+      "guard_cf_function_table"
+    ]
+  }
+]

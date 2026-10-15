@@ -1,0 +1,20 @@
+{
+  "program": "MS__arm64_chpe_x86__D3DImm.dll.arm64.mapped.bin",
+  "language": "AARCH64:LE:32:ilp32",
+  "compiler": "default",
+  "image_base": "00000000",
+  "mapped_memory_start": "10000000",
+  "architecture_origin_restriction": true,
+  "pcode_unique_function_origins": 94450,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 2305,
+  "decompiled": 2305,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 250,
+  "instructions": 144333,
+  "executable_bytes": 614132,
+  "executable_bytes_without_instructions": 36800,
+  "instruction_bytes_outside_functions": 0
+}

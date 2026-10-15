@@ -1,0 +1,22 @@
+/*
+ * FUN_10043ce1 at 10043ce1
+ * undefined __stdcall FUN_10043ce1(int param_1, int * param_2)
+ * Address ranges: 10043ce1-10043d53
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_10043ce1(int param_1,int *param_2)
+
+{
+  if ((((*param_2 != *(int *)(param_1 + 0x60c)) || (param_2[1] != *(int *)(param_1 + 0x610))) ||
+      (param_2[2] != *(int *)(param_1 + 0x614))) || (param_2[3] != *(int *)(param_1 + 0x618))) {
+    *(int *)(param_1 + 0x60c) = *param_2;
+    *(int *)(param_1 + 0x610) = param_2[1];
+    *(int *)(param_1 + 0x614) = param_2[2];
+    *(int *)(param_1 + 0x618) = param_2[3];
+    FUN_10042a08(param_1);
+    (**(code **)(**(int **)(param_1 + 0x638) + 0x5c))(*(int **)(param_1 + 0x638),param_2);
+  }
+  return;
+}
+

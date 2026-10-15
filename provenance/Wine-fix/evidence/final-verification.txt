@@ -1,0 +1,6 @@
+PASS: all 32 source file hashes unchanged.
+PASS: all 32 source files included in fixed tree.
+PASS: independent rebuild matches every delivered distribution file.
+PASS: 22 affected DLLs patched (23 instruction bytes after unpacking).
+PASS: 2 D3DImm DLLs and 8 non-DLL files copied byte-for-byte.
+PASS: user confirmed patched 2.87.5 Tutorial gameplay renders and responds.

@@ -1,0 +1,50 @@
+2026-10-15 17:59:05 INFO  PrepareHybrid.java> HYBRID SEEDED 1752 functions within 1059652 architecture code bytes  
+2026-10-15 17:59:28 INFO  TrimHybrid.java> HYBRID TRIM removed 81 functions and 596 instruction bytes outside architecture ranges  
+2026-10-15 17:59:28 INFO  TrimHybrid.java> HYBRID BOUNDARIES applied 1 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.arm64.mapped.bin.boundary-overrides.tsv  
+2026-10-15 17:59:28 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 17:59:32 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 17:59:36 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 17:59:37 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 17:59:39 INFO  ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 17:59:41 INFO  ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 17:59:42 INFO  ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 17:59:43 INFO  ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 17:59:46 INFO  ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 17:59:47 INFO  ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 17:59:48 INFO  ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 17:59:49 INFO  ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 17:59:54 INFO  ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 17:59:55 INFO  ExportAll.java> Exported 1300 functions; decompiled=1300, fallback=0  
+2026-10-15 17:59:57 INFO  ExportAll.java> Exported 1400 functions; decompiled=1400, fallback=0  
+2026-10-15 17:59:58 INFO  ExportAll.java> Exported 1500 functions; decompiled=1500, fallback=0  
+2026-10-15 17:59:59 INFO  ExportAll.java> Exported 1600 functions; decompiled=1600, fallback=0  
+2026-10-15 17:59:59 INFO  ExportAll.java> Exported 1700 functions; decompiled=1700, fallback=0  
+2026-10-15 18:00:00 INFO  ExportAll.java> Exported 1800 functions; decompiled=1800, fallback=0  
+2026-10-15 18:00:00 INFO  ExportAll.java> Exported 1900 functions; decompiled=1900, fallback=0  
+2026-10-15 18:00:01 INFO  ExportAll.java> EXPORT COMPLETE: functions=1915 decompiled=1915 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/MS__arm64x__D3D9.dll.arm64  
+2026-10-15 18:07:25 INFO  ReconcileHybridSeeds.java> HYBRID SEED RECONCILIATION repaired 0 entries; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.arm64.mapped.bin.seed-repairs.tsv  
+2026-10-15 18:07:26 INFO  ReconcileHybridSeeds.java> HYBRID POINTER RECOVERY created 147 candidate functions from documented data pointers  
+2026-10-15 18:07:26 INFO  TrimHybrid.java> HYBRID TRIM removed 1 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 18:07:26 INFO  TrimHybrid.java> HYBRID BOUNDARIES applied 1 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/MS__arm64x__D3D9.dll.arm64.mapped.bin.boundary-overrides.tsv  
+2026-10-15 18:07:26 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:07:31 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 18:07:35 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 18:07:37 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 18:07:38 INFO  ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 18:07:40 INFO  ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 18:07:41 INFO  ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 18:07:43 INFO  ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 18:07:44 INFO  ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 18:07:48 INFO  ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 18:07:49 INFO  ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 18:07:50 INFO  ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 18:07:50 INFO  ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 18:07:56 INFO  ExportAll.java> Exported 1300 functions; decompiled=1300, fallback=0  
+2026-10-15 18:07:57 INFO  ExportAll.java> Exported 1400 functions; decompiled=1400, fallback=0  
+2026-10-15 18:07:58 INFO  ExportAll.java> Exported 1500 functions; decompiled=1500, fallback=0  
+2026-10-15 18:08:00 INFO  ExportAll.java> Exported 1600 functions; decompiled=1600, fallback=0  
+2026-10-15 18:08:01 INFO  ExportAll.java> Exported 1700 functions; decompiled=1700, fallback=0  
+2026-10-15 18:08:01 INFO  ExportAll.java> Exported 1800 functions; decompiled=1800, fallback=0  
+2026-10-15 18:08:02 INFO  ExportAll.java> Exported 1900 functions; decompiled=1900, fallback=0  
+2026-10-15 18:08:03 INFO  ExportAll.java> Exported 2000 functions; decompiled=2000, fallback=0  
+2026-10-15 18:08:03 INFO  ExportAll.java> EXPORT COMPLETE: functions=2062 decompiled=2062 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/MS__arm64x__D3D9.dll.arm64  

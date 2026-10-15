@@ -1,0 +1,27 @@
+/*
+ * FUN_100085a0 at 100085a0
+ * undefined FUN_100085a0(void)
+ * Address ranges: 100085a0-1000860b
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+undefined1 FUN_100085a0(int param_1)
+
+{
+  undefined1 uVar1;
+  undefined4 uVar2;
+  undefined4 *puVar3;
+  undefined4 *puVar4;
+  undefined4 *puVar5;
+  undefined4 *puVar6;
+  code *extraout_w11;
+  
+  puVar4 = (undefined4 *)(param_1 + 0x10);
+  puVar3 = (undefined4 *)(param_1 + 0x20);
+  puVar5 = (undefined4 *)(param_1 + 0x70);
+  puVar6 = (undefined4 *)(param_1 + 0x6c);
+  uVar2 = (*__hybrid_WowA64DispatchIndirectCallCfgFunctionPointer)();
+  uVar1 = (*extraout_w11)(uVar2,*puVar6,*puVar5,*puVar3,*puVar4);
+  return uVar1;
+}
+

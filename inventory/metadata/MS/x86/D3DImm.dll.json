@@ -1,0 +1,695 @@
+{
+  "path": "MS/x86/D3DImm.dll",
+  "source_sha256": "93c534f2d17419ea78f15551f7e0aac78b3c503733a840914fa063708a5afe8e",
+  "prepared_sha256": "2f52824f2b9893b6e211315e09c9bc74f1970c0204cfd00fdb45c32b22a94d48",
+  "format": "PE32",
+  "architecture": "x86",
+  "machine": 332,
+  "machine_hex": "0x14c",
+  "is_dll": true,
+  "managed_cli": false,
+  "image_base": 268435456,
+  "entry_point_rva": 378798,
+  "entry_point_va": 268814254,
+  "size_of_image": 806912,
+  "pe_timestamp": 1789416825,
+  "checksum_header": 0,
+  "checksum_calculated": 861232,
+  "subsystem": 2,
+  "characteristics": 8450,
+  "dll_characteristics": 320,
+  "sections": [
+    {
+      "name": ".text",
+      "name_hex": "2e74657874000000",
+      "rva": 4096,
+      "va": 268439552,
+      "virtual_size": 376450,
+      "raw_offset": 1024,
+      "raw_size": 376832,
+      "characteristics": 1610612768,
+      "readable": true,
+      "writable": false,
+      "executable": true,
+      "entropy": 6.607712,
+      "raw_sha256": "e4904efd54750a644891820d6d9dfa552450e96f8780dcd463eaa02c7f2a5d38"
+    },
+    {
+      "name": ".rdata",
+      "name_hex": "2e72646174610000",
+      "rva": 380928,
+      "va": 268816384,
+      "virtual_size": 14680,
+      "raw_offset": 377856,
+      "raw_size": 14848,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 4.357835,
+      "raw_sha256": "a4645fae18ae390993aa06f28dce8ddc83d9469dffbc28c465ccfa1425916dfc"
+    },
+    {
+      "name": ".data",
+      "name_hex": "2e64617461000000",
+      "rva": 397312,
+      "va": 268832768,
+      "virtual_size": 44048,
+      "raw_offset": 392704,
+      "raw_size": 43008,
+      "characteristics": 3221225536,
+      "readable": true,
+      "writable": true,
+      "executable": false,
+      "entropy": 0.547544,
+      "raw_sha256": "ef893b96e0e90af2e84fe029a633fe8a6d214b9f1c0762375ac786f06c7663d8"
+    },
+    {
+      "name": ".rsrc",
+      "name_hex": "2e72737263000000",
+      "rva": 442368,
+      "va": 268877824,
+      "virtual_size": 348352,
+      "raw_offset": 435712,
+      "raw_size": 348672,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 3.092164,
+      "raw_sha256": "aff314cb7f5072507eeb6265fa1d49cff7cd97082432d71402bb9278baa3972c"
+    },
+    {
+      "name": ".reloc",
+      "name_hex": "2e72656c6f630000",
+      "rva": 794624,
+      "va": 269230080,
+      "virtual_size": 11592,
+      "raw_offset": 784384,
+      "raw_size": 11776,
+      "characteristics": 1107296320,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 6.686466,
+      "raw_sha256": "3e5e28db7f764177ca610e90e12bd2a7c8a10337d1ab2fc5a9aa228be2e6f244"
+    }
+  ],
+  "imports": [
+    {
+      "dll": "KERNEL32.DLL",
+      "symbols": [
+        {
+          "name": "DebugBreak",
+          "ordinal": null,
+          "iat_va": 268816384,
+          "hint": 0
+        },
+        {
+          "name": "Sleep",
+          "ordinal": null,
+          "iat_va": 268816388,
+          "hint": 0
+        },
+        {
+          "name": "SetEvent",
+          "ordinal": null,
+          "iat_va": 268816392,
+          "hint": 0
+        },
+        {
+          "name": "TryEnterCriticalSection",
+          "ordinal": null,
+          "iat_va": 268816396,
+          "hint": 0
+        },
+        {
+          "name": "EnterCriticalSection",
+          "ordinal": null,
+          "iat_va": 268816400,
+          "hint": 0
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "ordinal": null,
+          "iat_va": 268816404,
+          "hint": 0
+        },
+        {
+          "name": "OutputDebugStringA",
+          "ordinal": null,
+          "iat_va": 268816408,
+          "hint": 0
+        },
+        {
+          "name": "SetThreadPriority",
+          "ordinal": null,
+          "iat_va": 268816412,
+          "hint": 0
+        },
+        {
+          "name": "InitializeCriticalSection",
+          "ordinal": null,
+          "iat_va": 268816416,
+          "hint": 0
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "ordinal": null,
+          "iat_va": 268816420,
+          "hint": 0
+        },
+        {
+          "name": "LoadLibraryA",
+          "ordinal": null,
+          "iat_va": 268816424,
+          "hint": 0
+        },
+        {
+          "name": "QueryPerformanceFrequency",
+          "ordinal": null,
+          "iat_va": 268816428,
+          "hint": 0
+        },
+        {
+          "name": "GetProcAddress",
+          "ordinal": null,
+          "iat_va": 268816432,
+          "hint": 0
+        },
+        {
+          "name": "DeleteCriticalSection",
+          "ordinal": null,
+          "iat_va": 268816436,
+          "hint": 0
+        },
+        {
+          "name": "GetModuleHandleW",
+          "ordinal": null,
+          "iat_va": 268816440,
+          "hint": 0
+        },
+        {
+          "name": "FreeLibrary",
+          "ordinal": null,
+          "iat_va": 268816444,
+          "hint": 0
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "ordinal": null,
+          "iat_va": 268816448,
+          "hint": 0
+        },
+        {
+          "name": "WaitForSingleObject",
+          "ordinal": null,
+          "iat_va": 268816452,
+          "hint": 0
+        },
+        {
+          "name": "CreateEventW",
+          "ordinal": null,
+          "iat_va": 268816456,
+          "hint": 0
+        },
+        {
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_va": 268816460,
+          "hint": 0
+        },
+        {
+          "name": "GetCurrentProcess",
+          "ordinal": null,
+          "iat_va": 268816464,
+          "hint": 0
+        },
+        {
+          "name": "GetProcessAffinityMask",
+          "ordinal": null,
+          "iat_va": 268816468,
+          "hint": 0
+        },
+        {
+          "name": "SignalObjectAndWait",
+          "ordinal": null,
+          "iat_va": 268816472,
+          "hint": 0
+        },
+        {
+          "name": "CreateThread",
+          "ordinal": null,
+          "iat_va": 268816476,
+          "hint": 0
+        },
+        {
+          "name": "ResetEvent",
+          "ordinal": null,
+          "iat_va": 268816480,
+          "hint": 0
+        },
+        {
+          "name": "FindResourceW",
+          "ordinal": null,
+          "iat_va": 268816484,
+          "hint": 0
+        },
+        {
+          "name": "SizeofResource",
+          "ordinal": null,
+          "iat_va": 268816488,
+          "hint": 0
+        },
+        {
+          "name": "LoadResource",
+          "ordinal": null,
+          "iat_va": 268816492,
+          "hint": 0
+        },
+        {
+          "name": "LockResource",
+          "ordinal": null,
+          "iat_va": 268816496,
+          "hint": 0
+        },
+        {
+          "name": "HeapAlloc",
+          "ordinal": null,
+          "iat_va": 268816500,
+          "hint": 0
+        },
+        {
+          "name": "HeapFree",
+          "ordinal": null,
+          "iat_va": 268816504,
+          "hint": 0
+        },
+        {
+          "name": "GetProcessHeap",
+          "ordinal": null,
+          "iat_va": 268816508,
+          "hint": 0
+        }
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "symbols": [
+        {
+          "name": "IntersectRect",
+          "ordinal": null,
+          "iat_va": 268816516,
+          "hint": 0
+        },
+        {
+          "name": "PeekMessageA",
+          "ordinal": null,
+          "iat_va": 268816520,
+          "hint": 0
+        },
+        {
+          "name": "SetRectEmpty",
+          "ordinal": null,
+          "iat_va": 268816524,
+          "hint": 0
+        },
+        {
+          "name": "RegisterClassExA",
+          "ordinal": null,
+          "iat_va": 268816528,
+          "hint": 0
+        },
+        {
+          "name": "SetRect",
+          "ordinal": null,
+          "iat_va": 268816532,
+          "hint": 0
+        },
+        {
+          "name": "GetClassInfoExA",
+          "ordinal": null,
+          "iat_va": 268816536,
+          "hint": 0
+        },
+        {
+          "name": "UnregisterClassW",
+          "ordinal": null,
+          "iat_va": 268816540,
+          "hint": 0
+        },
+        {
+          "name": "wvsprintfA",
+          "ordinal": null,
+          "iat_va": 268816544,
+          "hint": 0
+        }
+      ]
+    }
+  ],
+  "delay_imports": [],
+  "exports": [
+    {
+      "name": "GetD3DInterface",
+      "ordinal": 1,
+      "rva": 247370,
+      "va": 268682826,
+      "forwarder": null
+    },
+    {
+      "name": "GetD3DVersion",
+      "ordinal": 2,
+      "rva": 247364,
+      "va": 268682820,
+      "forwarder": null
+    }
+  ],
+  "load_config": {},
+  "load_config_with_offsets": null,
+  "data_directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+      "rva": 394032,
+      "size": 104
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "rva": 394620,
+      "size": 60
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "rva": 442368,
+      "size": 348352
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+      "rva": 794624,
+      "size": 11592
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+      "rva": 393920,
+      "size": 112
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+      "rva": 0,
+      "size": 0
+    }
+  ],
+  "runtime_functions": [],
+  "runtime_function_note": "Raw IMAGE_RUNTIME_FUNCTION_ENTRY records; ARM64 uses 8-byte entries. For hybrid images these are metadata records, not proof of the instruction set of every range.",
+  "debug": [
+    {
+      "type": 0,
+      "rva": 0,
+      "file_offset": 0,
+      "size": 0,
+      "raw_hex": ""
+    },
+    {
+      "type": 0,
+      "rva": 0,
+      "file_offset": 0,
+      "size": 0,
+      "raw_hex": ""
+    },
+    {
+      "type": 0,
+      "rva": 0,
+      "file_offset": 0,
+      "size": 0,
+      "raw_hex": ""
+    },
+    {
+      "type": 0,
+      "rva": 0,
+      "file_offset": 0,
+      "size": 0,
+      "raw_hex": ""
+    }
+  ],
+  "parser_warnings": [],
+  "original_packed_metadata": {
+    "format": "PE32",
+    "architecture": "x86",
+    "machine": 332,
+    "machine_hex": "0x14c",
+    "is_dll": true,
+    "managed_cli": false,
+    "image_base": 268435456,
+    "entry_point_rva": 817200,
+    "entry_point_va": 269252656,
+    "size_of_image": 823296,
+    "pe_timestamp": 1789416825,
+    "checksum_header": 0,
+    "checksum_calculated": 253487,
+    "subsystem": 2,
+    "characteristics": 8450,
+    "dll_characteristics": 320,
+    "sections": [
+      {
+        "name": "",
+        "name_hex": "0000000000000000",
+        "rva": 4096,
+        "va": 268439552,
+        "virtual_size": 610304,
+        "raw_offset": 1024,
+        "raw_size": 0,
+        "characteristics": 3758096512,
+        "readable": true,
+        "writable": true,
+        "executable": true,
+        "entropy": 0.0,
+        "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "",
+        "name_hex": "0000000000000000",
+        "rva": 614400,
+        "va": 269049856,
+        "virtual_size": 204800,
+        "raw_offset": 1024,
+        "raw_size": 203776,
+        "characteristics": 3758096448,
+        "readable": true,
+        "writable": true,
+        "executable": true,
+        "entropy": 7.902095,
+        "raw_sha256": "ee376a8c9cd2dc6199089383abfa1570bca90557a24fc2a0cae071f34a9a4494"
+      },
+      {
+        "name": ".rsrc",
+        "name_hex": "2e72737263000000",
+        "rva": 819200,
+        "va": 269254656,
+        "virtual_size": 4096,
+        "raw_offset": 204800,
+        "raw_size": 3584,
+        "characteristics": 3221225536,
+        "readable": true,
+        "writable": true,
+        "executable": false,
+        "entropy": 3.554487,
+        "raw_sha256": "19df317628d1bcfa3cebbc5f7d3f57093079e21497cfbcda09952efe90f3dfbf"
+      }
+    ],
+    "imports": [
+      {
+        "dll": "KERNEL32.DLL",
+        "symbols": [
+          {
+            "name": "LoadLibraryA",
+            "ordinal": null,
+            "iat_va": 269257764,
+            "hint": 0
+          },
+          {
+            "name": "GetProcAddress",
+            "ordinal": null,
+            "iat_va": 269257768,
+            "hint": 0
+          },
+          {
+            "name": "VirtualProtect",
+            "ordinal": null,
+            "iat_va": 269257772,
+            "hint": 0
+          }
+        ]
+      },
+      {
+        "dll": "USER32.dll",
+        "symbols": [
+          {
+            "name": "SetRect",
+            "ordinal": null,
+            "iat_va": 269257780,
+            "hint": 0
+          }
+        ]
+      }
+    ],
+    "delay_imports": [],
+    "exports": [
+      {
+        "name": "GetD3DInterface",
+        "ordinal": 1,
+        "rva": 247370,
+        "va": 268682826,
+        "forwarder": null
+      },
+      {
+        "name": "GetD3DVersion",
+        "ordinal": 2,
+        "rva": 247364,
+        "va": 268682820,
+        "forwarder": null
+      }
+    ],
+    "load_config": {},
+    "load_config_with_offsets": null,
+    "data_directories": [
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+        "rva": 822412,
+        "size": 104
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+        "rva": 822248,
+        "size": 164
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+        "rva": 819200,
+        "size": 3048
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+        "rva": 822516,
+        "size": 12
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+        "rva": 0,
+        "size": 0
+      },
+      {
+        "name": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+        "rva": 0,
+        "size": 0
+      }
+    ],
+    "runtime_functions": [],
+    "runtime_function_note": "Raw IMAGE_RUNTIME_FUNCTION_ENTRY records; ARM64 uses 8-byte entries. For hybrid images these are metadata records, not proof of the instruction set of every range.",
+    "debug": [],
+    "parser_warnings": [
+      "Suspicious flags set for section 0. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+      "Suspicious flags set for section 1. Both IMAGE_SCN_MEM_WRITE and IMAGE_SCN_MEM_EXECUTE are set. This might indicate a packed executable.",
+      "Imported symbols contain entries typical of packed executables.",
+      "Resource size 0x3468d exceeds file size 0x32e00, overlapping resources found."
+    ]
+  }
+}

@@ -1,0 +1,375 @@
+[
+  {
+    "path": "3Dfx/arm64/Glide.dll",
+    "status": "patched",
+    "source_sha256": "f866a5177c5e2174a74e8db1a1854c4777c377f1ed841d240596215b8f6e888b",
+    "unpacked_sha256": "f866a5177c5e2174a74e8db1a1854c4777c377f1ed841d240596215b8f6e888b",
+    "fixed_sha256": "6447eb7c5c9c27287a43c6fc3b0d92c92831ebcb462e094befdc8e1ccb33e215",
+    "patches": [
+      {
+        "rva": "0x5d5c4",
+        "file_offset": "0x5c9c4",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x5d560"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/arm64/Glide2x.dll",
+    "status": "patched",
+    "source_sha256": "4e25b777d529e09b0e0ece2d8d6cf26ff8e6d05eb1cfe173b17f833c2d8f88fa",
+    "unpacked_sha256": "4e25b777d529e09b0e0ece2d8d6cf26ff8e6d05eb1cfe173b17f833c2d8f88fa",
+    "fixed_sha256": "9093aa930c8fc36eb26db58f6d4fdf59e5b1c4319cf3f6ea01b147b797c32100",
+    "patches": [
+      {
+        "rva": "0x5c774",
+        "file_offset": "0x5bb74",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x5c710"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/arm64/Glide3x.dll",
+    "status": "patched",
+    "source_sha256": "cbbc4c3f0f5d7a0293ed2389868c06f1c7c237acb6dd33269f4c2a2cccdfd396",
+    "unpacked_sha256": "cbbc4c3f0f5d7a0293ed2389868c06f1c7c237acb6dd33269f4c2a2cccdfd396",
+    "fixed_sha256": "c89145b15a275d7cefcc3493ec896289a3b5378ac41f416ad4d25e813271e424",
+    "patches": [
+      {
+        "rva": "0x60044",
+        "file_offset": "0x5f444",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x5ffe0"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide.dll",
+    "status": "patched",
+    "source_sha256": "2fc2e9bf3e862c750f5aa60ead14e807de6121f3aeba03b0d31063264abce25b",
+    "unpacked_sha256": "2fc2e9bf3e862c750f5aa60ead14e807de6121f3aeba03b0d31063264abce25b",
+    "fixed_sha256": "8e085d45d91b32ca24678009d72327e7a751b7c433fa30b70cddba099f601135",
+    "patches": [
+      {
+        "rva": "0x763a4",
+        "file_offset": "0x757a4",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x76330"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide2x.dll",
+    "status": "patched",
+    "source_sha256": "16c2c0d9ec973f9a5236cfb00c150cec973b2759b98db50b7ae74358fd8d7a04",
+    "unpacked_sha256": "16c2c0d9ec973f9a5236cfb00c150cec973b2759b98db50b7ae74358fd8d7a04",
+    "fixed_sha256": "37b50fb176f2926d424eca81e73ca7c1cac10b96e8a61235e5c321b14bd51c67",
+    "patches": [
+      {
+        "rva": "0x75f24",
+        "file_offset": "0x75324",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x75eb0"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide3x.dll",
+    "status": "patched",
+    "source_sha256": "784414034d38d136f1c8beceb4ce9a0800aaa6e7a6e03adcb046c8f1f67580e8",
+    "unpacked_sha256": "784414034d38d136f1c8beceb4ce9a0800aaa6e7a6e03adcb046c8f1f67580e8",
+    "fixed_sha256": "6e0541c8363d9f8307185175eb43ea517c803eeddb5cba2c626e88dac83380bf",
+    "patches": [
+      {
+        "rva": "0x79bc4",
+        "file_offset": "0x78fc4",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x79b50"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+    "status": "patched",
+    "source_sha256": "d01feeea9eb77bcbb7cd3115031ddbc39e7c9bf302dfaaf0f71f7464a5a18f0e",
+    "unpacked_sha256": "d01feeea9eb77bcbb7cd3115031ddbc39e7c9bf302dfaaf0f71f7464a5a18f0e",
+    "fixed_sha256": "c1290149d935ab9d84295ee58904d6aa5f1e187c04d102b8b73158613c506fac",
+    "patches": [
+      {
+        "rva": "0x7f264",
+        "file_offset": "0x7e664",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x7f1f0"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/x64/Glide.dll",
+    "status": "patched",
+    "source_sha256": "097a8f4dd085eeaebf6a9d91ec186cbcfc516a64ff92886e477f3e390fff9f07",
+    "unpacked_sha256": "bb048ebaf571845c9c20ca77ac109a782f6b7dfcfc0cb27b6fc77656d3b88695",
+    "fixed_sha256": "57f9451e435a9231f939599bd4f978878e870386d2188fb774957fdc25610357",
+    "patches": [
+      {
+        "rva": "0x5a1ff",
+        "file_offset": "0x595ff",
+        "before": "740a",
+        "after": "7408",
+        "predicate_rva": "0x5a1c4"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/x64/Glide2x.dll",
+    "status": "patched",
+    "source_sha256": "9e07c3667185354f95eb5daed2ed0b4347e0cbf0e7819550f1fc2090c1cc426a",
+    "unpacked_sha256": "7d93a9a15df8b13899f4f662491df281f51286a0ab7c926a2b1099cd0b671271",
+    "fixed_sha256": "9b43fca9bfefc858cb05a25ed316d2c56e40f6c351c9e698efa05c3f0fa90ef1",
+    "patches": [
+      {
+        "rva": "0x59d57",
+        "file_offset": "0x59157",
+        "before": "740a",
+        "after": "7408",
+        "predicate_rva": "0x59d1c"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/x64/Glide3x.dll",
+    "status": "patched",
+    "source_sha256": "911938a3a578e1ec98de4110e5717ac28906b908e95b9d61d4dd0ee64d93eb97",
+    "unpacked_sha256": "f4e5505aac2cc6788594c7a01bfc1305f81014a97d6c216335204454d073c14c",
+    "fixed_sha256": "0931cb2c35a76c57d16cc92c1acf49018dbf6f267237895f7ffafaad8b596612",
+    "patches": [
+      {
+        "rva": "0x5c363",
+        "file_offset": "0x5b763",
+        "before": "740a",
+        "after": "7408",
+        "predicate_rva": "0x5c328"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/x86/Glide.dll",
+    "status": "patched",
+    "source_sha256": "028dcaef62ccb9a051df986096031c4d63bdd4c19d997b14ed3389b1b09a368e",
+    "unpacked_sha256": "ee87eb7c251d6830ecb3dc28ded3bb3d16f79c4a981d32e4472e9e9e78f796a5",
+    "fixed_sha256": "17551c77355e051cdbe4df26277825461985b9e84e8cfe59ca2a39adce9fda4d",
+    "patches": [
+      {
+        "rva": "0x4ca73",
+        "file_offset": "0x4be73",
+        "before": "b001",
+        "after": "b000",
+        "predicate_rva": "0x4ca28"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/x86/Glide2x.dll",
+    "status": "patched",
+    "source_sha256": "dd61cf60e2cab0ed0d5dd4e26b88a3008592adc9ebe072d90dc086d67f7dfad2",
+    "unpacked_sha256": "b28a4fcaab0bc3e46ae7c6f1d5f6d8871ff305b4e96799e5899376a156534062",
+    "fixed_sha256": "934198d1ef7568f17fd2c5faf32053c36046fd21a735b7e6f42ac65e172a5982",
+    "patches": [
+      {
+        "rva": "0x4c6e3",
+        "file_offset": "0x4bae3",
+        "before": "b001",
+        "after": "b000",
+        "predicate_rva": "0x4c698"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/x86/Glide3x.dll",
+    "status": "patched",
+    "source_sha256": "d704f1885f17d015750d9f8b125df83fef0d14bae0d18d0ba0209c904ac9cde2",
+    "unpacked_sha256": "781109f34677634e4a989e5ee1bd61095228049167ae2b4d604f14723757d5ec",
+    "fixed_sha256": "219146fa0f1f9ab7a2c85d54e844c609530b33e5a11323cc7948a674e04df438",
+    "patches": [
+      {
+        "rva": "0x4f1cb",
+        "file_offset": "0x4e5cb",
+        "before": "b001",
+        "after": "b000",
+        "predicate_rva": "0x4f180"
+      }
+    ]
+  },
+  {
+    "path": "3Dfx/x86/Napalm/Glide3x.dll",
+    "status": "patched",
+    "source_sha256": "6a1cb33c44048cd5f005e99aabb178d832916c7794dc1b63855504ab19240749",
+    "unpacked_sha256": "1146471e8cc76f6c1456d490c739e7133c938882687768d5521bf208e9d19119",
+    "fixed_sha256": "d651809ad4bd748644de4e104f0ecfdbdd8610f0683b35efe88141650effe248",
+    "patches": [
+      {
+        "rva": "0x525d4",
+        "file_offset": "0x519d4",
+        "before": "b001",
+        "after": "b000",
+        "predicate_rva": "0x52589"
+      }
+    ]
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3D8.dll",
+    "status": "patched",
+    "source_sha256": "aef1f48392d7d291bd666fd069a869711a8b8e5305781a04c8ba9244fd024a02",
+    "unpacked_sha256": "aef1f48392d7d291bd666fd069a869711a8b8e5305781a04c8ba9244fd024a02",
+    "fixed_sha256": "e2a128a095a533622dcae3e6b1b450af7ff97b29a6723b4dbeca7f6ec2bdbc9c",
+    "patches": [
+      {
+        "rva": "0xf01b4",
+        "file_offset": "0xef5b4",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0xf0140"
+      }
+    ]
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3D9.dll",
+    "status": "patched",
+    "source_sha256": "0497d37533d75f9d9defbd637f65050b112460072ee47d34d902719bda1dff3d",
+    "unpacked_sha256": "0497d37533d75f9d9defbd637f65050b112460072ee47d34d902719bda1dff3d",
+    "fixed_sha256": "24637a61fcaeb89214ec182c98b0619caf32cd3633fb75a07517d0005fba53da",
+    "patches": [
+      {
+        "rva": "0x123784",
+        "file_offset": "0x122b84",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x123710"
+      }
+    ]
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3DImm.dll",
+    "status": "unchanged: no Wine-export predicate",
+    "source_sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+    "fixed_sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+    "patches": []
+  },
+  {
+    "path": "MS/arm64_chpe_x86/DDraw.dll",
+    "status": "patched",
+    "source_sha256": "baebd076a8e3898b8abc4a2635431aadf06ba4fd6319f59f70d0d89fb5090915",
+    "unpacked_sha256": "baebd076a8e3898b8abc4a2635431aadf06ba4fd6319f59f70d0d89fb5090915",
+    "fixed_sha256": "e48e007fe9b4fc141fa42574acdf5733cca87761f7eb6eefd168e55f70d456c5",
+    "patches": [
+      {
+        "rva": "0x71914",
+        "file_offset": "0x70d14",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x718a0"
+      }
+    ]
+  },
+  {
+    "path": "MS/arm64x/D3D9.dll",
+    "status": "patched",
+    "source_sha256": "b5c19449f0c38e8dd4060e303dceac3de8172a20cab6fa46437e095775d39628",
+    "unpacked_sha256": "b5c19449f0c38e8dd4060e303dceac3de8172a20cab6fa46437e095775d39628",
+    "fixed_sha256": "d213eea2478b312b9c5913759e301d9aeb3fb3ea9c05f8cc7ae8e592525dd21d",
+    "patches": [
+      {
+        "rva": "0xf6164",
+        "file_offset": "0xf5564",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0xf6100"
+      },
+      {
+        "rva": "0x21520c",
+        "file_offset": "0x21460c",
+        "before": "20008052",
+        "after": "00008052",
+        "predicate_rva": "0x2151a0"
+      }
+    ]
+  },
+  {
+    "path": "MS/x64/D3D9.dll",
+    "status": "patched",
+    "source_sha256": "0b3485614a56fff27cf66c1cee670979defe4103342884203e9726f455a5b091",
+    "unpacked_sha256": "b94f686a3c538822f2d0a821a8fb17da865cdd023c9ed93f4a496fc2ef5343d3",
+    "fixed_sha256": "1953e6cad9e315b7e9bcde6803dcd3ec2bc507348afdaf7270a3b38b318685d6",
+    "patches": [
+      {
+        "rva": "0xee587",
+        "file_offset": "0xed987",
+        "before": "740a",
+        "after": "7408",
+        "predicate_rva": "0xee54c"
+      }
+    ]
+  },
+  {
+    "path": "MS/x86/D3D8.dll",
+    "status": "patched",
+    "source_sha256": "d03e2562178db1fcf3493fc0a0b23a465e35c55d73adb3ec095be866cd662704",
+    "unpacked_sha256": "48ed7e36310ad1d96bebaf7c6c638a01a193b95cd3abd781f09e25d8221bb17f",
+    "fixed_sha256": "5378acb402918882dd341d4c0e4540d4275e30466c49e898798f64cd8460cd0d",
+    "patches": [
+      {
+        "rva": "0xa1e13",
+        "file_offset": "0xa1213",
+        "before": "b001",
+        "after": "b000",
+        "predicate_rva": "0xa1dc8"
+      }
+    ]
+  },
+  {
+    "path": "MS/x86/D3D9.dll",
+    "status": "patched",
+    "source_sha256": "6a0ca214784be04b7c8b547105aa9d79acf4dc26c0b6f8702b437ddca54058b2",
+    "unpacked_sha256": "84f46cf997eb00de239dd65399e3004fe96e0fe004495c4d4c1689305ac69fe2",
+    "fixed_sha256": "8ded686854660d3610f53689f29e9dba1daffc1886cbd6676f719ce520f9adad",
+    "patches": [
+      {
+        "rva": "0xc46e8",
+        "file_offset": "0xc3ae8",
+        "before": "b001",
+        "after": "b000",
+        "predicate_rva": "0xc469d"
+      }
+    ]
+  },
+  {
+    "path": "MS/x86/D3DImm.dll",
+    "status": "unchanged: no Wine-export predicate",
+    "source_sha256": "93c534f2d17419ea78f15551f7e0aac78b3c503733a840914fa063708a5afe8e",
+    "fixed_sha256": "93c534f2d17419ea78f15551f7e0aac78b3c503733a840914fa063708a5afe8e",
+    "patches": []
+  },
+  {
+    "path": "MS/x86/DDraw.dll",
+    "status": "patched",
+    "source_sha256": "612a24408a090a3c6f3886557fa18034ee742e94ad0a40ebdf854d2816176c2e",
+    "unpacked_sha256": "0953bb15fa1de6607eff6bc429a5f060ceefc1a51529207210e045bdd0743996",
+    "fixed_sha256": "2ed78bef2eb5935f81a122d8cf5707516d5b6c65094c51b253b6569fadd96454",
+    "patches": [
+      {
+        "rva": "0x4aa81",
+        "file_offset": "0x49e81",
+        "before": "b001",
+        "after": "b000",
+        "predicate_rva": "0x4aa36"
+      }
+    ]
+  }
+]

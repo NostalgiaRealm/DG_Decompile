@@ -1,0 +1,20 @@
+{
+  "program": "dgVoodooCpl.exe",
+  "language": "x86:LE:64:default",
+  "compiler": "windows",
+  "image_base": "140000000",
+  "mapped_memory_start": "140000000",
+  "architecture_origin_restriction": false,
+  "pcode_unique_function_origins": 24802,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 331,
+  "decompiled": 331,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 875,
+  "instructions": 36167,
+  "executable_bytes": 148992,
+  "executable_bytes_without_instructions": 2025,
+  "instruction_bytes_outside_functions": 1289
+}

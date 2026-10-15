@@ -1,0 +1,25 @@
+/*
+ * FUN_180015148 at 180015148
+ * undefined __cdecl FUN_180015148(longlong * param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5, undefined4 param_6)
+ * Address ranges: 180015148-1800151bb
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_180015148(longlong *param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+                  undefined4 param_5,undefined4 param_6)
+
+{
+  (**(code **)(*param_1 + 0x2e0))();
+  *(undefined4 *)(param_1 + 0x5b1) = param_5;
+  *(undefined4 *)(param_1 + 0x5ae) = param_2;
+  *(undefined4 *)((longlong)param_1 + 0x2d74) = param_3;
+  *(undefined4 *)(param_1 + 0x5af) = param_4;
+  *(undefined4 *)((longlong)param_1 + 0x2d7c) = param_5;
+  *(undefined4 *)(param_1 + 0x5b0) = param_6;
+  *(undefined4 *)((longlong)param_1 + 0x2d84) = param_4;
+  *(undefined4 *)((longlong)param_1 + 0x2d64) = param_4;
+  *(undefined4 *)(param_1 + 0x5ad) = param_5;
+  *(undefined1 *)(param_1 + 0x65e) = 1;
+  return;
+}
+

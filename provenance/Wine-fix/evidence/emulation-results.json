@@ -1,0 +1,324 @@
+[
+  {
+    "path": "3Dfx/arm64/Glide.dll",
+    "predicate_rva": "0x5d560",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64/Glide.dll",
+    "predicate_rva": "0x5d560",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64/Glide2x.dll",
+    "predicate_rva": "0x5c710",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64/Glide2x.dll",
+    "predicate_rva": "0x5c710",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64/Glide3x.dll",
+    "predicate_rva": "0x5ffe0",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64/Glide3x.dll",
+    "predicate_rva": "0x5ffe0",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide.dll",
+    "predicate_rva": "0x76330",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide.dll",
+    "predicate_rva": "0x76330",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide2x.dll",
+    "predicate_rva": "0x75eb0",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide2x.dll",
+    "predicate_rva": "0x75eb0",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide3x.dll",
+    "predicate_rva": "0x79b50",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Glide3x.dll",
+    "predicate_rva": "0x79b50",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+    "predicate_rva": "0x7f1f0",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+    "predicate_rva": "0x7f1f0",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x64/Glide.dll",
+    "predicate_rva": "0x5a1c4",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x64/Glide.dll",
+    "predicate_rva": "0x5a1c4",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x64/Glide2x.dll",
+    "predicate_rva": "0x59d1c",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x64/Glide2x.dll",
+    "predicate_rva": "0x59d1c",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x64/Glide3x.dll",
+    "predicate_rva": "0x5c328",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x64/Glide3x.dll",
+    "predicate_rva": "0x5c328",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x86/Glide.dll",
+    "predicate_rva": "0x4ca28",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x86/Glide.dll",
+    "predicate_rva": "0x4ca28",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x86/Glide2x.dll",
+    "predicate_rva": "0x4c698",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x86/Glide2x.dll",
+    "predicate_rva": "0x4c698",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x86/Glide3x.dll",
+    "predicate_rva": "0x4f180",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x86/Glide3x.dll",
+    "predicate_rva": "0x4f180",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x86/Napalm/Glide3x.dll",
+    "predicate_rva": "0x52589",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "3Dfx/x86/Napalm/Glide3x.dll",
+    "predicate_rva": "0x52589",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3D8.dll",
+    "predicate_rva": "0xf0140",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3D8.dll",
+    "predicate_rva": "0xf0140",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3D9.dll",
+    "predicate_rva": "0x123710",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64_chpe_x86/D3D9.dll",
+    "predicate_rva": "0x123710",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64_chpe_x86/DDraw.dll",
+    "predicate_rva": "0x718a0",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64_chpe_x86/DDraw.dll",
+    "predicate_rva": "0x718a0",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64x/D3D9.dll",
+    "predicate_rva": "0xf6100",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64x/D3D9.dll",
+    "predicate_rva": "0xf6100",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64x/D3D9.dll",
+    "predicate_rva": "0x2151a0",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/arm64x/D3D9.dll",
+    "predicate_rva": "0x2151a0",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/x64/D3D9.dll",
+    "predicate_rva": "0xee54c",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/x64/D3D9.dll",
+    "predicate_rva": "0xee54c",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/x86/D3D8.dll",
+    "predicate_rva": "0xa1dc8",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/x86/D3D8.dll",
+    "predicate_rva": "0xa1dc8",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/x86/D3D9.dll",
+    "predicate_rva": "0xc469d",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/x86/D3D9.dll",
+    "predicate_rva": "0xc469d",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/x86/DDraw.dll",
+    "predicate_rva": "0x4aa36",
+    "patched": false,
+    "cases": 70,
+    "passed": true
+  },
+  {
+    "path": "MS/x86/DDraw.dll",
+    "predicate_rva": "0x4aa36",
+    "patched": true,
+    "cases": 70,
+    "passed": true
+  }
+]

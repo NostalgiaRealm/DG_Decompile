@@ -1,0 +1,98 @@
+/*
+ * FUN_1003cc6b at 1003cc6b
+ * int __fastcall FUN_1003cc6b(int param_1)
+ * Address ranges: 1003cc6b-1003ce9b
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+int __fastcall FUN_1003cc6b(int param_1)
+
+{
+  undefined4 *puVar1;
+  undefined4 uVar2;
+  int iVar3;
+  
+  FUN_1002ab50((undefined4 *)(param_1 + 0x11c0));
+  puVar1 = FUN_1003bc9d();
+  FUN_1004c24a((void *)(param_1 + 0x1310),puVar1);
+  puVar1 = FUN_1003bc9d();
+  FUN_1004c24a((void *)(param_1 + 0x1370),puVar1);
+  puVar1 = FUN_1003bc9d();
+  FUN_1004c24a((void *)(param_1 + 0x13d0),puVar1);
+  puVar1 = FUN_1003bc9d();
+  FUN_1004c24a((void *)(param_1 + 0x1430),puVar1);
+  puVar1 = FUN_1003bc9d();
+  FUN_1004c24a((void *)(param_1 + 0x1490),puVar1);
+  *(undefined4 *)(param_1 + 0x1508) = 0;
+  *(undefined4 *)(param_1 + 0x150c) = 0;
+  *(undefined4 *)(param_1 + 0x1510) = 0;
+  *(undefined4 *)(param_1 + 0x1514) = 0;
+  *(undefined4 *)(param_1 + 0x1518) = 0;
+  *(undefined4 *)(param_1 + 0x151c) = 0;
+  *(undefined4 *)(param_1 + 0x1520) = 0;
+  *(undefined4 *)(param_1 + 0x1524) = 0;
+  puVar1 = (undefined4 *)(param_1 + 0x14f0);
+  for (iVar3 = 6; iVar3 != 0; iVar3 = iVar3 + -1) {
+    *puVar1 = 0;
+    puVar1 = puVar1 + 1;
+  }
+  puVar1 = FUN_1003bc9d();
+  FUN_10051b8f((undefined4 *)(param_1 + 0x1528),puVar1);
+  *(undefined4 *)(param_1 + 0x1528) = &PTR_FUN_10058210;
+  puVar1 = FUN_1003bc9d();
+  FUN_10051b8f((undefined4 *)(param_1 + 0x1580),puVar1);
+  *(undefined4 *)(param_1 + 0x1580) = &PTR_FUN_100581bc;
+  uVar2 = FUN_10052293(0x400);
+  *(undefined4 *)(param_1 + 0x15f0) = uVar2;
+  *(undefined4 *)(param_1 + 0x15f4) = 0x10;
+  *(undefined4 *)(param_1 + 0x15f8) = 0;
+  *(undefined4 *)(param_1 + 0x15fc) = 0;
+  uVar2 = FUN_10052293(0x1580);
+  *(undefined4 *)(param_1 + 0x1600) = uVar2;
+  *(undefined4 *)(param_1 + 0x1604) = 0x10;
+  *(undefined4 *)(param_1 + 0x1608) = 0;
+  *(undefined4 *)(param_1 + 0x160c) = 0;
+  uVar2 = FUN_10052293(0x1580);
+  *(undefined4 *)(param_1 + 0x1610) = uVar2;
+  *(undefined4 *)(param_1 + 0x1614) = 0x10;
+  *(undefined4 *)(param_1 + 0x1618) = 0;
+  *(undefined4 *)(param_1 + 0x161c) = 0;
+  uVar2 = FUN_10052293(0x380);
+  *(undefined4 *)(param_1 + 0x1628) = 0;
+  *(undefined4 *)(param_1 + 0x162c) = 0;
+  *(undefined4 *)(param_1 + 0x1620) = uVar2;
+  *(undefined4 *)(param_1 + 0x1624) = 0x10;
+  uVar2 = FUN_10052293(0x180);
+  *(undefined4 *)(param_1 + 0x1630) = uVar2;
+  *(undefined4 *)(param_1 + 0x1634) = 0x10;
+  *(undefined4 *)(param_1 + 0x1638) = 0;
+  *(undefined4 *)(param_1 + 0x163c) = 0;
+  *(undefined4 *)(param_1 + 0x1640) = 0;
+  *(undefined4 *)(param_1 + 0x1644) = 0;
+  *(undefined4 *)(param_1 + 0x1648) = 0xffffffff;
+  uVar2 = FUN_10052293(0x180);
+  *(undefined4 *)(param_1 + 0x164c) = uVar2;
+  *(undefined4 *)(param_1 + 0x1650) = 0x10;
+  *(undefined4 *)(param_1 + 0x1654) = 0;
+  *(undefined4 *)(param_1 + 0x1658) = 0;
+  uVar2 = FUN_10052293(0x80);
+  *(undefined4 *)(param_1 + 0x165c) = uVar2;
+  *(undefined4 *)(param_1 + 0x1660) = 4;
+  *(undefined4 *)(param_1 + 0x1664) = 0;
+  *(undefined4 *)(param_1 + 0x1668) = 0;
+  *(undefined4 *)(param_1 + 0x166c) = 0;
+  *(undefined4 *)(param_1 + 0x1670) = 0xffffffff;
+  *(undefined4 *)(param_1 + 0x1674) = 0;
+  *(undefined4 *)(param_1 + 0x1678) = 0;
+  *(undefined4 *)(param_1 + 0x167c) = 0;
+  *(undefined4 *)(param_1 + 0x1680) = 0;
+  uVar2 = FUN_10052293(0x400);
+  *(undefined4 *)(param_1 + 0x1684) = uVar2;
+  *(undefined4 *)(param_1 + 0x1688) = 0x10;
+  *(undefined4 *)(param_1 + 0x168c) = 0;
+  *(undefined4 *)(param_1 + 0x1690) = 0;
+  *(undefined4 **)(param_1 + 0x1694) = (undefined4 *)(param_1 + 0x1674);
+  FUN_1003cbc4(param_1);
+  return param_1;
+}
+

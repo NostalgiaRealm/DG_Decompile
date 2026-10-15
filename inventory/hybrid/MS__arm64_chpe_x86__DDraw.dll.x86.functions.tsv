@@ -1,0 +1,17 @@
+100ab000	range_start_100ab000
+100ab320	FUN_100ab320
+100ae000	AcquireDDThreadLock
+100ae010	CompleteCreateSysmemSurface
+100ae020	D3DParseUnknownCommand
+100ae030	DDInternalLock
+100ae040	DDInternalUnlock
+100ae050	DirectDrawCreate
+100ae060	DirectDrawCreateClipper
+100ae070	DirectDrawCreateEx
+100ae080	DirectDrawEnumerateA
+100ae090	DirectDrawEnumerateExA
+100ae0a0	DirectDrawEnumerateExW
+100ae0b0	DirectDrawEnumerateW
+100ae0c0	DllCanUnloadNow
+100ae0d0	DllGetClassObject
+100ae0e0	ReleaseDDThreadLock

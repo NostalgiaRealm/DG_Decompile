@@ -1,0 +1,28 @@
+/*
+ * FUN_10008c40 at 10008c40
+ * undefined FUN_10008c40(void)
+ * Address ranges: 10008c40-10008cdb
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+undefined8 FUN_10008c40(int param_1,int param_2,undefined4 param_3,int *param_4)
+
+{
+  int iVar1;
+  int local_20 [4];
+  
+  local_20[0] = 0;
+  if ((*(int *)(param_1 + 4) - 1U < 0xfffffffe) &&
+     (iVar1 = (*(code *)PTR_FUN_1009d0b8)(*(int *)(param_1 + 4),param_3,param_2,local_20,0),
+     iVar1 == 1)) {
+    if (param_4 != (int *)0x0) {
+      *param_4 = local_20[0];
+      return 0;
+    }
+    if (local_20[0] == param_2) {
+      return 0;
+    }
+  }
+  return 1;
+}
+

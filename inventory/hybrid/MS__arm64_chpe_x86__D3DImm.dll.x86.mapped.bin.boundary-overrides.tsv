@@ -1,0 +1,3 @@
+instruction	target	target_name	analysis_override	note
+10099007	1004bd90	GetD3DInterface_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.
+10099017	1004bd80	GetD3DVersion_native	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.

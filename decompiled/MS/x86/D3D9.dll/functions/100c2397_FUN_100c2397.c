@@ -1,0 +1,41 @@
+/*
+ * FUN_100c2397 at 100c2397
+ * undefined __thiscall FUN_100c2397(void * this, int param_1, int param_2, uint param_3)
+ * Address ranges: 100c2397-100c2459
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void __thiscall FUN_100c2397(void *this,int param_1,int param_2,uint param_3)
+
+{
+  void *this_00;
+  undefined4 *puVar1;
+  uint uVar2;
+  uint local_8;
+  
+  local_8 = param_3;
+  this_00 = (void *)((int)this + 0x28);
+  puVar1 = (undefined4 *)FUN_100c25a3(this_00,&local_8);
+  if (puVar1 != (undefined4 *)0x0) {
+    uVar2 = param_1 + -1 + *(int *)((int)this + 0x18) & -*(int *)((int)this + 0x18);
+    if (uVar2 != 0) {
+      FUN_100c92c2(puVar1[4],puVar1[5],(param_2 - param_3) / *(uint *)((int)this + 0x18),
+                   ((uVar2 - param_3) + param_2) / *(uint *)((int)this + 0x18));
+      puVar1[8] = puVar1[8] - uVar2 / *(uint *)((int)this + 0x18);
+    }
+    if ((puVar1[8] == 0) &&
+       (((puVar1[3] != 0 || (*(uint *)((int)this + 0x1c) < (uint)puVar1[2])) &&
+        (*(int *)((int)this + 0x20) == 0)))) {
+      FUN_100c232f(puVar1);
+      uVar2 = FUN_100c0ce2(this_00,param_3,0);
+      if (uVar2 != *(uint *)((int)this + 0x30)) {
+        if ((*(uint *)(uVar2 * 0x38 + *(int *)((int)this + 0x2c)) == param_3) &&
+           (*(int *)(uVar2 * 0x38 + 4 + *(int *)((int)this + 0x2c)) == 0)) {
+          FUN_100c0bce(this_00,uVar2);
+        }
+      }
+    }
+  }
+  return;
+}
+

@@ -1,0 +1,33 @@
+/*
+ * grFogTable at 10001a2b
+ * undefined __stdcall grFogTable(undefined4 * param_1)
+ * Address ranges: 10001a2b-10001a73
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ * Analysis note: __stdcall grFogTable,4
+ */
+
+/* __stdcall grFogTable,4 */
+
+void grFogTable(undefined4 *param_1)
+
+{
+  int *piVar1;
+  undefined *puVar2;
+  
+                    /* 0x1a2b  46  _grFogTable@4 */
+  puVar2 = FUN_10005411();
+  if (puVar2[0x3c] != '\0') {
+    piVar1 = (int *)(puVar2 + 0x38);
+    LOCK();
+    *piVar1 = *piVar1 + 1;
+    UNLOCK();
+    (**(code **)(**(int **)(puVar2 + 0xc) + 0xdc))(param_1);
+    FUN_10055d40((undefined4 *)(*(int *)(puVar2 + 0xc) + 0x3d4),param_1,
+                 *(uint *)(*(int *)(puVar2 + 0xc) + 0xdc));
+    LOCK();
+    *piVar1 = *piVar1 + -1;
+    UNLOCK();
+  }
+  return;
+}
+

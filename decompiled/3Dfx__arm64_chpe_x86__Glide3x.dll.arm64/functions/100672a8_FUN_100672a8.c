@@ -1,0 +1,43 @@
+/*
+ * FUN_100672a8 at 100672a8
+ * undefined FUN_100672a8(void)
+ * Address ranges: 100672a8-100673e7
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+char FUN_100672a8(int param_1,undefined4 param_2,int param_3,int param_4,undefined4 param_5,
+                 char param_6)
+
+{
+  code *pcVar1;
+  char cVar2;
+  int iVar3;
+  code *extraout_w11;
+  code *extraout_w11_00;
+  code *extraout_w11_01;
+  int local_50 [2];
+  undefined8 local_48;
+  
+  pcVar1 = __hybrid_WowA64DispatchIndirectCallCfgFunctionPointer;
+  local_48 = 0;
+  local_50[0] = 0;
+  cVar2 = '\0';
+  (*__hybrid_WowA64DispatchIndirectCallCfgFunctionPointer)();
+  iVar3 = (*extraout_w11)(param_2,0,&local_48,local_50);
+  if (-1 < iVar3) {
+    cVar2 = FUN_1005d768(*(undefined4 *)(param_1 + 0x8e4),param_2);
+    if (cVar2 != '\0') {
+      FUN_1007e4a0(local_50[0] + param_3,param_5,param_4 - param_3);
+    }
+    local_48 = CONCAT44(param_4,param_3);
+    (*pcVar1)();
+    (*extraout_w11_00)(param_2,0,&local_48);
+    if (param_6 != '\0') {
+      (*pcVar1)();
+      (*extraout_w11_01)(param_2,0,0);
+    }
+    FUN_10063e28(param_1,param_2,0,1,0);
+  }
+  return cVar2;
+}
+

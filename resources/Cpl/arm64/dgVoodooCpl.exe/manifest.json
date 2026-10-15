@@ -1,0 +1,1169 @@
+{
+  "binary": "Cpl/arm64/dgVoodooCpl.exe",
+  "sha256": "726e819dde0e4a0e9e3fef5302a528403d1d9c7a07f3ce0578c29e65cfb115e9",
+  "resources": [
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "103",
+      "language": "1033",
+      "rva": "0x438f0",
+      "file_offset": "0x3e4f0",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__103__1033.bin"
+    },
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "104",
+      "language": "0",
+      "rva": "0x43478",
+      "file_offset": "0x3e078",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__104__0.bin"
+    },
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "117",
+      "language": "0",
+      "rva": "0x43490",
+      "file_offset": "0x3e090",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__117__0.bin"
+    },
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "118",
+      "language": "0",
+      "rva": "0x43480",
+      "file_offset": "0x3e080",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__118__0.bin"
+    },
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "119",
+      "language": "0",
+      "rva": "0x43488",
+      "file_offset": "0x3e088",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__119__0.bin"
+    },
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "120",
+      "language": "0",
+      "rva": "0x43498",
+      "file_offset": "0x3e098",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__120__0.bin"
+    },
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "121",
+      "language": "0",
+      "rva": "0x434a0",
+      "file_offset": "0x3e0a0",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__121__0.bin"
+    },
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "122",
+      "language": "0",
+      "rva": "0x434a8",
+      "file_offset": "0x3e0a8",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__122__0.bin"
+    },
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "123",
+      "language": "0",
+      "rva": "0x434b0",
+      "file_offset": "0x3e0b0",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__123__0.bin"
+    },
+    {
+      "type": "AFX_DIALOG_LAYOUT",
+      "name": "124",
+      "language": "0",
+      "rva": "0x434b8",
+      "file_offset": "0x3e0b8",
+      "size": 2,
+      "code_page": 0,
+      "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7",
+      "file": "AFX_DIALOG_LAYOUT__124__0.bin"
+    },
+    {
+      "type": "RT_CUSTOM",
+      "name": "121",
+      "language": "1033",
+      "rva": "0x60b90",
+      "file_offset": "0x5b790",
+      "size": 21725,
+      "code_page": 0,
+      "sha256": "4bb249d1c4424c270f62488f33a7499307cecff6eafc9a45ed4734e961a54c55",
+      "file": "RT_CUSTOM__121__1033.bin"
+    },
+    {
+      "type": "2",
+      "name": "100",
+      "language": "1033",
+      "rva": "0x438f8",
+      "file_offset": "0x3e4f8",
+      "size": 25064,
+      "code_page": 0,
+      "sha256": "ca2c4e663e858b1733d868b14110f5a85cf6be0cc59a85eef5b434638314deba",
+      "file": "2__100__1033.bin"
+    },
+    {
+      "type": "2",
+      "name": "101",
+      "language": "1033",
+      "rva": "0x49ae0",
+      "file_offset": "0x446e0",
+      "size": 38564,
+      "code_page": 0,
+      "sha256": "3f4c6040f18359e706dd2a9e085d4ac6f66aec6b00733a8acdaa632e542272c4",
+      "file": "2__101__1033.bin"
+    },
+    {
+      "type": "2",
+      "name": "102",
+      "language": "1033",
+      "rva": "0x53188",
+      "file_offset": "0x4dd88",
+      "size": 55064,
+      "code_page": 0,
+      "sha256": "e97de6c1f09c3b235e2698407d4881ecb804e9302b4604279ba8ce5a5c89e09f",
+      "file": "2__102__1033.bin"
+    },
+    {
+      "type": "3",
+      "name": "1",
+      "language": "0",
+      "rva": "0x33b80",
+      "file_offset": "0x2e780",
+      "size": 56313,
+      "code_page": 0,
+      "sha256": "933bfce99395f532e1b74daab83618cf3a9663a742e27d4840c49ddd43689b06",
+      "file": "3__1__0.bin"
+    },
+    {
+      "type": "3",
+      "name": "2",
+      "language": "0",
+      "rva": "0x41780",
+      "file_offset": "0x3c380",
+      "size": 3752,
+      "code_page": 0,
+      "sha256": "8dbe9362b4aff551ca0f60f36ecec5b1788cf768a04888d29e49236737b79cd7",
+      "file": "3__2__0.bin"
+    },
+    {
+      "type": "3",
+      "name": "3",
+      "language": "0",
+      "rva": "0x42628",
+      "file_offset": "0x3d228",
+      "size": 2216,
+      "code_page": 0,
+      "sha256": "6992ffa46340a68e4e40a8ec05e4fd5b4c86f605577d96696f1d19794ce2f5f0",
+      "file": "3__3__0.bin"
+    },
+    {
+      "type": "3",
+      "name": "4",
+      "language": "0",
+      "rva": "0x42ed0",
+      "file_offset": "0x3dad0",
+      "size": 1384,
+      "code_page": 0,
+      "sha256": "7e0ac7b5a4f6e1df8d2dde1b1f712abac39c8926893c5f3e28fab2d9eeb181c3",
+      "file": "3__4__0.bin"
+    },
+    {
+      "type": "5",
+      "name": "103",
+      "language": "1033",
+      "rva": "0x434c0",
+      "file_offset": "0x3e0c0",
+      "size": 1072,
+      "code_page": 0,
+      "sha256": "aeba921dd1c97b1679e0aec2cd37e258ac0b8465062619b0d065f04138c3e9d4",
+      "file": "5__103__1033.bin"
+    },
+    {
+      "type": "5",
+      "name": "104",
+      "language": "0",
+      "rva": "0x30a50",
+      "file_offset": "0x2b650",
+      "size": 1824,
+      "code_page": 0,
+      "sha256": "ed249d281e7c4d6872862ef3aebb5d6cde8990735c87a7fa21136c8a7fdf735b",
+      "file": "5__104__0.bin"
+    },
+    {
+      "type": "5",
+      "name": "117",
+      "language": "0",
+      "rva": "0x31db8",
+      "file_offset": "0x2c9b8",
+      "size": 712,
+      "code_page": 0,
+      "sha256": "605ca6da8b3a62e7f77107e5b0aabaac822d0ca3dc6a43b52554bbf6de8d2e66",
+      "file": "5__117__0.bin"
+    },
+    {
+      "type": "5",
+      "name": "118",
+      "language": "0",
+      "rva": "0x31170",
+      "file_offset": "0x2bd70",
+      "size": 1486,
+      "code_page": 0,
+      "sha256": "140eb89be3df0fb14226fba2137dfd6e948e4d0ce3076745c9dcaefff5097a5e",
+      "file": "5__118__0.bin"
+    },
+    {
+      "type": "5",
+      "name": "119",
+      "language": "0",
+      "rva": "0x31740",
+      "file_offset": "0x2c340",
+      "size": 1652,
+      "code_page": 0,
+      "sha256": "f2ba73442b20982a6f59232dbd66eca31d1e9ae6e74b34fa77794c8c7b1be316",
+      "file": "5__119__0.bin"
+    },
+    {
+      "type": "5",
+      "name": "120",
+      "language": "0",
+      "rva": "0x32080",
+      "file_offset": "0x2cc80",
+      "size": 1936,
+      "code_page": 0,
+      "sha256": "57defb0dc51cc14c875bb9553c3bb46c0c02fa4f841dffd13d551a0bd931a986",
+      "file": "5__120__0.bin"
+    },
+    {
+      "type": "5",
+      "name": "121",
+      "language": "0",
+      "rva": "0x32810",
+      "file_offset": "0x2d410",
+      "size": 390,
+      "code_page": 0,
+      "sha256": "9266e3578579ea37f226f90cfc5f232e4e0328e016eb3a3801808109cef4cf5c",
+      "file": "5__121__0.bin"
+    },
+    {
+      "type": "5",
+      "name": "122",
+      "language": "0",
+      "rva": "0x32998",
+      "file_offset": "0x2d598",
+      "size": 964,
+      "code_page": 0,
+      "sha256": "54d2ad022c67578a51bed14aaafae8d8ad81783272b928de7665efbdd311c17f",
+      "file": "5__122__0.bin"
+    },
+    {
+      "type": "5",
+      "name": "123",
+      "language": "0",
+      "rva": "0x32d60",
+      "file_offset": "0x2d960",
+      "size": 3520,
+      "code_page": 0,
+      "sha256": "a5cc1a39e062753a5984d5265a0005b4c744fd50fda7e214c0636016c67fabf6",
+      "file": "5__123__0.bin"
+    },
+    {
+      "type": "5",
+      "name": "124",
+      "language": "0",
+      "rva": "0x33b20",
+      "file_offset": "0x2e720",
+      "size": 96,
+      "code_page": 0,
+      "sha256": "e35ce06686b95602773ba269f07928d2c336b07a41626bd215eff817cd149e7e",
+      "file": "5__124__0.bin"
+    },
+    {
+      "type": "6",
+      "name": "64",
+      "language": "1038",
+      "rva": "0x661e0",
+      "file_offset": "0x60de0",
+      "size": 578,
+      "code_page": 0,
+      "sha256": "090bf6ca264fd5a936aeb30eaccf8328509af71e38df12ef087dfc9104f9c125",
+      "file": "6__64__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "65",
+      "language": "1038",
+      "rva": "0x66070",
+      "file_offset": "0x60c70",
+      "size": 362,
+      "code_page": 0,
+      "sha256": "b0df2ef42a2acb1af708284983f9c91377b0156ea372291575159733978e0dea",
+      "file": "6__65__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "319",
+      "language": "1038",
+      "rva": "0x66428",
+      "file_offset": "0x61028",
+      "size": 4896,
+      "code_page": 0,
+      "sha256": "5d86196b49ff19bcad68fe4f0bf004a02ee72869de4d33d3151968ded5a4e1b7",
+      "file": "6__319__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "320",
+      "language": "1038",
+      "rva": "0x68240",
+      "file_offset": "0x62e40",
+      "size": 1788,
+      "code_page": 0,
+      "sha256": "987ead54cf18be7f2899af9708cedf4c426e9bac6a7c1ba36c7e59ff652f5ae3",
+      "file": "6__320__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "321",
+      "language": "1038",
+      "rva": "0x67748",
+      "file_offset": "0x62348",
+      "size": 2808,
+      "code_page": 0,
+      "sha256": "d8c29fd7b1b3aa389eaa1ab4a13f0ae8d833f35c2cd55ab3f8bc4045ce27cb61",
+      "file": "6__321__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "576",
+      "language": "1038",
+      "rva": "0x68940",
+      "file_offset": "0x63540",
+      "size": 7518,
+      "code_page": 0,
+      "sha256": "30391ea9461dab30910873b8d11d2fd10406ca733c540b045f5ae75ba72570de",
+      "file": "6__576__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "577",
+      "language": "1038",
+      "rva": "0x6a6a0",
+      "file_offset": "0x652a0",
+      "size": 782,
+      "code_page": 0,
+      "sha256": "21438e4b539ea45dd4448eb55d29d2d0c25435a3017a7ac652f2e2ac7c616425",
+      "file": "6__577__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "832",
+      "language": "1038",
+      "rva": "0x6eca0",
+      "file_offset": "0x698a0",
+      "size": 178,
+      "code_page": 0,
+      "sha256": "1fbe93726b56adb48bc2b34219d294563c3cd0fbc30bb0eddaf0bc94f399cffd",
+      "file": "6__832__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "833",
+      "language": "1038",
+      "rva": "0x6a9b0",
+      "file_offset": "0x655b0",
+      "size": 8960,
+      "code_page": 0,
+      "sha256": "43324ac23f645212a45cbf9ddee6027fe8075887b50602bd3b75d09db152ec4e",
+      "file": "6__833__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "1088",
+      "language": "1038",
+      "rva": "0x6ccb0",
+      "file_offset": "0x678b0",
+      "size": 5752,
+      "code_page": 0,
+      "sha256": "4f378aeec6fae752c21f40df05ed095ea4073254c72a68be1bca29ffb1945e08",
+      "file": "6__1088__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "1089",
+      "language": "1038",
+      "rva": "0x6e328",
+      "file_offset": "0x68f28",
+      "size": 2422,
+      "code_page": 0,
+      "sha256": "80e214a79465ae05def41a5e545af1181a920aae6f4b14d12ee618ded4b8a89b",
+      "file": "6__1089__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "1105",
+      "language": "1038",
+      "rva": "0x6ed58",
+      "file_offset": "0x69958",
+      "size": 832,
+      "code_page": 0,
+      "sha256": "88bc7e748a73c71e21c18c2e9b66b4ff5f36e3adde0fdab2b5a527eb837dcf4f",
+      "file": "6__1105__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "1121",
+      "language": "1038",
+      "rva": "0x6f098",
+      "file_offset": "0x69c98",
+      "size": 480,
+      "code_page": 0,
+      "sha256": "98a1a3909096a81790d04814093649fc3536249c72d7b6d07ce9cb991cb237ec",
+      "file": "6__1121__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "1122",
+      "language": "1038",
+      "rva": "0x712b0",
+      "file_offset": "0x6beb0",
+      "size": 1462,
+      "code_page": 0,
+      "sha256": "7e0feb68d35f4835b123663f3573f40e2011bf352c18ba027daccc3998b75475",
+      "file": "6__1122__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "1136",
+      "language": "1038",
+      "rva": "0x6f278",
+      "file_offset": "0x69e78",
+      "size": 1038,
+      "code_page": 0,
+      "sha256": "bb60443869e0127f5941a36aa99634cf99bf6d5a78e8c9b057b020285ed25e22",
+      "file": "6__1136__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "1137",
+      "language": "1038",
+      "rva": "0x6f688",
+      "file_offset": "0x6a288",
+      "size": 2384,
+      "code_page": 0,
+      "sha256": "bf2fed647f6e96e1b66c712cc6496e3ee41778869457407814c94467989aa849",
+      "file": "6__1137__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "1138",
+      "language": "1038",
+      "rva": "0x6ffd8",
+      "file_offset": "0x6abd8",
+      "size": 3854,
+      "code_page": 0,
+      "sha256": "3c65f4e3fb882768b9d7f5b2ce3614a263c6a8f0ccced90669082c67534a693c",
+      "file": "6__1138__1038.bin"
+    },
+    {
+      "type": "6",
+      "name": "1139",
+      "language": "1038",
+      "rva": "0x70ee8",
+      "file_offset": "0x6bae8",
+      "size": 964,
+      "code_page": 0,
+      "sha256": "f405e078804eac5a36cca70ca9bf69832fd47045dbd539c52676442c9c1e0e6e",
+      "file": "6__1139__1038.bin"
+    },
+    {
+      "type": "14",
+      "name": "112",
+      "language": "0",
+      "rva": "0x43438",
+      "file_offset": "0x3e038",
+      "size": 62,
+      "code_page": 0,
+      "sha256": "8a204b6bfe9994929a74fb7def16a0b864a25f422325b6b185e0ef8277c8e3f5",
+      "file": "14__112__0.bin"
+    },
+    {
+      "type": "16",
+      "name": "1",
+      "language": "1033",
+      "rva": "0x608a0",
+      "file_offset": "0x5b4a0",
+      "size": 752,
+      "code_page": 0,
+      "sha256": "9e245f01ced17e9539ab668ae07d2c8b12dbe3c9157ecf6a73c3354cb9c7f5d9",
+      "file": "16__1__1033.bin"
+    },
+    {
+      "type": "24",
+      "name": "1",
+      "language": "1033",
+      "rva": "0x71868",
+      "file_offset": "0x6c468",
+      "size": 1061,
+      "code_page": 0,
+      "sha256": "82bbff1bf2e5dc05d0def4e521f0ed00493324b1a78240e8815c6cb5b801f883",
+      "file": "24__1__1033.bin"
+    }
+  ],
+  "string_table": [
+    {
+      "id": 1018,
+      "language": "1038",
+      "text": "Adds the folder to the list where the control panel app is located.",
+      "resource_file": "6__64__1038.bin"
+    },
+    {
+      "id": 1019,
+      "language": "1038",
+      "text": "Removes the currently selected folder from the list.",
+      "resource_file": "6__64__1038.bin"
+    },
+    {
+      "id": 1020,
+      "language": "1038",
+      "text": "You can choose an arbitrary folder to be added into the list.",
+      "resource_file": "6__64__1038.bin"
+    },
+    {
+      "id": 1021,
+      "language": "1038",
+      "text": "Refreshes the list of running instances.",
+      "resource_file": "6__64__1038.bin"
+    },
+    {
+      "id": 1022,
+      "language": "1038",
+      "text": "Opens the currently selected folder in File Explorer.",
+      "resource_file": "6__64__1038.bin"
+    },
+    {
+      "id": 1026,
+      "language": "1038",
+      "text": "Here you can select the folder or running instance of a Glide/DirectX wrapped app to config. \nList of running instances is a snapshot taken at control panel startup.",
+      "resource_file": "6__65__1038.bin"
+    },
+    {
+      "id": 5099,
+      "language": "1038",
+      "text": "Direct3D 11/12 with various feature levels: DX 10.0, DX 10.1, DX 11.0 and DX 12.0.\nA software renderer, WARP (D3D11) is also available.\n\nFeature level 10.0 has some limitations like\n- No mipmapping is present with Glide rendering\n- No Phong shading is available with DirectX rendering\n- Limited support for Z-buffer operations done by the CPU (MSAA, performance)\n- There is no support for N-patches and D3D9 MSAA supersampling\n\nLimitations of feature level 10.1:\n- Max texture size is 8K x 8K (D3D8/9)\n- There is no support for N-patches\n\nDX12 currently has some known issues so you must select it explicitly if you want it.\n\nOtherwise always choose the highest feature level your card supports or 'Best available'!\nFeature level 10.0 is designed to be used with late DX 10.0 hardwares.",
+      "resource_file": "6__319__1038.bin"
+    },
+    {
+      "id": 5100,
+      "language": "1038",
+      "text": "- Glide: which adapter (video card) to use for rendering\n- DirectX: which adapters to enable for DirectX device enumeration",
+      "resource_file": "6__319__1038.bin"
+    },
+    {
+      "id": 5101,
+      "language": "1038",
+      "text": "- Glide: initial state of rendering can be full screen or windowed.\n  You can toggle between them later by Alt-Enter.\n- DirectX: it affects the state of rendering if app controlled state is disabled on DirectX page.",
+      "resource_file": "6__319__1038.bin"
+    },
+    {
+      "id": 5102,
+      "language": "1038",
+      "text": "- Glide: which monitor to use when in full screen mode: \n  'Default' means the primary monitor. Also, when switching from windowed to full screen\n  by Alt-Enter, it selects the monitor on which the application window is.\n\n- DirectX: which monitor(s) to enable for DirectX device enumeration.\n  'Default' means all of the available monitors attached to the selected adapter.",
+      "resource_file": "6__319__1038.bin"
+    },
+    {
+      "id": 5103,
+      "language": "1038",
+      "text": "Fullscreen appearance:\n\n- Unspecified: up to the driver\n  (recommended with forced keeping of aspect ratio set on the GPU control panel)\n\n- Centered, Stretched: scaling is done by hardware\n\n- Centered, keep Aspect Ratio: same as Centered but scaling is done by dgVoodoo itself\n\n- Stretched, keep Aspect Ratio: scaling is done by the wrapper\n\n- Stretched, 4:3 Aspect Ratio:\n  forced 4:3 aspect ratio for all resolutions below and including 1280x1024;\n  scaling is done by the wrapper\n\n- Stretched, 4:3 Aspect Ratio (CRT-like):\n  forced aspect ratio of 4:3 for all resolutions below and including 1280x1024\n  with CRT-like blurred appearance; scaling is done by the wrapper\n\n- Stretched, 4:3 Aspect Ratio (VIC-II, C64-like):\n  forced aspect ratio of 4:3 for all resolutions below and including 1280x1024\n  with C64-like 160x200 (fixed palette of 16 colors along with other VIC-II limitations)\n  appearance; scaling is done by the wrapper",
+      "resource_file": "6__319__1038.bin"
+    },
+    {
+      "id": 5104,
+      "language": "1038",
+      "text": "- Glide: initial state of rendering can be full screen or windowed.\n  You can toggle between them later by Alt-Enter.\n- DirectX: it affects the state of rendering if app controlled state is disabled on DirectX page.",
+      "resource_file": "6__320__1038.bin"
+    },
+    {
+      "id": 5105,
+      "language": "1038",
+      "text": "Stretching the display to fit in size of the monitor. \nYou can use it with non-widescreen monitors.",
+      "resource_file": "6__320__1038.bin"
+    },
+    {
+      "id": 5107,
+      "language": "1038",
+      "text": "Brightness can be finetuned here. It works in both full screen and windowed mode. \nIn full screen, it is calculated into the current gamma curve if possible.",
+      "resource_file": "6__320__1038.bin"
+    },
+    {
+      "id": 5108,
+      "language": "1038",
+      "text": "Color intensity... Finetune it to make colors more or less vital compared to the \napplication default, or even Black & White, according to your taste.",
+      "resource_file": "6__320__1038.bin"
+    },
+    {
+      "id": 5109,
+      "language": "1038",
+      "text": "Contrast is the intensity difference between dark and bright regions.\nOnly static contrast is implemented and you can finetune it here.\n",
+      "resource_file": "6__320__1038.bin"
+    },
+    {
+      "id": 5118,
+      "language": "1038",
+      "text": "If enabled, sizing the application window in windowed mode won't enable arbitrary \nsize because its aspect ratio is kept.",
+      "resource_file": "6__320__1038.bin"
+    },
+    {
+      "id": 5121,
+      "language": "1038",
+      "text": "Uses progressive scanline mode on the output device in fullscreen.\nOtherwise the default is used which may mean interlaced mode.\nAlso, you can only see resolutions in the resolution selector comboboxes\nthat are displayable with progressive order on the selected output.",
+      "resource_file": "6__321__1038.bin"
+    },
+    {
+      "id": 5122,
+      "language": "1038",
+      "text": "Enumerates refresh rates in the resolution selector comboboxes and\nlets you choose one.\nHowever if other than the application default is used it can cause heavy\nanimation lagging or glitches!",
+      "resource_file": "6__321__1038.bin"
+    },
+    {
+      "id": 5123,
+      "language": "1038",
+      "text": "If enabled, dgVoodoo forces the mouse pointer into the application\nwindow when it is in fullscreen mode.\nThis is useful on multimonitor systems to prevent accidentally\nclicking outside of the game window on another monitor.",
+      "resource_file": "6__321__1038.bin"
+    },
+    {
+      "id": 5124,
+      "language": "1038",
+      "text": "If enabled then dgVoodoo centers the application window when\nit is in windowed mode. Keep in mind that this can conflict with mouse input.",
+      "resource_file": "6__321__1038.bin"
+    },
+    {
+      "id": 5126,
+      "language": "1038",
+      "text": "If enabled then dgVoodoo preserves your monitor color calibration settings in full screen mode. All the color adjustments above are relative to that one in this case.\n\nImportant to note that this is the required behavior, especially on modern OS versions.\n\nCompletely replacing the current color calibration is only available with D3D11, and the intended use case is exploiting no-extra-rendering-resources on old hardware. That is the only reason this option exists.",
+      "resource_file": "6__321__1038.bin"
+    },
+    {
+      "id": 5130,
+      "language": "1038",
+      "text": "If enabled then dgVoodoo disables screen saver and monitor sleep mode while the rendering is active.",
+      "resource_file": "6__321__1038.bin"
+    },
+    {
+      "id": 9201,
+      "language": "1038",
+      "text": "Disabling mipmapping can be used to make textured surfaces sharper.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9202,
+      "language": "1038",
+      "text": "Amount of texture memory. On UMA architectured 3Dfx cards video and texture memory are unified but the control panel app lets you config them separately.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9204,
+      "language": "1038",
+      "text": "In the list you can see two types of resolutions and refresh rates:\n\n- Static ones\n  Those are enumerated by your videocard for the selected display output.\n  Select any of them and dgVoodoo will force that one, no matter what resolution\n  the application want to set. Custom static resolutions can also be given here,\n  they'll be saved into the config, e.g.: 128x128, 60 means resolution 128x128 with 60Hz.\n\n- Dynamic ones\n  Current resolution will be calculated by the wrapper, from the application resolution\n  according to the scaling mode. ISF stands for integer scaling factor.\n\n  * 2x, 3x, 4x, ...\n    doubled, tripled, etc. application resolution. You can type arbitrary integer scale.\n  * Max: max available resolution\n  * Max FHD: max available resolution, limited to FullHD (1920x1080)\n  * Max QHD: max available resolution, limited to QHD (2560x1440)\n  * Max ISF, Max FHD ISF, Max QHD ISF:\n    max available integer multiple of the app resolution\n  * Max 2x, Max ISF 2x: Double of the max (ISF) available resolution (supersampled result)\n  * Desktop: the current or configured desktop resolution (independent on app resolution)\n\n  You can also type custom strings, e.g., 'Max_FHD, 59' means Max FHD with 59Hz.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9205,
+      "language": "1038",
+      "text": "Enables or disables gamma ramp coming from Glide.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9206,
+      "language": "1038",
+      "text": "Forcing antialiasing... This can cause artifacts. \n'Application driven' only affects the Napalm build and it is equivalent to \n'Off' for the others.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9207,
+      "language": "1038",
+      "text": "Number of Texture Management Units (TMUs). Type of the selected 3Dfx card determines the number of available TMUs, so this one can only be set freely if card 'Other greater' is selected.\n \nSome applications doing multitexturing need a card with 2 TMU's, especially when running through Glide3.\n \nAltough Glide as an API allows 3 TMU's in theory, there were no 3Dfx cards released with 3 TMU's. Thus, real Glide drivers only supported 2 TMU's as a maximum. dgVoodoo's implementation however supports all of the 3 TMU's for the sake of completeness.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9208,
+      "language": "1038",
+      "text": "Force the vertical sync to avoid tearing or prevent the GPU from rendering at crazy high speed.\nKeep in mind that some application need unforced vSync because of synchronization reasons.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9209,
+      "language": "1038",
+      "text": "You may want to choose a 3Dfx card because of \n- limiting onboard/texture memory in an easy way\n- limiting available Glide3 extensions for testing purposes \n- emulating a given 3Dfx architecture, e.g. UMA-non UMA\n \nIt depends on the application you configurate for. While Glide libraries should work for all 3Dfx models in theory, some applications and games may need an older card model in practice.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9210,
+      "language": "1038",
+      "text": "Amount of video memory without texture memory. On UMA architectured 3Dfx cards \nvideo and texture memory are unified but the control panel app lets you config them separately.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9211,
+      "language": "1038",
+      "text": "Enabling this option forces dgVoodoo to emulate true PCI bus access for LFB locks. It is not a perfect emulation, and, it should never be disabled but it can degrade performance in practice. Since only some games need it it is s disabled by default.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9212,
+      "language": "1038",
+      "text": "This option only affects the Voodoo2 card. If enabled then each TMU's have its own separated palette tables for paletted textures. Keep it always disabled, no any application needing this feature is known.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9213,
+      "language": "1038",
+      "text": "Enabling 16-bit depth buffers can prevent Z-fighting in games, but also has the disadvantage of possibly causing artifacting.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9214,
+      "language": "1038",
+      "text": "Enables displaying the 3Dfx logo (shameless plug) during the gameplay.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9215,
+      "language": "1038",
+      "text": "Enables the 3Dfx splash screen when an application starts. \nHowever, it can be irritating to see it every time an applications changes resolutions.",
+      "resource_file": "6__576__1038.bin"
+    },
+    {
+      "id": 9216,
+      "language": "1038",
+      "text": "Enabling inactive state prevents the application from detecting losing the application focus.\nMost of the Glide applications close or deactivate themself when losing focus,\nso this can be used to let the application run in the background.",
+      "resource_file": "6__577__1038.bin"
+    },
+    {
+      "id": 9217,
+      "language": "1038",
+      "text": "You can select from some filtering modes here.\nForcing other than the app default can result in glitches or break some rendering effects!",
+      "resource_file": "6__577__1038.bin"
+    },
+    {
+      "id": 13304,
+      "language": "1038",
+      "text": "Forcing vertical sync in all cases when the application window refreshes.",
+      "resource_file": "6__832__1038.bin"
+    },
+    {
+      "id": 13313,
+      "language": "1038",
+      "text": "If you do not want to remove DDraw.dll, D3D8.dll or D3D9.dll but would like \nto use real DirectX then just enable this option.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13314,
+      "language": "1038",
+      "text": "Size of the emulated Video RAM\nBe careful with it, DX7 and older applications\ncan fail to launch if it is set too high (256MB or more).",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13315,
+      "language": "1038",
+      "text": "Since choosing windowed/fullscreen mode is part of the DirectDraw/D3D8/9 API\ndoing it is left to the application. If this option is disabled then you can force\nscreen mode on the General tab.\nForcing full screen mode for a windowed application makes not much sense\nescpecially when the application relies on window size.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13316,
+      "language": "1038",
+      "text": "If an application has its own mechanism for runtime toggling \nbetween fullscreen/windows mode with Alt-Enter then disable\ndgVoodoo's one to prevent conflict.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13317,
+      "language": "1038",
+      "text": "Enables displaying the dgVoodoo logo during DirectX rendering.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13318,
+      "language": "1038",
+      "text": "Emulated video card type:\n  - Internal Plain SVGA without 3D Acceleration\n  - Internal 3D Accelerated Imaginary Videocard\n  - GeForce4 Ti 4800\n  - ATI Radeon 8500\n  - Matrox Parhelia-512\n  - GeForce FX 5700 Ultra\n  - GeForce 9800 GT\n\nThe SVGA one exposes only software capable rendering to the applications while the 5 other 3D accelerated ones have full hardware capabilities including 'Transform & Light'.\n\nThe Internal 3D and GF 9800 GT are fully D3D9 compatible cards. The Internal 3D supports almost all (too many) capabilities of the DX standard which can be a problem for some games. Try the GF 9800 GT in that case, that one is much more practical.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13319,
+      "language": "1038",
+      "text": "In the list you can see two types of resolutions and refresh rates:\n\n- Static ones\n  Those are enumerated by your videocard for the selected display output.\n  Select any of them and the dgVoodoo will force that one, no matter what resolution\n  the application want to set. Custom static resolutions can also be given here,\n  they'll be saved into the config, e.g.: 128x128, 60 means resolution 128x128 with 60Hz.\n\n- Dynamic ones\n  Current resolution will be calculated by the wrapper, from the application resolution\n  according to the scaling mode. ISF stands for integer scaling factor.\n\n  * 2x, 3x, 4x, ...\n    doubled, tripled, etc. application resolution. You can type arbitrary integer scale.\n  * Max: max available resolution\n  * Max FHD: max available resolution, limited to FullHD (1920x1080)\n  * Max QHD: max available resolution, limited to QHD (2560x1440)\n  * Max ISF, Max FHD ISF, Max QHD ISF:\n    max available integer multiple of the app resolution\n  * Max 2x, Max ISF 2x: Double of the max (ISF) available resolution (supersampled result)\n  * Desktop: the current or configured desktop resolution (independent on app resolution)\n\n  You can also type custom strings, e.g., 'Max_FHD, 59' means Max FHD with 59Hz.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13320,
+      "language": "1038",
+      "text": "Forcing antialiasing... This can cause artifacts. \n'Application driven' only affects D3D8/9 and it is equivalent to \n'Off' for preceding DX versions.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13321,
+      "language": "1038",
+      "text": "If this options is enabled then DirectDraw blitting and CPU-written data is transferred with bilinear filtering between/to surfaces.\n\nEarly hardware did not support or apply point sampled blitting which can end up very pixelated results. Bilinear filtering can be much nicer in general but can cause artifacts especially with colorkeyed blitting.\n\n",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13322,
+      "language": "1038",
+      "text": "If this option is enabled then Phong shading is applied in place of Gouraud when it is possible.\nIt works only when an application uses the fixed function vertex/pixel pipeline and pushes all\nthe work of the vertex transforming & lighting to Direct3D when rendering primitives.\nKeep in mind that it requires much more GPU power than default shading.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13323,
+      "language": "1038",
+      "text": "You can select from various texture filtering modes here.\nForcing other than the app default can result in glitches or break some rendering effects!",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13324,
+      "language": "1038",
+      "text": "You can completely disable mipmapping, or leave it all to the application or force auto-generating missing texture mipmap levels with either point sampled or bilinear filtering.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13325,
+      "language": "1038",
+      "text": "If D3D Transform&Light device is disabled then only 3D devices with software-equivalent vertex processing are available.\nHardware vertex processing is slightly different than software and it can cause visual glitches with applications originally not designed to target TnL devices.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13326,
+      "language": "1038",
+      "text": "Keeps texture filtering for point sampled textures. It can be useful for games where background or HUD textures are point sampled but you want to force filtering in general for all other (typically 3D) elements.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 13327,
+      "language": "1038",
+      "text": "Enables fast videomemory access for locked surfaces.\nTry it only if you experience low performance with an application.",
+      "resource_file": "6__833__1038.bin"
+    },
+    {
+      "id": 17393,
+      "language": "1038",
+      "text": "You can define what screen bit depth should be reported through dgVoodoo.\n(default or 8, 16, 32)",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17394,
+      "language": "1038",
+      "text": "Integer factor for scaling the output image coming from a wrapped API\nAlways done by nearest point filtering, independent on scaling mode.\nSeparate factors can be defined for horizontal and vertical scaling: e.g., type string x:3, y:2 here.",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17395,
+      "language": "1038",
+      "text": "When resolution is forced to other than the app default then a black frame is drawn around the output image coming from a wrapped API to remove scaling artifacts (max 16 pixels).",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17396,
+      "language": "1038",
+      "text": "Software environment in which dgVoodoo is running",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17397,
+      "language": "1038",
+      "text": "Display region of interest\nIf scaling is done by the dgVoodoo then you can define a subrect of the output image, coming from a wrapped API, to be displayed. The defined subrect is mapped to the display output according to the current scaling mode.\nIt can be useful for applications rendering a widescreen subimage into a 4:3 resolution; in this case you can scale up that subimage to (nearly) fill the whole screen on a widescreen monitor.\nManually entered values:\n- Can be a proportion in form of %d_%d or a pixel size (%d|%d)\n- Pos subproperty is not mandatory and can be 'centered' or a pixel position (%d|%d)\nExamples: '16_9, pos:centered' or '(320|200), pos:(10|10)'",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17398,
+      "language": "1038",
+      "text": "If scaling is done by the dgVoodoo then you can choose which resampling method to use. The more complex filter the more computationally expensive. Available ones in order of complexity:\n - Point sampled (unblurred pixels)\n - Bilinear (smoothed)\n - Lanczos-2 (smoothed but sharper)\n - Bicubic (smoothed but sharper)\n - Lanczos-3 (smoothed, sharpest)",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17399,
+      "language": "1038",
+      "text": "Integer scale factor of the emulated hardware mouse cursor.\nAutomatic: calculated from the application and forced resolution",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17400,
+      "language": "1038",
+      "text": "FPS limit - you can enter an arbitrary integer or rational (fractional) value here.",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17401,
+      "language": "1038",
+      "text": "Low-level presentation model (swap effect)\n\nFlip models are better suited for modern OS features like auto HDR, while plain legacy models provide the best presentation performance under ideal conditions.\nNot all model + output API + OS version combinations are supported, e.g. D3D12 only supports Flip models.\n\nAutomatic is recommended. Override it only if you really know what you are doing.",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17402,
+      "language": "1038",
+      "text": "Color space in which the image is presented:\n\n- ARGB:8888 is the legacy sRGB format for SDR displays\n- ARGB:2101010 is a sRGB format as well but with extended precision\n- ARGB:2101010 WCG is Wide Color Gamut representation, for specially provisioned SDR displays (Win11 22H2)\n- ARGB:16161616 is a float16 representation for HDR displays (Win10 1709)\n\nAn app can only choose ARGB:2101010 through D3D9. In any other case ARGB:8888 is chosen if 'App driven' is selected.\n\nBy default, the internal rendering quality is automatically adjusted to the output color space.",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17403,
+      "language": "1038",
+      "text": "The duration for which the watermark is displayed on the output image.\nThis applies on an API-initialization basis.",
+      "resource_file": "6__1088__1038.bin"
+    },
+    {
+      "id": 17411,
+      "language": "1038",
+      "text": "Forces the application window to be borderless.",
+      "resource_file": "6__1089__1038.bin"
+    },
+    {
+      "id": 17412,
+      "language": "1038",
+      "text": "Forces the application window into the top-most z-band, to always be visible.",
+      "resource_file": "6__1089__1038.bin"
+    },
+    {
+      "id": 17413,
+      "language": "1038",
+      "text": "Content of the window is the same as in fullscreen mode, including the potential black bars.\nUseful for achieving fake fullscreen mode (in conjunction with other attributes).",
+      "resource_file": "6__1089__1038.bin"
+    },
+    {
+      "id": 17414,
+      "language": "1038",
+      "text": "Forces fake fullscreen with a screen sized borderless window.",
+      "resource_file": "6__1089__1038.bin"
+    },
+    {
+      "id": 17415,
+      "language": "1038",
+      "text": "If enabled then physical mouse is free to move inside the game window when using emulated scaling and/or application and forced resolution differs.\nCan be useful when a game relies on the physical window size.",
+      "resource_file": "6__1089__1038.bin"
+    },
+    {
+      "id": 17416,
+      "language": "1038",
+      "text": "If enabled then dgVoodoo hooks GDI to be able to show graphical contents (like movie playback through the ancient Windows Multimedia AVI player library) rendered through GDI.\n\nIt's implemented only for x86 DX emulation.",
+      "resource_file": "6__1089__1038.bin"
+    },
+    {
+      "id": 17417,
+      "language": "1038",
+      "text": "If enabled then dgVoodoo hooks the system cursor functionality to suppress double cursor symptoms for emulated cursors. \n\nIt's implemented only for x86 DX emulation.",
+      "resource_file": "6__1089__1038.bin"
+    },
+    {
+      "id": 17419,
+      "language": "1038",
+      "text": "Desktop (native) resolution can be forced for dgVoodoo's internal calculations.\nUseful for rare applications that pre-set the desktop to other than the native resolution before dgVoodoo gets in action. It applies to all outputs of the desktop.",
+      "resource_file": "6__1089__1038.bin"
+    },
+    {
+      "id": 17676,
+      "language": "1038",
+      "text": "Defines when Glide dithering should take place.\nIf dithering is app driven then dithering effect is also controlled by the application.",
+      "resource_file": "6__1105__1038.bin"
+    },
+    {
+      "id": 17677,
+      "language": "1038",
+      "text": "What type of dithering effect should be used when dithering is forced.\nPure 32 bit is a fake effect providing the best quality.",
+      "resource_file": "6__1105__1038.bin"
+    },
+    {
+      "id": 17678,
+      "language": "1038",
+      "text": "Integer scale value for dither matrix size:\n1 = normal size, 2 = double size, etc.\n0 = automatic (the aim is to have some retro feel&look)",
+      "resource_file": "6__1105__1038.bin"
+    },
+    {
+      "id": 17935,
+      "language": "1038",
+      "text": "Severity of INFO type messages - can be:\n- Disabled: they won't appear on the debug output\n- Enabled: they appear on the debug output\n- Enabled with debugger break: when a message is emitted a debugger-break also takes place",
+      "resource_file": "6__1121__1038.bin"
+    },
+    {
+      "id": 17936,
+      "language": "1038",
+      "text": "Severity of WARNING type messages - can be:\n- Disabled: they won't appear on the debug output\n- Enabled: they appear on the debug output\n- Enabled with debugger break: when a message is emitted a debugger-break also takes place",
+      "resource_file": "6__1122__1038.bin"
+    },
+    {
+      "id": 17937,
+      "language": "1038",
+      "text": "Severity of ERROR type messages - can be:\n- Disabled: they won't appear on the debug output\n- Enabled: they appear on the debug output\n- Enabled with debugger break: when a message is emitted a debugger-break also takes place",
+      "resource_file": "6__1122__1038.bin"
+    },
+    {
+      "id": 17938,
+      "language": "1038",
+      "text": "Maximum trace level - can be:\n- Disabled: no trace message entries are emitted\n- API function and method calls are logged\n- API calls are logged along with some additional internal info ",
+      "resource_file": "6__1122__1038.bin"
+    },
+    {
+      "id": 17939,
+      "language": "1038",
+      "text": "Redirecting the debug output to file. This feature is not yet implemented. :(",
+      "resource_file": "6__1122__1038.bin"
+    },
+    {
+      "id": 18166,
+      "language": "1038",
+      "text": "Can be defined only for SVGA and Internal3D card types.\n\nYou can overwrite these properties even if a non-default adapter ID type is defined: say, you defined an nVidia ID type but would like to refine the device ID.",
+      "resource_file": "6__1136__1038.bin"
+    },
+    {
+      "id": 18170,
+      "language": "1038",
+      "text": "You can define what resolutions should be enumerated to the application by default:\n- All: all resolutions your display output capable of + classic resolutions\n- Classic: classic resolutions only\n- None: no resolutions enumerated by default (make sure to define custom extra resolutions)",
+      "resource_file": "6__1136__1038.bin"
+    },
+    {
+      "id": 18182,
+      "language": "1038",
+      "text": "These checkboxes defines what bit depth the resolutions should be enumerated (allowed) with.",
+      "resource_file": "6__1137__1038.bin"
+    },
+    {
+      "id": 18183,
+      "language": "1038",
+      "text": "These checkboxes defines what bit depth the resolutions should be enumerated (allowed) with.",
+      "resource_file": "6__1137__1038.bin"
+    },
+    {
+      "id": 18184,
+      "language": "1038",
+      "text": "If enabled then original Microsoft D3D device names are exposed.\nSome applications check for them and they fail with dgVoodoo device names.",
+      "resource_file": "6__1137__1038.bin"
+    },
+    {
+      "id": 18185,
+      "language": "1038",
+      "text": "If enabled then forced resolution scaling and MSAA is applied also to rendertarget textures.\nDisable it for games requiring pixel-precise rendering but be careful it can EASILY break certain things, NOT recommended.",
+      "resource_file": "6__1137__1038.bin"
+    },
+    {
+      "id": 18186,
+      "language": "1038",
+      "text": "If enabled then extra smoothing is added to depth textures when they are sampled.",
+      "resource_file": "6__1137__1038.bin"
+    },
+    {
+      "id": 18187,
+      "language": "1038",
+      "text": "If enabled the switching to full screen is deferred after the application initialized the DirectX device.\nIt can be useful for games that don't expect rendering window changes during initialization and crash.",
+      "resource_file": "6__1137__1038.bin"
+    },
+    {
+      "id": 18188,
+      "language": "1038",
+      "text": "If enabled then the internal blacklisting for certain AMD GPU models are disabled.\nYou can check out if the solid-color-texture issue is fixed in the newest AMD driver.",
+      "resource_file": "6__1137__1038.bin"
+    },
+    {
+      "id": 18191,
+      "language": "1038",
+      "text": "If enabled then direct changes of the primary surface are batched together for presentation.\nIf disabled then each change is instantly presented (debug-like mode).\n(DirectDraw only)",
+      "resource_file": "6__1137__1038.bin"
+    },
+    {
+      "id": 18192,
+      "language": "1038",
+      "text": "Max number of vertex shader constant registers (D3D8/9 only)\nCan be defined only for SVGA and Internal3D card types.\nThe less the higher performance.",
+      "resource_file": "6__1138__1038.bin"
+    },
+    {
+      "id": 18193,
+      "language": "1038",
+      "text": "When dithering effect should be applied:\n- Disabled: never\n- App driven: the application enables or disables it\n- Force on 16 bit surfaces: always forced for 16 bit rendering\n- Force always: always forced for all type of rendering",
+      "resource_file": "6__1138__1038.bin"
+    },
+    {
+      "id": 18201,
+      "language": "1038",
+      "text": "You can define what type of driver version and vendor id's the DX API Layer should report to the application. Some games rely on that information so it can be useful for them.\nCan be defined only for SVGA and Internal3D card types, the others have their own wired information.\nYou can refine various ID's (vendor, device, subsys, revision) in the appropriate fields. Note that defining unmatching vendor ID's makes no sense.",
+      "resource_file": "6__1138__1038.bin"
+    },
+    {
+      "id": 18202,
+      "language": "1038",
+      "text": "These checkboxes defines what bit depth the resolutions should be enumerated (allowed) with.",
+      "resource_file": "6__1138__1038.bin"
+    },
+    {
+      "id": 18203,
+      "language": "1038",
+      "text": "What type of dithering effect should be used.\nHigh quality is a fake effect providing the best quality.",
+      "resource_file": "6__1138__1038.bin"
+    },
+    {
+      "id": 18204,
+      "language": "1038",
+      "text": "Integer scale value for dither matrix size:\n1 = normal size, 2 = double size, etc.\n0 = automatic (the aim is to have some retro feel&look)",
+      "resource_file": "6__1138__1038.bin"
+    },
+    {
+      "id": 18205,
+      "language": "1038",
+      "text": "Internal bit depth of depth/stencil buffers for 3D rendering\nForced 32 bit is not recommended.",
+      "resource_file": "6__1138__1038.bin"
+    },
+    {
+      "id": 18206,
+      "language": "1038",
+      "text": "Default quality (bit depth) of internal 3D rendering:\n\n- Auto: adjusts to the quality coming from the selected output color space\n- ARGB 8:8:8:8: Forces legacy 8 bit quality per component\n- ARGB 2:10:10:10: Forces 10 bit quality but it is not recommended because of the lowered alpha bits\n- ARGB 16:16:16:16: Forces 16 bit quality per component",
+      "resource_file": "6__1138__1038.bin"
+    },
+    {
+      "id": 18207,
+      "language": "1038",
+      "text": "Forcing N-Patch tesselation level (D3D8/9)\n\nAltough tesselation works with all vertex shader versions, you can force level 2 or higher only for the fixed function or vs.1.x vertex pipeline because of performance and practical reasons.\n\nForced tesselation also disables adaptive mode (D3D9), but forcing is not recommended at all, anyway.",
+      "resource_file": "6__1138__1038.bin"
+    },
+    {
+      "id": 18208,
+      "language": "1038",
+      "text": "(D3D8/9 only)\nIf enabled then the D3D12 backend does bound checking on vs const register file accesses.\nIt should always be enabled to be fully compatible with the D3D8/9 specs but\nunfortunately that can cause performance loss while the vast majority of games do not need it.\n\nTry to enable it if you experience a GPU crash with a D3D8/9 game.",
+      "resource_file": "6__1139__1038.bin"
+    },
+    {
+      "id": 18209,
+      "language": "1038",
+      "text": "If enabled then alternative 3D upscale calculations are applied to mitigate misalignments\nin postprocess-like renderpasses.",
+      "resource_file": "6__1139__1038.bin"
+    }
+  ],
+  "limitations": [
+    "Static resource bytes only; no target execution or UI observation.",
+    "Only RT_STRING is decoded. Other payload formats are preserved verbatim."
+  ]
+}

@@ -1,0 +1,3 @@
+function	call_site	target	target_name	flow_type
+10099000	10099007	1004bd90	GetD3DInterface_native	CALL_TERMINATOR
+10099010	10099017	1004bd80	GetD3DVersion_native	CALL_TERMINATOR

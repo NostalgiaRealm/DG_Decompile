@@ -1,0 +1,72 @@
+START dgVoodooCpl.exe
+START Cpl/arm64/dgVoodooCpl.exe
+COMPLETE dgVoodooCpl.exe 7.95s 331 functions
+START MS/x86/D3DImm.dll
+COMPLETE Cpl/arm64/dgVoodooCpl.exe 9.41s 361 functions
+START 3Dfx/x86/Glide2x.dll
+COMPLETE 3Dfx/x86/Glide2x.dll 12.56s 1594 functions
+START 3Dfx/x86/Glide.dll
+COMPLETE MS/x86/D3DImm.dll 15.28s 1394 functions
+START MS/x86/DDraw.dll
+COMPLETE 3Dfx/x86/Glide.dll 12.59s 1607 functions
+START 3Dfx/x86/Glide3x.dll
+COMPLETE MS/x86/DDraw.dll 14.57s 1936 functions
+START 3Dfx/arm64/Glide2x.dll
+COMPLETE 3Dfx/x86/Glide3x.dll 12.7s 1619 functions
+START 3Dfx/arm64/Glide.dll
+COMPLETE 3Dfx/arm64/Glide2x.dll 13.38s 1230 functions
+START 3Dfx/x86/Napalm/Glide3x.dll
+COMPLETE 3Dfx/arm64/Glide.dll 14.05s 1237 functions
+START 3Dfx/x64/Glide2x.dll
+COMPLETE 3Dfx/x86/Napalm/Glide3x.dll 13.2s 1689 functions
+START 3Dfx/x64/Glide.dll
+COMPLETE 3Dfx/x64/Glide2x.dll 12.62s 1245 functions
+START 3Dfx/arm64/Glide3x.dll
+COMPLETE 3Dfx/x64/Glide.dll 12.54s 1255 functions
+START 3Dfx/x64/Glide3x.dll
+COMPLETE 3Dfx/arm64/Glide3x.dll 14.49s 1266 functions
+START MS/x86/D3D8.dll
+COMPLETE 3Dfx/x64/Glide3x.dll 12.44s 1271 functions
+START MS/x86/D3D9.dll
+COMPLETE MS/x86/D3D8.dll 24.73s 2680 functions
+START MS/x64/D3D9.dll
+COMPLETE MS/x86/D3D9.dll 32.21s 3053 functions
+START 3Dfx__arm64_chpe_x86__Glide.dll.arm64
+COMPLETE MS/x64/D3D9.dll 30.26s 2303 functions
+START 3Dfx__arm64_chpe_x86__Glide.dll.x86
+COMPLETE 3Dfx__arm64_chpe_x86__Glide.dll.arm64 28.13s 2318 functions
+START 3Dfx__arm64_chpe_x86__Glide2x.dll.arm64
+COMPLETE 3Dfx__arm64_chpe_x86__Glide.dll.x86 7.86s 166 functions
+START 3Dfx__arm64_chpe_x86__Glide2x.dll.x86
+COMPLETE 3Dfx__arm64_chpe_x86__Glide2x.dll.x86 7.25s 162 functions
+START 3Dfx__arm64_chpe_x86__Glide3x.dll.arm64
+COMPLETE 3Dfx__arm64_chpe_x86__Glide2x.dll.arm64 28.3s 2305 functions
+START 3Dfx__arm64_chpe_x86__Glide3x.dll.x86
+COMPLETE 3Dfx__arm64_chpe_x86__Glide3x.dll.x86 7.39s 103 functions
+START 3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64
+COMPLETE 3Dfx__arm64_chpe_x86__Glide3x.dll.arm64 29.27s 2303 functions
+START 3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86
+COMPLETE 3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86 14.03s 225 functions
+START MS__arm64_chpe_x86__D3D8.dll.arm64
+COMPLETE 3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64 32.32s 2404 functions
+START MS__arm64_chpe_x86__D3D8.dll.x86
+COMPLETE MS__arm64_chpe_x86__D3D8.dll.x86 4.65s 7 functions
+START MS__arm64_chpe_x86__D3D9.dll.arm64
+COMPLETE MS__arm64_chpe_x86__D3D8.dll.arm64 77.02s 3991 functions
+START MS__arm64_chpe_x86__D3D9.dll.x86
+COMPLETE MS__arm64_chpe_x86__D3D9.dll.x86 5.26s 14 functions
+START MS__arm64_chpe_x86__D3DImm.dll.arm64
+COMPLETE MS__arm64_chpe_x86__D3D9.dll.arm64 93.62s 4466 functions
+START MS__arm64_chpe_x86__D3DImm.dll.x86
+COMPLETE MS__arm64_chpe_x86__D3DImm.dll.x86 4.18s 5 functions
+START MS__arm64_chpe_x86__DDraw.dll.arm64
+FAILED MS__arm64_chpe_x86__DDraw.dll.arm64 17.11s ? functions
+START MS__arm64_chpe_x86__DDraw.dll.x86
+COMPLETE MS__arm64_chpe_x86__D3DImm.dll.arm64 54.48s 2305 functions
+START MS__arm64x__D3D9.dll.arm64
+FAILED MS__arm64_chpe_x86__DDraw.dll.x86 5.06s ? functions
+START MS__arm64x__D3D9.dll.arm64ec
+COMPLETE MS__arm64x__D3D9.dll.arm64 63.6s 1915 functions
+START MS__arm64x__D3D9.dll.x64
+COMPLETE MS__arm64x__D3D9.dll.arm64ec 60.29s 2506 functions
+COMPLETE MS__arm64x__D3D9.dll.x64 5.21s 15 functions

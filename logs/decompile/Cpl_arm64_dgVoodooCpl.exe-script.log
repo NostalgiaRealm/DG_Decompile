@@ -1,0 +1,14 @@
+2026-10-15 17:46:33 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 17:46:33 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 17:46:34 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 17:46:35 INFO  ExportAll.java> EXPORT COMPLETE: functions=361 decompiled=361 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/Cpl/arm64/dgVoodooCpl.exe  
+2026-10-15 17:53:22 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 17:53:25 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 17:53:26 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 17:53:27 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 17:53:28 INFO  ExportAll.java> EXPORT COMPLETE: functions=361 decompiled=361 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/Cpl/arm64/dgVoodooCpl.exe  
+2026-10-15 18:02:48 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:02:51 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 18:02:52 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 18:02:53 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 18:02:53 INFO  ExportAll.java> EXPORT COMPLETE: functions=361 decompiled=361 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/Cpl/arm64/dgVoodooCpl.exe  

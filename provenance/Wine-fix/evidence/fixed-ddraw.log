@@ -1,0 +1,20 @@
+Loaded Z:\home\rick\Downloads\dgVoodoo\dgVoodoo2_87_5_FIXED\MS\x86\DDraw.dll at 73c60000
+wine_get_version => 0 (expected 0)
+wine_get_build_id => 0 (expected 0)
+__wine_get_unix_file_name => 0 (expected 0)
+NtCreateFile => 0 (expected 0)
+ordinary_export => 0 (expected 0)
+PASS: loaded DLL predicate
+DirectDrawCreateEx = 00000000
+GetDeviceIdentifier = 00000000
+Adapter: dgVoodoo / dgVoodoo DX API Layer
+SetCooperativeLevel = 00000000
+Create primary = 00000000
+Create render target = 00000000
+CreateClipper = 00000000
+SetHWnd = 00000000
+SetClipper = 00000000
+Lock target = 00000000
+Pixel after color fill: 00204080 (RGB bits 32)
+Unlock target = 00000000
+PASS: 120 fills/blits, readback, and resource teardown

@@ -1,0 +1,58 @@
+2026-10-15 17:56:30 INFO  PrepareHybrid.java> HYBRID SEEDED 2328 functions within 620836 architecture code bytes  
+2026-10-15 17:56:39 INFO  TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 17:56:39 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 17:56:41 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 17:56:42 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 17:56:42 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 17:56:43 INFO  ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 17:56:44 INFO  ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 17:56:44 INFO  ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 17:56:45 INFO  ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 17:56:49 INFO  ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 17:56:50 INFO  ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 17:56:52 INFO  ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 17:56:52 INFO  ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 17:56:53 INFO  ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 17:56:53 INFO  ExportAll.java> Exported 1300 functions; decompiled=1300, fallback=0  
+2026-10-15 17:56:54 INFO  ExportAll.java> Exported 1400 functions; decompiled=1400, fallback=0  
+2026-10-15 17:56:54 INFO  ExportAll.java> Exported 1500 functions; decompiled=1500, fallback=0  
+2026-10-15 17:56:54 INFO  ExportAll.java> Exported 1600 functions; decompiled=1600, fallback=0  
+2026-10-15 17:56:55 INFO  ExportAll.java> Exported 1700 functions; decompiled=1700, fallback=0  
+2026-10-15 17:56:55 INFO  ExportAll.java> Exported 1800 functions; decompiled=1800, fallback=0  
+2026-10-15 17:56:55 INFO  ExportAll.java> Exported 1900 functions; decompiled=1900, fallback=0  
+2026-10-15 17:56:55 INFO  ExportAll.java> Exported 2000 functions; decompiled=2000, fallback=0  
+2026-10-15 17:56:55 INFO  ExportAll.java> Exported 2100 functions; decompiled=2100, fallback=0  
+2026-10-15 17:56:55 INFO  ExportAll.java> Exported 2200 functions; decompiled=2200, fallback=0  
+2026-10-15 17:56:56 INFO  ExportAll.java> Exported 2300 functions; decompiled=2300, fallback=0  
+2026-10-15 17:56:56 INFO  ExportAll.java> Exported 2400 functions; decompiled=2400, fallback=0  
+2026-10-15 17:56:56 INFO  ExportAll.java> EXPORT COMPLETE: functions=2404 decompiled=2404 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64  
+2026-10-15 18:05:44 INFO  ReconcileHybridSeeds.java> HYBRID SEED RECONCILIATION repaired 0 entries; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64.mapped.bin.seed-repairs.tsv  
+2026-10-15 18:05:44 INFO  ReconcileHybridSeeds.java> HYBRID POINTER RECOVERY created 0 candidate functions from documented data pointers  
+2026-10-15 18:05:44 INFO  TrimHybrid.java> HYBRID TRIM removed 0 functions and 0 instruction bytes outside architecture ranges  
+2026-10-15 18:05:44 INFO  TrimHybrid.java> HYBRID BOUNDARIES applied 0 analysis-only tail-call overrides; evidence=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/inventory/hybrid/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64.mapped.bin.boundary-overrides.tsv  
+2026-10-15 18:05:44 INFO  RecoverFunctions.java> RECOVERED 0 explicit entry/direct-call functions  
+2026-10-15 18:05:46 INFO  ExportAll.java> Exported 100 functions; decompiled=100, fallback=0  
+2026-10-15 18:05:47 INFO  ExportAll.java> Exported 200 functions; decompiled=200, fallback=0  
+2026-10-15 18:05:48 INFO  ExportAll.java> Exported 300 functions; decompiled=300, fallback=0  
+2026-10-15 18:05:49 INFO  ExportAll.java> Exported 400 functions; decompiled=400, fallback=0  
+2026-10-15 18:05:50 INFO  ExportAll.java> Exported 500 functions; decompiled=500, fallback=0  
+2026-10-15 18:05:50 INFO  ExportAll.java> Exported 600 functions; decompiled=600, fallback=0  
+2026-10-15 18:05:51 INFO  ExportAll.java> Exported 700 functions; decompiled=700, fallback=0  
+2026-10-15 18:05:55 INFO  ExportAll.java> Exported 800 functions; decompiled=800, fallback=0  
+2026-10-15 18:05:56 INFO  ExportAll.java> Exported 900 functions; decompiled=900, fallback=0  
+2026-10-15 18:05:57 INFO  ExportAll.java> Exported 1000 functions; decompiled=1000, fallback=0  
+2026-10-15 18:05:58 INFO  ExportAll.java> Exported 1100 functions; decompiled=1100, fallback=0  
+2026-10-15 18:05:58 INFO  ExportAll.java> Exported 1200 functions; decompiled=1200, fallback=0  
+2026-10-15 18:05:59 INFO  ExportAll.java> Exported 1300 functions; decompiled=1300, fallback=0  
+2026-10-15 18:05:59 INFO  ExportAll.java> Exported 1400 functions; decompiled=1400, fallback=0  
+2026-10-15 18:05:59 INFO  ExportAll.java> Exported 1500 functions; decompiled=1500, fallback=0  
+2026-10-15 18:06:00 INFO  ExportAll.java> Exported 1600 functions; decompiled=1600, fallback=0  
+2026-10-15 18:06:00 INFO  ExportAll.java> Exported 1700 functions; decompiled=1700, fallback=0  
+2026-10-15 18:06:00 INFO  ExportAll.java> Exported 1800 functions; decompiled=1800, fallback=0  
+2026-10-15 18:06:00 INFO  ExportAll.java> Exported 1900 functions; decompiled=1900, fallback=0  
+2026-10-15 18:06:00 INFO  ExportAll.java> Exported 2000 functions; decompiled=2000, fallback=0  
+2026-10-15 18:06:00 INFO  ExportAll.java> Exported 2100 functions; decompiled=2100, fallback=0  
+2026-10-15 18:06:01 INFO  ExportAll.java> Exported 2200 functions; decompiled=2200, fallback=0  
+2026-10-15 18:06:01 INFO  ExportAll.java> Exported 2300 functions; decompiled=2300, fallback=0  
+2026-10-15 18:06:01 INFO  ExportAll.java> Exported 2400 functions; decompiled=2400, fallback=0  
+2026-10-15 18:06:01 INFO  ExportAll.java> EXPORT COMPLETE: functions=2404 decompiled=2404 fallback=0 output=/home/rick/Documents/dgVoodoo2_87_5_Decompiled/decompiled/3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64  

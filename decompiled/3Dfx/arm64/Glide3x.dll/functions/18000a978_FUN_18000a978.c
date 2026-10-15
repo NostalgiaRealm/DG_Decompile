@@ -1,0 +1,52 @@
+/*
+ * FUN_18000a978 at 18000a978
+ * undefined __cdecl FUN_18000a978(longlong param_1, undefined8 * param_2)
+ * Address ranges: 18000a978-18000aa07
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_18000a978(longlong param_1,undefined8 *param_2)
+
+{
+  undefined8 uVar1;
+  undefined8 uVar2;
+  undefined8 uVar3;
+  
+  if (*(char *)(param_1 + 100) != '\0') {
+    FUN_1800643e0((uint *)(param_1 + 0x60));
+    if (param_2 != (undefined8 *)0x0) {
+      thunk_FUN_1800010d8(param_2,(undefined8 *)(*(longlong *)(param_1 + 0x18) + 0xf0),0x1af);
+      uVar3 = uRam000000018006f9f8;
+      uVar2 = _DAT_18006f9f0;
+      uVar1 = _DAT_18006f9e0;
+      *(undefined8 *)((longlong)param_2 + 0x1b7) = uRam000000018006f9e8;
+      *(undefined8 *)((longlong)param_2 + 0x1af) = uVar1;
+      *(undefined8 *)((longlong)param_2 + 0x1c7) = uVar3;
+      *(undefined8 *)((longlong)param_2 + 0x1bf) = uVar2;
+      uVar3 = uRam000000018006fa18;
+      uVar2 = _DAT_18006fa10;
+      uVar1 = _DAT_18006fa00;
+      *(undefined8 *)((longlong)param_2 + 0x1d7) = uRam000000018006fa08;
+      *(undefined8 *)((longlong)param_2 + 0x1cf) = uVar1;
+      *(undefined8 *)((longlong)param_2 + 0x1e7) = uVar3;
+      *(undefined8 *)((longlong)param_2 + 0x1df) = uVar2;
+      uVar3 = uRam000000018006fa38;
+      uVar2 = _DAT_18006fa30;
+      uVar1 = _DAT_18006fa20;
+      *(undefined8 *)((longlong)param_2 + 0x1f7) = uRam000000018006fa28;
+      *(undefined8 *)((longlong)param_2 + 0x1ef) = uVar1;
+      *(undefined8 *)((longlong)param_2 + 0x207) = uVar3;
+      *(undefined8 *)((longlong)param_2 + 0x1ff) = uVar2;
+      uVar1 = _DAT_18006fa40;
+      *(undefined8 *)((longlong)param_2 + 0x217) = uRam000000018006fa48;
+      *(undefined8 *)((longlong)param_2 + 0x20f) = uVar1;
+      (**(code **)(**(longlong **)(param_1 + 0x18) + 0x1e0))
+                (*(longlong **)(param_1 + 0x18),(longlong)param_2 + 0x21f);
+    }
+    FUN_1800643d0((uint *)(param_1 + 0x60));
+  }
+  return;
+}
+

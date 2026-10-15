@@ -1,0 +1,114 @@
+[
+  {
+    "path": "3Dfx/x86/Glide.dll",
+    "kind": "unpacked-original",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Documents\\Codex\\2026-10-11\\on-linux-using-wine-it-is\\work\\2875\\unpacked\\3Dfx\\x86\\Glide.dll at 73c70000\nwine_get_version => 1 (expected 1)\nwine_get_build_id => 1 (expected 1)\n__wine_get_unix_file_name => 1 (expected 1)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "3Dfx/x86/Glide.dll",
+    "kind": "fixed",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Downloads\\dgVoodoo\\dgVoodoo2_87_5_FIXED\\3Dfx\\x86\\Glide.dll at 73c70000\nwine_get_version => 0 (expected 0)\nwine_get_build_id => 0 (expected 0)\n__wine_get_unix_file_name => 0 (expected 0)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "3Dfx/x86/Glide2x.dll",
+    "kind": "unpacked-original",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Documents\\Codex\\2026-10-11\\on-linux-using-wine-it-is\\work\\2875\\unpacked\\3Dfx\\x86\\Glide2x.dll at 73c70000\nwine_get_version => 1 (expected 1)\nwine_get_build_id => 1 (expected 1)\n__wine_get_unix_file_name => 1 (expected 1)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "3Dfx/x86/Glide2x.dll",
+    "kind": "fixed",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Downloads\\dgVoodoo\\dgVoodoo2_87_5_FIXED\\3Dfx\\x86\\Glide2x.dll at 73c70000\nwine_get_version => 0 (expected 0)\nwine_get_build_id => 0 (expected 0)\n__wine_get_unix_file_name => 0 (expected 0)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "3Dfx/x86/Glide3x.dll",
+    "kind": "unpacked-original",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Documents\\Codex\\2026-10-11\\on-linux-using-wine-it-is\\work\\2875\\unpacked\\3Dfx\\x86\\Glide3x.dll at 73c60000\nwine_get_version => 1 (expected 1)\nwine_get_build_id => 1 (expected 1)\n__wine_get_unix_file_name => 1 (expected 1)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "3Dfx/x86/Glide3x.dll",
+    "kind": "fixed",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Downloads\\dgVoodoo\\dgVoodoo2_87_5_FIXED\\3Dfx\\x86\\Glide3x.dll at 73c60000\nwine_get_version => 0 (expected 0)\nwine_get_build_id => 0 (expected 0)\n__wine_get_unix_file_name => 0 (expected 0)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "3Dfx/x86/Napalm/Glide3x.dll",
+    "kind": "unpacked-original",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Documents\\Codex\\2026-10-11\\on-linux-using-wine-it-is\\work\\2875\\unpacked\\3Dfx\\x86\\Napalm\\Glide3x.dll at 73c50000\nwine_get_version => 1 (expected 1)\nwine_get_build_id => 1 (expected 1)\n__wine_get_unix_file_name => 1 (expected 1)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "3Dfx/x86/Napalm/Glide3x.dll",
+    "kind": "fixed",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Downloads\\dgVoodoo\\dgVoodoo2_87_5_FIXED\\3Dfx\\x86\\Napalm\\Glide3x.dll at 73c50000\nwine_get_version => 0 (expected 0)\nwine_get_build_id => 0 (expected 0)\n__wine_get_unix_file_name => 0 (expected 0)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "MS/x86/D3D8.dll",
+    "kind": "unpacked-original",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Documents\\Codex\\2026-10-11\\on-linux-using-wine-it-is\\work\\2875\\unpacked\\MS\\x86\\D3D8.dll at 73bd0000\nwine_get_version => 1 (expected 1)\nwine_get_build_id => 1 (expected 1)\n__wine_get_unix_file_name => 1 (expected 1)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "MS/x86/D3D8.dll",
+    "kind": "fixed",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Downloads\\dgVoodoo\\dgVoodoo2_87_5_FIXED\\MS\\x86\\D3D8.dll at 73bd0000\nwine_get_version => 0 (expected 0)\nwine_get_build_id => 0 (expected 0)\n__wine_get_unix_file_name => 0 (expected 0)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "MS/x86/D3D9.dll",
+    "kind": "unpacked-original",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Documents\\Codex\\2026-10-11\\on-linux-using-wine-it-is\\work\\2875\\unpacked\\MS\\x86\\D3D9.dll at 73bb0000\nwine_get_version => 1 (expected 1)\nwine_get_build_id => 1 (expected 1)\n__wine_get_unix_file_name => 1 (expected 1)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "MS/x86/D3D9.dll",
+    "kind": "fixed",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Downloads\\dgVoodoo\\dgVoodoo2_87_5_FIXED\\MS\\x86\\D3D9.dll at 73bb0000\nwine_get_version => 0 (expected 0)\nwine_get_build_id => 0 (expected 0)\n__wine_get_unix_file_name => 0 (expected 0)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "MS/x86/D3DImm.dll",
+    "kind": "unpacked-original",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Documents\\Codex\\2026-10-11\\on-linux-using-wine-it-is\\work\\2875\\unpacked\\MS\\x86\\D3DImm.dll at 73c80000\n",
+    "stderr": ""
+  },
+  {
+    "path": "MS/x86/D3DImm.dll",
+    "kind": "fixed",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Downloads\\dgVoodoo\\dgVoodoo2_87_5_FIXED\\MS\\x86\\D3DImm.dll at 73c80000\n",
+    "stderr": ""
+  },
+  {
+    "path": "MS/x86/DDraw.dll",
+    "kind": "unpacked-original",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Documents\\Codex\\2026-10-11\\on-linux-using-wine-it-is\\work\\2875\\unpacked\\MS\\x86\\DDraw.dll at 73c60000\nwine_get_version => 1 (expected 1)\nwine_get_build_id => 1 (expected 1)\n__wine_get_unix_file_name => 1 (expected 1)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  },
+  {
+    "path": "MS/x86/DDraw.dll",
+    "kind": "fixed",
+    "exit_code": 0,
+    "stdout": "Loaded Z:\\home\\rick\\Downloads\\dgVoodoo\\dgVoodoo2_87_5_FIXED\\MS\\x86\\DDraw.dll at 73c60000\nwine_get_version => 0 (expected 0)\nwine_get_build_id => 0 (expected 0)\n__wine_get_unix_file_name => 0 (expected 0)\nNtCreateFile => 0 (expected 0)\nordinary_export => 0 (expected 0)\nPASS: loaded DLL predicate\n",
+    "stderr": ""
+  }
+]

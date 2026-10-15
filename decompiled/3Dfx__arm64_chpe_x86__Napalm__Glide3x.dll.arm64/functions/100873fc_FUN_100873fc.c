@@ -1,0 +1,27 @@
+/*
+ * FUN_100873fc at 100873fc
+ * undefined FUN_100873fc(void)
+ * Address ranges: 100873fc-10087447
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_100873fc(void)
+
+{
+  int in_w5;
+  uint *unaff_w28;
+  undefined4 unaff_000040e4;
+  ulonglong unaff_x29;
+  
+  *(ulonglong *)(((uint)unaff_w28 & 0xfffffff0) - 0x10) = unaff_x29 | (ulonglong)*unaff_w28 << 0x20;
+  *(ulonglong *)(((uint)unaff_w28 & 0xfffffff0) - 8) = CONCAT44(unaff_000040e4,unaff_w28);
+  if (-1 < in_w5) {
+    (*DAT_1009d020)();
+  }
+  _grColorCombine_20_native(unaff_w28[1],unaff_w28[2],unaff_w28[3],unaff_w28[4],unaff_w28[5]);
+                    /* WARNING: Could not recover jumptable at 0x10087434. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*__hybrid_WowA64DispatchRetFunctionPointer)(0x18);
+  return;
+}
+

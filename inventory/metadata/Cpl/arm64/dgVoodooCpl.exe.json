@@ -1,0 +1,3403 @@
+{
+  "path": "Cpl/arm64/dgVoodooCpl.exe",
+  "source_sha256": "726e819dde0e4a0e9e3fef5302a528403d1d9c7a07f3ce0578c29e65cfb115e9",
+  "prepared_sha256": "726e819dde0e4a0e9e3fef5302a528403d1d9c7a07f3ce0578c29e65cfb115e9",
+  "format": "PE32+",
+  "architecture": "ARM64",
+  "machine": 43620,
+  "machine_hex": "0xaa64",
+  "is_dll": false,
+  "managed_cli": false,
+  "image_base": 5368709120,
+  "entry_point_rva": 61872,
+  "entry_point_va": 5368770992,
+  "size_of_image": 471040,
+  "pe_timestamp": 1789417228,
+  "checksum_header": 0,
+  "checksum_calculated": 470037,
+  "subsystem": 2,
+  "characteristics": 34,
+  "dll_characteristics": 33120,
+  "sections": [
+    {
+      "name": ".text",
+      "name_hex": "2e74657874000000",
+      "rva": 4096,
+      "va": 5368713216,
+      "virtual_size": 148568,
+      "raw_offset": 1024,
+      "raw_size": 148992,
+      "characteristics": 1610612768,
+      "readable": true,
+      "writable": false,
+      "executable": true,
+      "entropy": 6.503334,
+      "raw_sha256": "363d99eb8fd08208f8e8dd4d9ca437b2367237c0513069aaa4ba864d2cc184d9"
+    },
+    {
+      "name": ".rdata",
+      "name_hex": "2e72646174610000",
+      "rva": 155648,
+      "va": 5368864768,
+      "virtual_size": 21276,
+      "raw_offset": 150016,
+      "raw_size": 21504,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 4.811224,
+      "raw_sha256": "2d79eabd59432d27d6b378d1088a72bb15071e0846515b83b1bfb4886f75eac9"
+    },
+    {
+      "name": ".data",
+      "name_hex": "2e64617461000000",
+      "rva": 180224,
+      "va": 5368889344,
+      "virtual_size": 12196,
+      "raw_offset": 171520,
+      "raw_size": 1024,
+      "characteristics": 3221225536,
+      "readable": true,
+      "writable": true,
+      "executable": false,
+      "entropy": 0.883809,
+      "raw_sha256": "6d16c90363aa1f63a0b0b0f4416f62197e0c8393d44ef45cf7bf1aed70cba2d4"
+    },
+    {
+      "name": ".pdata",
+      "name_hex": "2e70646174610000",
+      "rva": 192512,
+      "va": 5368901632,
+      "virtual_size": 2248,
+      "raw_offset": 172544,
+      "raw_size": 2560,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 4.877549,
+      "raw_sha256": "a62d1f8f3f8543d7a1bccb6f8f890af27eabcfe054201a4951d3ce9ed7e4d0c3"
+    },
+    {
+      "name": ".rsrc",
+      "name_hex": "2e72737263000000",
+      "rva": 196608,
+      "va": 5368905728,
+      "virtual_size": 269456,
+      "raw_offset": 175104,
+      "raw_size": 269824,
+      "characteristics": 1073741888,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 6.993011,
+      "raw_sha256": "2a5a7ce058e18c3eae46dae6dd0c1ff065e70ec1da0ea5372b48fb178010c9e9"
+    },
+    {
+      "name": ".reloc",
+      "name_hex": "2e72656c6f630000",
+      "rva": 466944,
+      "va": 5369176064,
+      "virtual_size": 1392,
+      "raw_offset": 444928,
+      "raw_size": 1536,
+      "characteristics": 1107296320,
+      "readable": true,
+      "writable": false,
+      "executable": false,
+      "entropy": 5.204284,
+      "raw_sha256": "1e9a7a064cc1ebadfb3309ed22c60ecf47735aae1de8281a9065d213cf8e3b21"
+    }
+  ],
+  "imports": [
+    {
+      "dll": "GDI32.dll",
+      "symbols": [
+        {
+          "name": "GetStockObject",
+          "ordinal": null,
+          "iat_va": 5368864768,
+          "hint": 726
+        },
+        {
+          "name": "DeleteDC",
+          "ordinal": null,
+          "iat_va": 5368864776,
+          "hint": 402
+        },
+        {
+          "name": "CreateCompatibleDC",
+          "ordinal": null,
+          "iat_va": 5368864784,
+          "hint": 49
+        },
+        {
+          "name": "SelectObject",
+          "ordinal": null,
+          "iat_va": 5368864792,
+          "hint": 892
+        },
+        {
+          "name": "CreateFontIndirectW",
+          "ordinal": null,
+          "iat_va": 5368864800,
+          "hint": 67
+        },
+        {
+          "name": "DeleteObject",
+          "ordinal": null,
+          "iat_va": 5368864808,
+          "hint": 405
+        },
+        {
+          "name": "GetObjectW",
+          "ordinal": null,
+          "iat_va": 5368864816,
+          "hint": 708
+        },
+        {
+          "name": "GetDeviceCaps",
+          "ordinal": null,
+          "iat_va": 5368864824,
+          "hint": 658
+        }
+      ]
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "symbols": [
+        {
+          "name": "GetModuleHandleW",
+          "ordinal": null,
+          "iat_va": 5368864840,
+          "hint": 677
+        },
+        {
+          "name": "CreateDirectoryW",
+          "ordinal": null,
+          "iat_va": 5368864848,
+          "hint": 212
+        },
+        {
+          "name": "SetLastError",
+          "ordinal": null,
+          "iat_va": 5368864856,
+          "hint": 1398
+        },
+        {
+          "name": "GetModuleFileNameW",
+          "ordinal": null,
+          "iat_va": 5368864864,
+          "hint": 673
+        },
+        {
+          "name": "GetLastError",
+          "ordinal": null,
+          "iat_va": 5368864872,
+          "hint": 653
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "ordinal": null,
+          "iat_va": 5368864880,
+          "hint": 578
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "ordinal": null,
+          "iat_va": 5368864888,
+          "hint": 1610
+        },
+        {
+          "name": "FindResourceW",
+          "ordinal": null,
+          "iat_va": 5368864896,
+          "hint": 446
+        },
+        {
+          "name": "SizeofResource",
+          "ordinal": null,
+          "iat_va": 5368864904,
+          "hint": 1477
+        },
+        {
+          "name": "LoadResource",
+          "ordinal": null,
+          "iat_va": 5368864912,
+          "hint": 1018
+        },
+        {
+          "name": "LockResource",
+          "ordinal": null,
+          "iat_va": 5368864920,
+          "hint": 1038
+        },
+        {
+          "name": "ExitProcess",
+          "ordinal": null,
+          "iat_va": 5368864928,
+          "hint": 390
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "ordinal": null,
+          "iat_va": 5368864936,
+          "hint": 1153
+        },
+        {
+          "name": "CreateFileW",
+          "ordinal": null,
+          "iat_va": 5368864944,
+          "hint": 230
+        },
+        {
+          "name": "CreateFileA",
+          "ordinal": null,
+          "iat_va": 5368864952,
+          "hint": 222
+        },
+        {
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_va": 5368864960,
+          "hint": 157
+        },
+        {
+          "name": "SetFilePointer",
+          "ordinal": null,
+          "iat_va": 5368864968,
+          "hint": 1382
+        },
+        {
+          "name": "ReadFile",
+          "ordinal": null,
+          "iat_va": 5368864976,
+          "hint": 1193
+        },
+        {
+          "name": "WriteFile",
+          "ordinal": null,
+          "iat_va": 5368864984,
+          "hint": 1630
+        },
+        {
+          "name": "GetFileSizeEx",
+          "ordinal": null,
+          "iat_va": 5368864992,
+          "hint": 632
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "ordinal": null,
+          "iat_va": 5368865000,
+          "hint": 1059
+        },
+        {
+          "name": "LoadLibraryW",
+          "ordinal": null,
+          "iat_va": 5368865008,
+          "hint": 1015
+        },
+        {
+          "name": "GetProcAddress",
+          "ordinal": null,
+          "iat_va": 5368865016,
+          "hint": 733
+        },
+        {
+          "name": "FreeLibrary",
+          "ordinal": null,
+          "iat_va": 5368865024,
+          "hint": 468
+        },
+        {
+          "name": "LoadLibraryA",
+          "ordinal": null,
+          "iat_va": 5368865032,
+          "hint": 1012
+        },
+        {
+          "name": "MulDiv",
+          "ordinal": null,
+          "iat_va": 5368865040,
+          "hint": 1058
+        },
+        {
+          "name": "HeapAlloc",
+          "ordinal": null,
+          "iat_va": 5368865048,
+          "hint": 892
+        },
+        {
+          "name": "HeapFree",
+          "ordinal": null,
+          "iat_va": 5368865056,
+          "hint": 896
+        },
+        {
+          "name": "GetProcessHeap",
+          "ordinal": null,
+          "iat_va": 5368865064,
+          "hint": 740
+        }
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "symbols": [
+        {
+          "name": "GetMonitorInfoW",
+          "ordinal": null,
+          "iat_va": 5368865128,
+          "hint": 405
+        },
+        {
+          "name": "GetDlgItem",
+          "ordinal": null,
+          "iat_va": 5368865136,
+          "hint": 342
+        },
+        {
+          "name": "GetWindowTextW",
+          "ordinal": null,
+          "iat_va": 5368865144,
+          "hint": 517
+        },
+        {
+          "name": "MessageBoxA",
+          "ordinal": null,
+          "iat_va": 5368865152,
+          "hint": 658
+        },
+        {
+          "name": "FindWindowExW",
+          "ordinal": null,
+          "iat_va": 5368865160,
+          "hint": 282
+        },
+        {
+          "name": "CharUpperW",
+          "ordinal": null,
+          "iat_va": 5368865168,
+          "hint": 64
+        },
+        {
+          "name": "LoadStringW",
+          "ordinal": null,
+          "iat_va": 5368865176,
+          "hint": 630
+        },
+        {
+          "name": "EnableWindow",
+          "ordinal": null,
+          "iat_va": 5368865184,
+          "hint": 244
+        },
+        {
+          "name": "DialogBoxParamW",
+          "ordinal": null,
+          "iat_va": 5368865192,
+          "hint": 190
+        },
+        {
+          "name": "GetParent",
+          "ordinal": null,
+          "iat_va": 5368865200,
+          "hint": 410
+        },
+        {
+          "name": "GetClassInfoExW",
+          "ordinal": null,
+          "iat_va": 5368865208,
+          "hint": 305
+        },
+        {
+          "name": "SendMessageW",
+          "ordinal": null,
+          "iat_va": 5368865216,
+          "hint": 813
+        },
+        {
+          "name": "DrawTextW",
+          "ordinal": null,
+          "iat_va": 5368865224,
+          "hint": 226
+        },
+        {
+          "name": "AppendMenuW",
+          "ordinal": null,
+          "iat_va": 5368865232,
+          "hint": 12
+        },
+        {
+          "name": "GetClientRect",
+          "ordinal": null,
+          "iat_va": 5368865240,
+          "hint": 314
+        },
+        {
+          "name": "TrackPopupMenuEx",
+          "ordinal": null,
+          "iat_va": 5368865248,
+          "hint": 973
+        },
+        {
+          "name": "SetRectEmpty",
+          "ordinal": null,
+          "iat_va": 5368865256,
+          "hint": 885
+        },
+        {
+          "name": "EndDeferWindowPos",
+          "ordinal": null,
+          "iat_va": 5368865264,
+          "hint": 246
+        },
+        {
+          "name": "SetParent",
+          "ordinal": null,
+          "iat_va": 5368865272,
+          "hint": 871
+        },
+        {
+          "name": "SendMessageA",
+          "ordinal": null,
+          "iat_va": 5368865280,
+          "hint": 808
+        },
+        {
+          "name": "DestroyMenu",
+          "ordinal": null,
+          "iat_va": 5368865288,
+          "hint": 182
+        },
+        {
+          "name": "DialogBoxIndirectParamW",
+          "ordinal": null,
+          "iat_va": 5368865296,
+          "hint": 188
+        },
+        {
+          "name": "SetWindowTextA",
+          "ordinal": null,
+          "iat_va": 5368865304,
+          "hint": 924
+        },
+        {
+          "name": "MapWindowPoints",
+          "ordinal": null,
+          "iat_va": 5368865312,
+          "hint": 653
+        },
+        {
+          "name": "SetMenuItemInfoW",
+          "ordinal": null,
+          "iat_va": 5368865320,
+          "hint": 867
+        },
+        {
+          "name": "GetDlgCtrlID",
+          "ordinal": null,
+          "iat_va": 5368865328,
+          "hint": 341
+        },
+        {
+          "name": "wsprintfW",
+          "ordinal": null,
+          "iat_va": 5368865336,
+          "hint": 1039
+        },
+        {
+          "name": "BeginDeferWindowPos",
+          "ordinal": null,
+          "iat_va": 5368865344,
+          "hint": 17
+        },
+        {
+          "name": "ShowWindow",
+          "ordinal": null,
+          "iat_va": 5368865352,
+          "hint": 945
+        },
+        {
+          "name": "GetScrollPos",
+          "ordinal": null,
+          "iat_va": 5368865360,
+          "hint": 459
+        },
+        {
+          "name": "RegisterClassExW",
+          "ordinal": null,
+          "iat_va": 5368865368,
+          "hint": 750
+        },
+        {
+          "name": "GetWindowLongPtrW",
+          "ordinal": null,
+          "iat_va": 5368865376,
+          "hint": 502
+        },
+        {
+          "name": "GetScrollInfo",
+          "ordinal": null,
+          "iat_va": 5368865384,
+          "hint": 458
+        },
+        {
+          "name": "GetClassNameA",
+          "ordinal": null,
+          "iat_va": 5368865392,
+          "hint": 311
+        },
+        {
+          "name": "CreatePopupMenu",
+          "ordinal": null,
+          "iat_va": 5368865400,
+          "hint": 117
+        },
+        {
+          "name": "GetSystemMetrics",
+          "ordinal": null,
+          "iat_va": 5368865408,
+          "hint": 469
+        },
+        {
+          "name": "EndDialog",
+          "ordinal": null,
+          "iat_va": 5368865416,
+          "hint": 248
+        },
+        {
+          "name": "CreateWindowExW",
+          "ordinal": null,
+          "iat_va": 5368865424,
+          "hint": 122
+        },
+        {
+          "name": "SetWindowLongPtrW",
+          "ordinal": null,
+          "iat_va": 5368865432,
+          "hint": 916
+        },
+        {
+          "name": "SetWindowPos",
+          "ordinal": null,
+          "iat_va": 5368865440,
+          "hint": 920
+        },
+        {
+          "name": "DestroyWindow",
+          "ordinal": null,
+          "iat_va": 5368865448,
+          "hint": 185
+        },
+        {
+          "name": "GetWindowRect",
+          "ordinal": null,
+          "iat_va": 5368865456,
+          "hint": 510
+        },
+        {
+          "name": "CallWindowProcW",
+          "ordinal": null,
+          "iat_va": 5368865464,
+          "hint": 34
+        },
+        {
+          "name": "DeferWindowPos",
+          "ordinal": null,
+          "iat_va": 5368865472,
+          "hint": 172
+        },
+        {
+          "name": "CreateDialogParamW",
+          "ordinal": null,
+          "iat_va": 5368865480,
+          "hint": 109
+        },
+        {
+          "name": "SetScrollInfo",
+          "ordinal": null,
+          "iat_va": 5368865488,
+          "hint": 886
+        },
+        {
+          "name": "GetWindowLongW",
+          "ordinal": null,
+          "iat_va": 5368865496,
+          "hint": 503
+        },
+        {
+          "name": "ReleaseDC",
+          "ordinal": null,
+          "iat_va": 5368865504,
+          "hint": 785
+        },
+        {
+          "name": "InvalidateRect",
+          "ordinal": null,
+          "iat_va": 5368865512,
+          "hint": 560
+        },
+        {
+          "name": "MonitorFromRect",
+          "ordinal": null,
+          "iat_va": 5368865520,
+          "hint": 669
+        },
+        {
+          "name": "GetDC",
+          "ordinal": null,
+          "iat_va": 5368865528,
+          "hint": 331
+        },
+        {
+          "name": "GetWindow",
+          "ordinal": null,
+          "iat_va": 5368865536,
+          "hint": 489
+        },
+        {
+          "name": "wvsprintfA",
+          "ordinal": null,
+          "iat_va": 5368865544,
+          "hint": 1040
+        },
+        {
+          "name": "LoadImageW",
+          "ordinal": null,
+          "iat_va": 5368865552,
+          "hint": 619
+        },
+        {
+          "name": "CharLowerA",
+          "ordinal": null,
+          "iat_va": 5368865560,
+          "hint": 47
+        },
+        {
+          "name": "OffsetRect",
+          "ordinal": null,
+          "iat_va": 5368865568,
+          "hint": 681
+        },
+        {
+          "name": "FillRect",
+          "ordinal": null,
+          "iat_va": 5368865576,
+          "hint": 279
+        },
+        {
+          "name": "GetSysColorBrush",
+          "ordinal": null,
+          "iat_va": 5368865584,
+          "hint": 466
+        },
+        {
+          "name": "CreateDialogIndirectParamW",
+          "ordinal": null,
+          "iat_va": 5368865592,
+          "hint": 107
+        }
+      ]
+    },
+    {
+      "dll": "SHLWAPI.dll",
+      "symbols": [
+        {
+          "name": "PathRemoveFileSpecW",
+          "ordinal": null,
+          "iat_va": 5368865104,
+          "hint": 143
+        },
+        {
+          "name": "PathAppendW",
+          "ordinal": null,
+          "iat_va": 5368865112,
+          "hint": 55
+        }
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "symbols": [
+        {
+          "name": "CoCreateInstance",
+          "ordinal": null,
+          "iat_va": 5368865608,
+          "hint": 43
+        },
+        {
+          "name": "CoTaskMemFree",
+          "ordinal": null,
+          "iat_va": 5368865616,
+          "hint": 140
+        }
+      ]
+    },
+    {
+      "dll": "SHELL32.dll",
+      "symbols": [
+        {
+          "name": "ShellExecuteW",
+          "ordinal": null,
+          "iat_va": 5368865080,
+          "hint": 432
+        },
+        {
+          "name": "SHGetFolderPathW",
+          "ordinal": null,
+          "iat_va": 5368865088,
+          "hint": 336
+        }
+      ]
+    }
+  ],
+  "delay_imports": [],
+  "exports": [],
+  "load_config": {},
+  "load_config_with_offsets": null,
+  "data_directories": [
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IMPORT",
+      "rva": 174144,
+      "size": 140
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESOURCE",
+      "rva": 196608,
+      "size": 269456
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_EXCEPTION",
+      "rva": 192512,
+      "size": 2248
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_SECURITY",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BASERELOC",
+      "rva": 466944,
+      "size": 1392
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DEBUG",
+      "rva": 172808,
+      "size": 84
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COPYRIGHT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_GLOBALPTR",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_TLS",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_LOAD_CONFIG",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_BOUND_IMPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_IAT",
+      "rva": 155648,
+      "size": 864
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_DELAY_IMPORT",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_COM_DESCRIPTOR",
+      "rva": 0,
+      "size": 0
+    },
+    {
+      "name": "IMAGE_DIRECTORY_ENTRY_RESERVED",
+      "rva": 0,
+      "size": 0
+    }
+  ],
+  "runtime_functions": [
+    {
+      "table_rva": 192512,
+      "raw_hex": "8012000038a80200",
+      "begin_rva": 4736,
+      "begin_va": 5368713856,
+      "unwind_data": 174136,
+      "unwind_flag": 0,
+      "unwind_info_rva": 174136
+    },
+    {
+      "table_rva": 192520,
+      "raw_hex": "d0120000c900e201",
+      "begin_rva": 4816,
+      "begin_va": 5368713936,
+      "unwind_data": 31588553,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 200
+    },
+    {
+      "table_rva": 192528,
+      "raw_hex": "a013000055006101",
+      "begin_rva": 5024,
+      "begin_va": 5368714144,
+      "unwind_data": 23134293,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 84
+    },
+    {
+      "table_rva": 192536,
+      "raw_hex": "f81300001d00e000",
+      "begin_rva": 5112,
+      "begin_va": 5368714232,
+      "unwind_data": 14680093,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 28
+    },
+    {
+      "table_rva": 192544,
+      "raw_hex": "181400003d016403",
+      "begin_rva": 5144,
+      "begin_va": 5368714264,
+      "unwind_data": 56885565,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 316
+    },
+    {
+      "table_rva": 192552,
+      "raw_hex": "8015000059006101",
+      "begin_rva": 5504,
+      "begin_va": 5368714624,
+      "unwind_data": 23134297,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 88
+    },
+    {
+      "table_rva": 192560,
+      "raw_hex": "d815000061006201",
+      "begin_rva": 5592,
+      "begin_va": 5368714712,
+      "unwind_data": 23199841,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 96
+    },
+    {
+      "table_rva": 192568,
+      "raw_hex": "3816000019056a0f",
+      "begin_rva": 5688,
+      "begin_va": 5368714808,
+      "unwind_data": 258606361,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1304
+    },
+    {
+      "table_rva": 192576,
+      "raw_hex": "301c000010a50200",
+      "begin_rva": 7216,
+      "begin_va": 5368716336,
+      "unwind_data": 173328,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173328
+    },
+    {
+      "table_rva": 192584,
+      "raw_hex": "502000008502670c",
+      "begin_rva": 8272,
+      "begin_va": 5368717392,
+      "unwind_data": 208077445,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 644
+    },
+    {
+      "table_rva": 192592,
+      "raw_hex": "d82200000901e602",
+      "begin_rva": 8920,
+      "begin_va": 5368718040,
+      "unwind_data": 48627977,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 264
+    },
+    {
+      "table_rva": 192600,
+      "raw_hex": "e02300007900e401",
+      "begin_rva": 9184,
+      "begin_va": 5368718304,
+      "unwind_data": 31719545,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 120
+    },
+    {
+      "table_rva": 192608,
+      "raw_hex": "58240000b5006202",
+      "begin_rva": 9304,
+      "begin_va": 5368718424,
+      "unwind_data": 39977141,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 180
+    },
+    {
+      "table_rva": 192616,
+      "raw_hex": "8825000069006202",
+      "begin_rva": 9608,
+      "begin_va": 5368718728,
+      "unwind_data": 39977065,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 104
+    },
+    {
+      "table_rva": 192624,
+      "raw_hex": "f8250000d100e303",
+      "begin_rva": 9720,
+      "begin_va": 5368718840,
+      "unwind_data": 65208529,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 208
+    },
+    {
+      "table_rva": 192632,
+      "raw_hex": "d8260000d100e303",
+      "begin_rva": 9944,
+      "begin_va": 5368719064,
+      "unwind_data": 65208529,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 208
+    },
+    {
+      "table_rva": 192640,
+      "raw_hex": "e82700003100e000",
+      "begin_rva": 10216,
+      "begin_va": 5368719336,
+      "unwind_data": 14680113,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 48
+    },
+    {
+      "table_rva": 192648,
+      "raw_hex": "1828000079016502",
+      "begin_rva": 10264,
+      "begin_va": 5368719384,
+      "unwind_data": 40173945,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 376
+    },
+    {
+      "table_rva": 192656,
+      "raw_hex": "98290000f1006101",
+      "begin_rva": 10648,
+      "begin_va": 5368719768,
+      "unwind_data": 23134449,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 240
+    },
+    {
+      "table_rva": 192664,
+      "raw_hex": "882a00004100e000",
+      "begin_rva": 10888,
+      "begin_va": 5368720008,
+      "unwind_data": 14680129,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 192672,
+      "raw_hex": "f82a0000f901e20c",
+      "begin_rva": 11000,
+      "begin_va": 5368720120,
+      "unwind_data": 216138233,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 504
+    },
+    {
+      "table_rva": 192680,
+      "raw_hex": "102d0000e5016507",
+      "begin_rva": 11536,
+      "begin_va": 5368720656,
+      "unwind_data": 124060133,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 484
+    },
+    {
+      "table_rva": 192688,
+      "raw_hex": "082f000029046602",
+      "begin_rva": 12040,
+      "begin_va": 5368721160,
+      "unwind_data": 40240169,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1064
+    },
+    {
+      "table_rva": 192696,
+      "raw_hex": "3833000041026101",
+      "begin_rva": 13112,
+      "begin_va": 5368722232,
+      "unwind_data": 23134785,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 576
+    },
+    {
+      "table_rva": 192704,
+      "raw_hex": "783500003100e000",
+      "begin_rva": 13688,
+      "begin_va": 5368722808,
+      "unwind_data": 14680113,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 48
+    },
+    {
+      "table_rva": 192712,
+      "raw_hex": "a83500009d02e000",
+      "begin_rva": 13736,
+      "begin_va": 5368722856,
+      "unwind_data": 14680733,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 668
+    },
+    {
+      "table_rva": 192720,
+      "raw_hex": "c83800003500e000",
+      "begin_rva": 14536,
+      "begin_va": 5368723656,
+      "unwind_data": 14680117,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 52
+    },
+    {
+      "table_rva": 192728,
+      "raw_hex": "0039000020a50200",
+      "begin_rva": 14592,
+      "begin_va": 5368723712,
+      "unwind_data": 173344,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173344
+    },
+    {
+      "table_rva": 192736,
+      "raw_hex": "5045000030a50200",
+      "begin_rva": 17744,
+      "begin_va": 5368726864,
+      "unwind_data": 173360,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173360
+    },
+    {
+      "table_rva": 192744,
+      "raw_hex": "504900002d00e000",
+      "begin_rva": 18768,
+      "begin_va": 5368727888,
+      "unwind_data": 14680109,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 44
+    },
+    {
+      "table_rva": 192752,
+      "raw_hex": "80490000e101e401",
+      "begin_rva": 18816,
+      "begin_va": 5368727936,
+      "unwind_data": 31719905,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 480
+    },
+    {
+      "table_rva": 192760,
+      "raw_hex": "604b000061016101",
+      "begin_rva": 19296,
+      "begin_va": 5368728416,
+      "unwind_data": 23134561,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 352
+    },
+    {
+      "table_rva": 192768,
+      "raw_hex": "c04c00005d026202",
+      "begin_rva": 19648,
+      "begin_va": 5368728768,
+      "unwind_data": 39977565,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 604
+    },
+    {
+      "table_rva": 192776,
+      "raw_hex": "204f00004100e000",
+      "begin_rva": 20256,
+      "begin_va": 5368729376,
+      "unwind_data": 14680129,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 192784,
+      "raw_hex": "604f0000d103e401",
+      "begin_rva": 20320,
+      "begin_va": 5368729440,
+      "unwind_data": 31720401,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 976
+    },
+    {
+      "table_rva": 192792,
+      "raw_hex": "3053000081006106",
+      "begin_rva": 21296,
+      "begin_va": 5368730416,
+      "unwind_data": 107020417,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 128
+    },
+    {
+      "table_rva": 192800,
+      "raw_hex": "b05300002d00e000",
+      "begin_rva": 21424,
+      "begin_va": 5368730544,
+      "unwind_data": 14680109,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 44
+    },
+    {
+      "table_rva": 192808,
+      "raw_hex": "e0530000bd036503",
+      "begin_rva": 21472,
+      "begin_va": 5368730592,
+      "unwind_data": 56951741,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 956
+    },
+    {
+      "table_rva": 192816,
+      "raw_hex": "a057000009036102",
+      "begin_rva": 22432,
+      "begin_va": 5368731552,
+      "unwind_data": 39912201,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 776
+    },
+    {
+      "table_rva": 192824,
+      "raw_hex": "a85a000075006101",
+      "begin_rva": 23208,
+      "begin_va": 5368732328,
+      "unwind_data": 23134325,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 116
+    },
+    {
+      "table_rva": 192832,
+      "raw_hex": "285b0000f9006101",
+      "begin_rva": 23336,
+      "begin_va": 5368732456,
+      "unwind_data": 23134457,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 248
+    },
+    {
+      "table_rva": 192840,
+      "raw_hex": "205c0000690b6509",
+      "begin_rva": 23584,
+      "begin_va": 5368732704,
+      "unwind_data": 157617001,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 2920
+    },
+    {
+      "table_rva": 192848,
+      "raw_hex": "8867000040a50200",
+      "begin_rva": 26504,
+      "begin_va": 5368735624,
+      "unwind_data": 173376,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173376
+    },
+    {
+      "table_rva": 192856,
+      "raw_hex": "386d00002d00e000",
+      "begin_rva": 27960,
+      "begin_va": 5368737080,
+      "unwind_data": 14680109,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 44
+    },
+    {
+      "table_rva": 192864,
+      "raw_hex": "686d000065006201",
+      "begin_rva": 28008,
+      "begin_va": 5368737128,
+      "unwind_data": 23199845,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 100
+    },
+    {
+      "table_rva": 192872,
+      "raw_hex": "d06d00001902e401",
+      "begin_rva": 28112,
+      "begin_va": 5368737232,
+      "unwind_data": 31719961,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 536
+    },
+    {
+      "table_rva": 192880,
+      "raw_hex": "e86f00005100e000",
+      "begin_rva": 28648,
+      "begin_va": 5368737768,
+      "unwind_data": 14680145,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 80
+    },
+    {
+      "table_rva": 192888,
+      "raw_hex": "387000003d016101",
+      "begin_rva": 28728,
+      "begin_va": 5368737848,
+      "unwind_data": 23134525,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 316
+    },
+    {
+      "table_rva": 192896,
+      "raw_hex": "7871000089016105",
+      "begin_rva": 29048,
+      "begin_va": 5368738168,
+      "unwind_data": 90243465,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 392
+    },
+    {
+      "table_rva": 192904,
+      "raw_hex": "007300000d016101",
+      "begin_rva": 29440,
+      "begin_va": 5368738560,
+      "unwind_data": 23134477,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 268
+    },
+    {
+      "table_rva": 192912,
+      "raw_hex": "1074000081006105",
+      "begin_rva": 29712,
+      "begin_va": 5368738832,
+      "unwind_data": 90243201,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 128
+    },
+    {
+      "table_rva": 192920,
+      "raw_hex": "907400004ca50200",
+      "begin_rva": 29840,
+      "begin_va": 5368738960,
+      "unwind_data": 173388,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173388
+    },
+    {
+      "table_rva": 192928,
+      "raw_hex": "787e00003100e000",
+      "begin_rva": 32376,
+      "begin_va": 5368741496,
+      "unwind_data": 14680113,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 48
+    },
+    {
+      "table_rva": 192936,
+      "raw_hex": "a87e000035016502",
+      "begin_rva": 32424,
+      "begin_va": 5368741544,
+      "unwind_data": 40173877,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 308
+    },
+    {
+      "table_rva": 192944,
+      "raw_hex": "e87f0000e5006101",
+      "begin_rva": 32744,
+      "begin_va": 5368741864,
+      "unwind_data": 23134437,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 228
+    },
+    {
+      "table_rva": 192952,
+      "raw_hex": "d08000003102e302",
+      "begin_rva": 32976,
+      "begin_va": 5368742096,
+      "unwind_data": 48431665,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 560
+    },
+    {
+      "table_rva": 192960,
+      "raw_hex": "008300008500e105",
+      "begin_rva": 33536,
+      "begin_va": 5368742656,
+      "unwind_data": 98631813,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 132
+    },
+    {
+      "table_rva": 192968,
+      "raw_hex": "888300002d00e000",
+      "begin_rva": 33672,
+      "begin_va": 5368742792,
+      "unwind_data": 14680109,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 44
+    },
+    {
+      "table_rva": 192976,
+      "raw_hex": "b8830000d5016101",
+      "begin_rva": 33720,
+      "begin_va": 5368742840,
+      "unwind_data": 23134677,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 468
+    },
+    {
+      "table_rva": 192984,
+      "raw_hex": "90850000e1016102",
+      "begin_rva": 34192,
+      "begin_va": 5368743312,
+      "unwind_data": 39911905,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 480
+    },
+    {
+      "table_rva": 192992,
+      "raw_hex": "708700004100e000",
+      "begin_rva": 34672,
+      "begin_va": 5368743792,
+      "unwind_data": 14680129,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 193000,
+      "raw_hex": "b08700002101e000",
+      "begin_rva": 34736,
+      "begin_va": 5368743856,
+      "unwind_data": 14680353,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 288
+    },
+    {
+      "table_rva": 193008,
+      "raw_hex": "d088000061076607",
+      "begin_rva": 35024,
+      "begin_va": 5368744144,
+      "unwind_data": 124127073,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1888
+    },
+    {
+      "table_rva": 193016,
+      "raw_hex": "3090000081006106",
+      "begin_rva": 36912,
+      "begin_va": 5368746032,
+      "unwind_data": 107020417,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 128
+    },
+    {
+      "table_rva": 193024,
+      "raw_hex": "109200005ca50200",
+      "begin_rva": 37392,
+      "begin_va": 5368746512,
+      "unwind_data": 173404,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173404
+    },
+    {
+      "table_rva": 193032,
+      "raw_hex": "3093000068a50200",
+      "begin_rva": 37680,
+      "begin_va": 5368746800,
+      "unwind_data": 173416,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173416
+    },
+    {
+      "table_rva": 193040,
+      "raw_hex": "809a0000c90b6903",
+      "begin_rva": 39552,
+      "begin_va": 5368748672,
+      "unwind_data": 57215945,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 3016
+    },
+    {
+      "table_rva": 193048,
+      "raw_hex": "48a60000e5006202",
+      "begin_rva": 42568,
+      "begin_va": 5368751688,
+      "unwind_data": 39977189,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 228
+    },
+    {
+      "table_rva": 193056,
+      "raw_hex": "40a7000078a50200",
+      "begin_rva": 42816,
+      "begin_va": 5368751936,
+      "unwind_data": 173432,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173432
+    },
+    {
+      "table_rva": 193064,
+      "raw_hex": "78ac0000b5006602",
+      "begin_rva": 44152,
+      "begin_va": 5368753272,
+      "unwind_data": 40239285,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 180
+    },
+    {
+      "table_rva": 193072,
+      "raw_hex": "30ad000088a50200",
+      "begin_rva": 44336,
+      "begin_va": 5368753456,
+      "unwind_data": 173448,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173448
+    },
+    {
+      "table_rva": 193080,
+      "raw_hex": "60af00009ca50200",
+      "begin_rva": 44896,
+      "begin_va": 5368754016,
+      "unwind_data": 173468,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173468
+    },
+    {
+      "table_rva": 193088,
+      "raw_hex": "b8b000005501e401",
+      "begin_rva": 45240,
+      "begin_va": 5368754360,
+      "unwind_data": 31719765,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 340
+    },
+    {
+      "table_rva": 193096,
+      "raw_hex": "10b20000b0a50200",
+      "begin_rva": 45584,
+      "begin_va": 5368754704,
+      "unwind_data": 173488,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173488
+    },
+    {
+      "table_rva": 193104,
+      "raw_hex": "a0b800002501e301",
+      "begin_rva": 47264,
+      "begin_va": 5368756384,
+      "unwind_data": 31654181,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 292
+    },
+    {
+      "table_rva": 193112,
+      "raw_hex": "c8b90000c8a50200",
+      "begin_rva": 47560,
+      "begin_va": 5368756680,
+      "unwind_data": 173512,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173512
+    },
+    {
+      "table_rva": 193120,
+      "raw_hex": "30cc0000e9006101",
+      "begin_rva": 52272,
+      "begin_va": 5368761392,
+      "unwind_data": 23134441,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 232
+    },
+    {
+      "table_rva": 193128,
+      "raw_hex": "18cd0000b102e602",
+      "begin_rva": 52504,
+      "begin_va": 5368761624,
+      "unwind_data": 48628401,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 688
+    },
+    {
+      "table_rva": 193136,
+      "raw_hex": "c8cf0000dca50200",
+      "begin_rva": 53192,
+      "begin_va": 5368762312,
+      "unwind_data": 173532,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173532
+    },
+    {
+      "table_rva": 193144,
+      "raw_hex": "38d800002501e105",
+      "begin_rva": 55352,
+      "begin_va": 5368764472,
+      "unwind_data": 98631973,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 292
+    },
+    {
+      "table_rva": 193152,
+      "raw_hex": "68d90000f4a50200",
+      "begin_rva": 55656,
+      "begin_va": 5368764776,
+      "unwind_data": 173556,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173556
+    },
+    {
+      "table_rva": 193160,
+      "raw_hex": "c0e400002d00e000",
+      "begin_rva": 58560,
+      "begin_va": 5368767680,
+      "unwind_data": 14680109,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 44
+    },
+    {
+      "table_rva": 193168,
+      "raw_hex": "f0e400000ca60200",
+      "begin_rva": 58608,
+      "begin_va": 5368767728,
+      "unwind_data": 173580,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173580
+    },
+    {
+      "table_rva": 193176,
+      "raw_hex": "e8e600002900e000",
+      "begin_rva": 59112,
+      "begin_va": 5368768232,
+      "unwind_data": 14680105,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 40
+    },
+    {
+      "table_rva": 193184,
+      "raw_hex": "10e70000e1056a04",
+      "begin_rva": 59152,
+      "begin_va": 5368768272,
+      "unwind_data": 74057185,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1504
+    },
+    {
+      "table_rva": 193192,
+      "raw_hex": "f8ec000091016201",
+      "begin_rva": 60664,
+      "begin_va": 5368769784,
+      "unwind_data": 23200145,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 400
+    },
+    {
+      "table_rva": 193200,
+      "raw_hex": "88ee00001ca60200",
+      "begin_rva": 61064,
+      "begin_va": 5368770184,
+      "unwind_data": 173596,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173596
+    },
+    {
+      "table_rva": 193208,
+      "raw_hex": "38f0000030a60200",
+      "begin_rva": 61496,
+      "begin_va": 5368770616,
+      "unwind_data": 173616,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173616
+    },
+    {
+      "table_rva": 193216,
+      "raw_hex": "b0f100003ca60200",
+      "begin_rva": 61872,
+      "begin_va": 5368770992,
+      "unwind_data": 173628,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173628
+    },
+    {
+      "table_rva": 193224,
+      "raw_hex": "f0f1000071006101",
+      "begin_rva": 61936,
+      "begin_va": 5368771056,
+      "unwind_data": 23134321,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 112
+    },
+    {
+      "table_rva": 193232,
+      "raw_hex": "60f200005d006201",
+      "begin_rva": 62048,
+      "begin_va": 5368771168,
+      "unwind_data": 23199837,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 92
+    },
+    {
+      "table_rva": 193240,
+      "raw_hex": "10f3000044a60200",
+      "begin_rva": 62224,
+      "begin_va": 5368771344,
+      "unwind_data": 173636,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173636
+    },
+    {
+      "table_rva": 193248,
+      "raw_hex": "80f3000054a60200",
+      "begin_rva": 62336,
+      "begin_va": 5368771456,
+      "unwind_data": 173652,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173652
+    },
+    {
+      "table_rva": 193256,
+      "raw_hex": "a0f300005ca60200",
+      "begin_rva": 62368,
+      "begin_va": 5368771488,
+      "unwind_data": 173660,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173660
+    },
+    {
+      "table_rva": 193264,
+      "raw_hex": "e4f300006ca60200",
+      "begin_rva": 62436,
+      "begin_va": 5368771556,
+      "unwind_data": 173676,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173676
+    },
+    {
+      "table_rva": 193272,
+      "raw_hex": "f0f3000078a60200",
+      "begin_rva": 62448,
+      "begin_va": 5368771568,
+      "unwind_data": 173688,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173688
+    },
+    {
+      "table_rva": 193280,
+      "raw_hex": "00f400006ca60200",
+      "begin_rva": 62464,
+      "begin_va": 5368771584,
+      "unwind_data": 173676,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173676
+    },
+    {
+      "table_rva": 193288,
+      "raw_hex": "0cf4000090a60200",
+      "begin_rva": 62476,
+      "begin_va": 5368771596,
+      "unwind_data": 173712,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173712
+    },
+    {
+      "table_rva": 193296,
+      "raw_hex": "10f40000a8a60200",
+      "begin_rva": 62480,
+      "begin_va": 5368771600,
+      "unwind_data": 173736,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173736
+    },
+    {
+      "table_rva": 193304,
+      "raw_hex": "20f4000054a60200",
+      "begin_rva": 62496,
+      "begin_va": 5368771616,
+      "unwind_data": 173652,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173652
+    },
+    {
+      "table_rva": 193312,
+      "raw_hex": "40f400005ca60200",
+      "begin_rva": 62528,
+      "begin_va": 5368771648,
+      "unwind_data": 173660,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173660
+    },
+    {
+      "table_rva": 193320,
+      "raw_hex": "84f400006ca60200",
+      "begin_rva": 62596,
+      "begin_va": 5368771716,
+      "unwind_data": 173676,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173676
+    },
+    {
+      "table_rva": 193328,
+      "raw_hex": "90f4000078a60200",
+      "begin_rva": 62608,
+      "begin_va": 5368771728,
+      "unwind_data": 173688,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173688
+    },
+    {
+      "table_rva": 193336,
+      "raw_hex": "a0f400006ca60200",
+      "begin_rva": 62624,
+      "begin_va": 5368771744,
+      "unwind_data": 173676,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173676
+    },
+    {
+      "table_rva": 193344,
+      "raw_hex": "acf4000090a60200",
+      "begin_rva": 62636,
+      "begin_va": 5368771756,
+      "unwind_data": 173712,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173712
+    },
+    {
+      "table_rva": 193352,
+      "raw_hex": "b0f40000a8a60200",
+      "begin_rva": 62640,
+      "begin_va": 5368771760,
+      "unwind_data": 173736,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173736
+    },
+    {
+      "table_rva": 193360,
+      "raw_hex": "c0f40000b4a60200",
+      "begin_rva": 62656,
+      "begin_va": 5368771776,
+      "unwind_data": 173748,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173748
+    },
+    {
+      "table_rva": 193368,
+      "raw_hex": "00f500008900e401",
+      "begin_rva": 62720,
+      "begin_va": 5368771840,
+      "unwind_data": 31719561,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 136
+    },
+    {
+      "table_rva": 193376,
+      "raw_hex": "88f50000c4a60200",
+      "begin_rva": 62856,
+      "begin_va": 5368771976,
+      "unwind_data": 173764,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173764
+    },
+    {
+      "table_rva": 193384,
+      "raw_hex": "f8f500004905e503",
+      "begin_rva": 62968,
+      "begin_va": 5368772088,
+      "unwind_data": 65340745,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1352
+    },
+    {
+      "table_rva": 193392,
+      "raw_hex": "48fb0000a9006201",
+      "begin_rva": 64328,
+      "begin_va": 5368773448,
+      "unwind_data": 23199913,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 168
+    },
+    {
+      "table_rva": 193400,
+      "raw_hex": "58fc00004d006201",
+      "begin_rva": 64600,
+      "begin_va": 5368773720,
+      "unwind_data": 23199821,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 76
+    },
+    {
+      "table_rva": 193408,
+      "raw_hex": "a8fc000049006201",
+      "begin_rva": 64680,
+      "begin_va": 5368773800,
+      "unwind_data": 23199817,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 72
+    },
+    {
+      "table_rva": 193416,
+      "raw_hex": "f0fc000045006101",
+      "begin_rva": 64752,
+      "begin_va": 5368773872,
+      "unwind_data": 23134277,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 68
+    },
+    {
+      "table_rva": 193424,
+      "raw_hex": "38fd00004100e000",
+      "begin_rva": 64824,
+      "begin_va": 5368773944,
+      "unwind_data": 14680129,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 193432,
+      "raw_hex": "78fd000045006101",
+      "begin_rva": 64888,
+      "begin_va": 5368774008,
+      "unwind_data": 23134277,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 68
+    },
+    {
+      "table_rva": 193440,
+      "raw_hex": "c0fd0000a500e301",
+      "begin_rva": 64960,
+      "begin_va": 5368774080,
+      "unwind_data": 31654053,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 164
+    },
+    {
+      "table_rva": 193448,
+      "raw_hex": "68fe0000a500e401",
+      "begin_rva": 65128,
+      "begin_va": 5368774248,
+      "unwind_data": 31719589,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 164
+    },
+    {
+      "table_rva": 193456,
+      "raw_hex": "10ff0000a500e401",
+      "begin_rva": 65296,
+      "begin_va": 5368774416,
+      "unwind_data": 31719589,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 164
+    },
+    {
+      "table_rva": 193464,
+      "raw_hex": "b8ff00003900e000",
+      "begin_rva": 65464,
+      "begin_va": 5368774584,
+      "unwind_data": 14680121,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 193472,
+      "raw_hex": "f0ff000045006101",
+      "begin_rva": 65520,
+      "begin_va": 5368774640,
+      "unwind_data": 23134277,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 68
+    },
+    {
+      "table_rva": 193480,
+      "raw_hex": "380001003900e000",
+      "begin_rva": 65592,
+      "begin_va": 5368774712,
+      "unwind_data": 14680121,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 193488,
+      "raw_hex": "70000100d0a60200",
+      "begin_rva": 65648,
+      "begin_va": 5368774768,
+      "unwind_data": 173776,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173776
+    },
+    {
+      "table_rva": 193496,
+      "raw_hex": "20020100b904ea06",
+      "begin_rva": 66080,
+      "begin_va": 5368775200,
+      "unwind_data": 115999929,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1208
+    },
+    {
+      "table_rva": 193504,
+      "raw_hex": "d806010051006101",
+      "begin_rva": 67288,
+      "begin_va": 5368776408,
+      "unwind_data": 23134289,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 80
+    },
+    {
+      "table_rva": 193512,
+      "raw_hex": "28070100c100e502",
+      "begin_rva": 67368,
+      "begin_va": 5368776488,
+      "unwind_data": 48562369,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 192
+    },
+    {
+      "table_rva": 193520,
+      "raw_hex": "e80701007d00e203",
+      "begin_rva": 67560,
+      "begin_va": 5368776680,
+      "unwind_data": 65142909,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 124
+    },
+    {
+      "table_rva": 193528,
+      "raw_hex": "700801005900e401",
+      "begin_rva": 67696,
+      "begin_va": 5368776816,
+      "unwind_data": 31719513,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 88
+    },
+    {
+      "table_rva": 193536,
+      "raw_hex": "c808010079006101",
+      "begin_rva": 67784,
+      "begin_va": 5368776904,
+      "unwind_data": 23134329,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 120
+    },
+    {
+      "table_rva": 193544,
+      "raw_hex": "4009010015016203",
+      "begin_rva": 67904,
+      "begin_va": 5368777024,
+      "unwind_data": 56754453,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 276
+    },
+    {
+      "table_rva": 193552,
+      "raw_hex": "600a0100c9006302",
+      "begin_rva": 68192,
+      "begin_va": 5368777312,
+      "unwind_data": 40042697,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 200
+    },
+    {
+      "table_rva": 193560,
+      "raw_hex": "280b010065006201",
+      "begin_rva": 68392,
+      "begin_va": 5368777512,
+      "unwind_data": 23199845,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 100
+    },
+    {
+      "table_rva": 193568,
+      "raw_hex": "e80b01008900e401",
+      "begin_rva": 68584,
+      "begin_va": 5368777704,
+      "unwind_data": 31719561,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 136
+    },
+    {
+      "table_rva": 193576,
+      "raw_hex": "700c0100bd00e301",
+      "begin_rva": 68720,
+      "begin_va": 5368777840,
+      "unwind_data": 31654077,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 188
+    },
+    {
+      "table_rva": 193584,
+      "raw_hex": "300d0100ed00e301",
+      "begin_rva": 68912,
+      "begin_va": 5368778032,
+      "unwind_data": 31654125,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 236
+    },
+    {
+      "table_rva": 193592,
+      "raw_hex": "200e0100f902e507",
+      "begin_rva": 69152,
+      "begin_va": 5368778272,
+      "unwind_data": 132449017,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 760
+    },
+    {
+      "table_rva": 193600,
+      "raw_hex": "18110100bd086a07",
+      "begin_rva": 69912,
+      "begin_va": 5368779032,
+      "unwind_data": 124389565,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 2236
+    },
+    {
+      "table_rva": 193608,
+      "raw_hex": "d819010079016402",
+      "begin_rva": 72152,
+      "begin_va": 5368781272,
+      "unwind_data": 40108409,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 376
+    },
+    {
+      "table_rva": 193616,
+      "raw_hex": "501b010011016503",
+      "begin_rva": 72528,
+      "begin_va": 5368781648,
+      "unwind_data": 56951057,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 272
+    },
+    {
+      "table_rva": 193624,
+      "raw_hex": "601c010051036a03",
+      "begin_rva": 72800,
+      "begin_va": 5368781920,
+      "unwind_data": 57279313,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 848
+    },
+    {
+      "table_rva": 193632,
+      "raw_hex": "b81f010041006101",
+      "begin_rva": 73656,
+      "begin_va": 5368782776,
+      "unwind_data": 23134273,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 193640,
+      "raw_hex": "f81f010065006101",
+      "begin_rva": 73720,
+      "begin_va": 5368782840,
+      "unwind_data": 23134309,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 100
+    },
+    {
+      "table_rva": 193648,
+      "raw_hex": "6020010045006101",
+      "begin_rva": 73824,
+      "begin_va": 5368782944,
+      "unwind_data": 23134277,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 68
+    },
+    {
+      "table_rva": 193656,
+      "raw_hex": "a820010041006101",
+      "begin_rva": 73896,
+      "begin_va": 5368783016,
+      "unwind_data": 23134273,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 193664,
+      "raw_hex": "e820010041006101",
+      "begin_rva": 73960,
+      "begin_va": 5368783080,
+      "unwind_data": 23134273,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 193672,
+      "raw_hex": "2821010079006201",
+      "begin_rva": 74024,
+      "begin_va": 5368783144,
+      "unwind_data": 23199865,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 120
+    },
+    {
+      "table_rva": 193680,
+      "raw_hex": "a021010041006101",
+      "begin_rva": 74144,
+      "begin_va": 5368783264,
+      "unwind_data": 23134273,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 193688,
+      "raw_hex": "e021010041006101",
+      "begin_rva": 74208,
+      "begin_va": 5368783328,
+      "unwind_data": 23134273,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 193696,
+      "raw_hex": "202201009d00e301",
+      "begin_rva": 74272,
+      "begin_va": 5368783392,
+      "unwind_data": 31654045,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 156
+    },
+    {
+      "table_rva": 193704,
+      "raw_hex": "c022010049006201",
+      "begin_rva": 74432,
+      "begin_va": 5368783552,
+      "unwind_data": 23199817,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 72
+    },
+    {
+      "table_rva": 193712,
+      "raw_hex": "08230100d100e301",
+      "begin_rva": 74504,
+      "begin_va": 5368783624,
+      "unwind_data": 31654097,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 208
+    },
+    {
+      "table_rva": 193720,
+      "raw_hex": "d823010049006201",
+      "begin_rva": 74712,
+      "begin_va": 5368783832,
+      "unwind_data": 23199817,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 72
+    },
+    {
+      "table_rva": 193728,
+      "raw_hex": "20240100e500640c",
+      "begin_rva": 74784,
+      "begin_va": 5368783904,
+      "unwind_data": 207880421,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 228
+    },
+    {
+      "table_rva": 193736,
+      "raw_hex": "082501005d006201",
+      "begin_rva": 75016,
+      "begin_va": 5368784136,
+      "unwind_data": 23199837,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 92
+    },
+    {
+      "table_rva": 193744,
+      "raw_hex": "682501006d00e301",
+      "begin_rva": 75112,
+      "begin_va": 5368784232,
+      "unwind_data": 31653997,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 108
+    },
+    {
+      "table_rva": 193752,
+      "raw_hex": "d82501007500e401",
+      "begin_rva": 75224,
+      "begin_va": 5368784344,
+      "unwind_data": 31719541,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 116
+    },
+    {
+      "table_rva": 193760,
+      "raw_hex": "5026010001016603",
+      "begin_rva": 75344,
+      "begin_va": 5368784464,
+      "unwind_data": 57016577,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 256
+    },
+    {
+      "table_rva": 193768,
+      "raw_hex": "68270100f501e401",
+      "begin_rva": 75624,
+      "begin_va": 5368784744,
+      "unwind_data": 31719925,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 500
+    },
+    {
+      "table_rva": 193776,
+      "raw_hex": "6029010041006101",
+      "begin_rva": 76128,
+      "begin_va": 5368785248,
+      "unwind_data": 23134273,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 193784,
+      "raw_hex": "a02901001902ea0d",
+      "begin_rva": 76192,
+      "begin_va": 5368785312,
+      "unwind_data": 233439769,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 536
+    },
+    {
+      "table_rva": 193792,
+      "raw_hex": "b82b01001901e401",
+      "begin_rva": 76728,
+      "begin_va": 5368785848,
+      "unwind_data": 31719705,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 280
+    },
+    {
+      "table_rva": 193800,
+      "raw_hex": "382d0100f100e301",
+      "begin_rva": 77112,
+      "begin_va": 5368786232,
+      "unwind_data": 31654129,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 240
+    },
+    {
+      "table_rva": 193808,
+      "raw_hex": "282e01004d006201",
+      "begin_rva": 77352,
+      "begin_va": 5368786472,
+      "unwind_data": 23199821,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 76
+    },
+    {
+      "table_rva": 193816,
+      "raw_hex": "402f0100a902ea0d",
+      "begin_rva": 77632,
+      "begin_va": 5368786752,
+      "unwind_data": 233439913,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 680
+    },
+    {
+      "table_rva": 193824,
+      "raw_hex": "e83101006101e705",
+      "begin_rva": 78312,
+      "begin_va": 5368787432,
+      "unwind_data": 99025249,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 352
+    },
+    {
+      "table_rva": 193832,
+      "raw_hex": "5033010039006101",
+      "begin_rva": 78672,
+      "begin_va": 5368787792,
+      "unwind_data": 23134265,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 193840,
+      "raw_hex": "c0330100b500e702",
+      "begin_rva": 78784,
+      "begin_va": 5368787904,
+      "unwind_data": 48693429,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 180
+    },
+    {
+      "table_rva": 193848,
+      "raw_hex": "78340100e4a60200",
+      "begin_rva": 78968,
+      "begin_va": 5368788088,
+      "unwind_data": 173796,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173796
+    },
+    {
+      "table_rva": 193856,
+      "raw_hex": "c037010085026703",
+      "begin_rva": 79808,
+      "begin_va": 5368788928,
+      "unwind_data": 57082501,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 644
+    },
+    {
+      "table_rva": 193864,
+      "raw_hex": "483a01006100610b",
+      "begin_rva": 80456,
+      "begin_va": 5368789576,
+      "unwind_data": 190906465,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 96
+    },
+    {
+      "table_rva": 193872,
+      "raw_hex": "a83a0100a5006101",
+      "begin_rva": 80552,
+      "begin_va": 5368789672,
+      "unwind_data": 23134373,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 164
+    },
+    {
+      "table_rva": 193880,
+      "raw_hex": "503b010039006201",
+      "begin_rva": 80720,
+      "begin_va": 5368789840,
+      "unwind_data": 23199801,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 193888,
+      "raw_hex": "883b01004900e401",
+      "begin_rva": 80776,
+      "begin_va": 5368789896,
+      "unwind_data": 31719497,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 72
+    },
+    {
+      "table_rva": 193896,
+      "raw_hex": "d03b01008d00e301",
+      "begin_rva": 80848,
+      "begin_va": 5368789968,
+      "unwind_data": 31654029,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 140
+    },
+    {
+      "table_rva": 193904,
+      "raw_hex": "b03c010045006101",
+      "begin_rva": 81072,
+      "begin_va": 5368790192,
+      "unwind_data": 23134277,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 68
+    },
+    {
+      "table_rva": 193912,
+      "raw_hex": "f83c0100fca60200",
+      "begin_rva": 81144,
+      "begin_va": 5368790264,
+      "unwind_data": 173820,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173820
+    },
+    {
+      "table_rva": 193920,
+      "raw_hex": "503d01009100e301",
+      "begin_rva": 81232,
+      "begin_va": 5368790352,
+      "unwind_data": 31654033,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 144
+    },
+    {
+      "table_rva": 193928,
+      "raw_hex": "e03d0100ed006602",
+      "begin_rva": 81376,
+      "begin_va": 5368790496,
+      "unwind_data": 40239341,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 236
+    },
+    {
+      "table_rva": 193936,
+      "raw_hex": "d03e010008a70200",
+      "begin_rva": 81616,
+      "begin_va": 5368790736,
+      "unwind_data": 173832,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173832
+    },
+    {
+      "table_rva": 193944,
+      "raw_hex": "803f01003502e401",
+      "begin_rva": 81792,
+      "begin_va": 5368790912,
+      "unwind_data": 31719989,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 564
+    },
+    {
+      "table_rva": 193952,
+      "raw_hex": "b841010045006101",
+      "begin_rva": 82360,
+      "begin_va": 5368791480,
+      "unwind_data": 23134277,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 68
+    },
+    {
+      "table_rva": 193960,
+      "raw_hex": "00420100d900e301",
+      "begin_rva": 82432,
+      "begin_va": 5368791552,
+      "unwind_data": 31654105,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 216
+    },
+    {
+      "table_rva": 193968,
+      "raw_hex": "d84201000501e401",
+      "begin_rva": 82648,
+      "begin_va": 5368791768,
+      "unwind_data": 31719685,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 260
+    },
+    {
+      "table_rva": 193976,
+      "raw_hex": "004401004d006201",
+      "begin_rva": 82944,
+      "begin_va": 5368792064,
+      "unwind_data": 23199821,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 76
+    },
+    {
+      "table_rva": 193984,
+      "raw_hex": "f044010069016803",
+      "begin_rva": 83184,
+      "begin_va": 5368792304,
+      "unwind_data": 57147753,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 360
+    },
+    {
+      "table_rva": 193992,
+      "raw_hex": "58460100d901e301",
+      "begin_rva": 83544,
+      "begin_va": 5368792664,
+      "unwind_data": 31654361,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 472
+    },
+    {
+      "table_rva": 194000,
+      "raw_hex": "3048010039006201",
+      "begin_rva": 84016,
+      "begin_va": 5368793136,
+      "unwind_data": 23199801,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 194008,
+      "raw_hex": "6848010049006101",
+      "begin_rva": 84072,
+      "begin_va": 5368793192,
+      "unwind_data": 23134281,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 72
+    },
+    {
+      "table_rva": 194016,
+      "raw_hex": "b048010035006101",
+      "begin_rva": 84144,
+      "begin_va": 5368793264,
+      "unwind_data": 23134261,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 52
+    },
+    {
+      "table_rva": 194024,
+      "raw_hex": "e848010049006101",
+      "begin_rva": 84200,
+      "begin_va": 5368793320,
+      "unwind_data": 23134281,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 72
+    },
+    {
+      "table_rva": 194032,
+      "raw_hex": "304901004d006201",
+      "begin_rva": 84272,
+      "begin_va": 5368793392,
+      "unwind_data": 23199821,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 76
+    },
+    {
+      "table_rva": 194040,
+      "raw_hex": "804901006d006101",
+      "begin_rva": 84352,
+      "begin_va": 5368793472,
+      "unwind_data": 23134317,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 108
+    },
+    {
+      "table_rva": 194048,
+      "raw_hex": "f04901004502e50c",
+      "begin_rva": 84464,
+      "begin_va": 5368793584,
+      "unwind_data": 216334917,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 580
+    },
+    {
+      "table_rva": 194056,
+      "raw_hex": "384c010018a70200",
+      "begin_rva": 85048,
+      "begin_va": 5368794168,
+      "unwind_data": 173848,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173848
+    },
+    {
+      "table_rva": 194064,
+      "raw_hex": "204f010039006201",
+      "begin_rva": 85792,
+      "begin_va": 5368794912,
+      "unwind_data": 23199801,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 194072,
+      "raw_hex": "584f01004d006101",
+      "begin_rva": 85848,
+      "begin_va": 5368794968,
+      "unwind_data": 23134285,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 76
+    },
+    {
+      "table_rva": 194080,
+      "raw_hex": "a84f01001902e301",
+      "begin_rva": 85928,
+      "begin_va": 5368795048,
+      "unwind_data": 31654425,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 536
+    },
+    {
+      "table_rva": 194088,
+      "raw_hex": "c05101007d006406",
+      "begin_rva": 86464,
+      "begin_va": 5368795584,
+      "unwind_data": 107217021,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 124
+    },
+    {
+      "table_rva": 194096,
+      "raw_hex": "4052010028a70200",
+      "begin_rva": 86592,
+      "begin_va": 5368795712,
+      "unwind_data": 173864,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173864
+    },
+    {
+      "table_rva": 194104,
+      "raw_hex": "40530100ed016406",
+      "begin_rva": 86848,
+      "begin_va": 5368795968,
+      "unwind_data": 107217389,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 492
+    },
+    {
+      "table_rva": 194112,
+      "raw_hex": "3055010055026406",
+      "begin_rva": 87344,
+      "begin_va": 5368796464,
+      "unwind_data": 107217493,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 596
+    },
+    {
+      "table_rva": 194120,
+      "raw_hex": "905701009d006001",
+      "begin_rva": 87952,
+      "begin_va": 5368797072,
+      "unwind_data": 23068829,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 156
+    },
+    {
+      "table_rva": 194128,
+      "raw_hex": "7058010038a70200",
+      "begin_rva": 88176,
+      "begin_va": 5368797296,
+      "unwind_data": 173880,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173880
+    },
+    {
+      "table_rva": 194136,
+      "raw_hex": "385a010044a70200",
+      "begin_rva": 88632,
+      "begin_va": 5368797752,
+      "unwind_data": 173892,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173892
+    },
+    {
+      "table_rva": 194144,
+      "raw_hex": "f05a010039006101",
+      "begin_rva": 88816,
+      "begin_va": 5368797936,
+      "unwind_data": 23134265,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 194152,
+      "raw_hex": "285b010039006201",
+      "begin_rva": 88872,
+      "begin_va": 5368797992,
+      "unwind_data": 23199801,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 194160,
+      "raw_hex": "605b010049006101",
+      "begin_rva": 88928,
+      "begin_va": 5368798048,
+      "unwind_data": 23134281,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 72
+    },
+    {
+      "table_rva": 194168,
+      "raw_hex": "a85b01008500e101",
+      "begin_rva": 89000,
+      "begin_va": 5368798120,
+      "unwind_data": 31522949,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 132
+    },
+    {
+      "table_rva": 194176,
+      "raw_hex": "305c010095056a05",
+      "begin_rva": 89136,
+      "begin_va": 5368798256,
+      "unwind_data": 90834325,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1428
+    },
+    {
+      "table_rva": 194184,
+      "raw_hex": "c861010050a70200",
+      "begin_rva": 90568,
+      "begin_va": 5368799688,
+      "unwind_data": 173904,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173904
+    },
+    {
+      "table_rva": 194192,
+      "raw_hex": "18620100e1006602",
+      "begin_rva": 90648,
+      "begin_va": 5368799768,
+      "unwind_data": 40239329,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 224
+    },
+    {
+      "table_rva": 194200,
+      "raw_hex": "086301007103e401",
+      "begin_rva": 90888,
+      "begin_va": 5368800008,
+      "unwind_data": 31720305,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 880
+    },
+    {
+      "table_rva": 194208,
+      "raw_hex": "9066010060a70200",
+      "begin_rva": 91792,
+      "begin_va": 5368800912,
+      "unwind_data": 173920,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173920
+    },
+    {
+      "table_rva": 194216,
+      "raw_hex": "106901003d01e703",
+      "begin_rva": 92432,
+      "begin_va": 5368801552,
+      "unwind_data": 65470781,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 316
+    },
+    {
+      "table_rva": 194224,
+      "raw_hex": "506a010070a70200",
+      "begin_rva": 92752,
+      "begin_va": 5368801872,
+      "unwind_data": 173936,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173936
+    },
+    {
+      "table_rva": 194232,
+      "raw_hex": "a86c01002d006101",
+      "begin_rva": 93352,
+      "begin_va": 5368802472,
+      "unwind_data": 23134253,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 44
+    },
+    {
+      "table_rva": 194240,
+      "raw_hex": "d86c010084a70200",
+      "begin_rva": 93400,
+      "begin_va": 5368802520,
+      "unwind_data": 173956,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173956
+    },
+    {
+      "table_rva": 194248,
+      "raw_hex": "206e010094a70200",
+      "begin_rva": 93728,
+      "begin_va": 5368802848,
+      "unwind_data": 173972,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173972
+    },
+    {
+      "table_rva": 194256,
+      "raw_hex": "806f0100c1006602",
+      "begin_rva": 94080,
+      "begin_va": 5368803200,
+      "unwind_data": 40239297,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 192
+    },
+    {
+      "table_rva": 194264,
+      "raw_hex": "4070010081006202",
+      "begin_rva": 94272,
+      "begin_va": 5368803392,
+      "unwind_data": 39977089,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 128
+    },
+    {
+      "table_rva": 194272,
+      "raw_hex": "c070010081006202",
+      "begin_rva": 94400,
+      "begin_va": 5368803520,
+      "unwind_data": 39977089,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 128
+    },
+    {
+      "table_rva": 194280,
+      "raw_hex": "4071010025006001",
+      "begin_rva": 94528,
+      "begin_va": 5368803648,
+      "unwind_data": 23068709,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 36
+    },
+    {
+      "table_rva": 194288,
+      "raw_hex": "507201008900e101",
+      "begin_rva": 94800,
+      "begin_va": 5368803920,
+      "unwind_data": 31522953,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 136
+    },
+    {
+      "table_rva": 194296,
+      "raw_hex": "707301008d00e101",
+      "begin_rva": 95088,
+      "begin_va": 5368804208,
+      "unwind_data": 31522957,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 140
+    },
+    {
+      "table_rva": 194304,
+      "raw_hex": "00740100a4a70200",
+      "begin_rva": 95232,
+      "begin_va": 5368804352,
+      "unwind_data": 173988,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173988
+    },
+    {
+      "table_rva": 194312,
+      "raw_hex": "10750100a1006502",
+      "begin_rva": 95504,
+      "begin_va": 5368804624,
+      "unwind_data": 40173729,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 160
+    },
+    {
+      "table_rva": 194320,
+      "raw_hex": "b075010035016602",
+      "begin_rva": 95664,
+      "begin_va": 5368804784,
+      "unwind_data": 40239413,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 308
+    },
+    {
+      "table_rva": 194328,
+      "raw_hex": "e8760100a1006502",
+      "begin_rva": 95976,
+      "begin_va": 5368805096,
+      "unwind_data": 40173729,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 160
+    },
+    {
+      "table_rva": 194336,
+      "raw_hex": "88770100dd006201",
+      "begin_rva": 96136,
+      "begin_va": 5368805256,
+      "unwind_data": 23199965,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 220
+    },
+    {
+      "table_rva": 194344,
+      "raw_hex": "68780100e500e502",
+      "begin_rva": 96360,
+      "begin_va": 5368805480,
+      "unwind_data": 48562405,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 228
+    },
+    {
+      "table_rva": 194352,
+      "raw_hex": "507901009900e502",
+      "begin_rva": 96592,
+      "begin_va": 5368805712,
+      "unwind_data": 48562329,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 152
+    },
+    {
+      "table_rva": 194360,
+      "raw_hex": "e87901000d02ea03",
+      "begin_rva": 96744,
+      "begin_va": 5368805864,
+      "unwind_data": 65667597,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 524
+    },
+    {
+      "table_rva": 194368,
+      "raw_hex": "f87b01000901e301",
+      "begin_rva": 97272,
+      "begin_va": 5368806392,
+      "unwind_data": 31654153,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 264
+    },
+    {
+      "table_rva": 194376,
+      "raw_hex": "007d01006906ea03",
+      "begin_rva": 97536,
+      "begin_va": 5368806656,
+      "unwind_data": 65668713,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1640
+    },
+    {
+      "table_rva": 194384,
+      "raw_hex": "68830100c105ea03",
+      "begin_rva": 99176,
+      "begin_va": 5368808296,
+      "unwind_data": 65668545,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1472
+    },
+    {
+      "table_rva": 194392,
+      "raw_hex": "28890100b8a70200",
+      "begin_rva": 100648,
+      "begin_va": 5368809768,
+      "unwind_data": 174008,
+      "unwind_flag": 0,
+      "unwind_info_rva": 174008
+    },
+    {
+      "table_rva": 194400,
+      "raw_hex": "e0900100250dea09",
+      "begin_rva": 102624,
+      "begin_va": 5368811744,
+      "unwind_data": 166333733,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 3364
+    },
+    {
+      "table_rva": 194408,
+      "raw_hex": "089e0100f10a6a0c",
+      "begin_rva": 105992,
+      "begin_va": 5368815112,
+      "unwind_data": 208276209,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 2800
+    },
+    {
+      "table_rva": 194416,
+      "raw_hex": "f8a80100a1006201",
+      "begin_rva": 108792,
+      "begin_va": 5368817912,
+      "unwind_data": 23199905,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 160
+    },
+    {
+      "table_rva": 194424,
+      "raw_hex": "98a90100f906ea03",
+      "begin_rva": 108952,
+      "begin_va": 5368818072,
+      "unwind_data": 65668857,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1784
+    },
+    {
+      "table_rva": 194432,
+      "raw_hex": "90b001005100e301",
+      "begin_rva": 110736,
+      "begin_va": 5368819856,
+      "unwind_data": 31653969,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 80
+    },
+    {
+      "table_rva": 194440,
+      "raw_hex": "e0b00100cd016507",
+      "begin_rva": 110816,
+      "begin_va": 5368819936,
+      "unwind_data": 124060109,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 460
+    },
+    {
+      "table_rva": 194448,
+      "raw_hex": "78b30100d900e60a",
+      "begin_rva": 111480,
+      "begin_va": 5368820600,
+      "unwind_data": 182845657,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 216
+    },
+    {
+      "table_rva": 194456,
+      "raw_hex": "50b40100cca70200",
+      "begin_rva": 111696,
+      "begin_va": 5368820816,
+      "unwind_data": 174028,
+      "unwind_flag": 0,
+      "unwind_info_rva": 174028
+    },
+    {
+      "table_rva": 194464,
+      "raw_hex": "e8cb010008a70200",
+      "begin_rva": 117736,
+      "begin_va": 5368826856,
+      "unwind_data": 173832,
+      "unwind_flag": 0,
+      "unwind_info_rva": 173832
+    },
+    {
+      "table_rva": 194472,
+      "raw_hex": "98cc0100e0a70200",
+      "begin_rva": 117912,
+      "begin_va": 5368827032,
+      "unwind_data": 174048,
+      "unwind_flag": 0,
+      "unwind_info_rva": 174048
+    },
+    {
+      "table_rva": 194480,
+      "raw_hex": "c8ee0100f4a70200",
+      "begin_rva": 126664,
+      "begin_va": 5368835784,
+      "unwind_data": 174068,
+      "unwind_flag": 0,
+      "unwind_info_rva": 174068
+    },
+    {
+      "table_rva": 194488,
+      "raw_hex": "a0ef0100cd066105",
+      "begin_rva": 126880,
+      "begin_va": 5368836000,
+      "unwind_data": 90244813,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1740
+    },
+    {
+      "table_rva": 194496,
+      "raw_hex": "90f601005104e301",
+      "begin_rva": 128656,
+      "begin_va": 5368837776,
+      "unwind_data": 31654993,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1104
+    },
+    {
+      "table_rva": 194504,
+      "raw_hex": "e0fa01004904e301",
+      "begin_rva": 129760,
+      "begin_va": 5368838880,
+      "unwind_data": 31654985,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1096
+    },
+    {
+      "table_rva": 194512,
+      "raw_hex": "28ff01003904e301",
+      "begin_rva": 130856,
+      "begin_va": 5368839976,
+      "unwind_data": 31654969,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1080
+    },
+    {
+      "table_rva": 194520,
+      "raw_hex": "600302004504e301",
+      "begin_rva": 131936,
+      "begin_va": 5368841056,
+      "unwind_data": 31654981,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1092
+    },
+    {
+      "table_rva": 194528,
+      "raw_hex": "a80702003904e301",
+      "begin_rva": 133032,
+      "begin_va": 5368842152,
+      "unwind_data": 31654969,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1080
+    },
+    {
+      "table_rva": 194536,
+      "raw_hex": "e00b02004104e301",
+      "begin_rva": 134112,
+      "begin_va": 5368843232,
+      "unwind_data": 31654977,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1088
+    },
+    {
+      "table_rva": 194544,
+      "raw_hex": "201002003504e301",
+      "begin_rva": 135200,
+      "begin_va": 5368844320,
+      "unwind_data": 31654965,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1076
+    },
+    {
+      "table_rva": 194552,
+      "raw_hex": "581402003d04e301",
+      "begin_rva": 136280,
+      "begin_va": 5368845400,
+      "unwind_data": 31654973,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1084
+    },
+    {
+      "table_rva": 194560,
+      "raw_hex": "981802001d04e301",
+      "begin_rva": 137368,
+      "begin_va": 5368846488,
+      "unwind_data": 31654941,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1052
+    },
+    {
+      "table_rva": 194568,
+      "raw_hex": "b81c02001d04e301",
+      "begin_rva": 138424,
+      "begin_va": 5368847544,
+      "unwind_data": 31654941,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1052
+    },
+    {
+      "table_rva": 194576,
+      "raw_hex": "d82002000d04e301",
+      "begin_rva": 139480,
+      "begin_va": 5368848600,
+      "unwind_data": 31654925,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1036
+    },
+    {
+      "table_rva": 194584,
+      "raw_hex": "e82402000504e301",
+      "begin_rva": 140520,
+      "begin_va": 5368849640,
+      "unwind_data": 31654917,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1028
+    },
+    {
+      "table_rva": 194592,
+      "raw_hex": "f02802001104e301",
+      "begin_rva": 141552,
+      "begin_va": 5368850672,
+      "unwind_data": 31654929,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1040
+    },
+    {
+      "table_rva": 194600,
+      "raw_hex": "002d0200fd03e301",
+      "begin_rva": 142592,
+      "begin_va": 5368851712,
+      "unwind_data": 31654909,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 1020
+    },
+    {
+      "table_rva": 194608,
+      "raw_hex": "00310200e503e301",
+      "begin_rva": 143616,
+      "begin_va": 5368852736,
+      "unwind_data": 31654885,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 996
+    },
+    {
+      "table_rva": 194616,
+      "raw_hex": "e8340200d503e301",
+      "begin_rva": 144616,
+      "begin_va": 5368853736,
+      "unwind_data": 31654869,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 980
+    },
+    {
+      "table_rva": 194624,
+      "raw_hex": "c0380200d903e301",
+      "begin_rva": 145600,
+      "begin_va": 5368854720,
+      "unwind_data": 31654873,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 984
+    },
+    {
+      "table_rva": 194632,
+      "raw_hex": "983c0200d903e301",
+      "begin_rva": 146584,
+      "begin_va": 5368855704,
+      "unwind_data": 31654873,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 984
+    },
+    {
+      "table_rva": 194640,
+      "raw_hex": "70400200c903e301",
+      "begin_rva": 147568,
+      "begin_va": 5368856688,
+      "unwind_data": 31654857,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 968
+    },
+    {
+      "table_rva": 194648,
+      "raw_hex": "38440200b903e301",
+      "begin_rva": 148536,
+      "begin_va": 5368857656,
+      "unwind_data": 31654841,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 952
+    },
+    {
+      "table_rva": 194656,
+      "raw_hex": "f04702003d006101",
+      "begin_rva": 149488,
+      "begin_va": 5368858608,
+      "unwind_data": 23134269,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 60
+    },
+    {
+      "table_rva": 194664,
+      "raw_hex": "3048020041006101",
+      "begin_rva": 149552,
+      "begin_va": 5368858672,
+      "unwind_data": 23134273,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 64
+    },
+    {
+      "table_rva": 194672,
+      "raw_hex": "8048020004a80200",
+      "begin_rva": 149632,
+      "begin_va": 5368858752,
+      "unwind_data": 174084,
+      "unwind_flag": 0,
+      "unwind_info_rva": 174084
+    },
+    {
+      "table_rva": 194680,
+      "raw_hex": "b048020014a80200",
+      "begin_rva": 149680,
+      "begin_va": 5368858800,
+      "unwind_data": 174100,
+      "unwind_flag": 0,
+      "unwind_info_rva": 174100
+    },
+    {
+      "table_rva": 194688,
+      "raw_hex": "504d02001d026903",
+      "begin_rva": 150864,
+      "begin_va": 5368859984,
+      "unwind_data": 57213469,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 540
+    },
+    {
+      "table_rva": 194696,
+      "raw_hex": "704f020035026a03",
+      "begin_rva": 151408,
+      "begin_va": 5368860528,
+      "unwind_data": 57279029,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 564
+    },
+    {
+      "table_rva": 194704,
+      "raw_hex": "b05202003d006101",
+      "begin_rva": 152240,
+      "begin_va": 5368861360,
+      "unwind_data": 23134269,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 60
+    },
+    {
+      "table_rva": 194712,
+      "raw_hex": "0853020039006101",
+      "begin_rva": 152328,
+      "begin_va": 5368861448,
+      "unwind_data": 23134265,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 194720,
+      "raw_hex": "4053020039006101",
+      "begin_rva": 152384,
+      "begin_va": 5368861504,
+      "unwind_data": 23134265,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 194728,
+      "raw_hex": "7853020039006101",
+      "begin_rva": 152440,
+      "begin_va": 5368861560,
+      "unwind_data": 23134265,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 194736,
+      "raw_hex": "b053020039006101",
+      "begin_rva": 152496,
+      "begin_va": 5368861616,
+      "unwind_data": 23134265,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 194744,
+      "raw_hex": "e853020039006101",
+      "begin_rva": 152552,
+      "begin_va": 5368861672,
+      "unwind_data": 23134265,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    },
+    {
+      "table_rva": 194752,
+      "raw_hex": "2054020039006101",
+      "begin_rva": 152608,
+      "begin_va": 5368861728,
+      "unwind_data": 23134265,
+      "unwind_flag": 1,
+      "packed_function_length_bytes": 56
+    }
+  ],
+  "runtime_function_note": "Raw IMAGE_RUNTIME_FUNCTION_ENTRY records; ARM64 uses 8-byte entries. For hybrid images these are metadata records, not proof of the instruction set of every range.",
+  "debug": [
+    {
+      "type": 2,
+      "rva": 172892,
+      "file_offset": 167260,
+      "size": 72,
+      "raw_hex": "525344533c094bcdac1fd54ca506e80558e0ca6b01000000443a5c4465765c5374756666735c42696e5c41524d36345c52656c656173655c6467566f6f646f6f43706c2e70646200",
+      "codeview_kind": "RSDS",
+      "pdb_path": "D:\\Dev\\Stuffs\\Bin\\ARM64\\Release\\dgVoodooCpl.pdb",
+      "guid_raw_hex": "3c094bcdac1fd54ca506e80558e0ca6b",
+      "age": 1
+    },
+    {
+      "type": 12,
+      "rva": 172964,
+      "file_offset": 167332,
+      "size": 20,
+      "raw_hex": "00000000310000000c0000000000000002000000"
+    },
+    {
+      "type": 13,
+      "rva": 172984,
+      "file_offset": 167352,
+      "size": 344,
+      "raw_hex": "4743544c00100000b00200002e74657874000000b0120000584002002e74657874246d6e0000000008530200500100002e746578742479640000000000600200600300002e696461746124350000000060630200fc3f00002e726461746100005ca30200b40100002e7264617461247a7a7a64626700000010a50200300300002e7864617461000040a80200780000002e6964617461243200000000b8a80200180000002e6964617461243300000000d0a80200600300002e696461746124340000000030ac0200ec0600002e696461746124360000000000c00200080000002e435254245843410000000008c00200080000002e4352542458435a0000000010c00200a00200002e64617461000000b0c20200f42c00002e6273730000000000f00200c80800002e7064617461000000000300500a00002e7273726324303100000000500a0300401204002e7273726324303200000000"
+    }
+  ],
+  "parser_warnings": []
+}

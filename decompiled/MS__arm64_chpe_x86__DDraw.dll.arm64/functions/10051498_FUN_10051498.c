@@ -1,0 +1,58 @@
+/*
+ * FUN_10051498 at 10051498
+ * undefined FUN_10051498(void)
+ * Address ranges: 10051498-10051517
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+undefined4 FUN_10051498(undefined4 *param_1,int *param_2)
+
+{
+  char cVar1;
+  undefined4 uVar2;
+  undefined4 extraout_w10;
+  undefined4 local_90;
+  undefined8 uStack_8c;
+  undefined8 uStack_84;
+  undefined8 uStack_7c;
+  undefined8 uStack_74;
+  undefined8 uStack_6c;
+  undefined8 uStack_64;
+  undefined8 uStack_5c;
+  undefined8 uStack_54;
+  undefined8 uStack_4c;
+  undefined8 uStack_44;
+  undefined8 uStack_3c;
+  undefined8 uStack_34;
+  undefined8 uStack_2c;
+  undefined8 uStack_24;
+  undefined8 uStack_1c;
+  
+  uVar2 = 0x80070057;
+  if ((param_2 != (int *)0x0) && (*param_2 == 0x6c)) {
+    uStack_84 = 0;
+    uStack_8c = 0;
+    uStack_74 = 0;
+    uStack_7c = 0;
+    uStack_64 = 0;
+    uStack_6c = 0;
+    uStack_54 = 0;
+    uStack_5c = 0;
+    uStack_44 = 0;
+    uStack_4c = 0;
+    uStack_34 = 0;
+    uStack_3c = 0;
+    uStack_24 = 0;
+    uStack_2c = 0;
+    uStack_1c = 0;
+    local_90 = 0x7c;
+    FUN_1003a710(*param_1,&local_90);
+    cVar1 = FUN_1004caa0(&local_90,param_2);
+    uVar2 = 0;
+    if (cVar1 == '\0') {
+      uVar2 = extraout_w10;
+    }
+  }
+  return uVar2;
+}
+

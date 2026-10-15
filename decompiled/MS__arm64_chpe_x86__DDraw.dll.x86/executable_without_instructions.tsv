@@ -1,0 +1,17 @@
+start	end_inclusive	length	note
+100ab017	100ab31f	777	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae00c	100ae00f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae01c	100ae01f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae02c	100ae02f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae03c	100ae03f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae04c	100ae04f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae05c	100ae05f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae06c	100ae06f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae07c	100ae07f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae08c	100ae08f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae09c	100ae09f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae0ac	100ae0af	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae0bc	100ae0bf	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae0cc	100ae0cf	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae0dc	100ae0df	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+100ae0ec	100ae0ef	4	May include padding, embedded data, or undiscovered code; not automatically a function.

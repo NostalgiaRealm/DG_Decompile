@@ -1,0 +1,29 @@
+/*
+ * FUN_1001ea36 at 1001ea36
+ * undefined4 __fastcall FUN_1001ea36(int param_1)
+ * Address ranges: 1001ea36-1001ea81
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+undefined4 __fastcall FUN_1001ea36(int param_1)
+
+{
+  bool bVar1;
+  uint3 extraout_var;
+  undefined3 extraout_var_00;
+  uint3 extraout_var_01;
+  uint3 uVar2;
+  
+  bVar1 = FUN_1003ba6c(DAT_1005974c,0x17,0x100583e8,param_1 + 0x4a0);
+  uVar2 = extraout_var;
+  if (bVar1) {
+    bVar1 = FUN_1003ba6c(DAT_1005974c,3,0x100583e0,param_1 + 0x4fc);
+    if (bVar1) {
+      return CONCAT31(extraout_var_00,1);
+    }
+    FUN_1001ea82(param_1);
+    uVar2 = extraout_var_01;
+  }
+  return (uint)uVar2 << 8;
+}
+

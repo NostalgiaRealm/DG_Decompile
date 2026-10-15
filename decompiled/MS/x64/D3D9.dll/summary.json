@@ -1,0 +1,20 @@
+{
+  "program": "D3D9.dll",
+  "language": "x86:LE:64:default",
+  "compiler": "windows",
+  "image_base": "180000000",
+  "mapped_memory_start": "180000000",
+  "architecture_origin_restriction": false,
+  "pcode_unique_function_origins": 158867,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 2303,
+  "decompiled": 2303,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 513,
+  "instructions": 255704,
+  "executable_bytes": 1031680,
+  "executable_bytes_without_instructions": 6222,
+  "instruction_bytes_outside_functions": 9993
+}

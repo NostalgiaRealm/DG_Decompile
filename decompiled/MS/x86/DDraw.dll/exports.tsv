@@ -1,0 +1,17 @@
+address	name
+10028d8d	AcquireDDThreadLock
+10028e17	CompleteCreateSysmemSurface
+10028e3d	D3DParseUnknownCommand
+10028dcb	DDInternalLock
+10028df1	DDInternalUnlock
+10028bd9	DirectDrawCreate
+10028c53	DirectDrawCreateClipper
+10028c08	DirectDrawCreateEx
+10028d05	DirectDrawEnumerateA
+10028d17	DirectDrawEnumerateExA
+10028d56	DirectDrawEnumerateExW
+10028d2d	DirectDrawEnumerateW
+10028e8a	DllCanUnloadNow
+10028e63	DllGetClassObject
+10028dac	ReleaseDDThreadLock
+10060cd4	entry

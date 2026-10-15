@@ -1,0 +1,111 @@
+[
+  {
+    "source_relative_path": "MS/arm64_chpe_x86/D3D8.dll",
+    "source_sha256": "e2a128a095a533622dcae3e6b1b450af7ff97b29a6723b4dbeca7f6ec2bdbc9c",
+    "function_va": "0x10012968",
+    "indirect_branch_va": "0x10012c4c",
+    "table_va": "0x10012d08",
+    "table_bytes_hex": "d2d4d7",
+    "entries": [
+      {
+        "case_value": 1,
+        "index": 0,
+        "byte": "0xd2",
+        "signed_displacement": -46,
+        "target_va": "0x10012c50"
+      },
+      {
+        "case_value": 2,
+        "index": 1,
+        "byte": "0xd4",
+        "signed_displacement": -44,
+        "target_va": "0x10012c58"
+      },
+      {
+        "case_value": 3,
+        "index": 2,
+        "byte": "0xd7",
+        "signed_displacement": -41,
+        "target_va": "0x10012c64"
+      }
+    ],
+    "observed_index_expression": "w10 = bounded_case_value - 1",
+    "observed_target_expression": "x8 = table_va + 4 * sign_extend(table[w10])",
+    "bounds_evidence": "cmp value,#1; ccmp value,#3,#0xa,cs; b.hi default"
+  },
+  {
+    "source_relative_path": "MS/arm64_chpe_x86/D3D9.dll",
+    "source_sha256": "24637a61fcaeb89214ec182c98b0619caf32cd3633fb75a07517d0005fba53da",
+    "function_va": "0x10014800",
+    "indirect_branch_va": "0x10014b2c",
+    "table_va": "0x10014bf0",
+    "table_bytes_hex": "d0d2d5",
+    "entries": [
+      {
+        "case_value": 1,
+        "index": 0,
+        "byte": "0xd0",
+        "signed_displacement": -48,
+        "target_va": "0x10014b30"
+      },
+      {
+        "case_value": 2,
+        "index": 1,
+        "byte": "0xd2",
+        "signed_displacement": -46,
+        "target_va": "0x10014b38"
+      },
+      {
+        "case_value": 3,
+        "index": 2,
+        "byte": "0xd5",
+        "signed_displacement": -43,
+        "target_va": "0x10014b44"
+      }
+    ],
+    "observed_index_expression": "w10 = bounded_case_value - 1",
+    "observed_target_expression": "x8 = table_va + 4 * sign_extend(table[w10])",
+    "bounds_evidence": "cmp value,#1; ccmp value,#3,#0xa,cs; b.hi default"
+  },
+  {
+    "source_relative_path": "MS/arm64_chpe_x86/D3DImm.dll",
+    "source_sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+    "function_va": "0x1007b170",
+    "indirect_branch_va": "0x1007b190",
+    "table_va": "0x1007b1c0",
+    "table_bytes_hex": "f5f7fff9",
+    "entries": [
+      {
+        "case_value": 1,
+        "index": 0,
+        "byte": "0xf5",
+        "signed_displacement": -11,
+        "target_va": "0x1007b194"
+      },
+      {
+        "case_value": 2,
+        "index": 1,
+        "byte": "0xf7",
+        "signed_displacement": -9,
+        "target_va": "0x1007b19c"
+      },
+      {
+        "case_value": 3,
+        "index": 2,
+        "byte": "0xff",
+        "signed_displacement": -1,
+        "target_va": "0x1007b1bc"
+      },
+      {
+        "case_value": 4,
+        "index": 3,
+        "byte": "0xf9",
+        "signed_displacement": -7,
+        "target_va": "0x1007b1a4"
+      }
+    ],
+    "observed_index_expression": "w10 = bounded_case_value - 1",
+    "observed_target_expression": "x8 = table_va + 4 * sign_extend(table[w10])",
+    "bounds_evidence": "cmp value,#1; ccmp value,#4,#0xa,cs; b.hi default"
+  }
+]

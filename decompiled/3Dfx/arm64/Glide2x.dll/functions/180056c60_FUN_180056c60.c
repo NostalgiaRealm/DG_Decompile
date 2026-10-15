@@ -1,0 +1,26 @@
+/*
+ * FUN_180056c60 at 180056c60
+ * undefined __cdecl FUN_180056c60(int * param_1, longlong * param_2, uint param_3, undefined8 param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)
+ * Address ranges: 180056c60-180056c8b
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_180056c60(int *param_1,longlong *param_2,uint param_3,undefined8 param_4,undefined8 param_5
+                  ,undefined8 param_6,undefined8 param_7,undefined8 param_8)
+
+{
+  undefined8 local_28;
+  undefined8 uStack_20;
+  undefined8 local_18;
+  undefined8 uStack_10;
+  undefined8 local_8;
+  
+  local_28 = param_4;
+  uStack_20 = param_5;
+  local_18 = param_6;
+  uStack_10 = param_7;
+  local_8 = param_8;
+  FUN_1800566b8(param_1,param_2,param_3,(longlong)&local_28);
+  return;
+}
+

@@ -1,0 +1,47 @@
+/*
+ * FUN_180161530 at 180161530
+ * undefined FUN_180161530(void)
+ * Address ranges: 180161530-1801615af
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+ulonglong * FUN_180161530(longlong param_1,ulonglong *param_2)
+
+{
+  ulonglong *puVar1;
+  uint uVar2;
+  uint uVar3;
+  ulonglong uVar4;
+  uint uVar5;
+  ulonglong uVar6;
+  uint uVar7;
+  ulonglong uVar8;
+  
+  uVar2 = *(uint *)(param_1 + 0x10);
+  if (uVar2 != 0) {
+    uVar8 = *param_2;
+    uVar7 = 0;
+    uVar5 = uVar2;
+    do {
+      uVar3 = uVar5 + uVar7 >> 1;
+      uVar4 = (ulonglong)uVar3;
+      uVar6 = *(ulonglong *)(*(longlong *)(param_1 + 8) + uVar4 * 0x38);
+      if (uVar6 <= uVar8) {
+        if (uVar8 <= uVar6) break;
+        uVar7 = uVar3 + 1;
+        uVar4 = (ulonglong)(uVar3 + 1);
+        uVar3 = uVar5;
+      }
+      uVar5 = uVar3;
+    } while (uVar5 != uVar7);
+    if ((uint)uVar4 != uVar2) {
+      puVar1 = (ulonglong *)(*(longlong *)(param_1 + 8) + uVar4 * 0x38);
+      if (*puVar1 == uVar8) {
+        return puVar1 + 2;
+      }
+      return (ulonglong *)0x0;
+    }
+  }
+  return (ulonglong *)0x0;
+}
+

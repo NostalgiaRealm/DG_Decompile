@@ -1,0 +1,16 @@
+address	name	signature	status	body_ranges	body_bytes	file	error	pcode_origin_count	outside_pcode_origin_count
+180226000	range_start_180226000	undefined range_start_180226000(void)	decompiled	180226000-18022602a	43	functions/180226000_range_start_180226000.c		2	0
+1802260b0	FUN_1802260b0	undefined FUN_1802260b0(void)	decompiled	1802260b0-1802260b1	2	functions/1802260b0_FUN_1802260b0.c		1	0
+1802260d0	thunk_FUN_1802260b0	undefined thunk_FUN_1802260b0(void)	decompiled	1802260d0-1802260d5	6	functions/1802260d0_thunk_FUN_1802260b0.c		1	0
+180227000	D3DPERF_BeginEvent	undefined D3DPERF_BeginEvent(void)	decompiled	180227000-18022700d	14	functions/180227000_D3DPERF_BeginEvent.c		1	0
+180227010	D3DPERF_EndEvent	undefined D3DPERF_EndEvent(void)	decompiled	180227010-18022701d	14	functions/180227010_D3DPERF_EndEvent.c		1	0
+180227020	D3DPERF_GetStatus	undefined D3DPERF_GetStatus(void)	decompiled	180227020-18022702d	14	functions/180227020_D3DPERF_GetStatus.c		1	0
+180227030	D3DPERF_QueryRepeatFrame	undefined D3DPERF_QueryRepeatFrame(void)	decompiled	180227030-18022703d	14	functions/180227030_D3DPERF_QueryRepeatFrame.c		1	0
+180227040	D3DPERF_SetMarker	undefined D3DPERF_SetMarker(void)	decompiled	180227040-18022704d	14	functions/180227040_D3DPERF_SetMarker.c		1	0
+180227050	D3DPERF_SetOptions	undefined D3DPERF_SetOptions(void)	decompiled	180227050-18022705d	14	functions/180227050_D3DPERF_SetOptions.c		1	0
+180227060	D3DPERF_SetRegion	undefined D3DPERF_SetRegion(void)	decompiled	180227060-18022706d	14	functions/180227060_D3DPERF_SetRegion.c		1	0
+180227070	DebugSetMute	undefined DebugSetMute(void)	decompiled	180227070-18022707d	14	functions/180227070_DebugSetMute.c		1	0
+180227080	Direct3DCreate9	undefined Direct3DCreate9(void)	decompiled	180227080-18022708d	14	functions/180227080_Direct3DCreate9.c		1	0
+180227090	Direct3DCreate9Ex	undefined Direct3DCreate9Ex(void)	decompiled	180227090-18022709d	14	functions/180227090_Direct3DCreate9Ex.c		1	0
+1802270a0	Direct3DShaderValidatorCreate9	undefined Direct3DShaderValidatorCreate9(void)	decompiled	1802270a0-1802270ad	14	functions/1802270a0_Direct3DShaderValidatorCreate9.c		1	0
+1802270b0	entry	undefined entry(void)	decompiled	1802270b0-1802270bd	14	functions/1802270b0_entry.c		1	0

@@ -1,0 +1,4 @@
+address	name
+1003c64a	GetD3DInterface
+1003c644	GetD3DVersion
+1005c7ae	entry

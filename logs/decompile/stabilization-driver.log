@@ -1,0 +1,45 @@
+SKIP completed Cpl/arm64/dgVoodooCpl.exe
+SKIP completed MS/x86/D3DImm.dll
+SKIP completed 3Dfx/x86/Glide2x.dll
+SKIP completed 3Dfx/x86/Glide.dll
+SKIP completed MS/x86/DDraw.dll
+SKIP completed 3Dfx/x86/Glide3x.dll
+START dgVoodooCpl.exe
+SKIP completed 3Dfx/arm64/Glide2x.dll
+SKIP completed 3Dfx/arm64/Glide.dll
+SKIP completed 3Dfx/x86/Napalm/Glide3x.dll
+SKIP completed 3Dfx/x64/Glide2x.dll
+SKIP completed 3Dfx/x64/Glide.dll
+SKIP completed 3Dfx/arm64/Glide3x.dll
+SKIP completed 3Dfx/x64/Glide3x.dll
+SKIP completed MS/x86/D3D8.dll
+SKIP completed MS/x86/D3D9.dll
+SKIP completed MS/x64/D3D9.dll
+START 3Dfx__arm64_chpe_x86__Glide.dll.arm64
+COMPLETE dgVoodooCpl.exe 8.12s 331 functions
+START 3Dfx__arm64_chpe_x86__Glide.dll.x86
+COMPLETE 3Dfx__arm64_chpe_x86__Glide.dll.x86 3.6s 166 functions
+START 3Dfx__arm64_chpe_x86__Glide2x.dll.arm64
+COMPLETE 3Dfx__arm64_chpe_x86__Glide.dll.arm64 20.04s 2318 functions
+START 3Dfx__arm64_chpe_x86__Glide2x.dll.x86
+COMPLETE 3Dfx__arm64_chpe_x86__Glide2x.dll.x86 3.73s 162 functions
+START 3Dfx__arm64_chpe_x86__Glide3x.dll.arm64
+COMPLETE 3Dfx__arm64_chpe_x86__Glide2x.dll.arm64 19.66s 2305 functions
+SKIP completed 3Dfx__arm64_chpe_x86__Glide3x.dll.x86
+SKIP completed 3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.arm64
+SKIP completed 3Dfx__arm64_chpe_x86__Napalm__Glide3x.dll.x86
+START MS__arm64_chpe_x86__D3D8.dll.arm64
+COMPLETE 3Dfx__arm64_chpe_x86__Glide3x.dll.arm64 20.54s 2303 functions
+SKIP completed MS__arm64_chpe_x86__D3D8.dll.x86
+START MS__arm64_chpe_x86__D3D9.dll.arm64
+COMPLETE MS__arm64_chpe_x86__D3D8.dll.arm64 55.71s 3991 functions
+SKIP completed MS__arm64_chpe_x86__D3D9.dll.x86
+START MS__arm64_chpe_x86__D3DImm.dll.arm64
+COMPLETE MS__arm64_chpe_x86__D3D9.dll.arm64 69.48s 4466 functions
+SKIP completed MS__arm64_chpe_x86__D3DImm.dll.x86
+SKIP completed MS__arm64_chpe_x86__DDraw.dll.arm64
+SKIP completed MS__arm64_chpe_x86__DDraw.dll.x86
+SKIP completed MS__arm64x__D3D9.dll.arm64
+SKIP completed MS__arm64x__D3D9.dll.arm64ec
+SKIP completed MS__arm64x__D3D9.dll.x64
+COMPLETE MS__arm64_chpe_x86__D3DImm.dll.arm64 38.03s 2305 functions

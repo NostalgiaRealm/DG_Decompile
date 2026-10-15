@@ -1,0 +1,20 @@
+{
+  "program": "Glide3x.dll",
+  "language": "x86:LE:32:default",
+  "compiler": "windows",
+  "image_base": "10000000",
+  "mapped_memory_start": "10000000",
+  "architecture_origin_restriction": false,
+  "pcode_unique_function_origins": 65799,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 1689,
+  "decompiled": 1689,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 622,
+  "instructions": 113857,
+  "executable_bytes": 349696,
+  "executable_bytes_without_instructions": 1678,
+  "instruction_bytes_outside_functions": 1679
+}

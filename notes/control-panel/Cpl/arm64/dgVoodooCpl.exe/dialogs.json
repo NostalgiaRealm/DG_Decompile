@@ -1,0 +1,4893 @@
+{
+  "binary": "Cpl/arm64/dgVoodooCpl.exe",
+  "sha256": "726e819dde0e4a0e9e3fef5302a528403d1d9c7a07f3ce0578c29e65cfb115e9",
+  "evidence": "Static RT_DIALOG resources; no UI execution observed",
+  "dialogs": [
+    {
+      "resource": {
+        "type": "5",
+        "name": "103",
+        "language": "1033",
+        "rva": "0x434c0",
+        "file_offset": "0x3e0c0",
+        "size": 1072,
+        "code_page": 0,
+        "sha256": "aeba921dd1c97b1679e0aec2cd37e258ac0b8465062619b0d065f04138c3e9d4",
+        "file": "5__103__1033.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x0",
+      "style": "0x80c808c8",
+      "item_count": 10,
+      "x": 0,
+      "y": 0,
+      "width": 280,
+      "height": 145,
+      "menu": "",
+      "window_class": "",
+      "title": "About dgVoodoo",
+      "font": {
+        "point_size": 8,
+        "weight": 400,
+        "italic": 0,
+        "charset": 1,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x5c",
+          "id": 1,
+          "id_hex": "0x1",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "OK",
+          "extended_style": "0x0",
+          "style": "0x50010001",
+          "x": 114,
+          "y": 127,
+          "width": 50,
+          "height": 14,
+          "extra_hex": ""
+        },
+        {
+          "index": 1,
+          "template_offset": "0x80",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "dgVoodoo Graphics API Layer by Dege, (c) 2013-2026",
+          "extended_style": "0x20",
+          "style": "0x50020001",
+          "x": 40,
+          "y": 8,
+          "width": 198,
+          "height": 9,
+          "extra_hex": ""
+        },
+        {
+          "index": 2,
+          "template_offset": "0x104",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "v2.87.5",
+          "extended_style": "0x20",
+          "style": "0x50020001",
+          "x": 125,
+          "y": 19,
+          "width": 28,
+          "height": 9,
+          "extra_hex": ""
+        },
+        {
+          "index": 3,
+          "template_offset": "0x134",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Further credits:",
+          "extended_style": "0x20",
+          "style": "0x50020001",
+          "x": 111,
+          "y": 44,
+          "width": 56,
+          "height": 9,
+          "extra_hex": ""
+        },
+        {
+          "index": 4,
+          "template_offset": "0x174",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Mini crt by Chris Benshoof",
+          "extended_style": "0x20",
+          "style": "0x50020001",
+          "x": 94,
+          "y": 59,
+          "width": 91,
+          "height": 9,
+          "extra_hex": ""
+        },
+        {
+          "index": 5,
+          "template_offset": "0x1c8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "http://www.benshoof.org/blog/minicrt",
+          "extended_style": "0x20",
+          "style": "0x50020001",
+          "x": 75,
+          "y": 69,
+          "width": 129,
+          "height": 9,
+          "extra_hex": ""
+        },
+        {
+          "index": 6,
+          "template_offset": "0x230",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Logo background texture by Eddi van W.",
+          "extended_style": "0x20",
+          "style": "0x50020001",
+          "x": 70,
+          "y": 111,
+          "width": 139,
+          "height": 9,
+          "extra_hex": ""
+        },
+        {
+          "index": 7,
+          "template_offset": "0x29c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "DXBC checksum algorithm by Callan McInally",
+          "extended_style": "0x20",
+          "style": "0x50020001",
+          "x": 61,
+          "y": 85,
+          "width": 157,
+          "height": 9,
+          "extra_hex": ""
+        },
+        {
+          "index": 8,
+          "template_offset": "0x310",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "https://github.com/GPUOpen-Tools/common-src-ShaderUtils/tree/master/DX10",
+          "extended_style": "0x20",
+          "style": "0x50020001",
+          "x": 8,
+          "y": 95,
+          "width": 262,
+          "height": 9,
+          "extra_hex": ""
+        },
+        {
+          "index": 9,
+          "template_offset": "0x3c0",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "dgVoodoo Control Panel App arm64 version",
+          "extended_style": "0x20",
+          "style": "0x50020001",
+          "x": 63,
+          "y": 31,
+          "width": 155,
+          "height": 9,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 1072,
+      "trailing_zero_bytes": 0
+    },
+    {
+      "resource": {
+        "type": "5",
+        "name": "104",
+        "language": "0",
+        "rva": "0x30a50",
+        "file_offset": "0x2b650",
+        "size": 1824,
+        "code_page": 0,
+        "sha256": "ed249d281e7c4d6872862ef3aebb5d6cde8990735c87a7fa21136c8a7fdf735b",
+        "file": "5__104__0.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x10000",
+      "style": "0x40000048",
+      "item_count": 31,
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 176,
+      "menu": "",
+      "window_class": "",
+      "title": "",
+      "font": {
+        "point_size": 8,
+        "weight": 0,
+        "italic": 0,
+        "charset": 0,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x40",
+          "id": 1003,
+          "id_hex": "0x3eb",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 7,
+          "y": 21,
+          "width": 125,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 1,
+          "template_offset": "0x60",
+          "id": 1004,
+          "id_hex": "0x3ec",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 7,
+          "y": 45,
+          "width": 125,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 2,
+          "template_offset": "0x80",
+          "id": 1006,
+          "id_hex": "0x3ee",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 139,
+          "y": 45,
+          "width": 108,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 3,
+          "template_offset": "0xa0",
+          "id": 1005,
+          "id_hex": "0x3ed",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Full Screen",
+          "extended_style": "0x0",
+          "style": "0x50000009",
+          "x": 12,
+          "y": 74,
+          "width": 51,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 4,
+          "template_offset": "0xd8",
+          "id": 1008,
+          "id_hex": "0x3f0",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Windowed",
+          "extended_style": "0x0",
+          "style": "0x50000009",
+          "x": 12,
+          "y": 87,
+          "width": 50,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 5,
+          "template_offset": "0x108",
+          "id": 1007,
+          "id_hex": "0x3ef",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 64,
+          "y": 85,
+          "width": 85,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 6,
+          "template_offset": "0x128",
+          "id": 1025,
+          "id_hex": "0x401",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Progressive scanline order",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 153,
+          "y": 74,
+          "width": 97,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 7,
+          "template_offset": "0x17c",
+          "id": 1026,
+          "id_hex": "0x402",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Enumerate refresh rates",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 153,
+          "y": 87,
+          "width": 93,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 8,
+          "template_offset": "0x1cc",
+          "id": 1011,
+          "id_hex": "0x3f3",
+          "help_id": 0,
+          "class": "msctls_trackbar32",
+          "class_name": "msctls_trackbar32",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 40,
+          "y": 119,
+          "width": 96,
+          "height": 13,
+          "extra_hex": ""
+        },
+        {
+          "index": 9,
+          "template_offset": "0x20c",
+          "id": 1012,
+          "id_hex": "0x3f4",
+          "help_id": 0,
+          "class": "msctls_trackbar32",
+          "class_name": "msctls_trackbar32",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 40,
+          "y": 133,
+          "width": 96,
+          "height": 13,
+          "extra_hex": ""
+        },
+        {
+          "index": 10,
+          "template_offset": "0x24c",
+          "id": 1013,
+          "id_hex": "0x3f5",
+          "help_id": 0,
+          "class": "msctls_trackbar32",
+          "class_name": "msctls_trackbar32",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 40,
+          "y": 147,
+          "width": 96,
+          "height": 13,
+          "extra_hex": ""
+        },
+        {
+          "index": 11,
+          "template_offset": "0x28c",
+          "id": 1030,
+          "id_hex": "0x406",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Inherit Color Profile in full screen mode",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 11,
+          "y": 162,
+          "width": 141,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 12,
+          "template_offset": "0x300",
+          "id": 1022,
+          "id_hex": "0x3fe",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Keep window aspect",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 167,
+          "y": 116,
+          "width": 81,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 13,
+          "template_offset": "0x344",
+          "id": 1027,
+          "id_hex": "0x403",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Capture mouse",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 167,
+          "y": 135,
+          "width": 62,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 14,
+          "template_offset": "0x380",
+          "id": 1028,
+          "id_hex": "0x404",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Center app window",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 167,
+          "y": 149,
+          "width": 80,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 15,
+          "template_offset": "0x3c4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Rendering",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 2,
+          "width": 249,
+          "height": 61,
+          "extra_hex": ""
+        },
+        {
+          "index": 16,
+          "template_offset": "0x3f8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Output API",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 12,
+          "width": 40,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 17,
+          "template_offset": "0x42c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Adapter(s) to use / enable",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 8,
+          "y": 36,
+          "width": 90,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 18,
+          "template_offset": "0x480",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Appearance",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 64,
+          "width": 249,
+          "height": 39,
+          "extra_hex": ""
+        },
+        {
+          "index": 19,
+          "template_offset": "0x4b4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Full Screen Output",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 141,
+          "y": 36,
+          "width": 99,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 20,
+          "template_offset": "0x4f8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Color adjustments",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 104,
+          "width": 156,
+          "height": 70,
+          "extra_hex": ""
+        },
+        {
+          "index": 21,
+          "template_offset": "0x53c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Miscellanneous",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 161,
+          "y": 105,
+          "width": 92,
+          "height": 69,
+          "extra_hex": ""
+        },
+        {
+          "index": 22,
+          "template_offset": "0x578",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Brightness",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 7,
+          "y": 119,
+          "width": 35,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 23,
+          "template_offset": "0x5ac",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Color",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 23,
+          "y": 132,
+          "width": 17,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 24,
+          "template_offset": "0x5d8",
+          "id": 1023,
+          "id_hex": "0x3ff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "0%",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 136,
+          "y": 118,
+          "width": 20,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 25,
+          "template_offset": "0x5fc",
+          "id": 1024,
+          "id_hex": "0x400",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "0%",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 136,
+          "y": 134,
+          "width": 20,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 26,
+          "template_offset": "0x620",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "ratio",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 178,
+          "y": 126,
+          "width": 60,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 27,
+          "template_offset": "0x64c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Scaling mode",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 65,
+          "y": 75,
+          "width": 76,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 28,
+          "template_offset": "0x684",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Contrast",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 12,
+          "y": 147,
+          "width": 29,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 29,
+          "template_offset": "0x6b4",
+          "id": 1029,
+          "id_hex": "0x405",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "0%",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 136,
+          "y": 148,
+          "width": 20,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 30,
+          "template_offset": "0x6d8",
+          "id": 1034,
+          "id_hex": "0x40a",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Disable screen saver",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 167,
+          "y": 162,
+          "width": 83,
+          "height": 11,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 1824,
+      "trailing_zero_bytes": 0
+    },
+    {
+      "resource": {
+        "type": "5",
+        "name": "117",
+        "language": "0",
+        "rva": "0x31db8",
+        "file_offset": "0x2c9b8",
+        "size": 712,
+        "code_page": 0,
+        "sha256": "605ca6da8b3a62e7f77107e5b0aabaac822d0ca3dc6a43b52554bbf6de8d2e66",
+        "file": "5__117__0.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x10000",
+      "style": "0xca0ac8",
+      "item_count": 13,
+      "x": 0,
+      "y": 0,
+      "width": 267,
+      "height": 286,
+      "menu": "",
+      "window_class": "",
+      "title": "dgVoodoo 2.87.5 - Control Panel",
+      "font": {
+        "point_size": 8,
+        "weight": 400,
+        "italic": 0,
+        "charset": 238,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x80",
+          "id": 1026,
+          "id_hex": "0x402",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210103",
+          "x": 7,
+          "y": 51,
+          "width": 185,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 1,
+          "template_offset": "0xa0",
+          "id": 1021,
+          "id_hex": "0x3fd",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "->",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 192,
+          "y": 50,
+          "width": 10,
+          "height": 15,
+          "extra_hex": ""
+        },
+        {
+          "index": 2,
+          "template_offset": "0xc4",
+          "id": 1019,
+          "id_hex": "0x3fb",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "x",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 202,
+          "y": 50,
+          "width": 10,
+          "height": 15,
+          "extra_hex": ""
+        },
+        {
+          "index": 3,
+          "template_offset": "0xe8",
+          "id": 1022,
+          "id_hex": "0x3fe",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "O",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 212,
+          "y": 50,
+          "width": 10,
+          "height": 15,
+          "extra_hex": ""
+        },
+        {
+          "index": 4,
+          "template_offset": "0x10c",
+          "id": 1018,
+          "id_hex": "0x3fa",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": ".\\",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 222,
+          "y": 50,
+          "width": 16,
+          "height": 15,
+          "extra_hex": ""
+        },
+        {
+          "index": 5,
+          "template_offset": "0x130",
+          "id": 1020,
+          "id_hex": "0x3fc",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Add",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 238,
+          "y": 50,
+          "width": 22,
+          "height": 15,
+          "extra_hex": ""
+        },
+        {
+          "index": 6,
+          "template_offset": "0x158",
+          "id": 1025,
+          "id_hex": "0x401",
+          "help_id": 0,
+          "class": "SysTabControl32",
+          "class_name": "SysTabControl32",
+          "title": "Tab1",
+          "extended_style": "0x0",
+          "style": "0x52010400",
+          "x": 3,
+          "y": 71,
+          "width": 261,
+          "height": 191,
+          "extra_hex": ""
+        },
+        {
+          "index": 7,
+          "template_offset": "0x19c",
+          "id": 1003,
+          "id_hex": "0x3eb",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "OK",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 17,
+          "y": 266,
+          "width": 50,
+          "height": 14,
+          "extra_hex": ""
+        },
+        {
+          "index": 8,
+          "template_offset": "0x1c0",
+          "id": 1002,
+          "id_hex": "0x3ea",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Cancel",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 78,
+          "y": 266,
+          "width": 50,
+          "height": 14,
+          "extra_hex": ""
+        },
+        {
+          "index": 9,
+          "template_offset": "0x1ec",
+          "id": 1005,
+          "id_hex": "0x3ed",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Apply",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 139,
+          "y": 266,
+          "width": 50,
+          "height": 14,
+          "extra_hex": ""
+        },
+        {
+          "index": 10,
+          "template_offset": "0x218",
+          "id": 1004,
+          "id_hex": "0x3ec",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "About",
+          "extended_style": "0x0",
+          "style": "0x50010000",
+          "x": 200,
+          "y": 266,
+          "width": 50,
+          "height": 14,
+          "extra_hex": ""
+        },
+        {
+          "index": 11,
+          "template_offset": "0x244",
+          "id": 1001,
+          "id_hex": "0x3e9",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": {
+            "ordinal": 100
+          },
+          "extended_style": "0x0",
+          "style": "0x5000000e",
+          "x": 0,
+          "y": 0,
+          "width": 267,
+          "height": 37,
+          "extra_hex": ""
+        },
+        {
+          "index": 12,
+          "template_offset": "0x268",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Config folder / Running instance",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 3,
+          "y": 40,
+          "width": 260,
+          "height": 28,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 712,
+      "trailing_zero_bytes": 0
+    },
+    {
+      "resource": {
+        "type": "5",
+        "name": "118",
+        "language": "0",
+        "rva": "0x31170",
+        "file_offset": "0x2bd70",
+        "size": 1486,
+        "code_page": 0,
+        "sha256": "140eb89be3df0fb14226fba2137dfd6e948e4d0ce3076745c9dcaefff5097a5e",
+        "file": "5__118__0.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x10000",
+      "style": "0x40000048",
+      "item_count": 25,
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 176,
+      "menu": "",
+      "window_class": "",
+      "title": "",
+      "font": {
+        "point_size": 8,
+        "weight": 0,
+        "italic": 0,
+        "charset": 0,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x40",
+          "id": 1017,
+          "id_hex": "0x3f9",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 10,
+          "y": 15,
+          "width": 144,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 1,
+          "template_offset": "0x60",
+          "id": 1018,
+          "id_hex": "0x3fa",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 205,
+          "y": 15,
+          "width": 44,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 2,
+          "template_offset": "0x80",
+          "id": 1010,
+          "id_hex": "0x3f2",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 78,
+          "y": 46,
+          "width": 77,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 3,
+          "template_offset": "0xa0",
+          "id": 1015,
+          "id_hex": "0x3f7",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210103",
+          "x": 78,
+          "y": 63,
+          "width": 77,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 4,
+          "template_offset": "0xc0",
+          "id": 1025,
+          "id_hex": "0x401",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 78,
+          "y": 79,
+          "width": 77,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 5,
+          "template_offset": "0xe0",
+          "id": 1009,
+          "id_hex": "0x3f1",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Disable mipmapping",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 94,
+          "width": 76,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 6,
+          "template_offset": "0x124",
+          "id": 1012,
+          "id_hex": "0x3f4",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 169,
+          "y": 48,
+          "width": 80,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 7,
+          "template_offset": "0x144",
+          "id": 1014,
+          "id_hex": "0x3f6",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 169,
+          "y": 84,
+          "width": 80,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 8,
+          "template_offset": "0x164",
+          "id": 1013,
+          "id_hex": "0x3f5",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Enable Glide Gamma Ramp",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 121,
+          "width": 103,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 9,
+          "template_offset": "0x1b4",
+          "id": 1016,
+          "id_hex": "0x3f8",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Force vSync",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 144,
+          "y": 121,
+          "width": 56,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 10,
+          "template_offset": "0x1ec",
+          "id": 1019,
+          "id_hex": "0x3fb",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Force emulating true PCI access",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 134,
+          "width": 118,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 11,
+          "template_offset": "0x24c",
+          "id": 1021,
+          "id_hex": "0x3fd",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "16 bit depth buffer",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 144,
+          "y": 134,
+          "width": 78,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 12,
+          "template_offset": "0x294",
+          "id": 1022,
+          "id_hex": "0x3fe",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "3Dfx Watermark",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 147,
+          "width": 103,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 13,
+          "template_offset": "0x2d0",
+          "id": 1023,
+          "id_hex": "0x3ff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "3Dfx Splash screen",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 144,
+          "y": 147,
+          "width": 97,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 14,
+          "template_offset": "0x314",
+          "id": 1020,
+          "id_hex": "0x3fc",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Pointcast Palette driver build",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 160,
+          "width": 103,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 15,
+          "template_offset": "0x370",
+          "id": 1024,
+          "id_hex": "0x400",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Enable inactive app state",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 144,
+          "y": 160,
+          "width": 104,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 16,
+          "template_offset": "0x3c4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Texturing",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 36,
+          "width": 160,
+          "height": 71,
+          "extra_hex": ""
+        },
+        {
+          "index": 17,
+          "template_offset": "0x3f8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Memory size / TMU",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 10,
+          "y": 49,
+          "width": 65,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 18,
+          "template_offset": "0x43c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Resolution",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 166,
+          "y": 36,
+          "width": 87,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 19,
+          "template_offset": "0x470",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Miscellanneous",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 109,
+          "width": 249,
+          "height": 65,
+          "extra_hex": ""
+        },
+        {
+          "index": 20,
+          "template_offset": "0x4ac",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Antialiasing (MSAA)",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 166,
+          "y": 69,
+          "width": 87,
+          "height": 38,
+          "extra_hex": ""
+        },
+        {
+          "index": 21,
+          "template_offset": "0x4f4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Number of TMUs",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 10,
+          "y": 66,
+          "width": 63,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 22,
+          "template_offset": "0x530",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "3Dfx card",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 3,
+          "width": 249,
+          "height": 29,
+          "extra_hex": ""
+        },
+        {
+          "index": 23,
+          "template_offset": "0x564",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Onboard RAM",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 157,
+          "y": 17,
+          "width": 46,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 24,
+          "template_offset": "0x59c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Filtering",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 10,
+          "y": 80,
+          "width": 60,
+          "height": 8,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 1486,
+      "trailing_zero_bytes": 0
+    },
+    {
+      "resource": {
+        "type": "5",
+        "name": "119",
+        "language": "0",
+        "rva": "0x31740",
+        "file_offset": "0x2c340",
+        "size": 1652,
+        "code_page": 0,
+        "sha256": "f2ba73442b20982a6f59232dbd66eca31d1e9ae6e74b34fa77794c8c7b1be316",
+        "file": "5__119__0.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x10000",
+      "style": "0x40000048",
+      "item_count": 25,
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 176,
+      "menu": "",
+      "window_class": "",
+      "title": "",
+      "font": {
+        "point_size": 8,
+        "weight": 0,
+        "italic": 0,
+        "charset": 0,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x40",
+          "id": 1025,
+          "id_hex": "0x401",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Disable and passthru to real DirectX",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 8,
+          "y": 3,
+          "width": 129,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 1,
+          "template_offset": "0xa8",
+          "id": 1030,
+          "id_hex": "0x406",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 11,
+          "y": 25,
+          "width": 154,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 2,
+          "template_offset": "0xc8",
+          "id": 1026,
+          "id_hex": "0x402",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 191,
+          "y": 25,
+          "width": 58,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 3,
+          "template_offset": "0xe8",
+          "id": 1035,
+          "id_hex": "0x40b",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 51,
+          "y": 50,
+          "width": 111,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 4,
+          "template_offset": "0x108",
+          "id": 1036,
+          "id_hex": "0x40c",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 51,
+          "y": 64,
+          "width": 111,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 5,
+          "template_offset": "0x128",
+          "id": 1031,
+          "id_hex": "0x407",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 172,
+          "y": 61,
+          "width": 77,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 6,
+          "template_offset": "0x148",
+          "id": 1027,
+          "id_hex": "0x403",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Application controlled fullscreen/windowed state",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 101,
+          "width": 163,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 7,
+          "template_offset": "0x1c8",
+          "id": 1028,
+          "id_hex": "0x404",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Disable Alt-Enter to toggle screen state",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 112,
+          "width": 138,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 8,
+          "template_offset": "0x238",
+          "id": 1032,
+          "id_hex": "0x408",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 180,
+          "y": 105,
+          "width": 69,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 9,
+          "template_offset": "0x258",
+          "id": 1033,
+          "id_hex": "0x409",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Bilinear DD/CPU operations",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 139,
+          "width": 104,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 10,
+          "template_offset": "0x2ac",
+          "id": 1034,
+          "id_hex": "0x40a",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Apply Phong shading when possible",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 118,
+          "y": 139,
+          "width": 129,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 11,
+          "template_offset": "0x310",
+          "id": 1016,
+          "id_hex": "0x3f8",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Force vSync",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 151,
+          "width": 56,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 12,
+          "template_offset": "0x348",
+          "id": 1029,
+          "id_hex": "0x405",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "dgVoodoo Watermark",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 118,
+          "y": 162,
+          "width": 85,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 13,
+          "template_offset": "0x38c",
+          "id": 1039,
+          "id_hex": "0x40f",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Fast video memory access",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 162,
+          "width": 99,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 14,
+          "template_offset": "0x3dc",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Behavior",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 92,
+          "width": 170,
+          "height": 34,
+          "extra_hex": ""
+        },
+        {
+          "index": 15,
+          "template_offset": "0x40c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Miscellanneous",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 128,
+          "width": 249,
+          "height": 47,
+          "extra_hex": ""
+        },
+        {
+          "index": 16,
+          "template_offset": "0x448",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Videocard",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 14,
+          "width": 249,
+          "height": 27,
+          "extra_hex": ""
+        },
+        {
+          "index": 17,
+          "template_offset": "0x47c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "VRAM",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 169,
+          "y": 27,
+          "width": 20,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 18,
+          "template_offset": "0x4a4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Resolution",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 169,
+          "y": 42,
+          "width": 84,
+          "height": 48,
+          "extra_hex": ""
+        },
+        {
+          "index": 19,
+          "template_offset": "0x4d8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Antialiasing (MSAA)",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 177,
+          "y": 92,
+          "width": 76,
+          "height": 34,
+          "extra_hex": ""
+        },
+        {
+          "index": 20,
+          "template_offset": "0x520",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Texturing",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 42,
+          "width": 163,
+          "height": 48,
+          "extra_hex": ""
+        },
+        {
+          "index": 21,
+          "template_offset": "0x554",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Filtering",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 52,
+          "width": 30,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 22,
+          "template_offset": "0x588",
+          "id": 1038,
+          "id_hex": "0x40e",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Force filter only if not point sampled",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 9,
+          "y": 78,
+          "width": 132,
+          "height": 10,
+          "extra_hex": ""
+        },
+        {
+          "index": 23,
+          "template_offset": "0x5f4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Mipmapping",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 65,
+          "width": 40,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 24,
+          "template_offset": "0x628",
+          "id": 1037,
+          "id_hex": "0x40d",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Disable D3D TnL device",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 118,
+          "y": 151,
+          "width": 96,
+          "height": 10,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 1652,
+      "trailing_zero_bytes": 0
+    },
+    {
+      "resource": {
+        "type": "5",
+        "name": "120",
+        "language": "0",
+        "rva": "0x32080",
+        "file_offset": "0x2cc80",
+        "size": 1936,
+        "code_page": 0,
+        "sha256": "57defb0dc51cc14c875bb9553c3bb46c0c02fa4f841dffd13d551a0bd931a986",
+        "file": "5__120__0.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x10000",
+      "style": "0x40000048",
+      "item_count": 37,
+      "x": 0,
+      "y": 0,
+      "width": 251,
+      "height": 192,
+      "menu": "",
+      "window_class": "",
+      "title": "",
+      "font": {
+        "point_size": 8,
+        "weight": 0,
+        "italic": 0,
+        "charset": 0,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x40",
+          "id": 1010,
+          "id_hex": "0x3f2",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 7,
+          "y": 20,
+          "width": 98,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 1,
+          "template_offset": "0x60",
+          "id": 1011,
+          "id_hex": "0x3f3",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 7,
+          "y": 42,
+          "width": 98,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 2,
+          "template_offset": "0x80",
+          "id": 1013,
+          "id_hex": "0x3f5",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 7,
+          "y": 64,
+          "width": 98,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 3,
+          "template_offset": "0xa0",
+          "id": 1014,
+          "id_hex": "0x3f6",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 7,
+          "y": 86,
+          "width": 98,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 4,
+          "template_offset": "0xc0",
+          "id": 1015,
+          "id_hex": "0x3f7",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 7,
+          "y": 109,
+          "width": 98,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 5,
+          "template_offset": "0xe0",
+          "id": 1017,
+          "id_hex": "0x3f9",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 7,
+          "y": 132,
+          "width": 98,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 6,
+          "template_offset": "0x100",
+          "id": 1018,
+          "id_hex": "0x3fa",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 7,
+          "y": 155,
+          "width": 98,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 7,
+          "template_offset": "0x120",
+          "id": 1035,
+          "id_hex": "0x40b",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 152,
+          "y": 11,
+          "width": 94,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 8,
+          "template_offset": "0x140",
+          "id": 1009,
+          "id_hex": "0x3f1",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 152,
+          "y": 25,
+          "width": 94,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 9,
+          "template_offset": "0x160",
+          "id": 1027,
+          "id_hex": "0x403",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Borderless",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 115,
+          "y": 52,
+          "width": 56,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 10,
+          "template_offset": "0x194",
+          "id": 1028,
+          "id_hex": "0x404",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Always on top",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 178,
+          "y": 52,
+          "width": 68,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 11,
+          "template_offset": "0x1d0",
+          "id": 1029,
+          "id_hex": "0x405",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Fullscreen size",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 115,
+          "y": 64,
+          "width": 63,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 12,
+          "template_offset": "0x210",
+          "id": 1030,
+          "id_hex": "0x406",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Fake",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 115,
+          "y": 88,
+          "width": 56,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 13,
+          "template_offset": "0x238",
+          "id": 1012,
+          "id_hex": "0x3f4",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 115,
+          "y": 123,
+          "width": 74,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 14,
+          "template_offset": "0x258",
+          "id": 1016,
+          "id_hex": "0x3f8",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 115,
+          "y": 146,
+          "width": 74,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 15,
+          "template_offset": "0x278",
+          "id": 1031,
+          "id_hex": "0x407",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Free mouse",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 115,
+          "y": 161,
+          "width": 52,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 16,
+          "template_offset": "0x2ac",
+          "id": 1032,
+          "id_hex": "0x408",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "GDI",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 203,
+          "y": 112,
+          "width": 31,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 17,
+          "template_offset": "0x2d4",
+          "id": 1033,
+          "id_hex": "0x409",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Cursor",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 203,
+          "y": 124,
+          "width": 38,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 18,
+          "template_offset": "0x300",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Desktop properties",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 111,
+          "y": 2,
+          "width": 137,
+          "height": 39,
+          "extra_hex": ""
+        },
+        {
+          "index": 19,
+          "template_offset": "0x344",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Resolution",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 115,
+          "y": 13,
+          "width": 33,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 20,
+          "template_offset": "0x378",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Miscellanneous",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 112,
+          "y": 102,
+          "width": 81,
+          "height": 89,
+          "extra_hex": ""
+        },
+        {
+          "index": 21,
+          "template_offset": "0x3b4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Bit depth",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 115,
+          "y": 26,
+          "width": 30,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 22,
+          "template_offset": "0x3e8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Image output",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 2,
+          "width": 104,
+          "height": 189,
+          "extra_hex": ""
+        },
+        {
+          "index": 23,
+          "template_offset": "0x420",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Integer scale factor",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 10,
+          "width": 76,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 24,
+          "template_offset": "0x468",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Deframer size",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 33,
+          "width": 76,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 25,
+          "template_offset": "0x4a4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Windowed mode attributes",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 111,
+          "y": 43,
+          "width": 137,
+          "height": 34,
+          "extra_hex": ""
+        },
+        {
+          "index": 26,
+          "template_offset": "0x4f4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Environment",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 117,
+          "y": 114,
+          "width": 42,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 27,
+          "template_offset": "0x52c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Display ROI",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 55,
+          "width": 76,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 28,
+          "template_offset": "0x564",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Resampling",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 77,
+          "width": 76,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 29,
+          "template_offset": "0x598",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Fullscreen mode attributes",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 111,
+          "y": 79,
+          "width": 137,
+          "height": 22,
+          "extra_hex": ""
+        },
+        {
+          "index": 30,
+          "template_offset": "0x5ec",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Cursor scale factor",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 100,
+          "width": 76,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 31,
+          "template_offset": "0x634",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "FPS limit",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 117,
+          "y": 137,
+          "width": 30,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 32,
+          "template_offset": "0x668",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Presentation model",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 123,
+          "width": 95,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 33,
+          "template_offset": "0x6ac",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "System hooks",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 195,
+          "y": 102,
+          "width": 53,
+          "height": 89,
+          "extra_hex": ""
+        },
+        {
+          "index": 34,
+          "template_offset": "0x6e4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Color space",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 146,
+          "width": 95,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 35,
+          "template_offset": "0x71c",
+          "id": 1019,
+          "id_hex": "0x3fb",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 7,
+          "y": 177,
+          "width": 98,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 36,
+          "template_offset": "0x73c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Watermark display duration",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 169,
+          "width": 95,
+          "height": 8,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 1936,
+      "trailing_zero_bytes": 0
+    },
+    {
+      "resource": {
+        "type": "5",
+        "name": "121",
+        "language": "0",
+        "rva": "0x32810",
+        "file_offset": "0x2d410",
+        "size": 390,
+        "code_page": 0,
+        "sha256": "9266e3578579ea37f226f90cfc5f232e4e0328e016eb3a3801808109cef4cf5c",
+        "file": "5__121__0.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x10000",
+      "style": "0x40000048",
+      "item_count": 7,
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 176,
+      "menu": "",
+      "window_class": "",
+      "title": "",
+      "font": {
+        "point_size": 8,
+        "weight": 0,
+        "italic": 0,
+        "charset": 0,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x40",
+          "id": 1036,
+          "id_hex": "0x40c",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 7,
+          "y": 24,
+          "width": 119,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 1,
+          "template_offset": "0x60",
+          "id": 1037,
+          "id_hex": "0x40d",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 131,
+          "y": 24,
+          "width": 119,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 2,
+          "template_offset": "0x80",
+          "id": 1038,
+          "id_hex": "0x40e",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 7,
+          "y": 49,
+          "width": 119,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 3,
+          "template_offset": "0xa0",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Dithering",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 2,
+          "width": 249,
+          "height": 64,
+          "extra_hex": ""
+        },
+        {
+          "index": 4,
+          "template_offset": "0xd4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Dithering",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 15,
+          "width": 83,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 5,
+          "template_offset": "0x108",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Effect",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 133,
+          "y": 15,
+          "width": 83,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 6,
+          "template_offset": "0x134",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Ordered matrix size scale",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 40,
+          "width": 88,
+          "height": 8,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 390,
+      "trailing_zero_bytes": 0
+    },
+    {
+      "resource": {
+        "type": "5",
+        "name": "122",
+        "language": "0",
+        "rva": "0x32998",
+        "file_offset": "0x2d598",
+        "size": 964,
+        "code_page": 0,
+        "sha256": "54d2ad022c67578a51bed14aaafae8d8ad81783272b928de7665efbdd311c17f",
+        "file": "5__122__0.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x10000",
+      "style": "0x40000048",
+      "item_count": 12,
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 176,
+      "menu": "",
+      "window_class": "",
+      "title": "",
+      "font": {
+        "point_size": 8,
+        "weight": 0,
+        "italic": 0,
+        "charset": 0,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x40",
+          "id": 1039,
+          "id_hex": "0x40f",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 113,
+          "y": 16,
+          "width": 134,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 1,
+          "template_offset": "0x60",
+          "id": 1040,
+          "id_hex": "0x410",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 113,
+          "y": 33,
+          "width": 134,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 2,
+          "template_offset": "0x80",
+          "id": 1041,
+          "id_hex": "0x411",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 113,
+          "y": 50,
+          "width": 134,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 3,
+          "template_offset": "0xa0",
+          "id": 1042,
+          "id_hex": "0x412",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 113,
+          "y": 68,
+          "width": 134,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 4,
+          "template_offset": "0xc0",
+          "id": 1043,
+          "id_hex": "0x413",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Log to file",
+          "extended_style": "0x0",
+          "style": "0x40010003",
+          "x": 9,
+          "y": 113,
+          "width": 80,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 5,
+          "template_offset": "0xf8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Debugging (only affects debug and spec-release builds)",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 2,
+          "width": 249,
+          "height": 109,
+          "extra_hex": ""
+        },
+        {
+          "index": 6,
+          "template_offset": "0x184",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "INFO message severity",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 18,
+          "width": 83,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 7,
+          "template_offset": "0x1d0",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "WARNING message severity",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 35,
+          "width": 95,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 8,
+          "template_offset": "0x220",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "ERROR message severity",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 52,
+          "width": 83,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 9,
+          "template_offset": "0x26c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Maximum trace level",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 70,
+          "width": 83,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 10,
+          "template_offset": "0x2b4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "The log is written to the default debug output.",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 87,
+          "width": 157,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 11,
+          "template_offset": "0x334",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Use DebugView / DebugView++ or a debugger to capture it.",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 97,
+          "width": 226,
+          "height": 8,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 964,
+      "trailing_zero_bytes": 0
+    },
+    {
+      "resource": {
+        "type": "5",
+        "name": "123",
+        "language": "0",
+        "rva": "0x32d60",
+        "file_offset": "0x2d960",
+        "size": 3520,
+        "code_page": 0,
+        "sha256": "a5cc1a39e062753a5984d5265a0005b4c744fd50fda7e214c0636016c67fabf6",
+        "file": "5__123__0.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x10000",
+      "style": "0x40000048",
+      "item_count": 77,
+      "x": 0,
+      "y": 0,
+      "width": 250,
+      "height": 237,
+      "menu": "",
+      "window_class": "",
+      "title": "",
+      "font": {
+        "point_size": 8,
+        "weight": 0,
+        "italic": 0,
+        "charset": 0,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x40",
+          "id": 1049,
+          "id_hex": "0x419",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 9,
+          "y": 23,
+          "width": 55,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 1,
+          "template_offset": "0x60",
+          "id": 1014,
+          "id_hex": "0x3f6",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 108,
+          "y": 8,
+          "width": 50,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 2,
+          "template_offset": "0x80",
+          "id": 1046,
+          "id_hex": "0x416",
+          "help_id": 0,
+          "class": {
+            "ordinal": 129
+          },
+          "class_name": "EDIT",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50810080",
+          "x": 195,
+          "y": 7,
+          "width": 50,
+          "height": 14,
+          "extra_hex": ""
+        },
+        {
+          "index": 3,
+          "template_offset": "0xa0",
+          "id": 1047,
+          "id_hex": "0x417",
+          "help_id": 0,
+          "class": {
+            "ordinal": 129
+          },
+          "class_name": "EDIT",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50810080",
+          "x": 108,
+          "y": 22,
+          "width": 50,
+          "height": 14,
+          "extra_hex": ""
+        },
+        {
+          "index": 4,
+          "template_offset": "0xc0",
+          "id": 1048,
+          "id_hex": "0x418",
+          "help_id": 0,
+          "class": {
+            "ordinal": 129
+          },
+          "class_name": "EDIT",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50810080",
+          "x": 195,
+          "y": 22,
+          "width": 50,
+          "height": 14,
+          "extra_hex": ""
+        },
+        {
+          "index": 5,
+          "template_offset": "0xe0",
+          "id": 1018,
+          "id_hex": "0x3fa",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 41,
+          "y": 49,
+          "width": 59,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 6,
+          "template_offset": "0x100",
+          "id": 1050,
+          "id_hex": "0x41a",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "8",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 182,
+          "y": 49,
+          "width": 18,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 7,
+          "template_offset": "0x124",
+          "id": 1030,
+          "id_hex": "0x406",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "16",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 202,
+          "y": 49,
+          "width": 18,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 8,
+          "template_offset": "0x148",
+          "id": 1031,
+          "id_hex": "0x407",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "32",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 225,
+          "y": 49,
+          "width": 18,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 9,
+          "template_offset": "0x16c",
+          "id": 1045,
+          "id_hex": "0x415",
+          "help_id": 0,
+          "class": {
+            "ordinal": 129
+          },
+          "class_name": "EDIT",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50810080",
+          "x": 41,
+          "y": 64,
+          "width": 205,
+          "height": 14,
+          "extra_hex": ""
+        },
+        {
+          "index": 10,
+          "template_offset": "0x18c",
+          "id": 1041,
+          "id_hex": "0x411",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 42,
+          "y": 92,
+          "width": 49,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 11,
+          "template_offset": "0x1ac",
+          "id": 1051,
+          "id_hex": "0x41b",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 114,
+          "y": 92,
+          "width": 54,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 12,
+          "template_offset": "0x1cc",
+          "id": 1052,
+          "id_hex": "0x41c",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210002",
+          "x": 212,
+          "y": 92,
+          "width": 34,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 13,
+          "template_offset": "0x1ec",
+          "id": 1032,
+          "id_hex": "0x408",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "MS D3D device names",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 8,
+          "y": 116,
+          "width": 87,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 14,
+          "template_offset": "0x234",
+          "id": 1033,
+          "id_hex": "0x409",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Force scale&&MSAA on RT textures",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 123,
+          "y": 116,
+          "width": 123,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 15,
+          "template_offset": "0x294",
+          "id": 1034,
+          "id_hex": "0x40a",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Smoothed depth sampling",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 8,
+          "y": 127,
+          "width": 99,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 16,
+          "template_offset": "0x2e4",
+          "id": 1035,
+          "id_hex": "0x40b",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Deferred screen mode switch",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 123,
+          "y": 127,
+          "width": 113,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 17,
+          "template_offset": "0x33c",
+          "id": 1039,
+          "id_hex": "0x40f",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Batched update for primary surface",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 8,
+          "y": 138,
+          "width": 127,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 18,
+          "template_offset": "0x3a0",
+          "id": 1036,
+          "id_hex": "0x40c",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Suppress AMD blacklist",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 144,
+          "y": 138,
+          "width": 90,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 19,
+          "template_offset": "0x3ec",
+          "id": 1056,
+          "id_hex": "0x420",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "D3D12 bounds checking",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 8,
+          "y": 149,
+          "width": 99,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 20,
+          "template_offset": "0x438",
+          "id": 1057,
+          "id_hex": "0x421",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Alternative scaling ",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 123,
+          "y": 149,
+          "width": 99,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 21,
+          "template_offset": "0x480",
+          "id": 1053,
+          "id_hex": "0x41d",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 61,
+          "y": 164,
+          "width": 61,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 22,
+          "template_offset": "0x4a0",
+          "id": 1040,
+          "id_hex": "0x410",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 176,
+          "y": 164,
+          "width": 67,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 23,
+          "template_offset": "0x4c0",
+          "id": 1054,
+          "id_hex": "0x41e",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 61,
+          "y": 181,
+          "width": 61,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 24,
+          "template_offset": "0x4e0",
+          "id": 1055,
+          "id_hex": "0x41f",
+          "help_id": 0,
+          "class": {
+            "ordinal": 133
+          },
+          "class_name": "COMBOBOX",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50210003",
+          "x": 176,
+          "y": 181,
+          "width": 67,
+          "height": 30,
+          "extra_hex": ""
+        },
+        {
+          "index": 25,
+          "template_offset": "0x500",
+          "id": 1058,
+          "id_hex": "0x422",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 13,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 26,
+          "template_offset": "0x520",
+          "id": 1059,
+          "id_hex": "0x423",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 27,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 27,
+          "template_offset": "0x540",
+          "id": 1060,
+          "id_hex": "0x424",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 41,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 28,
+          "template_offset": "0x560",
+          "id": 1061,
+          "id_hex": "0x425",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 55,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 29,
+          "template_offset": "0x580",
+          "id": 1062,
+          "id_hex": "0x426",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 69,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 30,
+          "template_offset": "0x5a0",
+          "id": 1063,
+          "id_hex": "0x427",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 83,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 31,
+          "template_offset": "0x5c0",
+          "id": 1064,
+          "id_hex": "0x428",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 97,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 32,
+          "template_offset": "0x5e0",
+          "id": 1065,
+          "id_hex": "0x429",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 111,
+          "y": 211,
+          "width": 10,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 33,
+          "template_offset": "0x600",
+          "id": 1066,
+          "id_hex": "0x42a",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 125,
+          "y": 211,
+          "width": 10,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 34,
+          "template_offset": "0x620",
+          "id": 1067,
+          "id_hex": "0x42b",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 139,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 35,
+          "template_offset": "0x640",
+          "id": 1068,
+          "id_hex": "0x42c",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 153,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 36,
+          "template_offset": "0x660",
+          "id": 1069,
+          "id_hex": "0x42d",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 167,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 37,
+          "template_offset": "0x680",
+          "id": 1070,
+          "id_hex": "0x42e",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 181,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 38,
+          "template_offset": "0x6a0",
+          "id": 1071,
+          "id_hex": "0x42f",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 195,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 39,
+          "template_offset": "0x6c0",
+          "id": 1072,
+          "id_hex": "0x430",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 209,
+          "y": 211,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 40,
+          "template_offset": "0x6e0",
+          "id": 1073,
+          "id_hex": "0x431",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 223,
+          "y": 211,
+          "width": 10,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 41,
+          "template_offset": "0x700",
+          "id": 1076,
+          "id_hex": "0x434",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 13,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 42,
+          "template_offset": "0x720",
+          "id": 1077,
+          "id_hex": "0x435",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 27,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 43,
+          "template_offset": "0x740",
+          "id": 1074,
+          "id_hex": "0x432",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 41,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 44,
+          "template_offset": "0x760",
+          "id": 1075,
+          "id_hex": "0x433",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 55,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 45,
+          "template_offset": "0x780",
+          "id": 1078,
+          "id_hex": "0x436",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 69,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 46,
+          "template_offset": "0x7a0",
+          "id": 1079,
+          "id_hex": "0x437",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 83,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 47,
+          "template_offset": "0x7c0",
+          "id": 1080,
+          "id_hex": "0x438",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 97,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 48,
+          "template_offset": "0x7e0",
+          "id": 1081,
+          "id_hex": "0x439",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 111,
+          "y": 222,
+          "width": 10,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 49,
+          "template_offset": "0x800",
+          "id": 1082,
+          "id_hex": "0x43a",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 125,
+          "y": 222,
+          "width": 10,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 50,
+          "template_offset": "0x820",
+          "id": 1083,
+          "id_hex": "0x43b",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 139,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 51,
+          "template_offset": "0x840",
+          "id": 1084,
+          "id_hex": "0x43c",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 153,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 52,
+          "template_offset": "0x860",
+          "id": 1085,
+          "id_hex": "0x43d",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 167,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 53,
+          "template_offset": "0x880",
+          "id": 1086,
+          "id_hex": "0x43e",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 181,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 54,
+          "template_offset": "0x8a0",
+          "id": 1087,
+          "id_hex": "0x43f",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 195,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 55,
+          "template_offset": "0x8c0",
+          "id": 1088,
+          "id_hex": "0x440",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 209,
+          "y": 222,
+          "width": 9,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 56,
+          "template_offset": "0x8e0",
+          "id": 1089,
+          "id_hex": "0x441",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50010003",
+          "x": 223,
+          "y": 222,
+          "width": 10,
+          "height": 11,
+          "extra_hex": ""
+        },
+        {
+          "index": 57,
+          "template_offset": "0x900",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Adapter properties",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 2,
+          "width": 243,
+          "height": 36,
+          "extra_hex": ""
+        },
+        {
+          "index": 58,
+          "template_offset": "0x944",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "ID Type",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 11,
+          "y": 13,
+          "width": 27,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 59,
+          "template_offset": "0x974",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "VendorID",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 74,
+          "y": 10,
+          "width": 32,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 60,
+          "template_offset": "0x9a4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "DeviceID",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 163,
+          "y": 10,
+          "width": 29,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 61,
+          "template_offset": "0x9d4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "SubsysID",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 74,
+          "y": 25,
+          "width": 32,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 62,
+          "template_offset": "0xa04",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Rev ID",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 163,
+          "y": 25,
+          "width": 29,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 63,
+          "template_offset": "0xa30",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Enumerated resolutions",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 39,
+          "width": 243,
+          "height": 42,
+          "extra_hex": ""
+        },
+        {
+          "index": 64,
+          "template_offset": "0xa7c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Enumerated bit depths",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 104,
+          "y": 50,
+          "width": 76,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 65,
+          "template_offset": "0xac8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Defaults",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 11,
+          "y": 50,
+          "width": 30,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 66,
+          "template_offset": "0xaf8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Extras",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 11,
+          "y": 66,
+          "width": 30,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 67,
+          "template_offset": "0xb24",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Dithering",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 4,
+          "y": 82,
+          "width": 244,
+          "height": 25,
+          "extra_hex": ""
+        },
+        {
+          "index": 68,
+          "template_offset": "0xb58",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Dithering",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 9,
+          "y": 94,
+          "width": 31,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 69,
+          "template_offset": "0xb8c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Effect",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 93,
+          "y": 94,
+          "width": 21,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 70,
+          "template_offset": "0xbb8",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Miscellaneous",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 0,
+          "y": 107,
+          "width": 247,
+          "height": 93,
+          "extra_hex": ""
+        },
+        {
+          "index": 71,
+          "template_offset": "0xbf4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Depth buffers",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 8,
+          "y": 165,
+          "width": 46,
+          "height": 8,
+          "extra_hex": ""
+        },
+        {
+          "index": 72,
+          "template_offset": "0xc30",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Max VS const registers",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 128,
+          "y": 161,
+          "width": 45,
+          "height": 18,
+          "extra_hex": ""
+        },
+        {
+          "index": 73,
+          "template_offset": "0xc7c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "Dither matrix scale",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 172,
+          "y": 88,
+          "width": 40,
+          "height": 16,
+          "extra_hex": ""
+        },
+        {
+          "index": 74,
+          "template_offset": "0xcc4",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "3D render default format",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 8,
+          "y": 177,
+          "width": 48,
+          "height": 16,
+          "extra_hex": ""
+        },
+        {
+          "index": 75,
+          "template_offset": "0xd14",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 130
+          },
+          "class_name": "STATIC",
+          "title": "N-patch tesselation",
+          "extended_style": "0x0",
+          "style": "0x50020000",
+          "x": 128,
+          "y": 180,
+          "width": 39,
+          "height": 18,
+          "extra_hex": ""
+        },
+        {
+          "index": 76,
+          "template_offset": "0xd5c",
+          "id": 4294967295,
+          "id_hex": "0xffffffff",
+          "help_id": 0,
+          "class": {
+            "ordinal": 128
+          },
+          "class_name": "BUTTON",
+          "title": "Individual display outputs enabled",
+          "extended_style": "0x0",
+          "style": "0x50000007",
+          "x": 0,
+          "y": 201,
+          "width": 247,
+          "height": 34,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 3520,
+      "trailing_zero_bytes": 0
+    },
+    {
+      "resource": {
+        "type": "5",
+        "name": "124",
+        "language": "0",
+        "rva": "0x33b20",
+        "file_offset": "0x2e720",
+        "size": 96,
+        "code_page": 0,
+        "sha256": "e35ce06686b95602773ba269f07928d2c336b07a41626bd215eff817cd149e7e",
+        "file": "5__124__0.bin"
+      },
+      "kind": "DLGTEMPLATEEX",
+      "version": 1,
+      "help_id": 0,
+      "extended_style": "0x10000",
+      "style": "0x40000048",
+      "item_count": 1,
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 176,
+      "menu": "",
+      "window_class": "",
+      "title": "",
+      "font": {
+        "point_size": 8,
+        "weight": 0,
+        "italic": 0,
+        "charset": 0,
+        "typeface": "MS Shell Dlg"
+      },
+      "controls": [
+        {
+          "index": 0,
+          "template_offset": "0x40",
+          "id": 1054,
+          "id_hex": "0x41e",
+          "help_id": 0,
+          "class": {
+            "ordinal": 132
+          },
+          "class_name": "SCROLLBAR",
+          "title": "",
+          "extended_style": "0x0",
+          "style": "0x50000001",
+          "x": 245,
+          "y": 0,
+          "width": 6,
+          "height": 166,
+          "extra_hex": ""
+        }
+      ],
+      "parsed_bytes": 96,
+      "trailing_zero_bytes": 0
+    }
+  ]
+}

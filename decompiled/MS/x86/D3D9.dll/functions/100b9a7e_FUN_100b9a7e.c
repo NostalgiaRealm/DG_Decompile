@@ -1,0 +1,45 @@
+/*
+ * FUN_100b9a7e at 100b9a7e
+ * int __fastcall FUN_100b9a7e(int param_1)
+ * Address ranges: 100b9a7e-100b9b23
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+int __fastcall FUN_100b9a7e(int param_1)
+
+{
+  int iVar1;
+  int *piVar2;
+  undefined4 uVar3;
+  undefined4 local_20;
+  undefined4 local_1c;
+  undefined4 local_18;
+  undefined4 local_14;
+  int *local_10;
+  int *local_c;
+  int *local_8;
+  
+  local_14 = 0;
+  local_8 = (int *)0x0;
+  local_20 = *(undefined4 *)(param_1 + 0xc);
+  local_1c = *(undefined4 *)(param_1 + 0x10);
+  local_18 = *(undefined4 *)(param_1 + 0x14);
+  piVar2 = *(int **)(*(int *)(param_1 + 8) * 0x18 + *(int *)(param_1 + 4));
+  iVar1 = (**(code **)(*piVar2 + 0x38))(piVar2,&local_20,&DAT_100d88a0,&local_8);
+  if (-1 < iVar1) {
+    piVar2 = (int *)FUN_100cfd89(*(uint *)(param_1 + 0x10) >> 3);
+    if (piVar2 != (int *)0x0) {
+      local_10 = local_8;
+      local_c = piVar2;
+      uVar3 = FUN_1003a418((void *)(param_1 + 0x34),&local_10);
+      if ((char)uVar3 != '\0') {
+        FUN_100cfed0(piVar2,0,*(uint *)(param_1 + 0x10) >> 3);
+        return *(int *)(param_1 + 0x38) + -1;
+      }
+      thunk_FUN_100cfd6c(piVar2);
+    }
+    (**(code **)(*local_8 + 8))(local_8);
+  }
+  return -1;
+}
+

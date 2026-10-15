@@ -1,0 +1,33 @@
+/*
+ * _grAADrawPolygon@12 at 180001284
+ * undefined __fastcall _grAADrawPolygon@12(int param_1, undefined8 param_2, undefined8 param_3)
+ * Address ranges: 180001284-1800012cd
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void _grAADrawPolygon_12(int param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  undefined *puVar1;
+  
+                    /* 0x1284  7  _grAADrawPolygon@12
+                       0x1284  164  grAADrawPolygon */
+  puVar1 = FUN_180015044();
+  if (puVar1[100] != '\0') {
+    LOCK();
+    *(int *)(puVar1 + 0x60) = *(int *)(puVar1 + 0x60) + 1;
+    UNLOCK();
+    if (2 < param_1) {
+      if (0x400 < param_1) {
+        param_1 = 0x400;
+      }
+      (**(code **)(**(longlong **)(puVar1 + 0x18) + 0x240))
+                (*(longlong **)(puVar1 + 0x18),param_1,param_2,param_3);
+    }
+    LOCK();
+    *(int *)(puVar1 + 0x60) = *(int *)(puVar1 + 0x60) + -1;
+    UNLOCK();
+  }
+  return;
+}
+

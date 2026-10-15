@@ -1,0 +1,22 @@
+/*
+ * FUN_180057268 at 180057268
+ * uint __fastcall FUN_180057268(uint param_1, int param_2, uint param_3, undefined8 param_4, uint param_5, uint param_6)
+ * Address ranges: 180057268-1800572b6
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+uint FUN_180057268(uint param_1,int param_2,uint param_3,undefined8 param_4,uint param_5,
+                  uint param_6)
+
+{
+  byte bVar1;
+  
+  bVar1 = (byte)(param_1 >> 0x14) & 7;
+  if (bVar1 <= (byte)param_2) {
+    param_2 = bVar1 - 1;
+  }
+  return (param_2 + (param_1 >> 0x12) & 3 |
+         (((param_6 & 3) << 3 | param_5 & 3) << 2 | param_3 & 3) << 0x10 | param_1 & 0x3f00) << 4 |
+         10;
+}
+

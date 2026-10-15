@@ -1,0 +1,25 @@
+/*
+ * FUN_180017fc8 at 180017fc8
+ * undefined __cdecl FUN_180017fc8(longlong param_1, uint param_2)
+ * Address ranges: 180017fc8-180018043
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_180017fc8(longlong param_1,uint param_2)
+
+{
+  uint uVar1;
+  longlong *extraout_x10;
+  
+  if (*(char *)(param_1 + 100) != '\0') {
+    FUN_1800608b0((uint *)(param_1 + 0x60));
+    uVar1 = FUN_18001f280(*(longlong *)(param_1 + 0x18),param_2);
+    if (uVar1 != *(uint *)((longlong)extraout_x10 + 0x10a)) {
+      (**(code **)(*extraout_x10 + 0x158))(extraout_x10,uVar1);
+      *(uint *)(*(longlong *)(param_1 + 0x18) + 0x10a) = uVar1;
+    }
+    FUN_1800608a0((uint *)(param_1 + 0x60));
+  }
+  return;
+}
+

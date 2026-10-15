@@ -1,0 +1,47 @@
+/*
+ * FUN_10003270 at 10003270
+ * undefined FUN_10003270(void)
+ * Address ranges: 10003270-1000336f
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_10003270(int param_1,uint param_2)
+
+{
+  int *piVar1;
+  uint *puVar2;
+  undefined4 *puVar3;
+  int iVar4;
+  uint uVar5;
+  
+  piVar1 = (int *)(param_1 + 0x214);
+  FUN_10081d50(*(undefined4 *)(*(int *)(*piVar1 + param_2 * 4) + 4),0);
+  iVar4 = *(int *)(*piVar1 + param_2 * 4);
+  if (iVar4 != 0) {
+    FUN_10081dc0(*(undefined4 *)(iVar4 + 0x9cc));
+    *(undefined8 *)(iVar4 + 0x9cc) = 0;
+    *(undefined8 *)(iVar4 + 0x9d4) = 0;
+    FUN_10081d50(iVar4,0xa5c);
+  }
+  if (param_2 == *(int *)(param_1 + 0x218) - 1U) {
+    puVar2 = (uint *)(param_1 + 0x218);
+    uVar5 = *puVar2;
+    if (param_2 < uVar5) {
+      param_2 = param_2 + 1;
+      if (param_2 < uVar5) {
+        do {
+          puVar3 = (undefined4 *)(*piVar1 + param_2 * 4);
+          param_2 = param_2 + 1;
+          puVar3[-1] = *puVar3;
+          uVar5 = *puVar2;
+        } while (param_2 < uVar5);
+      }
+      *puVar2 = uVar5 - 1;
+    }
+  }
+  else {
+    *(undefined4 *)(*piVar1 + param_2 * 4) = 0;
+  }
+  return;
+}
+

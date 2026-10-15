@@ -1,0 +1,19 @@
+/*
+ * FUN_1003e4ac at 1003e4ac
+ * undefined __stdcall FUN_1003e4ac(int param_1, undefined4 param_2, undefined4 param_3, undefined4 param_4, undefined4 param_5)
+ * Address ranges: 1003e4ac-1003e4e4
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_1003e4ac(int param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+                 undefined4 param_5)
+
+{
+  FUN_1003cdb1(param_1);
+  FUN_1003ceaa(param_1);
+  (**(code **)(**(int **)(param_1 + 0x638) + 0x30))
+            (*(int **)(param_1 + 0x638),param_2,param_3,param_4,param_5);
+  FUN_1003ce62(param_1);
+  return;
+}
+

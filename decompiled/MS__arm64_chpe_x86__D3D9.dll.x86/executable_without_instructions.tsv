@@ -1,0 +1,13 @@
+start	end_inclusive	length	note
+1015802b	1015836f	837	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a00c	1015a00f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a01c	1015a01f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a02c	1015a02f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a03c	1015a03f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a04c	1015a04f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a05c	1015a05f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a06c	1015a06f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a07c	1015a07f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a08c	1015a08f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a09c	1015a09f	4	May include padding, embedded data, or undiscovered code; not automatically a function.
+1015a0ac	1015a0af	4	May include padding, embedded data, or undiscovered code; not automatically a function.

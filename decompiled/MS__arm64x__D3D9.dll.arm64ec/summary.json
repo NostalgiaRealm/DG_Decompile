@@ -1,0 +1,20 @@
+{
+  "program": "MS__arm64x__D3D9.dll.arm64ec.mapped.bin",
+  "language": "AARCH64:LE:64:v8A",
+  "compiler": "windows",
+  "image_base": "00000000",
+  "mapped_memory_start": "180000000",
+  "architecture_origin_restriction": true,
+  "pcode_unique_function_origins": 186496,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 2820,
+  "decompiled": 2820,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 1308,
+  "instructions": 284092,
+  "executable_bytes": 1185496,
+  "executable_bytes_without_instructions": 49128,
+  "instruction_bytes_outside_functions": 2252
+}

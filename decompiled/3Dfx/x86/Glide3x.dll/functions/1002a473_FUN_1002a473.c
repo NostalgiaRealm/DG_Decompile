@@ -1,0 +1,29 @@
+/*
+ * FUN_1002a473 at 1002a473
+ * int __fastcall FUN_1002a473(char * param_1, char * param_2, int param_3)
+ * Address ranges: 1002a473-1002a499
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+int __fastcall FUN_1002a473(char *param_1,char *param_2,int param_3)
+
+{
+  char cVar1;
+  char cVar2;
+  uint3 uVar3;
+  
+  do {
+    cVar1 = *param_1;
+    param_3 = param_3 + -1;
+    cVar2 = *param_2;
+    uVar3 = (uint3)((uint)param_3 >> 8);
+    if ((cVar1 == cVar2) && (cVar1 == '\0')) break;
+    param_2 = param_2 + 1;
+    param_1 = param_1 + 1;
+    if (cVar1 != cVar2) {
+      return (uint)uVar3 << 8;
+    }
+  } while (param_3 != 0);
+  return CONCAT31(uVar3,1);
+}
+

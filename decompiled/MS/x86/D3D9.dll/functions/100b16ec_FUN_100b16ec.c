@@ -1,0 +1,89 @@
+/*
+ * FUN_100b16ec at 100b16ec
+ * undefined __fastcall FUN_100b16ec(undefined4 param_1, undefined4 * param_2)
+ * Address ranges: 100b16ec-100b18aa
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void __fastcall FUN_100b16ec(undefined4 *param_1,undefined4 *param_2)
+
+{
+  undefined4 *puVar1;
+  undefined4 uVar2;
+  int iVar3;
+  undefined4 *puVar4;
+  int local_214 [131];
+  undefined4 *local_8;
+  
+  local_8 = param_1;
+  FUN_100cfed0(local_214,0,0x20c);
+  puVar1 = FUN_100a4a47(local_214);
+  puVar4 = local_8;
+  for (iVar3 = 0x83; iVar3 != 0; iVar3 = iVar3 + -1) {
+    *puVar4 = *puVar1;
+    puVar1 = puVar1 + 1;
+    puVar4 = puVar4 + 1;
+  }
+  *local_8 = *param_2;
+  local_8[1] = param_2[1];
+  local_8[2] = param_2[2];
+  local_8[3] = param_2[3];
+  local_8[4] = param_2[4];
+  *(undefined1 *)(local_8 + 8) = *(undefined1 *)(param_2 + 5);
+  *(undefined1 *)((int)local_8 + 0x21) = *(undefined1 *)((int)param_2 + 0x16);
+  local_8[6] = param_2[6];
+  *(undefined1 *)((int)local_8 + 0x22) = *(undefined1 *)(param_2 + 7);
+  local_8[7] = *(undefined4 *)((int)param_2 + 0x1d);
+  *(undefined1 *)((int)local_8 + 0x23) = *(undefined1 *)((int)param_2 + 0x21);
+  local_8[5] = *(undefined4 *)((int)param_2 + 0x22);
+  *(undefined1 *)(local_8 + 9) = *(undefined1 *)((int)param_2 + 0x26);
+  *(undefined1 *)((int)local_8 + 0x25) = 0;
+  *(undefined1 *)((int)local_8 + 0x26) = *(undefined1 *)((int)param_2 + 0x27);
+  *(uint *)((int)local_8 + 0xbe) = (uint)(*(char *)((int)param_2 + 0x17) == '\0');
+  *(undefined4 *)((int)local_8 + 0x27) = param_2[10];
+  *(undefined4 *)((int)local_8 + 0x2b) = param_2[0xb];
+  *(undefined4 *)((int)local_8 + 0x37) = param_2[0xc];
+  *(undefined4 *)((int)local_8 + 0x3b) = param_2[0xd];
+  *(undefined4 *)((int)local_8 + 0x3f) = param_2[0xe];
+  *(undefined4 *)((int)local_8 + 0x2f) = param_2[0xf];
+  *(undefined4 *)((int)local_8 + 0x33) = param_2[0x10];
+  uVar2 = 0;
+  if (*(char *)(param_2 + 0x11) != '\0') {
+    uVar2 = 0x200;
+  }
+  *(undefined4 *)((int)local_8 + 0x4b) = uVar2;
+  *(undefined1 *)((int)local_8 + 0x4f) = *(undefined1 *)((int)param_2 + 0x45);
+  *(undefined1 *)(local_8 + 0x14) = *(undefined1 *)((int)param_2 + 0x46);
+  *(undefined1 *)((int)local_8 + 0x51) = *(undefined1 *)((int)param_2 + 0x47);
+  *(undefined1 *)((int)local_8 + 0x52) = *(undefined1 *)(param_2 + 0x12);
+  *(undefined1 *)((int)local_8 + 0x53) = *(undefined1 *)((int)param_2 + 0x49);
+  *(undefined1 *)(local_8 + 0x15) = *(undefined1 *)((int)param_2 + 0x4a);
+  *(undefined1 *)((int)local_8 + 0x55) = *(undefined1 *)((int)param_2 + 0x4b);
+  *(undefined1 *)((int)local_8 + 0x56) = *(undefined1 *)(param_2 + 0x13);
+  *(undefined4 *)((int)local_8 + 0x43) = *(undefined4 *)((int)param_2 + 0x4d);
+  *(undefined4 *)((int)local_8 + 0x47) = *(undefined4 *)((int)param_2 + 0x51);
+  *(undefined1 *)((int)local_8 + 0x57) = *(undefined1 *)((int)param_2 + 0x55);
+  *(undefined1 *)(local_8 + 0x20) = *(undefined1 *)((int)param_2 + 0x56);
+  *(undefined1 *)((int)local_8 + 0x81) = *(undefined1 *)((int)param_2 + 0x57);
+  *(undefined1 *)((int)local_8 + 0x82) = *(undefined1 *)(param_2 + 0x16);
+  *(undefined1 *)((int)local_8 + 0x83) = *(undefined1 *)((int)param_2 + 0x59);
+  local_8[0x19] = *(undefined4 *)((int)param_2 + 0x5a);
+  local_8[0x1a] = *(undefined4 *)((int)param_2 + 0x5e);
+  local_8[0x1b] = *(undefined4 *)((int)param_2 + 0x62);
+  local_8[0x1c] = *(undefined4 *)((int)param_2 + 0x66);
+  local_8[0x1d] = *(undefined4 *)((int)param_2 + 0x6a);
+  local_8[0x1e] = *(undefined4 *)((int)param_2 + 0x7e);
+  local_8[0x1f] = (uint)(*(char *)((int)param_2 + 0x7b) != '\0');
+  local_8[0x17] = *(undefined4 *)((int)param_2 + 0x6e);
+  local_8[0x18] = 0;
+  local_8[0x16] = *(undefined4 *)((int)param_2 + 0x72);
+  *(undefined1 *)(local_8 + 0x21) = *(undefined1 *)((int)param_2 + 0x76);
+  *(undefined1 *)((int)local_8 + 0x85) = *(undefined1 *)((int)param_2 + 0x77);
+  *(undefined1 *)((int)local_8 + 0x86) = *(undefined1 *)(param_2 + 0x1e);
+  *(undefined1 *)((int)local_8 + 0x87) = 0;
+  *(undefined1 *)(local_8 + 0x22) = *(undefined1 *)(param_2 + 0x1f);
+  *(undefined1 *)((int)local_8 + 0x89) = 0;
+  local_8[0x1e] = *(undefined4 *)((int)param_2 + 0x7e);
+  return;
+}
+

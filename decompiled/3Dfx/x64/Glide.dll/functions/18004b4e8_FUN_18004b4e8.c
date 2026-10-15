@@ -1,0 +1,40 @@
+/*
+ * FUN_18004b4e8 at 18004b4e8
+ * undefined __fastcall FUN_18004b4e8(longlong param_1, longlong param_2)
+ * Address ranges: 18004b4e8-18004b576
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_18004b4e8(longlong param_1,longlong param_2)
+
+{
+  longlong *plVar1;
+  uint uVar2;
+  ulonglong uVar3;
+  
+  uVar3 = 0;
+  if (*(int *)(param_2 + 0x28) != 0) {
+    do {
+      plVar1 = *(longlong **)(param_2 + 0xd98 + uVar3 * 8);
+      if (plVar1 != (longlong *)0x0) {
+        FUN_18004cf80(param_1,*(uint *)(param_2 + 0x10),plVar1);
+        *(undefined8 *)(param_2 + 0xd98 + uVar3 * 8) = 0;
+      }
+      plVar1 = *(longlong **)(param_2 + 0xda8 + uVar3 * 8);
+      if (plVar1 != (longlong *)0x0) {
+        (**(code **)(*plVar1 + 0x10))();
+        *(undefined8 *)(param_2 + 0xda8 + uVar3 * 8) = 0;
+      }
+      plVar1 = *(longlong **)(param_2 + 0xd88 + uVar3 * 8);
+      if (plVar1 != (longlong *)0x0) {
+        (**(code **)(*plVar1 + 0x10))();
+        *(undefined8 *)(param_2 + 0xd88 + uVar3 * 8) = 0;
+      }
+      uVar2 = (int)uVar3 + 1;
+      uVar3 = (ulonglong)uVar2;
+    } while (uVar2 < *(uint *)(param_2 + 0x28));
+  }
+  *(undefined4 *)(param_2 + 0x28) = 0;
+  return;
+}
+

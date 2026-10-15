@@ -1,0 +1,134 @@
+{
+  "status": "Static evidence; table bytes are data, not absolute addresses",
+  "tables": [
+    {
+      "source": "MS/arm64_chpe_x86/D3D8.dll",
+      "view": "MS__arm64_chpe_x86__D3D8.dll.arm64",
+      "entry_va": "0x10012968",
+      "branch_va": "0x10012c4c",
+      "table_va": "0x10012d08",
+      "table_bytes": "d2d4d7",
+      "source_sha256": "e2a128a095a533622dcae3e6b1b450af7ff97b29a6723b4dbeca7f6ec2bdbc9c",
+      "mapped_input_sha256": "3e4e54e64dd1d46f19ef3060f5c3a613650099731353d353266c33e6df64953b",
+      "decoded_rows": [
+        {
+          "selector": 1,
+          "signed_byte": -46,
+          "destination_va": "0x10012c50"
+        },
+        {
+          "selector": 2,
+          "signed_byte": -44,
+          "destination_va": "0x10012c58"
+        },
+        {
+          "selector": 3,
+          "signed_byte": -41,
+          "destination_va": "0x10012c64"
+        }
+      ],
+      "method": "Destination = table VA + sign_extend_8(table[selector - 1]) * 4. Table bytes read from unchanged mapped image.",
+      "function_bytes": 928,
+      "function_bytes_sha256": "15bf2632726277c47b1f0b22458447bb180863c91c0d57b19d2ca6e8d522e131",
+      "switch_literals": [
+        {
+          "selector": 1,
+          "literal_va": "0x10012d40",
+          "value_u64": "0x0000570200100700"
+        },
+        {
+          "selector": 2,
+          "literal_va": "0x10012d48",
+          "value_u64": "0x0000540200100700"
+        },
+        {
+          "selector": 3,
+          "literal_va": "0x10012d50",
+          "value_u64": "0x0000560200100700"
+        }
+      ]
+    },
+    {
+      "source": "MS/arm64_chpe_x86/D3D9.dll",
+      "view": "MS__arm64_chpe_x86__D3D9.dll.arm64",
+      "entry_va": "0x10014800",
+      "branch_va": "0x10014b2c",
+      "table_va": "0x10014bf0",
+      "table_bytes": "d0d2d5",
+      "source_sha256": "24637a61fcaeb89214ec182c98b0619caf32cd3633fb75a07517d0005fba53da",
+      "mapped_input_sha256": "c978f69ea9f24a2c16151f18794dbf04732d241847b415474c7b9e38665e78bf",
+      "decoded_rows": [
+        {
+          "selector": 1,
+          "signed_byte": -48,
+          "destination_va": "0x10014b30"
+        },
+        {
+          "selector": 2,
+          "signed_byte": -46,
+          "destination_va": "0x10014b38"
+        },
+        {
+          "selector": 3,
+          "signed_byte": -43,
+          "destination_va": "0x10014b44"
+        }
+      ],
+      "method": "Destination = table VA + sign_extend_8(table[selector - 1]) * 4. Table bytes read from unchanged mapped image.",
+      "function_bytes": 1008,
+      "function_bytes_sha256": "8989231a6ab2b143ec61a460e19f6fe19e1caa4c878997a57aabacdb751dcd40",
+      "switch_literals": [
+        {
+          "selector": 1,
+          "literal_va": "0x10014c28",
+          "value_u64": "0x0000570200100700"
+        },
+        {
+          "selector": 2,
+          "literal_va": "0x10014c30",
+          "value_u64": "0x0000540200100700"
+        },
+        {
+          "selector": 3,
+          "literal_va": "0x10014c38",
+          "value_u64": "0x0000560200100700"
+        }
+      ]
+    },
+    {
+      "source": "MS/arm64_chpe_x86/D3DImm.dll",
+      "view": "MS__arm64_chpe_x86__D3DImm.dll.arm64",
+      "entry_va": "0x1007b170",
+      "branch_va": "0x1007b190",
+      "table_va": "0x1007b1c0",
+      "table_bytes": "f5f7fff9",
+      "source_sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+      "mapped_input_sha256": "a75bc8ed43337c6c29839b063c8adf76763c9b9cbcd7a31ea32c87ab0b67f34d",
+      "decoded_rows": [
+        {
+          "selector": 1,
+          "signed_byte": -11,
+          "destination_va": "0x1007b194"
+        },
+        {
+          "selector": 2,
+          "signed_byte": -9,
+          "destination_va": "0x1007b19c"
+        },
+        {
+          "selector": 3,
+          "signed_byte": -1,
+          "destination_va": "0x1007b1bc"
+        },
+        {
+          "selector": 4,
+          "signed_byte": -7,
+          "destination_va": "0x1007b1a4"
+        }
+      ],
+      "method": "Destination = table VA + sign_extend_8(table[selector - 1]) * 4. Table bytes read from unchanged mapped image.",
+      "function_bytes": 80,
+      "function_bytes_sha256": "95c0f2cc8e543cfe16a0b9dd235d0d59edb5e0d6658d2aab6ff8b04e8d059f9f"
+    }
+  ]
+}

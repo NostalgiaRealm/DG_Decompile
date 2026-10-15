@@ -1,0 +1,184 @@
+[
+  {
+    "binary": "3Dfx/arm64/Glide.dll",
+    "sha256": "6447eb7c5c9c27287a43c6fc3b0d92c92831ebcb462e094befdc8e1ccb33e215",
+    "resource_count": 156,
+    "string_count": 0,
+    "manifest": "3Dfx/arm64/Glide.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/arm64/Glide2x.dll",
+    "sha256": "9093aa930c8fc36eb26db58f6d4fdf59e5b1c4319cf3f6ea01b147b797c32100",
+    "resource_count": 156,
+    "string_count": 0,
+    "manifest": "3Dfx/arm64/Glide2x.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/arm64/Glide3x.dll",
+    "sha256": "c89145b15a275d7cefcc3493ec896289a3b5378ac41f416ad4d25e813271e424",
+    "resource_count": 158,
+    "string_count": 0,
+    "manifest": "3Dfx/arm64/Glide3x.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/arm64_chpe_x86/Glide.dll",
+    "sha256": "8e085d45d91b32ca24678009d72327e7a751b7c433fa30b70cddba099f601135",
+    "resource_count": 156,
+    "string_count": 0,
+    "manifest": "3Dfx/arm64_chpe_x86/Glide.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/arm64_chpe_x86/Glide2x.dll",
+    "sha256": "37b50fb176f2926d424eca81e73ca7c1cac10b96e8a61235e5c321b14bd51c67",
+    "resource_count": 156,
+    "string_count": 0,
+    "manifest": "3Dfx/arm64_chpe_x86/Glide2x.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/arm64_chpe_x86/Glide3x.dll",
+    "sha256": "6e0541c8363d9f8307185175eb43ea517c803eeddb5cba2c626e88dac83380bf",
+    "resource_count": 158,
+    "string_count": 0,
+    "manifest": "3Dfx/arm64_chpe_x86/Glide3x.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll",
+    "sha256": "c1290149d935ab9d84295ee58904d6aa5f1e187c04d102b8b73158613c506fac",
+    "resource_count": 164,
+    "string_count": 0,
+    "manifest": "3Dfx/arm64_chpe_x86/Napalm/Glide3x.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/x64/Glide.dll",
+    "sha256": "57f9451e435a9231f939599bd4f978878e870386d2188fb774957fdc25610357",
+    "resource_count": 156,
+    "string_count": 0,
+    "manifest": "3Dfx/x64/Glide.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/x64/Glide2x.dll",
+    "sha256": "9b43fca9bfefc858cb05a25ed316d2c56e40f6c351c9e698efa05c3f0fa90ef1",
+    "resource_count": 156,
+    "string_count": 0,
+    "manifest": "3Dfx/x64/Glide2x.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/x64/Glide3x.dll",
+    "sha256": "0931cb2c35a76c57d16cc92c1acf49018dbf6f267237895f7ffafaad8b596612",
+    "resource_count": 158,
+    "string_count": 0,
+    "manifest": "3Dfx/x64/Glide3x.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/x86/Glide.dll",
+    "sha256": "17551c77355e051cdbe4df26277825461985b9e84e8cfe59ca2a39adce9fda4d",
+    "resource_count": 156,
+    "string_count": 0,
+    "manifest": "3Dfx/x86/Glide.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/x86/Glide2x.dll",
+    "sha256": "934198d1ef7568f17fd2c5faf32053c36046fd21a735b7e6f42ac65e172a5982",
+    "resource_count": 156,
+    "string_count": 0,
+    "manifest": "3Dfx/x86/Glide2x.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/x86/Glide3x.dll",
+    "sha256": "219146fa0f1f9ab7a2c85d54e844c609530b33e5a11323cc7948a674e04df438",
+    "resource_count": 158,
+    "string_count": 0,
+    "manifest": "3Dfx/x86/Glide3x.dll/manifest.json"
+  },
+  {
+    "binary": "3Dfx/x86/Napalm/Glide3x.dll",
+    "sha256": "d651809ad4bd748644de4e104f0ecfdbdd8610f0683b35efe88141650effe248",
+    "resource_count": 164,
+    "string_count": 0,
+    "manifest": "3Dfx/x86/Napalm/Glide3x.dll/manifest.json"
+  },
+  {
+    "binary": "Cpl/arm64/dgVoodooCpl.exe",
+    "sha256": "726e819dde0e4a0e9e3fef5302a528403d1d9c7a07f3ce0578c29e65cfb115e9",
+    "resource_count": 49,
+    "string_count": 103,
+    "manifest": "Cpl/arm64/dgVoodooCpl.exe/manifest.json"
+  },
+  {
+    "binary": "MS/arm64_chpe_x86/D3D8.dll",
+    "sha256": "e2a128a095a533622dcae3e6b1b450af7ff97b29a6723b4dbeca7f6ec2bdbc9c",
+    "resource_count": 174,
+    "string_count": 0,
+    "manifest": "MS/arm64_chpe_x86/D3D8.dll/manifest.json"
+  },
+  {
+    "binary": "MS/arm64_chpe_x86/D3D9.dll",
+    "sha256": "24637a61fcaeb89214ec182c98b0619caf32cd3633fb75a07517d0005fba53da",
+    "resource_count": 174,
+    "string_count": 0,
+    "manifest": "MS/arm64_chpe_x86/D3D9.dll/manifest.json"
+  },
+  {
+    "binary": "MS/arm64_chpe_x86/D3DImm.dll",
+    "sha256": "67a9e8c6c4d465460cf5a6d5d33583d9c99fe485b4319a994a9011cbef449008",
+    "resource_count": 38,
+    "string_count": 0,
+    "manifest": "MS/arm64_chpe_x86/D3DImm.dll/manifest.json"
+  },
+  {
+    "binary": "MS/arm64_chpe_x86/DDraw.dll",
+    "sha256": "e48e007fe9b4fc141fa42574acdf5733cca87761f7eb6eefd168e55f70d456c5",
+    "resource_count": 144,
+    "string_count": 0,
+    "manifest": "MS/arm64_chpe_x86/DDraw.dll/manifest.json"
+  },
+  {
+    "binary": "MS/arm64x/D3D9.dll",
+    "sha256": "d213eea2478b312b9c5913759e301d9aeb3fb3ea9c05f8cc7ae8e592525dd21d",
+    "resource_count": 174,
+    "string_count": 0,
+    "manifest": "MS/arm64x/D3D9.dll/manifest.json"
+  },
+  {
+    "binary": "MS/x64/D3D9.dll",
+    "sha256": "1953e6cad9e315b7e9bcde6803dcd3ec2bc507348afdaf7270a3b38b318685d6",
+    "resource_count": 174,
+    "string_count": 0,
+    "manifest": "MS/x64/D3D9.dll/manifest.json"
+  },
+  {
+    "binary": "MS/x86/D3D8.dll",
+    "sha256": "5378acb402918882dd341d4c0e4540d4275e30466c49e898798f64cd8460cd0d",
+    "resource_count": 174,
+    "string_count": 0,
+    "manifest": "MS/x86/D3D8.dll/manifest.json"
+  },
+  {
+    "binary": "MS/x86/D3D9.dll",
+    "sha256": "8ded686854660d3610f53689f29e9dba1daffc1886cbd6676f719ce520f9adad",
+    "resource_count": 174,
+    "string_count": 0,
+    "manifest": "MS/x86/D3D9.dll/manifest.json"
+  },
+  {
+    "binary": "MS/x86/D3DImm.dll",
+    "sha256": "2f52824f2b9893b6e211315e09c9bc74f1970c0204cfd00fdb45c32b22a94d48",
+    "resource_count": 38,
+    "string_count": 0,
+    "manifest": "MS/x86/D3DImm.dll/manifest.json"
+  },
+  {
+    "binary": "MS/x86/DDraw.dll",
+    "sha256": "2ed78bef2eb5935f81a122d8cf5707516d5b6c65094c51b253b6569fadd96454",
+    "resource_count": 144,
+    "string_count": 0,
+    "manifest": "MS/x86/DDraw.dll/manifest.json"
+  },
+  {
+    "binary": "dgVoodooCpl.exe",
+    "sha256": "87fb878166dcaef3e75ff170de030527c73f5c9b164c5943da13f8a97b0b75c6",
+    "resource_count": 49,
+    "string_count": 103,
+    "manifest": "dgVoodooCpl.exe/manifest.json"
+  }
+]

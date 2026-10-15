@@ -1,0 +1,10 @@
+$ /usr/bin/upx -t /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3DImm.dll
+                       Ultimate Packer for eXecutables
+                          Copyright (C) 1996 - 2026
+UPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026
+
+upx: /home/rick/Documents/dgVoodoo2_87_5_Decompiled/binaries/original/MS/x86/D3DImm.dll: CantUnpackException: file is modified/hacked/protected; take care!!!
+
+Tested 0 files.
+
+Exit status: 1

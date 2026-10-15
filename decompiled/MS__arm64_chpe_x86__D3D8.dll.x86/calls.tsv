@@ -1,0 +1,5 @@
+function	call_site	target	target_name	flow_type
+10125000	10125007	100b04d0	DebugSetMute_native	CALL_TERMINATOR
+10125010	10125017	100afd10	Direct3DCreate8_native	CALL_TERMINATOR
+10125020	10125027	100b0540	ValidatePixelShader_native	CALL_TERMINATOR
+10125030	10125037	100b0650	ValidateVertexShader_native	CALL_TERMINATOR

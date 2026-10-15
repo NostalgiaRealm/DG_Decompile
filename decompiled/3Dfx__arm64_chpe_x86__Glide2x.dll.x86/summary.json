@@ -1,0 +1,20 @@
+{
+  "program": "3Dfx__arm64_chpe_x86__Glide2x.dll.x86.mapped.bin",
+  "language": "x86:LE:32:default",
+  "compiler": "windows",
+  "image_base": "00000000",
+  "mapped_memory_start": "10000000",
+  "architecture_origin_restriction": true,
+  "pcode_unique_function_origins": 184,
+  "functions_with_outside_pcode_origins": 0,
+  "ghidra_version": "12.1.4",
+  "functions": 162,
+  "decompiled": 162,
+  "assembly_fallback": 0,
+  "retried": 0,
+  "strings": 1027,
+  "instructions": 981,
+  "executable_bytes": 2771,
+  "executable_bytes_without_instructions": 778,
+  "instruction_bytes_outside_functions": 0
+}

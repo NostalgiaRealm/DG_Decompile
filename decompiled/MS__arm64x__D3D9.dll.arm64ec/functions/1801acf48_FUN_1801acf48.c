@@ -1,0 +1,27 @@
+/*
+ * FUN_1801acf48 at 1801acf48
+ * undefined FUN_1801acf48(void)
+ * Address ranges: 1801acf48-1801acf5f
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ * Analysis note: Recovered candidate function at an already-decoded orphan instruction range referenced by aligned pointer(s) in non-executable PE data. Exact pointer locations are in inventory/hybrid_orphan_pointer_evidence.json. Entry/body/types are static-analysis inferences; instruction bytes unchanged.
+ */
+
+/* Recovered candidate function at an already-decoded orphan instruction range referenced by aligned
+   pointer(s) in non-executable PE data. Exact pointer locations are in
+   inventory/hybrid_orphan_pointer_evidence.json. Entry/body/types are static-analysis inferences;
+   instruction bytes unchanged. */
+
+undefined4 FUN_1801acf48(longlong param_1)
+
+{
+  undefined4 uVar1;
+  
+  if (*(char *)(param_1 + 0x24d) == '\0') {
+    uVar1 = 0x3f800000;
+  }
+  else {
+    uVar1 = *(undefined4 *)(param_1 + 0x248);
+  }
+  return uVar1;
+}
+

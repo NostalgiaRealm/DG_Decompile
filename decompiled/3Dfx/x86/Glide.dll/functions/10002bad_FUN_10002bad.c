@@ -1,0 +1,44 @@
+/*
+ * FUN_10002bad at 10002bad
+ * undefined __fastcall FUN_10002bad(int param_1)
+ * Address ranges: 10002bad-10002c55
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void __fastcall FUN_10002bad(int param_1)
+
+{
+  int *piVar1;
+  int iVar2;
+  uint uVar3;
+  uint uVar4;
+  undefined4 local_8;
+  
+  local_8 = 0;
+  piVar1 = (int *)(param_1 + 4);
+  if (*(int *)(param_1 + 8) != 0) {
+    do {
+      (**(code **)(*piVar1 + 8 + local_8 * 0xc))();
+      FreeLibrary(*(HMODULE *)(*piVar1 + local_8 * 0xc));
+      local_8 = local_8 + 1;
+    } while (local_8 < *(uint *)(param_1 + 8));
+  }
+  thunk_FUN_1004f9b6((LPVOID)*piVar1);
+  uVar3 = 0;
+  *piVar1 = 0;
+  *(undefined4 *)(param_1 + 8) = 0;
+  *(undefined4 *)(param_1 + 0xc) = 0;
+  iVar2 = DAT_10058038;
+  if (*(int *)(param_1 + 0xe0) != 0) {
+    do {
+      uVar4 = uVar3 + 1;
+      *(undefined4 *)(uVar3 * DAT_10058034 + *(int *)(param_1 + 0xbc) + iVar2) =
+           *(undefined4 *)(*(int *)(param_1 + 0xdc) + 4 + uVar3 * 0x10);
+      uVar3 = uVar4;
+    } while (uVar4 < *(uint *)(param_1 + 0xe0));
+  }
+  FUN_10002edb(param_1 + 0x48);
+  VirtualFree(*(LPVOID *)(param_1 + 0x78),0,0x8000);
+  return;
+}
+

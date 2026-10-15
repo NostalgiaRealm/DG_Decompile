@@ -1,0 +1,10 @@
+address	name
+1800af1ec	D3DPERF_BeginEvent
+1800af1fc	D3DPERF_EndEvent
+180015d40	D3DPERF_GetStatus
+180015b2c	D3DPERF_SetMarker
+1800af118	DebugSetMute
+1800aee6c	Direct3DCreate9
+1800aefd8	Direct3DCreate9Ex
+1800af148	Direct3DShaderValidatorCreate9
+1800fbe1c	entry

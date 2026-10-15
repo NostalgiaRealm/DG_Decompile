@@ -1,0 +1,10 @@
+$ /usr/bin/upx -t /tmp/prepare-pe-zv68ytyb/D3DImm.dll
+                       Ultimate Packer for eXecutables
+                          Copyright (C) 1996 - 2026
+UPX 5.2.1       Markus Oberhumer, Laszlo Molnar & John Reiser   Aug 27th 2026
+
+testing /tmp/prepare-pe-zv68ytyb/D3DImm.dll [OK]
+
+Tested 1 file.
+
+Exit status: 0

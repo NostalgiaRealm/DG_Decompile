@@ -1,0 +1,131 @@
+[
+  {
+    "va": "0x180226000",
+    "name": "range_start_180226000",
+    "sources": [
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x1802260b0",
+    "name": "FUN_1802260b0",
+    "sources": [
+      "extra_x64_pdata"
+    ]
+  },
+  {
+    "va": "0x1802260d0",
+    "name": "FUN_1802260d0",
+    "sources": [
+      "extra_x64_pdata"
+    ]
+  },
+  {
+    "va": "0x180227000",
+    "name": "D3DPERF_BeginEvent",
+    "sources": [
+      "export_ordinal_1",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x180227010",
+    "name": "D3DPERF_EndEvent",
+    "sources": [
+      "export_ordinal_2",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x180227020",
+    "name": "D3DPERF_GetStatus",
+    "sources": [
+      "export_ordinal_3",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x180227030",
+    "name": "D3DPERF_QueryRepeatFrame",
+    "sources": [
+      "export_ordinal_4",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x180227040",
+    "name": "D3DPERF_SetMarker",
+    "sources": [
+      "export_ordinal_5",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x180227050",
+    "name": "D3DPERF_SetOptions",
+    "sources": [
+      "export_ordinal_6",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x180227060",
+    "name": "D3DPERF_SetRegion",
+    "sources": [
+      "export_ordinal_7",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x180227070",
+    "name": "DebugSetMute",
+    "sources": [
+      "export_ordinal_8",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x180227080",
+    "name": "Direct3DCreate9",
+    "sources": [
+      "export_ordinal_9",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x180227090",
+    "name": "Direct3DCreate9Ex",
+    "sources": [
+      "export_ordinal_10",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x1802270a0",
+    "name": "Direct3DShaderValidatorCreate9",
+    "sources": [
+      "export_ordinal_11",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  },
+  {
+    "va": "0x1802270b0",
+    "name": "entry",
+    "sources": [
+      "pe_entrypoint",
+      "code_range_entrypoint",
+      "redirection_source"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+/*
+ * _grColorMask@8_native at 10002fd0
+ * undefined _grColorMask@8_native(void)
+ * Address ranges: 10002fd0-10002ff7
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void _grColorMask_8_native(undefined8 param_1,ulonglong param_2)
+
+{
+  undefined4 uVar1;
+  ulonglong extraout_x11;
+  
+  uVar1 = FUN_1001beb0(param_1,param_2,param_2 & 0xffffffff);
+  FUN_1001e308(uVar1,extraout_x11 & 0xffffffff);
+  return;
+}
+

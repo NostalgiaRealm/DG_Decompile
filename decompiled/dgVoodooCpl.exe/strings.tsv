@@ -1,0 +1,876 @@
+address	length	type	value
+140026480	10	string	%s, %%uHz
+140026490	12	string	Max%s, %uHz
+1400264a0	16	string	Max ISF%s, %uHz
+1400264b0	16	string	Max FHD%s, %uHz
+1400264c0	20	string	Max FHD ISF%s, %uHz
+1400264d8	16	string	Max QHD%s, %uHz
+1400264e8	20	string	Max QHD ISF%s, %uHz
+140026500	10	string	%ux, %uHz
+140026510	16	string	Desktop%s, %uHz
+140026520	6	string	Max%s
+140026528	10	string	Max ISF%s
+140026538	10	string	Max FHD%s
+140026548	14	string	Max FHD ISF%s
+140026558	10	string	Max QHD%s
+140026568	14	string	Max QHD ISF%s
+140026580	10	string	Desktop%s
+140026594	6	string	%ux%u
+1400265a0	12	string	%ux%u, %uHz
+1400265b0	10	string	 %u hz %c
+1400265bc	7	string	 %u %c
+1400265c8	12	string	 %u x %u %c
+1400265d8	20	string	 %u x %u , %u hz %c
+1400265f0	17	string	 %u x %u , %u %c
+140026618	8	string	Max ISF
+140026620	8	string	Max FHD
+140026628	12	string	Max FHD ISF
+140026638	8	string	Max QHD
+140026640	12	string	Max QHD ISF
+14002664c	7	string	Max 2x
+140026658	11	string	Max ISF 2x
+140026668	8	string	Desktop
+140026678	11	string	App driven
+140026740	17	string	Message disabled
+140026758	16	string	Message enabled
+140026768	36	string	Message enabled with debugger break
+140026790	8	string	Disable
+140026798	26	string	API Functions and methods
+1400267b8	37	string	+Additional trace info for internals
+140026f58	12	string	(undefined)
+140026f68	6	string	Intel
+140026f70	7	string	nVidia
+140026f78	17	string	0x0000 (unknown)
+140026f90	14	string	0x121A (3Dfx)
+140026fa0	17	string	0x3D3D (3D Labs)
+140026fb8	13	string	0x1002 (ATI)
+140026fc8	15	string	0x8086 (Intel)
+140026fd8	16	string	0x102B (Matrox)
+140026fe8	16	string	0x10DE (nVidia)
+140026ff8	19	string	0x3D07 (Permedia2)
+140027010	17	string	0x104A (PowerVR)
+140027028	12	string	0x5333 (S3)
+140027038	13	string	0x1039 (SiS)
+140027050	9	string	Classics
+140027068	9	string	Disabled
+140027078	25	string	Force on 16 bit surfaces
+140027098	13	string	Force always
+1400270a8	13	string	High quality
+1400270b8	12	string	Ordered 2x2
+1400270c8	12	string	Ordered 4x4
+1400270d8	10	string	Automatic
+1400270f8	24	string	Force 24 bit as minimum
+140027110	13	string	Force 32 bit
+140027120	13	string	ARGB 8:8:8:8
+140027130	16	string	ARGB 2:10:10:10
+140027140	17	string	ARGB 16:16:16:16
+140027168	14	string	Force level 2
+140027178	14	string	Force level 3
+140027188	14	string	Force level 4
+140027198	14	string	Force level 5
+1400271a8	14	string	Force level 6
+1400271b8	14	string	Force level 7
+1400271c8	14	string	Force level 8
+1400271e0	138	unicode	Adapter: %s Display output: %s Display output rect: (%d, %d, %d, %d)
+140027270	11	string	%d x %d %c
+140027280	16	string	%d x %d @ %d %c
+140027290	13	string	 max @ %d %c
+1400272a0	17	string	 max_4_3 @ %d %c
+1400272b8	18	string	 max_16_9 @ %d %c
+1400272cc	7	string	 %s %c
+1400272d8	8	string	max_4_3
+1400272e0	9	string	max_16_9
+140027300	6	string	%dx%d
+140027310	7	string	 %d %c
+140027318	9	string	 0x%x %c
+140027328	9	string	 0X%x %c
+140027450	9	string	Unforced
+140027460	27	string	dgVoodoo Virtual SVGA Card
+140027480	37	string	dgVoodoo Virtual 3D Accelerated Card
+1400274a8	17	string	GeForce4 Ti 4800
+1400274c0	16	string	ATI Radeon 8500
+1400274d0	20	string	Matrox Parhelia-512
+1400274e8	22	string	GeForce FX 5700 Ultra
+140027500	16	string	GeForce 9800 GT
+140027510	20	string	Force point sampled
+140027528	15	string	Force bilinear
+140027538	16	string	Force point mip
+140027548	17	string	Force linear mip
+140027560	16	string	Force trilinear
+140027570	21	string	Force anisotropic 2x
+140027588	21	string	Force anisotropic 4x
+1400275a0	21	string	Force anisotropic 8x
+1400275b8	22	string	Force anisotropic 16x
+1400275d0	27	string	Auto-gen with point filter
+1400275f0	30	string	Auto-gen with bilinear filter
+140027610	6	string	%d MB
+1400277f0	26	string	Current desktop bit depth
+140027818	14	string	Max available
+140027830	12	string	Whole image
+140027840	22	string	3:2 subrect, centered
+140027858	22	string	4:3 subrect, centered
+140027870	22	string	5:4 subrect, centered
+140027888	23	string	16:9 subrect, centered
+1400278a0	24	string	16:10 subrect, centered
+1400278b8	23	string	21:9 subrect, centered
+1400278d0	14	string	Point sampled
+1400278e0	9	string	Bilinear
+1400278f0	10	string	Lanczos-2
+140027900	8	string	Bicubic
+140027908	10	string	Lanczos-3
+140027918	8	string	Discard
+140027920	11	string	Sequential
+140027930	13	string	Flip discard
+140027940	16	string	Flip sequential
+140027950	22	string	ARGB:8888 (SDR, sRGB)
+140027968	25	string	ARGB:2101010 (SDR, sRGB)
+140027988	37	string	ARGB:2101010 (SDR, Wide Color Gamut)
+1400279b0	20	string	ARGB:16161616 (HDR)
+1400279c8	9	string	Infinite
+1400279d4	7	string	5 secs
+1400279e0	8	string	10 secs
+1400279e8	8	string	15 secs
+1400279f0	8	string	30 secs
+1400279f8	8	string	45 secs
+140027a00	8	string	60 secs
+140027a08	12	string	Unspecified
+140027a14	7	string	DosBox
+140027a28	10	string	Unlimited
+140027a70	27	string	Current desktop resolution
+140027a90	10	string	 %d_%d %c
+140027aa0	16	string	 ( %d | %d ) %c
+140027ab0	11	string	 pos:%s %c
+140027ac0	9	string	centered
+140027ad0	16	string	 pos:(%d|%d) %c
+140027ae0	6	string	%d_%d
+140027ae8	8	string	(%d|%d)
+140027af0	16	string	, pos:centered
+140027b00	14	string	, pos:(%d|%d)
+140027b10	11	string	x:%s, y:%s
+140027b1c	7	string	%d sec
+140027b28	19	string	 x : %d, y : %d %c
+140027c10	9	string	Centered
+140027c20	12	string	Stretched
+140027c30	28	string	Centered, keep Aspect Ratio
+140027c50	32	string	Stretched, keep Aspect Ratio
+140027c70	28	string	Stretched, 4:3 Aspect Ratio
+140027c90	40	string	Stretched, keep Aspect Ratio (CRT-like)
+140027cb8	40	string	Stretched, 4:3 Aspect Ratio (CRT-like)
+140027ce0	48	string	Stretched, 4:3 Aspect Ratio (VIC-II, C64-like)
+140027d10	19	string	Best available one
+140027d48	24	unicode	All of them
+140027d60	8	string	Default
+140027d68	14	string	(Unavailable)
+140027ef0	12	string	Pure 32 bit
+140027f00	11	string	Dither 2x2
+140027f10	11	string	Dither 4x4
+140027fd8	36	string	Voodoo Graphics    (2MB/4MB, 1 TMU)
+140028000	36	string	Voodoo Rush        (2MB/4MB, 1 TMU)
+140028028	38	string	Voodoo 2           (8MB/12MB, 2 TMUs)
+140028050	35	string	Voodoo Banshee   (8MB/16MB, 1 TMU)
+140028078	39	string	Other greater      (free to configure)
+1400280a0	6	string	%d kB
+1400281e4	6	string	%d %s
+140028208	49	string	Cannot communicate to the specified application!
+140028240	28	unicode	dgVoodoo.conf
+140028260	44	string	Cannot attach to the specified application!
+140028290	67	string	Another instance of setup is already attached to this application!
+1400282d8	10	unicode	open
+1400282e8	26	unicode	DGVOODOOCOMM
+140028308	22	unicode	[Running] 
+140028320	40	unicode	 (already attached)
+140028348	46	unicode	dgVoodooSetupPaths.dat
+140028378	20	unicode	RT_CUSTOM
+140028390	18	unicode	dgVoodoo
+1400283a8	62	unicode	Reset configuration to default
+1400283f0	78	unicode	Show all sections of the configuration
+140028440	54	unicode	Set global settings folder
+140028480	80	unicode	Reset Cpl application config to default
+1400284d0	16	unicode	General
+1400284e0	12	unicode	Glide
+1400284f0	16	unicode	DirectX
+140028500	24	unicode	GeneralExt
+140028518	18	unicode	GlideExt
+140028530	22	unicode	DirectXExt
+140028548	12	unicode	Debug
+140028558	16	string	[dgVoodoo CPL] 
+1400286c0	6	string	false
+1400286d0	17	string	showextendedtabs
+1400286e8	30	string	DataFolderRedirection = "%s" 
+14002870c	7	string	[Cpl] 
+140028718	23	string	ShowExtendedTabs = %s 
+140028730	7	string	Button
+140028738	9	string	ComboBox
+140028748	18	string	msctls_trackbar32
+140028760	14	string	SysListView32
+140028770	16	string	SysTabControl32
+140028788	10	string	ScrollBar
+140028798	26	unicode	comctl32.dll
+1400287b8	21	string	InitCommonControlsEx
+1400287d0	22	unicode	user32.dll
+1400287e8	26	string	EnableNonClientDpiScaling
+140028808	27	string	SetDialogDpiChangeBehavior
+140028828	14	unicode	#32770
+140028838	34	unicode	tooltips_class32
+140028a38	11	string	Shcore.dll
+140028a48	17	string	GetDpiForMonitor
+140028a60	13	string	D3D11 FL10.0
+140028a70	13	string	D3D11 FL10.1
+140028a80	13	string	D3D11 FL11.0
+140028a90	18	string	D3D11 WARP FL10.1
+140028aa8	13	string	D3D12 FL11.0
+140028ab8	13	string	D3D12 FL12.0
+140028b48	31	string	Direct3D 11 MS WARP (software)
+140028b68	33	string	Direct3D 11 (feature level 10.0)
+140028b90	33	string	Direct3D 11 (feature level 10.1)
+140028bb8	33	string	Direct3D 11 (feature level 11.0)
+140028c90	60	unicode	Microsoft Basic Render Driver
+140028e10	33	string	Direct3D 12 (feature level 12.0)
+140028e38	33	string	Direct3D 12 (feature level 11.0)
+140028f10	12	string	DGD3D11ROOT
+140028f20	10	string	D3D11.DLL
+140028f30	18	string	D3D11CreateDevice
+140028f58	9	string	DXGI.DLL
+140028f68	19	string	CreateDXGIFactory1
+140028fc0	12	string	DGD3D12ROOT
+140028fd0	10	string	D3D12.DLL
+140028fe0	18	string	D3D12CreateDevice
+140028ff8	28	string	D3D12SerializeRootSignature
+140029028	42	unicode	dgVoodooSettings.ini
+140029058	22	string	datafolderredirection
+140029070	9	string	unforced
+140029080	10	string	 max_%ux 
+140029090	14	string	 max_isf_%ux 
+1400290a0	8	string	max_isf
+1400290a8	14	string	 max_fhd_%ux 
+1400290b8	8	string	max_fhd
+1400290c0	18	string	 max_fhd_isf_%ux 
+1400290d8	12	string	max_fhd_isf
+1400290e8	14	string	 max_qhd_%ux 
+1400290f8	8	string	max_qhd
+140029100	18	string	 max_qhd_isf_%ux 
+140029118	12	string	max_qhd_isf
+140029128	14	string	 desktop_%ux 
+140029138	8	string	desktop
+140029140	9	string	 %u%c%s 
+140029150	10	string	 .%llu %c
+140029168	12	string	 %d.%llu %c
+140029174	7	string	%d.%s 
+14002917c	6	string	%d.%s
+140029188	22	string	[dgVoodoo IniParser] 
+140029278	8	string	refrate
+140029288	10	string	appdriven
+1400292a0	8	string	version
+1400292a8	10	string	outputapi
+1400292b8	10	string	d3d11warp
+1400292c8	13	string	d3d11_fl10_0
+1400292d8	13	string	d3d11_fl10_1
+1400292e8	13	string	d3d11_fl11_0
+1400292f8	13	string	d3d12_fl11_0
+140029308	13	string	d3d12_fl12_0
+140029318	14	string	bestavailable
+140029328	9	string	adapters
+140029338	17	string	fullscreenoutput
+140029350	8	string	default
+140029358	15	string	fullscreenmode
+140029368	12	string	scalingmode
+140029378	12	string	unspecified
+140029388	10	string	stretched
+140029398	13	string	stretched_ar
+1400293a8	14	string	stretched_4_3
+1400293b8	18	string	stretched_4_3_crt
+1400293d0	18	string	stretched_4_3_c64
+1400293e8	12	string	centered_ar
+1400293f8	17	string	stretched_ar_crt
+140029410	25	string	progressivescanlineorder
+140029430	22	string	enumeraterefreshrates
+140029448	11	string	brightness
+140029454	6	string	color
+140029460	9	string	contrast
+140029470	36	string	inheritcolorprofileinfullscreenmode
+140029498	22	string	keepwindowaspectratio
+1400294b0	13	string	capturemouse
+1400294c0	16	string	centerappwindow
+1400294d0	19	string	disablescreensaver
+1400294e8	10	string	videocard
+1400294f8	16	string	voodoo_graphics
+140029508	12	string	voodoo_rush
+140029518	9	string	voodoo_2
+140029528	15	string	voodoo_banshee
+140029538	14	string	other_greater
+140029548	11	string	onboardram
+140029558	16	string	memorysizeoftmu
+140029568	13	string	numberoftmus
+140029578	20	string	forcebilinearfilter
+140029590	13	string	tmufiltering
+1400295a0	13	string	pointsampled
+1400295b0	9	string	bilinear
+1400295c0	18	string	disablemipmapping
+1400295d8	11	string	resolution
+1400295e8	13	string	antialiasing
+1400295f8	21	string	enableglidegammaramp
+140029610	18	string	forceverticalsync
+140029628	28	string	forceemulatingtruepciaccess
+140029648	17	string	16bitdepthbuffer
+140029660	14	string	3dfxwatermark
+140029670	17	string	3dfxsplashscreen
+140029688	17	string	pointcastpalette
+1400296a0	23	string	enableinactiveappstate
+1400296b8	16	string	ditheringeffect
+1400296c8	10	string	pure32bit
+1400296d8	10	string	dither2x2
+1400296e8	10	string	dither4x4
+1400296f8	10	string	dithering
+140029708	9	string	disabled
+140029718	12	string	forcealways
+140029728	29	string	ditherorderedmatrixsizescale
+140029748	19	string	disableandpassthru
+140029768	11	string	internal3d
+140029778	16	string	geforce_ti_4800
+140029788	16	string	ati_radeon_8500
+140029798	20	string	matrox_parhelia-512
+1400297b0	22	string	geforce_fx_5700_ultra
+1400297c8	16	string	geforce_9800_gt
+1400297e0	10	string	filtering
+1400297f0	9	string	pointmip
+140029800	10	string	linearmip
+140029810	10	string	trilinear
+140029820	11	string	mipmapping
+140029830	14	string	autogen_point
+140029840	17	string	autogen_bilinear
+140029858	16	string	autogen_bicubic
+140029868	18	string	autogen_lanczos-2
+140029880	18	string	autogen_lanczos-3
+140029898	25	string	keepfilterifpointsampled
+1400298b8	24	string	appcontrolledscreenmode
+1400298d0	34	string	disablealtentertotogglescreenmode
+1400298f8	20	string	bilinearblitstretch
+140029910	21	string	bilinear2doperations
+140029928	25	string	phongshadingwhenpossible
+140029948	18	string	dgvoodoowatermark
+140029960	22	string	fastvideomemoryaccess
+140029978	20	string	disabled3dtnldevice
+140029990	14	string	adapteridtype
+1400299a0	7	string	nvidia
+1400299ac	6	string	intel
+1400299b8	9	string	vendorid
+1400299c8	9	string	deviceid
+1400299d8	12	string	subsystemid
+1400299e8	11	string	revisionid
+1400299f8	27	string	extraenumeratedresolutions
+140029a18	13	string	high_quality
+140029a28	11	string	ordered2x2
+140029a38	11	string	ordered4x4
+140029a48	13	string	forceon16bit
+140029a58	21	string	depthbuffersbitdepth
+140029a70	14	string	forcemin24bit
+140029a80	11	string	force32bit
+140029a90	22	string	default3drenderformat
+140029ab0	9	string	argb8888
+140029ac0	12	string	argb2101010
+140029ad0	13	string	argb16161616
+140029ae0	21	string	shadercodegenerating
+140029af8	20	string	maxvsconstregisters
+140029b10	23	string	npatchtesselationlevel
+140029b28	24	string	displayoutputenablemask
+140029b40	22	string	smootheddepthsampling
+140029b58	17	string	msd3ddevicenames
+140029b70	28	string	rttexturesforcescaleandmsaa
+140029b90	25	string	deferredscreenmodeswitch
+140029bb0	26	string	disabledefaultresolutions
+140029bd0	29	string	defaultenumeratedresolutions
+140029bf8	9	string	classics
+140029c08	30	string	enumeratedresolutionbitdepths
+140029c28	6	string	 8 %c
+140029c30	7	string	 16 %c
+140029c38	7	string	 32 %c
+140029c40	8	string	 all %c
+140029c48	28	string	primarysurfacebatchedupdate
+140029c68	25	string	enablespecializedshaders
+140029c88	20	string	d3d12boundschecking
+140029ca0	21	string	suppressamdblacklist
+140029cb8	19	string	alternativescaling
+140029cd0	24	string	forcenearestpointfilter
+140029ce8	11	string	resampling
+140029cf8	8	string	bicubic
+140029d00	10	string	lanczos-2
+140029d10	10	string	lanczos-3
+140029d20	18	string	presentationmodel
+140029d38	8	string	discard
+140029d48	13	string	flip_discard
+140029d58	9	string	flip_seq
+140029d68	11	string	colorspace
+140029d78	13	string	argb8888_sdr
+140029d88	16	string	argb2101010_sdr
+140029d98	20	string	argb2101010_sdr_wcg
+140029db0	17	string	argb16161616_hdr
+140029dc8	25	string	watermarkdisplayduration
+140029de8	13	string	deframersize
+140029df8	17	string	imagescalefactor
+140029e18	18	string	cursorscalefactor
+140029e30	11	string	displayroi
+140029e40	18	string	desktopresolution
+140029e58	16	string	desktopbitdepth
+140029e68	10	string	freemouse
+140029e78	9	string	fpslimit
+140029e88	12	string	environment
+140029e94	7	string	dosbox
+140029ea8	19	string	windowedattributes
+140029ec0	11	string	borderless
+140029ed0	12	string	alwaysontop
+140029ee0	15	string	fullscreensize
+140029ef0	21	string	fullscreenattributes
+140029f10	16	string	systemhookflags
+140029f24	7	string	cursor
+140029f30	17	string	enablegdihooking
+140029f48	8	string	disable
+140029f50	7	string	enable
+140029f58	12	string	enablebreak
+140029f70	8	string	warning
+140029f78	6	string	error
+140029f80	14	string	maxtracelevel
+140029f90	10	string	logtofile
+140029fa0	8	string	general
+140029fa8	6	string	glide
+140029fb0	8	string	directx
+140029fb8	9	string	glideext
+140029fc8	11	string	directxext
+140029fd8	11	string	generalext
+140029fe4	6	string	debug
+140029ff8	17	string	%s%s, refrate:%d
+14002a018	23	string	h:%d, v:%d, refrate:%d
+14002a030	11	string	h:%d, v:%d
+14002a040	11	string	Borderless
+14002a050	12	string	AlwaysOnTop
+14002a060	15	string	FullscreenSize
+14002a07c	7	string	Cursor
+14002a088	9	string	%dx%d@%d
+14002a098	11	string	x:%d, y:%d
+14002a0a8	11	string	internal3D
+14002a0b4	7	string	max@%d
+14002a0c0	11	string	max_4_3@%d
+14002a0d0	12	string	max_16_9@%d
+14002a3e8	8	string	.rdata
+14002a3f8	16	string	.rdata$voltmd
+14002a4b0	8	string	.data
+14002a4d0	8	string	.pdata
+14002b6e2	15	TerminatedCString	GetStockObject
+14002b6f4	9	TerminatedCString	DeleteDC
+14002b700	19	TerminatedCString	CreateCompatibleDC
+14002b716	13	TerminatedCString	SelectObject
+14002b726	20	TerminatedCString	CreateFontIndirectW
+14002b73c	13	TerminatedCString	DeleteObject
+14002b74c	11	TerminatedCString	GetObjectW
+14002b75a	14	TerminatedCString	GetDeviceCaps
+14002b768	10	TerminatedCString	GDI32.dll
+14002b774	17	TerminatedCString	GetModuleHandleW
+14002b788	17	TerminatedCString	CreateDirectoryW
+14002b79c	13	TerminatedCString	SetLastError
+14002b7ac	19	TerminatedCString	GetModuleFileNameW
+14002b7c2	13	TerminatedCString	GetLastError
+14002b7d2	20	TerminatedCString	GetCurrentProcessId
+14002b7e8	20	TerminatedCString	WideCharToMultiByte
+14002b7fe	13	TerminatedCString	LoadResource
+14002b80e	13	TerminatedCString	LockResource
+14002b81e	15	TerminatedCString	SizeofResource
+14002b830	14	TerminatedCString	FindResourceW
+14002b840	24	TerminatedCString	QueryPerformanceCounter
+14002b85a	12	TerminatedCString	ExitProcess
+14002b868	12	TerminatedCString	CreateFileA
+14002b876	12	TerminatedCString	CreateFileW
+14002b884	14	TerminatedCString	GetFileSizeEx
+14002b894	9	TerminatedCString	ReadFile
+14002b8a0	15	TerminatedCString	SetFilePointer
+14002b8b2	10	TerminatedCString	WriteFile
+14002b8be	12	TerminatedCString	CloseHandle
+14002b8cc	20	TerminatedCString	MultiByteToWideChar
+14002b8e2	13	TerminatedCString	LoadLibraryW
+14002b8f2	15	TerminatedCString	GetProcAddress
+14002b904	12	TerminatedCString	FreeLibrary
+14002b912	13	TerminatedCString	LoadLibraryA
+14002b922	7	TerminatedCString	MulDiv
+14002b92c	10	TerminatedCString	HeapAlloc
+14002b938	9	TerminatedCString	HeapFree
+14002b944	15	TerminatedCString	GetProcessHeap
+14002b954	13	TerminatedCString	KERNEL32.dll
+14002b964	11	TerminatedCString	LoadImageW
+14002b972	17	TerminatedCString	GetSysColorBrush
+14002b986	13	TerminatedCString	SendMessageW
+14002b996	9	TerminatedCString	FillRect
+14002b9a2	11	TerminatedCString	CharLowerA
+14002b9b0	10	TerminatedCString	wsprintfW
+14002b9bc	16	TerminatedCString	GetMonitorInfoW
+14002b9ce	11	TerminatedCString	GetDlgItem
+14002b9dc	15	TerminatedCString	GetWindowTextW
+14002b9ee	12	TerminatedCString	MessageBoxA
+14002b9fc	14	TerminatedCString	FindWindowExW
+14002ba0c	11	TerminatedCString	CharUpperW
+14002ba1a	12	TerminatedCString	LoadStringW
+14002ba28	13	TerminatedCString	EnableWindow
+14002ba38	16	TerminatedCString	DialogBoxParamW
+14002ba4a	10	TerminatedCString	GetParent
+14002ba56	16	TerminatedCString	GetClassInfoExW
+14002ba68	27	TerminatedCString	CreateDialogIndirectParamW
+14002ba86	10	TerminatedCString	DrawTextW
+14002ba92	12	TerminatedCString	AppendMenuW
+14002baa0	14	TerminatedCString	GetClientRect
+14002bab0	17	TerminatedCString	TrackPopupMenuEx
+14002bac4	13	TerminatedCString	SetRectEmpty
+14002bad4	18	TerminatedCString	EndDeferWindowPos
+14002bae8	10	TerminatedCString	SetParent
+14002baf4	13	TerminatedCString	SendMessageA
+14002bb04	12	TerminatedCString	DestroyMenu
+14002bb12	24	TerminatedCString	DialogBoxIndirectParamW
+14002bb2c	15	TerminatedCString	SetWindowTextA
+14002bb3e	16	TerminatedCString	MapWindowPoints
+14002bb50	17	TerminatedCString	SetMenuItemInfoW
+14002bb64	13	TerminatedCString	GetDlgCtrlID
+14002bb74	11	TerminatedCString	OffsetRect
+14002bb82	20	TerminatedCString	BeginDeferWindowPos
+14002bb98	11	TerminatedCString	ShowWindow
+14002bba6	13	TerminatedCString	GetScrollPos
+14002bbb6	17	TerminatedCString	RegisterClassExW
+14002bbca	18	TerminatedCString	GetWindowLongPtrW
+14002bbde	14	TerminatedCString	GetScrollInfo
+14002bbee	14	TerminatedCString	GetClassNameA
+14002bbfe	16	TerminatedCString	CreatePopupMenu
+14002bc10	17	TerminatedCString	GetSystemMetrics
+14002bc24	10	TerminatedCString	EndDialog
+14002bc30	16	TerminatedCString	CreateWindowExW
+14002bc42	18	TerminatedCString	SetWindowLongPtrW
+14002bc56	13	TerminatedCString	SetWindowPos
+14002bc66	14	TerminatedCString	DestroyWindow
+14002bc76	14	TerminatedCString	GetWindowRect
+14002bc86	16	TerminatedCString	CallWindowProcW
+14002bc98	15	TerminatedCString	DeferWindowPos
+14002bcaa	19	TerminatedCString	CreateDialogParamW
+14002bcc0	14	TerminatedCString	SetScrollInfo
+14002bcd0	15	TerminatedCString	GetWindowLongW
+14002bce2	10	TerminatedCString	ReleaseDC
+14002bcee	15	TerminatedCString	InvalidateRect
+14002bd00	16	TerminatedCString	MonitorFromRect
+14002bd12	6	TerminatedCString	GetDC
+14002bd1a	10	TerminatedCString	GetWindow
+14002bd26	11	TerminatedCString	wvsprintfA
+14002bd32	11	TerminatedCString	USER32.dll
+14002bd40	20	TerminatedCString	PathRemoveFileSpecW
+14002bd56	12	TerminatedCString	PathAppendW
+14002bd62	12	TerminatedCString	SHLWAPI.dll
+14002bd70	17	TerminatedCString	CoCreateInstance
+14002bd84	14	TerminatedCString	CoTaskMemFree
+14002bd92	10	TerminatedCString	ole32.dll
+14002bd9e	14	TerminatedCString	ShellExecuteW
+14002bdae	17	TerminatedCString	SHGetFolderPathW
+14002bdc0	12	TerminatedCString	SHELL32.dll
+140061902	30	TerminatedUnicode	StringFileInfo
+140061926	18	TerminatedUnicode	040904b0
+14006193e	24	TerminatedUnicode	CompanyName
+140061958	26	TerminatedUnicode	Dege's stuff
+14006197a	32	TerminatedUnicode	FileDescription
+14006199c	60	TerminatedUnicode	dgVoodoo 2.87.5 Control Panel
+1400619de	24	TerminatedUnicode	FileVersion
+1400619f8	16	TerminatedUnicode	2.8.7.5
+140061a0e	26	TerminatedUnicode	InternalName
+140061a28	30	TerminatedUnicode	dgVoodooCpl.rc
+140061a4e	30	TerminatedUnicode	LegalCopyright
+140061a6c	48	TerminatedUnicode	Copyright (C) 2013-2026
+140061aa2	34	TerminatedUnicode	OriginalFilename
+140061ac4	32	TerminatedUnicode	dgVoodooCpl.exe
+140061aea	24	TerminatedUnicode	ProductName
+140061b04	18	TerminatedUnicode	dgVoodoo
+140061b1e	30	TerminatedUnicode	ProductVersion
+140061b3c	16	TerminatedUnicode	2.8.7.5
+140061b52	24	TerminatedUnicode	VarFileInfo
+140061b72	24	TerminatedUnicode	Translation
+140067070	2	PascalUnicode	
+140067072	2	PascalUnicode	
+140067074	332	PascalUnicode	Here you can select the folder or running instance of a Glide/DirectX wrapped app to config.  List of running instances is a snapshot taken at control panel startup.
+1400671c0	2	PascalUnicode	
+1400671c2	2	PascalUnicode	
+1400671c4	2	PascalUnicode	
+1400671c6	2	PascalUnicode	
+1400671c8	2	PascalUnicode	
+1400671ca	2	PascalUnicode	
+1400671cc	2	PascalUnicode	
+1400671ce	2	PascalUnicode	
+1400671d0	2	PascalUnicode	
+1400671d2	2	PascalUnicode	
+1400671d4	2	PascalUnicode	
+1400671d6	2	PascalUnicode	
+1400671d8	2	PascalUnicode	
+1400671e0	2	PascalUnicode	
+1400671e2	2	PascalUnicode	
+1400671e4	2	PascalUnicode	
+1400671e6	2	PascalUnicode	
+1400671e8	2	PascalUnicode	
+1400671ea	2	PascalUnicode	
+1400671ec	2	PascalUnicode	
+1400671ee	2	PascalUnicode	
+1400671f0	2	PascalUnicode	
+1400671f2	2	PascalUnicode	
+1400671f4	136	PascalUnicode	Adds the folder to the list where the control panel app is located.
+14006727c	106	PascalUnicode	Removes the currently selected folder from the list.
+1400672e6	124	PascalUnicode	You can choose an arbitrary folder to be added into the list.
+140067362	82	PascalUnicode	Refreshes the list of running instances.
+1400673b4	108	PascalUnicode	Opens the currently selected folder in File Explorer.
+140067420	2	PascalUnicode	
+140067428	2	PascalUnicode	
+14006742a	2	PascalUnicode	
+14006742c	2	PascalUnicode	
+14006742e	2	PascalUnicode	
+140067430	2	PascalUnicode	
+140067432	2	PascalUnicode	
+140067434	2	PascalUnicode	
+140067436	2	PascalUnicode	
+140067438	2	PascalUnicode	
+14006743a	2	PascalUnicode	
+14006743c	2	PascalUnicode	
+14006743e	1574	PascalUnicode	Direct3D 11/12 with various feature levels: DX 10.0, DX 10.1, DX 11.0 and DX 12.0. A software renderer, WARP (D3D11) is also available.  Feature level 10.0 has some limitations like - No mipmapping is present with Glide rendering - No Phong shading is available with DirectX rendering - Limited support for Z-buffer operations done by the CPU (MSAA, performance) - There is no support for N-patches and D3D9 MSAA supersampling  Limitations of feature level 10.1: - Max texture size is 8K x 8K (D3D8/9) - There is no support for N-patches  DX12 currently has some known issues so you must select it explicitly if you want it.  Otherwise always choose the highest feature level your card supports or 'Best available'! Feature level 10.0 is designed to be used with late DX 10.0 hardwares.
+140067a64	248	PascalUnicode	- Glide: which adapter (video card) to use for rendering - DirectX: which adapters to enable for DirectX device enumeration
+140067b5c	432	PascalUnicode	- Glide: initial state of rendering can be full screen or windowed.   You can toggle between them later by Alt-Enter. - DirectX: it affects the state of rendering if app controlled state is disabled on DirectX page.
+140067d0c	748	PascalUnicode	- Glide: which monitor to use when in full screen mode:    'Default' means the primary monitor. Also, when switching from windowed to full screen   by Alt-Enter, it selects the monitor on which the application window is.  - DirectX: which monitor(s) to enable for DirectX device enumeration.   'Default' means all of the available monitors attached to the selected adapter.
+140067ff8	1872	PascalUnicode	Fullscreen appearance:  - Unspecified: up to the driver   (recommended with forced keeping of aspect ratio set on the GPU control panel)  - Centered, Stretched: scaling is done by hardware  - Centered, keep Aspect Ratio: same as Centered but scaling is done by dgVoodoo itself  - Stretched, keep Aspect Ratio: scaling is done by the wrapper  - Stretched, 4:3 Aspect Ratio:   forced 4:3 aspect ratio for all resolutions below and including 1280x1024;   scaling is done by the wrapper  - Stretched, 4:3 Aspect Ratio (CRT-like):   forced aspect ratio of 4:3 for all resolutions below and including 1280x1024   with CRT-like blurred appearance; scaling is done by the wrapper  - Stretched, 4:3 Aspect Ratio (VIC-II, C64-like):   forced aspect ratio of 4:3 for all resolutions below and including 1280x1024   with C64-like 160x200 (fixed palette of 16 colors along with other VIC-II limitations)   appearance; scaling is done by the wrapper
+140068748	2	PascalUnicode	
+14006874a	540	PascalUnicode	Uses progressive scanline mode on the output device in fullscreen. Otherwise the default is used which may mean interlaced mode. Also, you can only see resolutions in the resolution selector comboboxes that are displayable with progressive order on the selected output.
+140068966	384	PascalUnicode	Enumerates refresh rates in the resolution selector comboboxes and lets you choose one. However if other than the application default is used it can cause heavy animation lagging or glitches!
+140068ae6	448	PascalUnicode	If enabled, dgVoodoo forces the mouse pointer into the application window when it is in fullscreen mode. This is useful on multimonitor systems to prevent accidentally clicking outside of the game window on another monitor.
+140068ca6	278	PascalUnicode	If enabled then dgVoodoo centers the application window when it is in windowed mode. Keep in mind that this can conflict with mouse input.
+140068dbc	2	PascalUnicode	
+140068dbe	936	PascalUnicode	If enabled then dgVoodoo preserves your monitor color calibration settings in full screen mode. All the color adjustments above are relative to that one in this case.  Important to note that this is the required behavior, especially on modern OS versions.  Completely replacing the current color calibration is only available with D3D11, and the intended use case is exploiting no-extra-rendering-resources on old hardware. That is the only reason this option exists.
+140069166	2	PascalUnicode	
+140069168	2	PascalUnicode	
+14006916a	2	PascalUnicode	
+14006916c	202	PascalUnicode	If enabled then dgVoodoo disables screen saver and monitor sleep mode while the rendering is active.
+140069236	2	PascalUnicode	
+140069238	2	PascalUnicode	
+14006923a	2	PascalUnicode	
+14006923c	2	PascalUnicode	
+14006923e	2	PascalUnicode	
+140069240	432	PascalUnicode	- Glide: initial state of rendering can be full screen or windowed.   You can toggle between them later by Alt-Enter. - DirectX: it affects the state of rendering if app controlled state is disabled on DirectX page.
+1400693f0	200	PascalUnicode	Stretching the display to fit in size of the monitor.  You can use it with non-widescreen monitors.
+1400694b8	2	PascalUnicode	
+1400694ba	316	PascalUnicode	Brightness can be finetuned here. It works in both full screen and windowed mode.  In full screen, it is calculated into the current gamma curve if possible.
+1400695f6	302	PascalUnicode	Color intensity... Finetune it to make colors more or less vital compared to the  application default, or even Black & White, according to your taste.
+140069724	274	PascalUnicode	Contrast is the intensity difference between dark and bright regions. Only static contrast is implemented and you can finetune it here. 
+140069836	2	PascalUnicode	
+140069838	2	PascalUnicode	
+14006983a	2	PascalUnicode	
+14006983c	2	PascalUnicode	
+14006983e	2	PascalUnicode	
+140069840	2	PascalUnicode	
+140069842	2	PascalUnicode	
+140069844	2	PascalUnicode	
+140069846	244	PascalUnicode	If enabled, sizing the application window in windowed mode won't enable arbitrary  size because its aspect ratio is kept.
+14006993a	2	PascalUnicode	
+140069940	2	PascalUnicode	
+140069942	136	PascalUnicode	Disabling mipmapping can be used to make textured surfaces sharper.
+1400699ca	308	PascalUnicode	Amount of texture memory. On UMA architectured 3Dfx cards video and texture memory are unified but the control panel app lets you config them separately.
+140069afe	2	PascalUnicode	
+140069b00	2446	PascalUnicode	In the list you can see two types of resolutions and refresh rates:  - Static ones   Those are enumerated by your videocard for the selected display output.   Select any of them and dgVoodoo will force that one, no matter what resolution   the application want to set. Custom static resolutions can also be given here,   they'll be saved into the config, e.g.: 128x128, 60 means resolution 128x128 with 60Hz.  - Dynamic ones   Current resolution will be calculated by the wrapper, from the application resolution   according to the scaling mode. ISF stands for integer scaling factor.    * 2x, 3x, 4x, ...     doubled, tripled, etc. application resolution. You can type arbitrary integer scale.   * Max: max available resolution   * Max FHD: max available resolution, limited to FullHD (1920x1080)   * Max QHD: max available resolution, limited to QHD (2560x1440)   * Max ISF, Max FHD ISF, Max QHD ISF:     max available integer multiple of the app resolution   * Max 2x, Max ISF 2x: Double of the max (ISF) available resolution (supersampled result)   * Desktop: the current or configured desktop resolution (independent on app resolution)    You can also type custom strings, e.g., 'Max_FHD, 59' means Max FHD with 59Hz.
+14006a48e	100	PascalUnicode	Enables or disables gamma ramp coming from Glide.
+14006a4f2	298	PascalUnicode	Forcing antialiasing... This can cause artifacts.  'Application driven' only affects the Napalm build and it is equivalent to  'Off' for the others.
+14006a61c	1096	PascalUnicode	Number of Texture Management Units (TMUs). Type of the selected 3Dfx card determines the number of available TMUs, so this one can only be set freely if card 'Other greater' is selected.   Some applications doing multitexturing need a card with 2 TMU's, especially when running through Glide3.   Altough Glide as an API allows 3 TMU's in theory, there were no 3Dfx cards released with 3 TMU's. Thus, real Glide drivers only supported 2 TMU's as a maximum. dgVoodoo's implementation however supports all of the 3 TMU's for the sake of completeness.
+14006aa64	374	PascalUnicode	Force the vertical sync to avoid tearing or prevent the GPU from rendering at crazy high speed. Keep in mind that some application need unforced vSync because of synchronization reasons.
+14006abda	802	PascalUnicode	You may want to choose a 3Dfx card because of  - limiting onboard/texture memory in an easy way - limiting available Glide3 extensions for testing purposes  - emulating a given 3Dfx architecture, e.g. UMA-non UMA   It depends on the application you configurate for. While Glide libraries should work for all 3Dfx models in theory, some applications and games may need an older card model in practice.
+14006aefc	352	PascalUnicode	Amount of video memory without texture memory. On UMA architectured 3Dfx cards  video and texture memory are unified but the control panel app lets you config them separately.
+14006b05c	500	PascalUnicode	Enabling this option forces dgVoodoo to emulate true PCI bus access for LFB locks. It is not a perfect emulation, and, it should never be disabled but it can degrade performance in practice. Since only some games need it it is s disabled by default.
+14006b250	412	PascalUnicode	This option only affects the Voodoo2 card. If enabled then each TMU's have its own separated palette tables for paletted textures. Keep it always disabled, no any application needing this feature is known.
+14006b3ec	252	PascalUnicode	Enabling 16-bit depth buffers can prevent Z-fighting in games, but also has the disadvantage of possibly causing artifacting.
+14006b4e8	142	PascalUnicode	Enables displaying the 3Dfx logo (shameless plug) during the gameplay.
+14006b576	296	PascalUnicode	Enables the 3Dfx splash screen when an application starts.  However, it can be irritating to see it every time an applications changes resolutions.
+14006b6a0	478	PascalUnicode	Enabling inactive state prevents the application from detecting losing the application focus. Most of the Glide applications close or deactivate themself when losing focus, so this can be used to let the application run in the background.
+14006b87e	276	PascalUnicode	You can select from some filtering modes here. Forcing other than the app default can result in glitches or break some rendering effects!
+14006b992	2	PascalUnicode	
+14006b994	2	PascalUnicode	
+14006b996	2	PascalUnicode	
+14006b998	2	PascalUnicode	
+14006b99a	2	PascalUnicode	
+14006b99c	2	PascalUnicode	
+14006b99e	2	PascalUnicode	
+14006b9a0	2	PascalUnicode	
+14006b9a2	2	PascalUnicode	
+14006b9a4	2	PascalUnicode	
+14006b9a6	2	PascalUnicode	
+14006b9a8	2	PascalUnicode	
+14006b9aa	2	PascalUnicode	
+14006b9ac	2	PascalUnicode	
+14006b9b0	2	PascalUnicode	
+14006b9b2	254	PascalUnicode	If you do not want to remove DDraw.dll, D3D8.dll or D3D9.dll but would like  to use real DirectX then just enable this option.
+14006bab0	272	PascalUnicode	Size of the emulated Video RAM Be careful with it, DX7 and older applications can fail to launch if it is set too high (256MB or more).
+14006bbc0	642	PascalUnicode	Since choosing windowed/fullscreen mode is part of the DirectDraw/D3D8/9 API doing it is left to the application. If this option is disabled then you can force screen mode on the General tab. Forcing full screen mode for a windowed application makes not much sense escpecially when the application relies on window size.
+14006be42	316	PascalUnicode	If an application has its own mechanism for runtime toggling  between fullscreen/windows mode with Alt-Enter then disable dgVoodoo's one to prevent conflict.
+14006bf7e	126	PascalUnicode	Enables displaying the dgVoodoo logo during DirectX rendering.
+14006bffc	1314	PascalUnicode	Emulated video card type:   - Internal Plain SVGA without 3D Acceleration   - Internal 3D Accelerated Imaginary Videocard   - GeForce4 Ti 4800   - ATI Radeon 8500   - Matrox Parhelia-512   - GeForce FX 5700 Ultra   - GeForce 9800 GT  The SVGA one exposes only software capable rendering to the applications while the 5 other 3D accelerated ones have full hardware capabilities including 'Transform & Light'.  The Internal 3D and GF 9800 GT are fully D3D9 compatible cards. The Internal 3D supports almost all (too many) capabilities of the DX standard which can be a problem for some games. Try the GF 9800 GT in that case, that one is much more practical.
+14006c51e	2454	PascalUnicode	In the list you can see two types of resolutions and refresh rates:  - Static ones   Those are enumerated by your videocard for the selected display output.   Select any of them and the dgVoodoo will force that one, no matter what resolution   the application want to set. Custom static resolutions can also be given here,   they'll be saved into the config, e.g.: 128x128, 60 means resolution 128x128 with 60Hz.  - Dynamic ones   Current resolution will be calculated by the wrapper, from the application resolution   according to the scaling mode. ISF stands for integer scaling factor.    * 2x, 3x, 4x, ...     doubled, tripled, etc. application resolution. You can type arbitrary integer scale.   * Max: max available resolution   * Max FHD: max available resolution, limited to FullHD (1920x1080)   * Max QHD: max available resolution, limited to QHD (2560x1440)   * Max ISF, Max FHD ISF, Max QHD ISF:     max available integer multiple of the app resolution   * Max 2x, Max ISF 2x: Double of the max (ISF) available resolution (supersampled result)   * Desktop: the current or configured desktop resolution (independent on app resolution)    You can also type custom strings, e.g., 'Max_FHD, 59' means Max FHD with 59Hz.
+14006ceb4	300	PascalUnicode	Forcing antialiasing... This can cause artifacts.  'Application driven' only affects D3D8/9 and it is equivalent to  'Off' for preceding DX versions.
+14006cfe0	698	PascalUnicode	If this options is enabled then DirectDraw blitting and CPU-written data is transferred with bilinear filtering between/to surfaces.  Early hardware did not support or apply point sampled blitting which can end up very pixelated results. Bilinear filtering can be much nicer in general but can cause artifacts especially with colorkeyed blitting.  
+14006d29a	700	PascalUnicode	If this option is enabled then Phong shading is applied in place of Gouraud when it is possible. It works only when an application uses the fixed function vertex/pixel pipeline and pushes all the work of the vertex transforming & lighting to Direct3D when rendering primitives. Keep in mind that it requires much more GPU power than default shading.
+14006d556	298	PascalUnicode	You can select from various texture filtering modes here. Forcing other than the app default can result in glitches or break some rendering effects!
+14006d680	356	PascalUnicode	You can completely disable mipmapping, or leave it all to the application or force auto-generating missing texture mipmap levels with either point sampled or bilinear filtering.
+14006d7e4	564	PascalUnicode	If D3D Transform&Light device is disabled then only 3D devices with software-equivalent vertex processing are available. Hardware vertex processing is slightly different than software and it can cause visual glitches with applications originally not designed to target TnL devices.
+14006da18	424	PascalUnicode	Keeps texture filtering for point sampled textures. It can be useful for games where background or HUD textures are point sampled but you want to force filtering in general for all other (typically 3D) elements.
+14006dbc0	240	PascalUnicode	Enables fast videomemory access for locked surfaces. Try it only if you experience low performance with an application.
+14006dcb0	2	PascalUnicode	
+14006dcb2	194	PascalUnicode	You can define what screen bit depth should be reported through dgVoodoo. (default or 8, 16, 32)
+14006dd74	482	PascalUnicode	Integer factor for scaling the output image coming from a wrapped API Always done by nearest point filtering, independent on scaling mode. Separate factors can be defined for horizontal and vertical scaling: e.g., type string x:3, y:2 here.
+14006df56	358	PascalUnicode	When resolution is forced to other than the app default then a black frame is drawn around the output image coming from a wrapped API to remove scaling artifacts (max 16 pixels).
+14006e0bc	100	PascalUnicode	Software environment in which dgVoodoo is running
+14006e120	1344	PascalUnicode	Display region of interest If scaling is done by the dgVoodoo then you can define a subrect of the output image, coming from a wrapped API, to be displayed. The defined subrect is mapped to the display output according to the current scaling mode. It can be useful for applications rendering a widescreen subimage into a 4:3 resolution; in this case you can scale up that subimage to (nearly) fill the whole screen on a widescreen monitor. Manually entered values: - Can be a proportion in form of %d_%d or a pixel size (%d|%d) - Pos subproperty is not mandatory and can be 'centered' or a pixel position (%d|%d) Examples: '16_9, pos:centered' or '(320|200), pos:(10|10)'
+14006e660	698	PascalUnicode	If scaling is done by the dgVoodoo then you can choose which resampling method to use. The more complex filter the more computationally expensive. Available ones in order of complexity:  - Point sampled (unblurred pixels)  - Bilinear (smoothed)  - Lanczos-2 (smoothed but sharper)  - Bicubic (smoothed but sharper)  - Lanczos-3 (smoothed, sharpest)
+14006e91a	250	PascalUnicode	Integer scale factor of the emulated hardware mouse cursor. Automatic: calculated from the application and forced resolution
+14006ea14	168	PascalUnicode	FPS limit - you can enter an arbitrary integer or rational (fractional) value here.
+14006eabc	786	PascalUnicode	Low-level presentation model (swap effect)  Flip models are better suited for modern OS features like auto HDR, while plain legacy models provide the best presentation performance under ideal conditions. Not all model + output API + OS version combinations are supported, e.g. D3D12 only supports Flip models.  Automatic is recommended. Override it only if you really know what you are doing.
+14006edce	1130	PascalUnicode	Color space in which the image is presented:  - ARGB:8888 is the legacy sRGB format for SDR displays - ARGB:2101010 is a sRGB format as well but with extended precision - ARGB:2101010 WCG is Wide Color Gamut representation, for specially provisioned SDR displays (Win11 22H2) - ARGB:16161616 is a float16 representation for HDR displays (Win10 1709)  An app can only choose ARGB:2101010 through D3D9. In any other case ARGB:8888 is chosen if 'App driven' is selected.  By default, the internal rendering quality is automatically adjusted to the output color space.
+14006f238	232	PascalUnicode	The duration for which the watermark is displayed on the output image. This applies on an API-initialization basis.
+14006f320	2	PascalUnicode	
+14006f322	2	PascalUnicode	
+14006f324	2	PascalUnicode	
+14006f326	2	PascalUnicode	
+14006f328	2	PascalUnicode	
+14006f32a	2	PascalUnicode	
+14006f32c	2	PascalUnicode	
+14006f32e	96	PascalUnicode	Forces the application window to be borderless.
+14006f38e	156	PascalUnicode	Forces the application window into the top-most z-band, to always be visible.
+14006f42a	350	PascalUnicode	Content of the window is the same as in fullscreen mode, including the potential black bars. Useful for achieving fake fullscreen mode (in conjunction with other attributes).
+14006f588	124	PascalUnicode	Forces fake fullscreen with a screen sized borderless window.
+14006f604	420	PascalUnicode	If enabled then physical mouse is free to move inside the game window when using emulated scaling and/or application and forced resolution differs. Can be useful when a game relies on the physical window size.
+14006f7a8	440	PascalUnicode	If enabled then dgVoodoo hooks GDI to be able to show graphical contents (like movie playback through the ancient Windows Multimedia AVI player library) rendered through GDI.  It's implemented only for x86 DX emulation.
+14006f960	332	PascalUnicode	If enabled then dgVoodoo hooks the system cursor functionality to suppress double cursor symptoms for emulated cursors.   It's implemented only for x86 DX emulation.
+14006faac	2	PascalUnicode	
+14006faae	488	PascalUnicode	Desktop (native) resolution can be forced for dgVoodoo's internal calculations. Useful for rare applications that pre-set the desktop to other than the native resolution before dgVoodoo gets in action. It applies to all outputs of the desktop.
+14006fc96	2	PascalUnicode	
+14006fc98	2	PascalUnicode	
+14006fc9a	2	PascalUnicode	
+14006fc9c	2	PascalUnicode	
+14006fca0	2	PascalUnicode	
+14006fca2	2	PascalUnicode	
+14006fca4	2	PascalUnicode	
+14006fca6	2	PascalUnicode	
+14006fca8	2	PascalUnicode	
+14006fcaa	2	PascalUnicode	
+14006fcac	2	PascalUnicode	
+14006fcae	2	PascalUnicode	
+14006fcb0	148	PascalUnicode	Forcing vertical sync in all cases when the application window refreshes.
+14006fd44	2	PascalUnicode	
+14006fd46	2	PascalUnicode	
+14006fd48	2	PascalUnicode	
+14006fd4a	2	PascalUnicode	
+14006fd4c	2	PascalUnicode	
+14006fd4e	2	PascalUnicode	
+14006fd50	2	PascalUnicode	
+14006fd58	2	PascalUnicode	
+14006fd5a	2	PascalUnicode	
+14006fd5c	2	PascalUnicode	
+14006fd5e	2	PascalUnicode	
+14006fd60	2	PascalUnicode	
+14006fd62	2	PascalUnicode	
+14006fd64	2	PascalUnicode	
+14006fd66	2	PascalUnicode	
+14006fd68	2	PascalUnicode	
+14006fd6a	2	PascalUnicode	
+14006fd6c	2	PascalUnicode	
+14006fd6e	2	PascalUnicode	
+14006fd70	272	PascalUnicode	Defines when Glide dithering should take place. If dithering is app driven then dithering effect is also controlled by the application.
+14006fe80	256	PascalUnicode	What type of dithering effect should be used when dithering is forced. Pure 32 bit is a fake effect providing the best quality.
+14006ff80	278	PascalUnicode	Integer scale value for dither matrix size: 1 = normal size, 2 = double size, etc. 0 = automatic (the aim is to have some retro feel&look)
+140070096	2	PascalUnicode	
+140070098	2	PascalUnicode	
+14007009a	2	PascalUnicode	
+14007009c	2	PascalUnicode	
+14007009e	2	PascalUnicode	
+1400700a0	2	PascalUnicode	
+1400700a2	2	PascalUnicode	
+1400700a4	2	PascalUnicode	
+1400700a6	2	PascalUnicode	
+1400700a8	2	PascalUnicode	
+1400700aa	2	PascalUnicode	
+1400700ac	2	PascalUnicode	
+1400700ae	2	PascalUnicode	
+1400700b0	2	PascalUnicode	
+1400700b2	2	PascalUnicode	
+1400700b4	2	PascalUnicode	
+1400700b6	450	PascalUnicode	Severity of INFO type messages - can be: - Disabled: they won't appear on the debug output - Enabled: they appear on the debug output - Enabled with debugger break: when a message is emitted a debugger-break also takes place
+140070278	2	PascalUnicode	
+14007027a	2	PascalUnicode	
+14007027c	2	PascalUnicode	
+14007027e	2	PascalUnicode	
+140070280	2	PascalUnicode	
+140070282	2	PascalUnicode	
+140070284	434	PascalUnicode	Can be defined only for SVGA and Internal3D card types.  You can overwrite these properties even if a non-default adapter ID type is defined: say, you defined an nVidia ID type but would like to refine the device ID.
+140070436	2	PascalUnicode	
+140070438	2	PascalUnicode	
+14007043a	2	PascalUnicode	
+14007043c	576	PascalUnicode	You can define what resolutions should be enumerated to the application by default: - All: all resolutions your display output capable of + classic resolutions - Classic: classic resolutions only - None: no resolutions enumerated by default (make sure to define custom extra resolutions)
+14007067c	2	PascalUnicode	
+14007067e	2	PascalUnicode	
+140070680	2	PascalUnicode	
+140070682	2	PascalUnicode	
+140070684	2	PascalUnicode	
+140070688	2	PascalUnicode	
+14007068a	2	PascalUnicode	
+14007068c	2	PascalUnicode	
+14007068e	2	PascalUnicode	
+140070690	2	PascalUnicode	
+140070692	2	PascalUnicode	
+140070694	186	PascalUnicode	These checkboxes defines what bit depth the resolutions should be enumerated (allowed) with.
+14007074e	186	PascalUnicode	These checkboxes defines what bit depth the resolutions should be enumerated (allowed) with.
+140070808	280	PascalUnicode	If enabled then original Microsoft D3D device names are exposed. Some applications check for them and they fail with dgVoodoo device names.
+140070920	432	PascalUnicode	If enabled then forced resolution scaling and MSAA is applied also to rendertarget textures. Disable it for games requiring pixel-precise rendering but be careful it can EASILY break certain things, NOT recommended.
+140070ad0	164	PascalUnicode	If enabled then extra smoothing is added to depth textures when they are sampled.
+140070b74	418	PascalUnicode	If enabled the switching to full screen is deferred after the application initialized the DirectX device. It can be useful for games that don't expect rendering window changes during initialization and crash.
+140070d16	338	PascalUnicode	If enabled then the internal blacklisting for certain AMD GPU models are disabled. You can check out if the solid-color-texture issue is fixed in the newest AMD driver.
+140070e68	2	PascalUnicode	
+140070e6a	2	PascalUnicode	
+140070e6c	364	PascalUnicode	If enabled then direct changes of the primary surface are batched together for presentation. If disabled then each change is instantly presented (debug-like mode). (DirectDraw only)
+140070fd8	300	PascalUnicode	Max number of vertex shader constant registers (D3D8/9 only) Can be defined only for SVGA and Internal3D card types. The less the higher performance.
+140071104	462	PascalUnicode	When dithering effect should be applied: - Disabled: never - App driven: the application enables or disables it - Force on 16 bit surfaces: always forced for 16 bit rendering - Force always: always forced for all type of rendering
+1400712d2	2	PascalUnicode	
+1400712d4	2	PascalUnicode	
+1400712d6	2	PascalUnicode	
+1400712d8	2	PascalUnicode	
+1400712da	2	PascalUnicode	
+1400712dc	2	PascalUnicode	
+1400712de	2	PascalUnicode	
+1400712e0	850	PascalUnicode	You can define what type of driver version and vendor id's the DX API Layer should report to the application. Some games rely on that information so it can be useful for them. Can be defined only for SVGA and Internal3D card types, the others have their own wired information. You can refine various ID's (vendor, device, subsys, revision) in the appropriate fields. Note that defining unmatching vendor ID's makes no sense.
+140071632	186	PascalUnicode	These checkboxes defines what bit depth the resolutions should be enumerated (allowed) with.
+1400716ec	208	PascalUnicode	What type of dithering effect should be used. High quality is a fake effect providing the best quality.
+1400717bc	278	PascalUnicode	Integer scale value for dither matrix size: 1 = normal size, 2 = double size, etc. 0 = automatic (the aim is to have some retro feel&look)
+1400718d2	190	PascalUnicode	Internal bit depth of depth/stencil buffers for 3D rendering Forced 32 bit is not recommended.
+140071990	690	PascalUnicode	Default quality (bit depth) of internal 3D rendering:  - Auto: adjusts to the quality coming from the selected output color space - ARGB 8:8:8:8: Forces legacy 8 bit quality per component - ARGB 2:10:10:10: Forces 10 bit quality but it is not recommended because of the lowered alpha bits - ARGB 16:16:16:16: Forces 16 bit quality per component
+140071c42	676	PascalUnicode	Forcing N-Patch tesselation level (D3D8/9)  Altough tesselation works with all vertex shader versions, you can force level 2 or higher only for the fixed function or vs.1.x vertex pipeline because of performance and practical reasons.  Forced tesselation also disables adaptive mode (D3D9), but forcing is not recommended at all, anyway.
+140071ee8	688	PascalUnicode	(D3D8/9 only) If enabled then the D3D12 backend does bound checking on vs const register file accesses. It should always be enabled to be fully compatible with the D3D8/9 specs but unfortunately that can cause performance loss while the vast majority of games do not need it.  Try to enable it if you experience a GPU crash with a D3D8/9 game.
+140072198	248	PascalUnicode	If enabled then alternative 3D upscale calculations are applied to mitigate misalignments in postprocess-like renderpasses.
+140072290	2	PascalUnicode	
+140072292	2	PascalUnicode	
+140072294	2	PascalUnicode	
+140072296	2	PascalUnicode	
+140072298	2	PascalUnicode	
+14007229a	2	PascalUnicode	
+14007229c	2	PascalUnicode	
+14007229e	2	PascalUnicode	
+1400722a0	2	PascalUnicode	
+1400722a2	2	PascalUnicode	
+1400722a4	2	PascalUnicode	
+1400722a6	2	PascalUnicode	
+1400722a8	2	PascalUnicode	
+1400722aa	2	PascalUnicode	
+1400722b0	456	PascalUnicode	Severity of WARNING type messages - can be: - Disabled: they won't appear on the debug output - Enabled: they appear on the debug output - Enabled with debugger break: when a message is emitted a debugger-break also takes place
+140072478	452	PascalUnicode	Severity of ERROR type messages - can be: - Disabled: they won't appear on the debug output - Enabled: they appear on the debug output - Enabled with debugger break: when a message is emitted a debugger-break also takes place
+14007263c	374	PascalUnicode	Maximum trace level - can be: - Disabled: no trace message entries are emitted - API function and method calls are logged - API calls are logged along with some additional internal info 
+1400727b2	156	PascalUnicode	Redirecting the debug output to file. This feature is not yet implemented. :(
+14007284e	2	PascalUnicode	
+140072850	2	PascalUnicode	
+140072852	2	PascalUnicode	
+140072854	2	PascalUnicode	
+140072856	2	PascalUnicode	
+140072858	2	PascalUnicode	
+14007285a	2	PascalUnicode	
+14007285c	2	PascalUnicode	
+14007285e	2	PascalUnicode	
+140072860	2	PascalUnicode	
+140072862	2	PascalUnicode	
+140072864	2	PascalUnicode	
+140072868	1062	TerminatedCString	���<?xml version="1.0" encoding="UTF-8" standalone="yes"?>  <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><assemblyIdentity version="1.0.0.0" processorArchitecture="amd64" name="DeGe.dgVoodooCpl.exe" type="win32"></assemblyIdentity><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="amd64" publicKeyToken="6595b64144ccf1df" language="*"></assemblyIdentity></dependentAssembly></dependency><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><application xmlns="urn:schemas-microsoft-com:asm.v3"><windowsSettings><dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">True/PM</dpiAware><dpiAwareness xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">          PerMonitorV2, PerMonitorV        </dpiAwareness></windowsSettings></application></assembly>
+ff000002d0	24	uchar[24]	
+ff000002ee	2	uchar[2]	
+ff00001268	522	wchar16[261]	

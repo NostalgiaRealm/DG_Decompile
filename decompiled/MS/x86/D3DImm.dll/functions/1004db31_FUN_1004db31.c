@@ -1,0 +1,14 @@
+/*
+ * FUN_1004db31 at 1004db31
+ * undefined __stdcall FUN_1004db31(int param_1, uint param_2, int * param_3)
+ * Address ranges: 1004db31-1004db48
+ * Origin: Ghidra decompiler; identifiers and types may be inferred.
+ */
+
+void FUN_1004db31(int param_1,uint param_2,int *param_3)
+
+{
+  FUN_100417eb(*(void **)(param_1 + 4),param_2,param_3);
+  return;
+}
+

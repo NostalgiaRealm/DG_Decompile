@@ -1,0 +1,49 @@
+[
+  {
+    "va": "0x10122000",
+    "name": "range_start_10122000",
+    "sources": [
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x10122370",
+    "name": "FUN_10122370",
+    "sources": [
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10125000",
+    "name": "DebugSetMute",
+    "sources": [
+      "export_ordinal_1",
+      "guard_cf_function_table",
+      "code_map_range_start"
+    ]
+  },
+  {
+    "va": "0x10125010",
+    "name": "Direct3DCreate8",
+    "sources": [
+      "export_ordinal_2",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10125020",
+    "name": "ValidatePixelShader",
+    "sources": [
+      "export_ordinal_3",
+      "guard_cf_function_table"
+    ]
+  },
+  {
+    "va": "0x10125030",
+    "name": "ValidateVertexShader",
+    "sources": [
+      "export_ordinal_4",
+      "guard_cf_function_table"
+    ]
+  }
+]

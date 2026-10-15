@@ -1,0 +1,2 @@
+instruction	target	target_name	analysis_override	note
+18004d400	18016c958	SUB_18016c958	CALL_RETURN	Stops the decompiler decoding a different architecture at the branch target; original bytes unchanged.

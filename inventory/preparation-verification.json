@@ -1,0 +1,20 @@
+{
+  "verified_utc": "2026-10-15T15:50:27.132784+00:00",
+  "source_files": 53,
+  "original_PE_copies": 26,
+  "analysis_PE_copies": 26,
+  "checks": {
+    "source_file_set_identical": true,
+    "all_source_hashes_match": true,
+    "all_original_copy_hashes_match": true,
+    "all_analysis_hashes_match": true,
+    "pe_count_is_26": true,
+    "only_d3dimm_was_changed": true,
+    "no_preparation_errors": true,
+    "retained_header_repair_matches_documented_bytes": true,
+    "notes_local_links_resolve": true,
+    "dgVoodooCpl.exe_dialog_counts": true,
+    "Cpl/arm64/dgVoodooCpl.exe_dialog_counts": true
+  },
+  "rerun_result": "prepare_binaries.py and inspect_control_panels.py successfully rerun with identical output binary bytes"
+}
