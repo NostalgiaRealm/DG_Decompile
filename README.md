@@ -1,3 +1,6 @@
+# Why?
+Background: dgVoodoo versions from about 2.8 on were deliberately blocked by its creator DEGE to NOT function on Wine, this GPT-6 Astra created fix removes this block making it possible to run dgVoodoo on Wine again. Additionally, I instructed GPT-6 Astra with REA (Reverse Engineer Anything) loaded to then decompile this fixed version, which is the source code that is available in this repository. The rest of this README file and other files have been fully written by AI unfortunately. If I will find the time to further improve on this, I sure will. I am also absolutely accepting pull requests/comments from everyone.
+
 # DG_Decompile
 
 Decompile of the dgVoodoo2 2.87.5 version fully fixed to work with Wine and Proton.
